@@ -1,0 +1,64 @@
+# ==============================================================================
+# Another Level Loft Conversions - Apache Rewrite Rules & SEO Preservation
+# ==============================================================================
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# ------------------------------------------------------------------------------
+# 1. Legacy Original Site URL Compatibility (Preserve Existing SEO Rankings)
+# ------------------------------------------------------------------------------
+
+# Admin Management Panel
+RewriteRule ^[pP]anel$ panel/ [R=301,L]
+RewriteRule ^[pP]anel/$ panel/index.php [L,QSA]
+RewriteRule ^[pP]anel/([a-zA-Z0-9_-]+)/?$ panel/$1.php [L,QSA]
+
+# Main Pages
+RewriteRule ^start-to-finish-how-your-loft-is-built/?$ start-to-finish-how-your-loft-is-built.php [L,QSA]
+RewriteRule ^start-to-finish/?$ start-to-finish-how-your-loft-is-built.php [L,QSA]
+RewriteRule ^our-guarantee/?$ our-guarantee.php [L,QSA]
+RewriteRule ^guarantee/?$ our-guarantee.php [L,QSA]
+RewriteRule ^customer-testimonials/?$ customer-testimonials.php [L,QSA]
+RewriteRule ^testimonials/?$ customer-testimonials.php [L,QSA]
+RewriteRule ^about/?$ about.php [L,QSA]
+RewriteRule ^contact/?$ contact.php [L,QSA]
+RewriteRule ^gallery/?$ gallery.php [L,QSA]
+RewriteRule ^terms-conditions/?$ terms-conditions.php [L,QSA]
+RewriteRule ^privacy-cookies-policy/?$ privacy-cookies-policy.php [L,QSA]
+
+# Conversion Types Base & Details
+RewriteRule ^loft-conversion-type/?$ conversion-types.php [L,QSA]
+RewriteRule ^loft-conversion-type/velux-loft-conversions/?$ velux-conversion.php [L,QSA]
+RewriteRule ^loft-conversion-type/flat-roof-dormer-loft-conversions/?$ rear-dormer-conversion.php [L,QSA]
+RewriteRule ^loft-conversion-type/hip-to-gable-loft-conversions/?$ hip-to-gable-conversion.php [L,QSA]
+RewriteRule ^loft-conversion-type/hip-end-dormer-loft-conversions/?$ hip-end-dormer-conversion.php [L,QSA]
+RewriteRule ^loft-conversion-type/wrap-around-conversion-loft-conversions/?$ wrap-around-conversion.php [L,QSA]
+RewriteRule ^loft-conversion-type/roof-lift-loft-conversions/?$ roof-lift-conversion.php [L,QSA]
+
+# Property Types Base & Details
+RewriteRule ^property-type/?$ property-types.php [L,QSA]
+RewriteRule ^property-type/terraced-house-loft-conversions/?$ terrace-property.php [L,QSA]
+RewriteRule ^property-type/semi-detached-loft-conversions/?$ semi-detached-property.php [L,QSA]
+RewriteRule ^property-type/detached-house-loft-conversions/?$ detached-property.php [L,QSA]
+RewriteRule ^property-type/bungalow-loft-conversions/?$ bungalow-property.php [L,QSA]
+
+# Town Landing Pages (301 Redirect old short slugs to new SEO target URLs)
+RewriteRule ^loft-conversions-in-ashton-under-lynne/?$ /loft-conversions-in-ashton-under-lyne [R=301,L]
+RewriteRule ^(altrincham|ashton-in-makerfield|ashton-under-lyne|blackpool|bolton|burnley|bury|chorley|chorlton|clitheroe|didsbury|eccles|garstang|horwich|kirkham|leyland|longridge|lymm|lytham-st-annes|lytham|manchester|middleton|oldham|ormskirk|penwortham|poulton|preston|reddish|sale|salford|skelmersdale|southport|st-helens|standish|stockport|stretford|thornton|warrington|westhoughton|wigan|worsley)(\.php)?/?$ /loft-conversions-in-$1 [R=301,L]
+
+# ------------------------------------------------------------------------------
+# 2. Extensionless PHP URL Handling (e.g. /about -> about.php)
+# ------------------------------------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L,QSA]
+
+</IfModule>
+
+# Security & Gzip Caching
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>

@@ -1,0 +1,39 @@
+services:
+  another-level:
+    image: php:8.3-cli-alpine
+    container_name: loft_another_level
+    restart: always
+    working_dir: "/var/www/Another Level Loft Conversion"
+    volumes:
+      - ".:/var/www/Another Level Loft Conversion"
+      - "../Loft Conversions North:/var/www/Loft Conversions North"
+      - "../Loft Conversions Manchester NW:/var/www/Loft Conversions Manchester NW"
+    ports:
+      - "8000:8000"
+    command: php -S 0.0.0.0:8000 router.php
+
+  loft-conversions-north:
+    image: php:8.3-cli-alpine
+    container_name: loft_conversions_north
+    restart: always
+    working_dir: "/var/www/Loft Conversions North"
+    volumes:
+      - ".:/var/www/Another Level Loft Conversion"
+      - "../Loft Conversions North:/var/www/Loft Conversions North"
+      - "../Loft Conversions Manchester NW:/var/www/Loft Conversions Manchester NW"
+    ports:
+      - "8001:8001"
+    command: php -S 0.0.0.0:8001 router.php
+
+  loft-conversions-manchester-nw:
+    image: php:8.3-cli-alpine
+    container_name: loft_conversions_manchester_nw
+    restart: always
+    working_dir: "/var/www/Loft Conversions Manchester NW"
+    volumes:
+      - ".:/var/www/Another Level Loft Conversion"
+      - "../Loft Conversions North:/var/www/Loft Conversions North"
+      - "../Loft Conversions Manchester NW:/var/www/Loft Conversions Manchester NW"
+    ports:
+      - "8002:8002"
+    command: php -S 0.0.0.0:8002 router.php

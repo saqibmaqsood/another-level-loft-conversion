@@ -1,0 +1,23 @@
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.thumbnail
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Empty duplicate DB if present
+panel/database.sqlite

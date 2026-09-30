@@ -1,0 +1,5 @@
+# Deny all direct web access to database and data files
+<Files "*">
+    Order Deny,Allow
+    Deny from all
+</Files>
