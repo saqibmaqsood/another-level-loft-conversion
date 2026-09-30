@@ -41,7 +41,10 @@ $settings = $settStmt->fetchAll(PDO::FETCH_KEY_PAIR);
 $chatEnabled     = ($settings['ai_chat_enabled'] ?? '1') === '1';
 $openAiKey       = trim((string)($settings['openai_api_key'] ?? ''));
 $openAiModel     = trim((string)($settings['openai_model'] ?? 'gpt-4o-mini'));
-$botName         = trim((string)($settings['ai_chat_name'] ?? 'Sarah — Loft Specialist'));
+$botName         = trim((string)($settings['ai_chat_name'] ?? 'Alex — Loft Specialist'));
+$cleanBotName    = preg_replace('/[—–\-].*$/u', '', $botName);
+$cleanBotName    = trim(preg_replace('/\s+/', ' ', (string)$cleanBotName));
+$botFirstName    = !empty($cleanBotName) ? explode(' ', $cleanBotName)[0] : 'Alex';
 $notifySurveyor  = ($settings['ai_chat_lead_notify'] ?? '1') === '1';
 $surveyorEmail   = trim((string)($settings['surveyor_email'] ?? $settings['admin_notification_email'] ?? 'info@anotherlevelloftconversions.co.uk'));
 
@@ -336,7 +339,7 @@ if (empty($reply)) {
     }
     // Greetings
     elseif (preg_match('/\b(hi|hello|hey|good morning|good afternoon|good evening|hiya)\b/i', $msgLower)) {
-        $reply = "Hello! Welcome to Another Level Loft Conversions. I'm Sarah, your Loft Specialist. Are you thinking about adding an extra bedroom, home office, or master ensuite to your loft? How can I help you today?";
+        $reply = "Hello! Welcome to Another Level Loft Conversions. I'm {$botFirstName}, your Loft Specialist. Are you thinking about adding an extra bedroom, home office, or master ensuite to your loft? How can I help you today?";
     }
     // General conversational fallback
     else {

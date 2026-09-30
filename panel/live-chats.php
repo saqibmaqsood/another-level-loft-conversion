@@ -3,6 +3,11 @@ require_once __DIR__ . '/includes/auth.php';
 requireLogin();
 $db = getDB();
 
+$panelBotName = getSetting('ai_chat_name', 'Alex — Loft Specialist');
+$cleanBotName = preg_replace('/[—–\-].*$/u', '', $panelBotName);
+$cleanBotName = trim(preg_replace('/\s+/', ' ', (string)$cleanBotName));
+$panelBotFirstName = !empty($cleanBotName) ? explode(' ', $cleanBotName)[0] : 'Alex';
+
 // Handle Delete or Management Actions
 if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['action'])) {
     if (!validateCSRF($_POST['csrf_token'] ?? '')) {
@@ -60,7 +65,7 @@ if (isset($_GET['export_txt'])) {
 
         $history = json_decode($expChat['transcript'] ?? '[]', true) ?: [];
         foreach ($history as $idx => $msg) {
-            $sender = ($msg['sender'] ?? '') === 'bot' ? 'Sarah (Loft Specialist)' : ($expChat['user_name'] ?: 'Customer');
+            $sender = ($msg['sender'] ?? '') === 'bot' ? $panelBotName : ($expChat['user_name'] ?: 'Customer');
             $time = $msg['time'] ?? '';
             $text = trim($msg['text'] ?? '');
             echo "[{$time}] {$sender}:\n";
@@ -889,7 +894,7 @@ require_once __DIR__ . '/includes/header.php';
       AI Live Chat Conversations
     </h1>
     <p style="font-size:14px;color:var(--p-text-muted)">
-      Real-time homeowner conversations, AI responses by Sarah, verified postcodes, and captured survey bookings.
+      Real-time homeowner conversations, AI responses by <?php echo htmlspecialchars($panelBotFirstName); ?>, verified postcodes, and captured survey bookings.
     </p>
   </div>
   <div class="chat-header-btn-row" style="display:flex;align-items:center;gap:10px">
@@ -1190,7 +1195,7 @@ require_once __DIR__ . '/includes/header.php';
           $leadAnnounced = false;
           foreach ($transcriptMessages as $msg): 
             $isBot = ($msg['sender'] ?? '') === 'bot';
-            $senderLabel = $isBot ? 'Sarah (Loft Specialist)' : $vName;
+            $senderLabel = $isBot ? htmlspecialchars($panelBotName) : $vName;
             $msgTime = !empty($msg['time']) ? date('H:i', strtotime($msg['time'])) : '';
             $text = trim($msg['text'] ?? '');
 

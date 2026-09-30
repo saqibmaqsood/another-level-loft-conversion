@@ -17,7 +17,14 @@ try {
 } catch (Throwable $e) {}
 
 $isChatEnabled = ($chatSettings['ai_chat_enabled'] ?? '1') === '1';
-$assistantName = htmlspecialchars($chatSettings['ai_chat_name'] ?? 'Sarah — Loft Specialist');
+$rawBotName = trim((string)($chatSettings['ai_chat_name'] ?? 'Alex — Loft Specialist'));
+$assistantName = htmlspecialchars($rawBotName);
+
+// Extract the agent first name cleanly (e.g. "Alex — Loft Specialist" -> "Alex", "Sarah Jenkins" -> "Sarah")
+$cleanName = preg_replace('/[—–\-].*$/u', '', $rawBotName);
+$cleanName = trim(preg_replace('/\s+/', ' ', (string)$cleanName));
+$botFirstName = !empty($cleanName) ? explode(' ', $cleanName)[0] : 'Alex';
+$botFirstNameEsc = htmlspecialchars($botFirstName);
 
 if (!$isChatEnabled) {
     return;
@@ -33,7 +40,7 @@ if (!$isChatEnabled) {
 <!-- Floating Launcher Button (DESKTOP ONLY - Hidden on Mobile via CSS) -->
 <div class="ai-chat-launcher-floating" id="aiChatLauncherDesktop">
   <div class="ai-chat-tooltip" onclick="openAIChat(event)">
-    <span>👋 Have a question? <strong>Chat with Sarah</strong></span>
+    <span>👋 Have a question? <strong>Chat with <?php echo $botFirstNameEsc; ?></strong></span>
   </div>
   <button type="button" class="ai-chat-pill-btn" onclick="openAIChat(event)" aria-label="Open AI Live Chat with Loft Specialist">
     <div class="ai-chat-avatar-wrap">
@@ -87,7 +94,7 @@ if (!$isChatEnabled) {
     <!-- Welcome Message -->
     <div class="ai-chat-msg bot">
       <div class="ai-chat-bubble">
-        <p>Hi there! 👋 I'm Sarah, your Loft Specialist at <strong>Another Level</strong>.</p>
+        <p>Hi there! 👋 I'm <?php echo $botFirstNameEsc; ?>, your Loft Specialist at <strong>Another Level</strong>.</p>
         <p>Whether you're curious about <strong>typical costs</strong>, <strong>planning permission rules</strong>, or would like to <strong>book a free architectural survey</strong>, how can I help you today?</p>
       </div>
       <div class="ai-chat-time">Just now</div>
@@ -137,7 +144,7 @@ if (!$isChatEnabled) {
         </svg>
       </div>
       <h4>Start a Fresh Chat?</h4>
-      <p>This will clear your current conversation and start a new session with Sarah.</p>
+      <p>This will clear your current conversation and start a new session with <?php echo $botFirstNameEsc; ?>.</p>
       <div class="ai-chat-confirm-actions">
         <button type="button" class="ai-chat-btn-cancel" onclick="cancelResetChat()">Cancel</button>
         <button type="button" class="ai-chat-btn-confirm" onclick="confirmResetChat()">Yes, Start Fresh</button>
