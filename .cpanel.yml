@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ozz6elzvwr3a/public_html/anotherlevelloftconversions.co.uk
+    - /bin/cp -R * $DEPLOYPATH
