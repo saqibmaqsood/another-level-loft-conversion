@@ -69,67 +69,17 @@ if (!isset($activeNav)) {
     <!-- Left Navigation Sidebar -->
   <aside class="panel-sidebar" id="panelSidebar">
     
-    <!-- Dynamic Luxury Workspace Switcher Header (No Hardcoded Single Brand) -->
-    <div class="sidebar-header-workspace" id="sidebarWorkspaceWrap">
-      <button type="button" class="workspace-switcher-trigger" id="sidebarWorkspaceToggle" aria-haspopup="true" aria-expanded="false" title="Click to switch website platform">
-        <?php if ($isAllSites): ?>
-          <div class="workspace-mark" style="background: linear-gradient(135deg, #1E293B, #0F172A); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.18);">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-          </div>
-          <div class="workspace-info">
-            <span class="workspace-name">All Websites</span>
-            <span class="workspace-sub">Unified Hub &bull; 3 Sites</span>
-          </div>
-        <?php else: ?>
-          <?php 
-            $stInitials = strtoupper(substr($activeSite['short_name'] ?? $activeSite['name'], 0, 2));
-          ?>
-          <div class="workspace-mark" style="background: <?php echo htmlspecialchars($activeSite['color']); ?>; color: #FFFFFF;">
-            <?php echo htmlspecialchars($stInitials); ?>
-          </div>
-          <div class="workspace-info">
-            <span class="workspace-name"><?php echo htmlspecialchars($activeSite['name']); ?></span>
-            <span class="workspace-sub"><?php echo htmlspecialchars($activeSite['domain'] ?: $activeSite['short_name']); ?></span>
-          </div>
-        <?php endif; ?>
-        <svg class="workspace-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-      </button>
-
-      <!-- Luxury Popover Menu -->
-      <div class="workspace-popover" id="sidebarWorkspacePopover">
-        <div class="workspace-popover-header">Switch Platform View</div>
-
-        <a href="?switch_site=all" class="workspace-item <?php echo $isAllSites ? 'is-active' : ''; ?>">
-          <div class="workspace-item-mark" style="background: linear-gradient(135deg, #1E293B, #0F172A); color: #FFFFFF;">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-          </div>
-          <div style="flex:1;min-width:0">
-            <div class="workspace-item-title">All Websites (Combined)</div>
-            <div class="workspace-item-desc">Mixed metrics, leads &amp; calendar</div>
-          </div>
-          <?php if ($isAllSites): ?>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-          <?php endif; ?>
-        </a>
-
-        <?php foreach ($allSitesList as $s): 
-          $isCurrent = !$isAllSites && (int)$activeSiteId === (int)$s['id'];
-          $sInit = strtoupper(substr($s['short_name'] ?? $s['name'], 0, 2));
-        ?>
-          <a href="?switch_site=<?php echo $s['id']; ?>" class="workspace-item <?php echo $isCurrent ? 'is-active' : ''; ?>">
-            <div class="workspace-item-mark" style="background: <?php echo htmlspecialchars($s['color']); ?>; color: #FFFFFF;">
-              <?php echo htmlspecialchars($sInit); ?>
-            </div>
-            <div style="flex:1;min-width:0">
-              <div class="workspace-item-title"><?php echo htmlspecialchars($s['name']); ?></div>
-              <div class="workspace-item-desc"><?php echo htmlspecialchars($s['domain'] ?: 'Platform #' . $s['id']); ?></div>
-            </div>
-            <?php if ($isCurrent): ?>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="<?php echo htmlspecialchars($s['color']); ?>" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <?php endif; ?>
-          </a>
-        <?php endforeach; ?>
-</div>
+    <!-- Sidebar Brand Header (Clean Static Display, Site Switcher removed) -->
+    <div class="sidebar-header-brand" style="padding: 18px 16px 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.07);">
+      <a href="index.php" style="display: flex; align-items: center; gap: 11px; text-decoration: none; color: inherit;" title="Another Level Loft Conversions">
+        <div class="workspace-mark" style="background: linear-gradient(135deg, #3D5A40, #283C2A); color: #FFFFFF; width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.15);">
+          AL
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; min-width: 0; overflow: hidden;">
+          <span style="font-size: 14.5px; font-weight: 800; color: #FFFFFF; letter-spacing: -0.2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;">Another Level</span>
+          <span style="font-size: 11px; color: #94A3B8; font-weight: 500; margin-top: 2px;">Operations Portal</span>
+        </div>
+      </a>
     </div>
 
     <nav class="sidebar-nav">

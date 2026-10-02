@@ -463,7 +463,9 @@ body.sidebar-compact .icon-to-normal {
   }
 
   html.sidebar-compact .sidebar-header-workspace,
-  body.sidebar-compact .sidebar-header-workspace {
+  body.sidebar-compact .sidebar-header-workspace,
+  html.sidebar-compact .sidebar-header-brand,
+  body.sidebar-compact .sidebar-header-brand {
     padding: 12px 6px;
     display: flex;
     justify-content: center;

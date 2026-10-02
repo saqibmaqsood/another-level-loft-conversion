@@ -182,32 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Sidebar Workspace Switcher Dropdown Toggle
-  const workspaceToggleBtn = document.getElementById('sidebarWorkspaceToggle');
-  const workspacePopover = document.getElementById('sidebarWorkspacePopover');
-  const workspaceWrap = document.getElementById('sidebarWorkspaceWrap');
 
-  if (workspaceToggleBtn && workspacePopover) {
-    workspaceToggleBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const isOpen = workspacePopover.classList.toggle('is-open');
-      workspaceToggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
-
-    document.addEventListener('click', (e) => {
-      if (workspaceWrap && !workspaceWrap.contains(e.target)) {
-        workspacePopover.classList.remove('is-open');
-        workspaceToggleBtn.setAttribute('aria-expanded', 'false');
-      }
-    });
-
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && workspacePopover.classList.contains('is-open')) {
-        workspacePopover.classList.remove('is-open');
-        workspaceToggleBtn.setAttribute('aria-expanded', 'false');
-      }
-    });
-  }
 
   // Auto hide flash message after 5 seconds
   const flash = document.querySelector('.flash-alert');
