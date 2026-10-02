@@ -169,7 +169,7 @@ try {
                 All 6 architectural conversion packages engineered to maximise headroom, floor space, and property value with full structural sign-off.
               </p>
               <a href="#booking" data-open-booking class="bayford-split-btn">
-                <span class="bayford-btn-text">CALCULATE YOUR BUDGET</span>
+                <span class="bayford-btn-text">BOOK FREE SURVEY</span>
                 <span class="bayford-btn-arrow">
                   <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </span>
@@ -278,8 +278,8 @@ try {
               <p class="bayford-desc">
                 Tailored architectural solutions engineered specifically for North West houses — from Victorian terraced homes to 1930s semi-detached, detached, and bungalows.
               </p>
-              <a href="property-types.php" class="bayford-split-btn">
-                <span class="bayford-btn-text">ALL PROPERTY STYLES</span>
+              <a href="#booking" data-open-booking class="bayford-split-btn">
+                <span class="bayford-btn-text">BOOK FREE SURVEY</span>
                 <span class="bayford-btn-arrow">
                   <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </span>
@@ -362,8 +362,8 @@ try {
               <p class="bayford-desc">
                 Founded in 2008 by Jonny Mee. 18+ years North West specialists operating with our strict 1-project policy, fixed-price quote and 6-year structural warranty.
               </p>
-              <a href="about.php" class="bayford-split-btn">
-                <span class="bayford-btn-text">OUR STORY &amp; PROCESS</span>
+              <a href="#booking" data-open-booking class="bayford-split-btn">
+                <span class="bayford-btn-text">BOOK FREE SURVEY</span>
                 <span class="bayford-btn-arrow">
                   <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </span>
