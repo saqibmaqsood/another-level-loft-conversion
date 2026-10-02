@@ -5002,64 +5002,6 @@
   border-color: #B5D2A6;
 }
 
-@media (max-width: 768px) {
-  .gallery-hero-grid {
-    grid-template-columns: 1fr !important;
-    gap: 24px !important;
-    padding: 24px 16px 28px !important;
-  }
-
-  .gallery-metrics-grid {
-    gap: 10px !important;
-  }
-
-  .gallery-metric-card {
-    padding: 16px 14px !important;
-    border-radius: 10px !important;
-  }
-
-  .gallery-filter-sticky {
-    top: 56px !important;
-  }
-
-  .gallery-filter-wrap {
-    padding: 10px 14px !important;
-    gap: 0 !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-  }
-
-  .gallery-filter-scroll {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    overflow-x: visible !important;
-    gap: 6px 6px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    justify-content: flex-start !important;
-  }
-
-  .gallery-filter-btn {
-    flex: 0 1 auto !important;
-    font-size: 11.5px !important;
-    padding: 5px 9px !important;
-    gap: 4px !important;
-  }
-
-  .gallery-filter-btn .filter-count-badge {
-    font-size: 10px !important;
-    padding: 1px 5px !important;
-  }
-
-  .gallery-count-row {
-    display: none !important;
-  }
-
-  .gallery-projects-grid {
-    grid-template-columns: 1fr !important;
-    gap: 18px !important;
-  }
-
 /* ==========================================================================
    Contact Page Styles
    ========================================================================== */
