@@ -146,9 +146,11 @@ try {
 
     <!-- Primary Desktop Navigation with Full-Width Bayford Dropdowns -->
     <nav aria-label="Primary" class="nav-desktop">
-      <a href="index.php" class="nav-link <?php echo ($activePage === 'home') ? 'active' : ''; ?>">HOME</a>
+      <?php if ($activePage !== 'home'): ?>
+        <a href="index.php" class="nav-link">HOME</a>
+      <?php endif; ?>
 
-      <!-- Conversion Types (Bayford Lofts Style Full-Width Dropdown) -->
+      <!-- Conversion Types (All 6 Options in 2 Rows) -->
       <div class="nav-dropdown-wrapper has-bayford">
         <a href="conversion-types.php" 
            class="nav-link nav-dropdown-trigger <?php echo ($activePage === 'types') ? 'active' : ''; ?>"
@@ -156,26 +158,26 @@ try {
           <span>LOFT CONVERSIONS</span>
         </a>
 
-        <!-- Bayford Style Dropdown Panel -->
+        <!-- Bayford Style Dropdown Panel (Glassmorphism & Fixed Left Column) -->
         <div class="bayford-dropdown">
           <div class="bayford-dropdown-inner">
             <!-- Left Info Column -->
             <div class="bayford-left-col">
               <div class="bayford-accent-bar"></div>
-              <h3 class="bayford-heading">LOFT CONVERSION PACKAGES</h3>
+              <h3 class="bayford-heading">LOFT CONVERSION TYPES</h3>
               <p class="bayford-desc">
-                Explore our tailored Loft Conversion Packages, including Velux, dormer, and complete room conversions to maximise your space and improve energy efficiency.
+                All 6 architectural conversion packages engineered to maximise headroom, floor space, and property value with full structural sign-off.
               </p>
               <a href="#booking" data-open-booking class="bayford-split-btn">
                 <span class="bayford-btn-text">CALCULATE YOUR BUDGET</span>
                 <span class="bayford-btn-arrow">
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </span>
               </a>
             </div>
 
-            <!-- Right 3 Photo Cards Column (Using Generated High-Res Photos) -->
-            <div class="bayford-cards-grid">
+            <!-- Right 6 Photo Cards Grid (2 Rows of 3 Cards) -->
+            <div class="bayford-cards-grid grid-6">
               <!-- Card 1: Velux -->
               <a href="velux-conversion.php" class="bayford-card">
                 <div class="bayford-card-media">
@@ -184,7 +186,7 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">VELUX CONVERSION</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -197,7 +199,7 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">REAR DORMER</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -210,7 +212,46 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">HIP-TO-GABLE</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 4: Hip-End Dormer -->
+              <a href="hip-end-dormer-conversion.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-06.jpeg" alt="Hip-End Dormer Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">HIP-END DORMER</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 5: Wrap Around -->
+              <a href="wrap-around-conversion.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-07.jpeg" alt="Wrap Around Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">WRAP AROUND</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 6: Roof-Lift -->
+              <a href="roof-lift-conversion.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-10.jpeg" alt="Roof-Lift Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">ROOF-LIFT</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -219,7 +260,7 @@ try {
         </div>
       </div>
 
-      <!-- Property Types (Bayford Lofts Style Full-Width Dropdown) -->
+      <!-- Property Types (All 4 Options in 2 Rows) -->
       <div class="nav-dropdown-wrapper has-bayford">
         <a href="property-types.php" 
            class="nav-link nav-dropdown-trigger <?php echo ($activePage === 'property') ? 'active' : ''; ?>"
@@ -240,13 +281,13 @@ try {
               <a href="property-types.php" class="bayford-split-btn">
                 <span class="bayford-btn-text">ALL PROPERTY STYLES</span>
                 <span class="bayford-btn-arrow">
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </span>
               </a>
             </div>
 
-            <!-- Right 3 Photo Cards Column -->
-            <div class="bayford-cards-grid">
+            <!-- Right 4 Photo Cards Column -->
+            <div class="bayford-cards-grid grid-4">
               <!-- Card 1: Terrace -->
               <a href="terrace-property.php" class="bayford-card">
                 <div class="bayford-card-media">
@@ -255,7 +296,7 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">TERRACED HOMES</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -268,20 +309,33 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">SEMI-DETACHED</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
 
-              <!-- Card 3: Detached & Bungalow -->
+              <!-- Card 3: Detached -->
               <a href="detached-property.php" class="bayford-card">
                 <div class="bayford-card-media">
                   <img src="images/another-area-loft-conversions-north-west-england-09.jpeg" alt="Detached Property Loft Conversion" loading="lazy">
                 </div>
                 <div class="bayford-card-label-wrap">
-                  <span class="bayford-card-label">DETACHED &amp; BUNGALOWS</span>
+                  <span class="bayford-card-label">DETACHED HOMES</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 4: Bungalow -->
+              <a href="bungalow-property.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-10.jpeg" alt="Bungalow Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">BUNGALOWS</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -290,7 +344,7 @@ try {
         </div>
       </div>
 
-      <!-- About Us / Company (Bayford Lofts Style Full-Width Dropdown) -->
+      <!-- About Us / Company (All 4 Options in 2 Rows) -->
       <div class="nav-dropdown-wrapper has-bayford">
         <a href="about.php" 
            class="nav-link nav-dropdown-trigger <?php echo in_array($activePage, ['about', 'start-to-finish', 'guarantee', 'testimonials']) ? 'active' : ''; ?>"
@@ -311,13 +365,13 @@ try {
               <a href="about.php" class="bayford-split-btn">
                 <span class="bayford-btn-text">OUR STORY &amp; PROCESS</span>
                 <span class="bayford-btn-arrow">
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </span>
               </a>
             </div>
 
-            <!-- Right 3 Photo Cards Column -->
-            <div class="bayford-cards-grid">
+            <!-- Right 4 Photo Cards Column -->
+            <div class="bayford-cards-grid grid-4">
               <!-- Card 1: Build Process -->
               <a href="start-to-finish-how-your-loft-is-built.php" class="bayford-card">
                 <div class="bayford-card-media">
@@ -326,7 +380,7 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">8-STEP BUILD PROCESS</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -339,7 +393,7 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">6-YEAR GUARANTEE</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
@@ -352,7 +406,20 @@ try {
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">CUSTOMER REVIEWS</span>
                   <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 4: About Us -->
+              <a href="about.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-03.jpeg" alt="About Another Level" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">ABOUT OUR TEAM</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>

@@ -5,6 +5,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initMegaMenuHover();
+  initBayfordDropdownHover();
   initFaqAccordion();
   initBeforeAfterSlider();
   initStatsCounters();
@@ -12,6 +13,50 @@ document.addEventListener('DOMContentLoaded', () => {
   initBookingTriggers();
   initConversionCarousel();
 });
+
+/* --------------------------------------------------------------------------
+   Bayford Dropdown Smooth Hover Debounce (Prevents vanishing when moving down)
+   -------------------------------------------------------------------------- */
+function initBayfordDropdownHover() {
+  const wrappers = document.querySelectorAll('.nav-dropdown-wrapper.has-bayford');
+  if (!wrappers.length) return;
+
+  wrappers.forEach(wrapper => {
+    let timer = null;
+    const dropdown = wrapper.querySelector('.bayford-dropdown');
+
+    const activate = () => {
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+      wrappers.forEach(other => {
+        if (other !== wrapper) other.classList.remove('is-open');
+      });
+      wrapper.classList.add('is-open');
+    };
+
+    const deactivate = () => {
+      timer = setTimeout(() => {
+        wrapper.classList.remove('is-open');
+      }, 180);
+    };
+
+    wrapper.addEventListener('mouseenter', activate);
+    wrapper.addEventListener('mouseleave', deactivate);
+
+    if (dropdown) {
+      dropdown.addEventListener('mouseenter', activate);
+      dropdown.addEventListener('mouseleave', deactivate);
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      wrappers.forEach(w => w.classList.remove('is-open'));
+    }
+  });
+}
 
 /* --------------------------------------------------------------------------
    Mega Menu Hover Interactive Preview

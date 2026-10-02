@@ -107,23 +107,24 @@
    -------------------------------------------------------------------------- */
 .site-header {
   font-family: var(--font-sans);
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid #ECEFE8;
   position: sticky;
   top: 0;
-  z-index: 90;
+  z-index: 100;
   transition: box-shadow 0.2s ease;
 }
 
 .header-inner {
-  position: relative;
+  position: static;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 24px;
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 14px 24px;
+  padding: 0 24px;
+  height: 72px;
 }
 
 .brand-link {
@@ -174,16 +175,19 @@
 /* Primary Desktop Navigation */
 .nav-desktop {
   display: flex;
-  gap: 30px;
-  align-items: center;
+  gap: 28px;
+  align-items: stretch;
   flex: 1 1 auto;
   justify-content: center;
   white-space: nowrap;
+  height: 100%;
 }
 
 .nav-link {
-  font-size: 13.5px;
-  padding: 12px 0;
+  font-size: 13px;
+  padding: 0 6px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   white-space: nowrap;
   font-weight: 700;
@@ -192,59 +196,78 @@
   color: #1A1D18;
   transition: color 0.18s ease;
   position: relative;
+  height: 100%;
 }
 
-.nav-link:hover {
-  color: #E5A922;
-}
-
+.nav-link:hover,
 .nav-link.active,
 .nav-link[aria-current="page"] {
-  color: #E5A922;
+  color: var(--color-primary-dark);
 }
 
 /* --------------------------------------------------------------------------
-   Bayford Lofts Style Full-Width Dropdown (Exact Match to Inspiration)
+   Bayford-Inspired Glassmorphic Full-Width Dropdown (Another Level Brand Styling)
    -------------------------------------------------------------------------- */
 .nav-dropdown-wrapper.has-bayford {
   position: static;
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  align-items: stretch;
+  height: 100%;
 }
 
-.nav-dropdown-wrapper.has-bayford:hover .nav-link {
-  color: #E5A922;
+.nav-dropdown-wrapper.has-bayford:hover > .nav-link,
+.nav-dropdown-wrapper.has-bayford.is-open > .nav-link {
+  color: var(--color-primary-dark);
 }
 
+/* Hover bridge between nav link and dropdown panel */
 .nav-dropdown-wrapper.has-bayford::after {
   content: '';
   position: absolute;
-  top: 100%;
+  top: 52px;
   left: 0;
   right: 0;
-  height: 16px;
+  height: 24px;
+  background: transparent;
+  z-index: 20;
 }
 
+/* Glassmorphic Dropdown Panel */
 .bayford-dropdown {
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
   width: 100%;
-  background: #FFFFFF;
-  border-top: 1px solid #ECEFE8;
-  border-bottom: 3px solid #E5A922;
-  box-shadow: 0 24px 50px -10px rgba(18, 28, 16, 0.16);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-top: 1px solid rgba(255, 255, 255, 0.85);
+  border-bottom: 3.5px solid var(--color-primary);
+  box-shadow: 0 28px 60px -15px rgba(20, 38, 16, 0.20), 0 0 0 1px rgba(79, 107, 66, 0.08);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: translateY(6px);
-  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s ease;
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
   z-index: 100;
 }
 
+/* Upward hit area on dropdown to eliminate mouseleave gap */
+.bayford-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
+  z-index: 30;
+}
+
 .nav-dropdown-wrapper.has-bayford:hover .bayford-dropdown,
-.nav-dropdown-wrapper.has-bayford:focus-within .bayford-dropdown {
+.nav-dropdown-wrapper.has-bayford:focus-within .bayford-dropdown,
+.nav-dropdown-wrapper.has-bayford.is-open .bayford-dropdown {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -252,84 +275,96 @@
 }
 
 .bayford-dropdown-inner {
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 34px 24px 38px;
-  display: grid;
-  grid-template-columns: 290px 1fr;
-  gap: 40px;
+  padding: 24px 28px 26px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
   align-items: stretch;
+  box-sizing: border-box;
 }
 
-/* Left Content Column */
+/* Left Content Column (Strictly pinned on left, never overlaps images) */
 .bayford-left-col {
+  width: 260px;
+  min-width: 260px;
+  max-width: 260px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-right: 10px;
+  border-right: 1px solid rgba(79, 107, 66, 0.14);
+  padding-right: 26px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 
 .bayford-accent-bar {
-  width: 32px;
-  height: 4px;
-  background: #E5A922;
+  width: 28px;
+  height: 3.5px;
+  background: var(--color-primary);
   border-radius: 2px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .bayford-heading {
   font-family: var(--font-sans);
-  font-size: 17px;
+  font-size: 15.5px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: #141712;
-  margin: 0 0 14px 0;
+  color: var(--color-dark);
+  margin: 0 0 10px 0;
   line-height: 1.25;
 }
 
 .bayford-desc {
   font-family: var(--font-sans);
-  font-size: 13.5px;
-  line-height: 1.6;
-  color: #555A50;
-  margin: 0 0 26px 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #4A5245;
+  margin: 0 0 20px 0;
+  width: 100%;
+  word-break: normal;
 }
 
-/* Split CTA Button (Dark Navy + Yellow Arrow Block) */
+/* Split CTA Button (Dark Slate + Brand Green Arrow Block) */
 .bayford-split-btn {
   margin-top: auto;
   display: inline-flex;
   align-items: stretch;
-  text-decoration: none;
-  border-radius: 4px;
+  border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  transition: transform 0.18s ease;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(18, 38, 14, 0.15);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .bayford-split-btn:hover {
   transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(18, 38, 14, 0.22);
 }
 
 .bayford-btn-text {
   background: #1C242F;
   color: #FFFFFF;
-  font-size: 11.5px;
+  font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 13px 18px;
+  letter-spacing: 0.05em;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .bayford-btn-arrow {
-  background: #E5A922;
+  background: var(--color-primary-dark);
   color: #FFFFFF;
-  width: 44px;
+  width: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,40 +372,61 @@
 }
 
 .bayford-split-btn:hover .bayford-btn-arrow {
-  background: #D59918;
+  background: var(--color-primary);
 }
 
-/* Right 3 Photo Cards Grid */
+/* Right Photo Cards Grid */
 .bayford-cards-grid {
+  flex: 1 1 auto;
+  min-width: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  gap: 12px 14px;
   align-items: stretch;
+  position: relative;
+  z-index: 1;
+}
+
+.bayford-cards-grid.grid-6 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.bayford-cards-grid.grid-4 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .bayford-card {
   position: relative;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
-  height: 220px;
-  background: #1C2219;
+  height: 135px;
+  background: #20261D;
   cursor: pointer;
   text-decoration: none;
   display: block;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.bayford-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(107, 142, 90, 0.5);
+  box-shadow: 0 8px 20px rgba(18, 38, 14, 0.18);
 }
 
 .bayford-card-media {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .bayford-card-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.45s ease;
+  transition: transform 0.4s ease;
   display: block;
 }
 
@@ -378,35 +434,37 @@
   transform: scale(1.06);
 }
 
-/* Floating Bottom Pill: White Label + Yellow Arrow Block */
+/* Floating Bottom Pill: Frosted Glass Label + Brand Green Arrow Block */
 .bayford-card-label-wrap {
   position: absolute;
-  bottom: 14px;
+  bottom: 9px;
   left: 50%;
   transform: translateX(-50%);
   display: inline-flex;
   align-items: stretch;
-  height: 38px;
+  height: 30px;
   border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
   white-space: nowrap;
-  max-width: 90%;
+  max-width: 92%;
   transition: transform 0.18s ease;
 }
 
 .bayford-card:hover .bayford-card-label-wrap {
-  transform: translateX(-50%) translateY(-2px);
+  transform: translateX(-50%) translateY(-1px);
 }
 
 .bayford-card-label {
-  background: #FFFFFF;
-  color: #141712;
-  font-size: 11.5px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #171A15;
+  font-size: 10px;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0 16px;
+  letter-spacing: 0.04em;
+  padding: 0 11px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -414,9 +472,9 @@
 }
 
 .bayford-card-arrow {
-  background: #E5A922;
+  background: var(--color-primary-dark);
   color: #FFFFFF;
-  width: 38px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,7 +483,26 @@
 }
 
 .bayford-card:hover .bayford-card-arrow {
-  background: #D59918;
+  background: var(--color-primary);
+}
+
+@media (max-width: 1200px) {
+  .bayford-dropdown-inner {
+    gap: 20px;
+    padding: 18px 20px 22px;
+  }
+  .bayford-left-col {
+    width: 220px;
+    min-width: 220px;
+    padding-right: 18px;
+  }
+  .bayford-card {
+    height: 120px;
+  }
+  .bayford-card-label {
+    font-size: 9px;
+    padding: 0 8px;
+  }
 }
 
 .topbar-dash {
