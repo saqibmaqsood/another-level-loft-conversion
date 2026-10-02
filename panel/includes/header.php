@@ -224,23 +224,6 @@ if (!isset($activeNav)) {
         <span>Compact Sidebar</span>
       </button>
 
-      <div class="sidebar-live-sites-wrap" style="margin: 8px 0 4px; padding: 10px 8px; border-radius: 8px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06);">
-        <div style="font-size:10px;text-transform:uppercase;color:#94A3B8;font-weight:800;padding:0 4px 6px;letter-spacing:0.06em;display:flex;align-items:center;justify-content:space-between">
-          <span>Active Sites (Localhost)</span>
-          <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#22C55E"></span>
-        </div>
-        <?php foreach ($allSitesList as $sItem): 
-          $sPort = 8000 + ((int)$sItem['id'] - 1);
-          $sUrl = getSitePageUrl($sItem['id'], '/');
-        ?>
-          <a href="<?php echo htmlspecialchars($sUrl); ?>" target="_blank" rel="noopener" class="nav-link" title="Open <?php echo htmlspecialchars($sItem['name']); ?> (Port <?php echo $sPort; ?>)" style="color:#CBD5E1;font-size:12px;padding:6px 8px;margin-bottom:3px">
-            <span style="width:7px;height:7px;border-radius:50%;background:<?php echo htmlspecialchars($sItem['color']); ?>;display:inline-block;flex-shrink:0;"></span>
-            <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1"><?php echo htmlspecialchars($sItem['short_name']); ?> (:<?php echo $sPort; ?>)</span>
-            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" style="opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-          </a>
-        <?php endforeach; ?>
-      </div>
-
       <a href="logout.php" class="nav-link nav-logout" title="Log Out" style="color:#FC8181;background:rgba(229,62,62,0.12);font-weight:700;margin-top:4px;">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="color:#FC8181"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
         <span>Log Out</span>
