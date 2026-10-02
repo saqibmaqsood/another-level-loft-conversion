@@ -21,6 +21,12 @@ function initBayfordDropdownHover() {
   const wrappers = document.querySelectorAll('.nav-dropdown-wrapper.has-bayford');
   if (!wrappers.length) return;
 
+  const closeAll = () => {
+    wrappers.forEach(w => {
+      w.classList.remove('is-open');
+    });
+  };
+
   wrappers.forEach(wrapper => {
     let timer = null;
     const dropdown = wrapper.querySelector('.bayford-dropdown');
@@ -39,7 +45,7 @@ function initBayfordDropdownHover() {
     const deactivate = () => {
       timer = setTimeout(() => {
         wrapper.classList.remove('is-open');
-      }, 180);
+      }, 150);
     };
 
     wrapper.addEventListener('mouseenter', activate);
@@ -51,9 +57,20 @@ function initBayfordDropdownHover() {
     }
   });
 
+  // Immediately close dropdown when hovering non-dropdown nav items (HOME, GALLERY, CONTACT)
+  document.querySelectorAll('.nav-desktop > a.nav-link').forEach(link => {
+    link.addEventListener('mouseenter', closeAll);
+  });
+
+  // Immediately close when mouse leaves site header
+  const header = document.querySelector('.site-header');
+  if (header) {
+    header.addEventListener('mouseleave', closeAll);
+  }
+
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      wrappers.forEach(w => w.classList.remove('is-open'));
+      closeAll();
     }
   });
 }

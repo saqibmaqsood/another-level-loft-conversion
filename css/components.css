@@ -124,18 +124,6 @@
   color: var(--color-primary-dark);
 }
 
-/* Hover bridge between nav link and dropdown panel */
-.nav-dropdown-wrapper.has-bayford::after {
-  content: '';
-  position: absolute;
-  top: 52px;
-  left: 0;
-  right: 0;
-  height: 24px;
-  background: transparent;
-  z-index: 20;
-}
-
 /* Glassmorphic Dropdown Panel */
 .bayford-dropdown {
   position: absolute;
@@ -156,18 +144,6 @@
   transform: translateY(4px);
   transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
   z-index: 100;
-}
-
-/* Upward hit area on dropdown to eliminate mouseleave gap */
-.bayford-dropdown::before {
-  content: '';
-  position: absolute;
-  top: -16px;
-  left: 0;
-  right: 0;
-  height: 20px;
-  background: transparent;
-  z-index: 30;
 }
 
 .nav-dropdown-wrapper.has-bayford:hover .bayford-dropdown,
