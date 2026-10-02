@@ -174,7 +174,7 @@
 /* Primary Desktop Navigation */
 .nav-desktop {
   display: flex;
-  gap: 28px;
+  gap: 30px;
   align-items: center;
   flex: 1 1 auto;
   justify-content: center;
@@ -182,152 +182,255 @@
 }
 
 .nav-link {
-  font-size: 14.5px;
-  padding: 8px 0;
+  font-size: 13.5px;
+  padding: 12px 0;
   text-decoration: none;
   white-space: nowrap;
-  font-weight: 500;
-  color: #2D3329;
-  transition: color 0.15s ease;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #1A1D18;
+  transition: color 0.18s ease;
   position: relative;
 }
 
 .nav-link:hover {
-  color: var(--color-primary-dark);
+  color: #E5A922;
 }
 
 .nav-link.active,
 .nav-link[aria-current="page"] {
-  font-weight: 600;
-  color: var(--color-primary-dark);
+  color: #E5A922;
 }
 
-/* Clean Dropdown Wrapper */
-.nav-dropdown-wrapper {
-  position: relative;
+/* --------------------------------------------------------------------------
+   Bayford Lofts Style Full-Width Dropdown (Exact Match to Inspiration)
+   -------------------------------------------------------------------------- */
+.nav-dropdown-wrapper.has-bayford {
+  position: static;
   display: inline-flex;
   align-items: center;
 }
 
-.nav-dropdown-trigger {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
+.nav-dropdown-wrapper.has-bayford:hover .nav-link {
+  color: #E5A922;
 }
 
-.nav-dropdown-trigger svg {
-  stroke: currentColor;
-  opacity: 0.7;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.nav-dropdown-wrapper:hover .nav-dropdown-trigger svg,
-.nav-dropdown-wrapper:focus-within .nav-dropdown-trigger svg {
-  transform: rotate(180deg);
-  opacity: 1;
-}
-
-/* Bridge to keep hover active */
-.nav-dropdown-wrapper::after {
+.nav-dropdown-wrapper.has-bayford::after {
   content: '';
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  height: 12px;
+  height: 16px;
 }
 
-/* Clean Dropdown Menu */
-.nav-dropdown-menu.clean-dropdown {
+.bayford-dropdown {
   position: absolute;
-  top: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%) translateY(6px);
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
   background: #FFFFFF;
-  border: 1px solid #E3E7DE;
-  border-radius: 10px;
-  box-shadow: 0 16px 36px -8px rgba(22, 38, 18, 0.14), 0 4px 12px rgba(0, 0, 0, 0.04);
-  width: 320px;
-  padding: 8px;
+  border-top: 1px solid #ECEFE8;
+  border-bottom: 3px solid #E5A922;
+  box-shadow: 0 24px 50px -10px rgba(18, 28, 16, 0.16);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+  transform: translateY(6px);
+  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s ease;
   z-index: 100;
-  white-space: normal;
 }
 
-.nav-dropdown-wrapper:hover .nav-dropdown-menu.clean-dropdown,
-.nav-dropdown-wrapper:focus-within .nav-dropdown-menu.clean-dropdown {
+.nav-dropdown-wrapper.has-bayford:hover .bayford-dropdown,
+.nav-dropdown-wrapper.has-bayford:focus-within .bayford-dropdown {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transform: translateX(-50%) translateY(0);
+  transform: translateY(0);
 }
 
-.dropdown-list {
+.bayford-dropdown-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 34px 24px 38px;
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  gap: 40px;
+  align-items: stretch;
+}
+
+/* Left Content Column */
+.bayford-left-col {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 10px;
 }
 
-.dropdown-item {
-  display: flex;
-  flex-direction: column;
-  padding: 9px 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: var(--color-dark);
-  transition: background 0.15s ease, transform 0.15s ease;
+.bayford-accent-bar {
+  width: 32px;
+  height: 4px;
+  background: #E5A922;
+  border-radius: 2px;
+  margin-bottom: 14px;
 }
 
-.dropdown-item:hover {
-  background: #F3F6F0;
-  transform: translateX(2px);
-}
-
-.dropdown-item-title {
-  font-size: 13.5px;
-  font-weight: 600;
-  color: #1F241C;
+.bayford-heading {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #141712;
+  margin: 0 0 14px 0;
   line-height: 1.25;
 }
 
-.dropdown-item:hover .dropdown-item-title {
-  color: var(--color-primary-dark);
+.bayford-desc {
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #555A50;
+  margin: 0 0 26px 0;
 }
 
-.dropdown-item-desc {
-  font-size: 11.5px;
-  color: #72796D;
-  margin-top: 2px;
-  line-height: 1.3;
-}
-
-.dropdown-footer {
-  margin-top: 6px;
-  padding-top: 8px;
-  border-top: 1px solid #EDF1E8;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
-}
-
-.dropdown-footer a {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--color-primary-dark);
-  text-decoration: none;
+/* Split CTA Button (Dark Navy + Yellow Arrow Block) */
+.bayford-split-btn {
+  margin-top: auto;
   display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  transition: gap 0.15s ease;
+  align-items: stretch;
+  text-decoration: none;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.18s ease;
 }
 
-.dropdown-footer a:hover {
-  text-decoration: underline;
-  gap: 7px;
+.bayford-split-btn:hover {
+  transform: translateY(-1px);
+}
+
+.bayford-btn-text {
+  background: #1C242F;
+  color: #FFFFFF;
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 13px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bayford-btn-arrow {
+  background: #E5A922;
+  color: #FFFFFF;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+
+.bayford-split-btn:hover .bayford-btn-arrow {
+  background: #D59918;
+}
+
+/* Right 3 Photo Cards Grid */
+.bayford-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+.bayford-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 220px;
+  background: #1C2219;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.bayford-card-media {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bayford-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+  display: block;
+}
+
+.bayford-card:hover .bayford-card-media img {
+  transform: scale(1.06);
+}
+
+/* Floating Bottom Pill: White Label + Yellow Arrow Block */
+.bayford-card-label-wrap {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: stretch;
+  height: 38px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  max-width: 90%;
+  transition: transform 0.18s ease;
+}
+
+.bayford-card:hover .bayford-card-label-wrap {
+  transform: translateX(-50%) translateY(-2px);
+}
+
+.bayford-card-label {
+  background: #FFFFFF;
+  color: #141712;
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+
+.bayford-card-arrow {
+  background: #E5A922;
+  color: #FFFFFF;
+  width: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.bayford-card:hover .bayford-card-arrow {
+  background: #D59918;
+}
+
+.topbar-dash {
+  margin: 0 4px;
+  opacity: 0.5;
 }
 
 /* --------------------------------------------------------------------------

@@ -117,6 +117,7 @@ try {
 <div class="page-wrapper">
 
 <!-- Minimal Top Announcement & Direct Call Bar (Bayford Lofts Inspiration) -->
+<!-- Minimal Top Announcement & Direct Call Bar (Bayford Lofts Style) -->
 <div class="header-topbar">
   <div class="topbar-inner">
     <div class="topbar-left">
@@ -125,11 +126,9 @@ try {
       <span class="topbar-text">Fixed Price Guarantee · Free 3D CAD Survey</span>
     </div>
     <div class="topbar-right">
-      <a href="<?php echo $telHref; ?>" class="topbar-link topbar-phone">
-        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        <span>Call: <?php echo htmlspecialchars($phone); ?></span>
-      </a>
-      <a href="#booking" data-open-booking class="topbar-link topbar-survey">Book Site Survey</a>
+      <a href="#booking" data-open-booking class="topbar-link topbar-survey">Book a Free site survey</a>
+      <span class="topbar-dash">-</span>
+      <a href="<?php echo $telHref; ?>" class="topbar-link topbar-phone">Call us</a>
     </div>
   </div>
 </div>
@@ -145,119 +144,225 @@ try {
       </span>
     </a>
 
-    <!-- Primary Navigation: Clean Typography & Dropdowns -->
+    <!-- Primary Desktop Navigation with Full-Width Bayford Dropdowns -->
     <nav aria-label="Primary" class="nav-desktop">
-      <a href="index.php" class="nav-link <?php echo ($activePage === 'home') ? 'active' : ''; ?>">Home</a>
+      <a href="index.php" class="nav-link <?php echo ($activePage === 'home') ? 'active' : ''; ?>">HOME</a>
 
-      <!-- Conversion Types Clean Dropdown -->
-      <div class="nav-dropdown-wrapper">
+      <!-- Conversion Types (Bayford Lofts Style Full-Width Dropdown) -->
+      <div class="nav-dropdown-wrapper has-bayford">
         <a href="conversion-types.php" 
            class="nav-link nav-dropdown-trigger <?php echo ($activePage === 'types') ? 'active' : ''; ?>"
            <?php if ($activePage === 'types') echo 'aria-current="page"'; ?>>
-          <span>Conversion Types</span>
-          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          <span>LOFT CONVERSIONS</span>
         </a>
-        <div class="nav-dropdown-menu clean-dropdown">
-          <div class="dropdown-list">
-            <a href="velux-conversion.php" class="dropdown-item">
-              <span class="dropdown-item-title">Velux Conversion</span>
-              <span class="dropdown-item-desc">Quickest build time &amp; most affordable</span>
-            </a>
-            <a href="rear-dormer-conversion.php" class="dropdown-item">
-              <span class="dropdown-item-title">Rear Dormer</span>
-              <span class="dropdown-item-desc">Maximum usable floor space &amp; headroom</span>
-            </a>
-            <a href="hip-to-gable-conversion.php" class="dropdown-item">
-              <span class="dropdown-item-title">Hip-to-Gable</span>
-              <span class="dropdown-item-desc">Ideal for 1930s semi-detached homes</span>
-            </a>
-            <a href="hip-end-dormer-conversion.php" class="dropdown-item">
-              <span class="dropdown-item-title">Hip-End Dormer</span>
-              <span class="dropdown-item-desc">Preserves original roofline aesthetics</span>
-            </a>
-            <a href="wrap-around-conversion.php" class="dropdown-item">
-              <span class="dropdown-item-title">Wrap Around</span>
-              <span class="dropdown-item-desc">Ultimate master suite &amp; 2 full bedrooms</span>
-            </a>
-            <a href="roof-lift-conversion.php" class="dropdown-item">
-              <span class="dropdown-item-title">Roof-Lift</span>
-              <span class="dropdown-item-desc">For shallow pitch roofs &amp; bungalows</span>
-            </a>
-          </div>
-          <div class="dropdown-footer">
-            <a href="conversion-types.php">Compare all 6 conversion types →</a>
+
+        <!-- Bayford Style Dropdown Panel -->
+        <div class="bayford-dropdown">
+          <div class="bayford-dropdown-inner">
+            <!-- Left Info Column -->
+            <div class="bayford-left-col">
+              <div class="bayford-accent-bar"></div>
+              <h3 class="bayford-heading">LOFT CONVERSION PACKAGES</h3>
+              <p class="bayford-desc">
+                Explore our tailored Loft Conversion Packages, including Velux, dormer, and complete room conversions to maximise your space and improve energy efficiency.
+              </p>
+              <a href="#booking" data-open-booking class="bayford-split-btn">
+                <span class="bayford-btn-text">CALCULATE YOUR BUDGET</span>
+                <span class="bayford-btn-arrow">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </a>
+            </div>
+
+            <!-- Right 3 Photo Cards Column (Using Generated High-Res Photos) -->
+            <div class="bayford-cards-grid">
+              <!-- Card 1: Velux -->
+              <a href="velux-conversion.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/bayford-velux-loft.jpg" alt="Velux Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">VELUX CONVERSION</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 2: Rear Dormer -->
+              <a href="rear-dormer-conversion.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/bayford-dormer-loft.jpg" alt="Rear Dormer Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">REAR DORMER</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 3: Hip-to-Gable -->
+              <a href="hip-to-gable-conversion.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/bayford-hiptogable-loft.jpg" alt="Hip-to-Gable Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">HIP-TO-GABLE</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Property Types Clean Dropdown -->
-      <div class="nav-dropdown-wrapper">
+      <!-- Property Types (Bayford Lofts Style Full-Width Dropdown) -->
+      <div class="nav-dropdown-wrapper has-bayford">
         <a href="property-types.php" 
            class="nav-link nav-dropdown-trigger <?php echo ($activePage === 'property') ? 'active' : ''; ?>"
            <?php if ($activePage === 'property') echo 'aria-current="page"'; ?>>
-          <span>Property Types</span>
-          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          <span>PROPERTY TYPES</span>
         </a>
-        <div class="nav-dropdown-menu clean-dropdown">
-          <div class="dropdown-list">
-            <a href="terrace-property.php" class="dropdown-item">
-              <span class="dropdown-item-title">Terraced Homes</span>
-              <span class="dropdown-item-desc">Rear dormers &amp; smart space planning</span>
-            </a>
-            <a href="semi-detached-property.php" class="dropdown-item">
-              <span class="dropdown-item-title">Semi-Detached</span>
-              <span class="dropdown-item-desc">Hip-to-gable &amp; dormer conversions</span>
-            </a>
-            <a href="detached-property.php" class="dropdown-item">
-              <span class="dropdown-item-title">Detached Homes</span>
-              <span class="dropdown-item-desc">Full upper floor &amp; wrap-around potential</span>
-            </a>
-            <a href="bungalow-property.php" class="dropdown-item">
-              <span class="dropdown-item-title">Bungalows</span>
-              <span class="dropdown-item-desc">Dormer additions &amp; complete roof-lifts</span>
-            </a>
-          </div>
-          <div class="dropdown-footer">
-            <a href="property-types.php">Compare all property types →</a>
+
+        <!-- Bayford Style Dropdown Panel -->
+        <div class="bayford-dropdown">
+          <div class="bayford-dropdown-inner">
+            <!-- Left Info Column -->
+            <div class="bayford-left-col">
+              <div class="bayford-accent-bar"></div>
+              <h3 class="bayford-heading">PROPERTY STYLES</h3>
+              <p class="bayford-desc">
+                Tailored architectural solutions engineered specifically for North West houses — from Victorian terraced homes to 1930s semi-detached, detached, and bungalows.
+              </p>
+              <a href="property-types.php" class="bayford-split-btn">
+                <span class="bayford-btn-text">ALL PROPERTY STYLES</span>
+                <span class="bayford-btn-arrow">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </a>
+            </div>
+
+            <!-- Right 3 Photo Cards Column -->
+            <div class="bayford-cards-grid">
+              <!-- Card 1: Terrace -->
+              <a href="terrace-property.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Terrace House Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">TERRACED HOMES</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 2: Semi-Detached -->
+              <a href="semi-detached-property.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-04.jpeg" alt="Semi-Detached Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">SEMI-DETACHED</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 3: Detached & Bungalow -->
+              <a href="detached-property.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-09.jpeg" alt="Detached Property Loft Conversion" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">DETACHED &amp; BUNGALOWS</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- About Us Clean Dropdown -->
-      <div class="nav-dropdown-wrapper">
+      <!-- About Us / Company (Bayford Lofts Style Full-Width Dropdown) -->
+      <div class="nav-dropdown-wrapper has-bayford">
         <a href="about.php" 
            class="nav-link nav-dropdown-trigger <?php echo in_array($activePage, ['about', 'start-to-finish', 'guarantee', 'testimonials']) ? 'active' : ''; ?>"
            <?php if ($activePage === 'about') echo 'aria-current="page"'; ?>>
-          <span>About</span>
-          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          <span>COMPANY</span>
         </a>
-        <div class="nav-dropdown-menu clean-dropdown">
-          <div class="dropdown-list">
-            <a href="about.php" class="dropdown-item">
-              <span class="dropdown-item-title">About Another Level</span>
-              <span class="dropdown-item-desc">18+ years family-run specialists</span>
-            </a>
-            <a href="start-to-finish-how-your-loft-is-built.php" class="dropdown-item">
-              <span class="dropdown-item-title">Start To Finish</span>
-              <span class="dropdown-item-desc">Our 8-step scaffold-first build process</span>
-            </a>
-            <a href="our-guarantee.php" class="dropdown-item">
-              <span class="dropdown-item-title">Our Guarantee</span>
-              <span class="dropdown-item-desc">6-year structural warranty &amp; fixed-price</span>
-            </a>
-            <a href="customer-testimonials.php" class="dropdown-item">
-              <span class="dropdown-item-title">Customer Reviews</span>
-              <span class="dropdown-item-desc">9.8/10 from 400+ North West homeowners</span>
-            </a>
-          </div>
-          <div class="dropdown-footer">
-            <a href="about.php">Learn about our philosophy &amp; team →</a>
+
+        <!-- Bayford Style Dropdown Panel -->
+        <div class="bayford-dropdown">
+          <div class="bayford-dropdown-inner">
+            <!-- Left Info Column -->
+            <div class="bayford-left-col">
+              <div class="bayford-accent-bar"></div>
+              <h3 class="bayford-heading">MEET ANOTHER LEVEL</h3>
+              <p class="bayford-desc">
+                Founded in 2008 by Jonny Mee. 18+ years North West specialists operating with our strict 1-project policy, fixed-price quote and 6-year structural warranty.
+              </p>
+              <a href="about.php" class="bayford-split-btn">
+                <span class="bayford-btn-text">OUR STORY &amp; PROCESS</span>
+                <span class="bayford-btn-arrow">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </a>
+            </div>
+
+            <!-- Right 3 Photo Cards Column -->
+            <div class="bayford-cards-grid">
+              <!-- Card 1: Build Process -->
+              <a href="start-to-finish-how-your-loft-is-built.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-08.jpeg" alt="How Your Loft Is Built" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">8-STEP BUILD PROCESS</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 2: 6-Year Guarantee -->
+              <a href="our-guarantee.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-02.jpeg" alt="Our 6-Year Guarantee" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">6-YEAR GUARANTEE</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <!-- Card 3: Testimonials -->
+              <a href="customer-testimonials.php" class="bayford-card">
+                <div class="bayford-card-media">
+                  <img src="images/another-area-loft-conversions-north-west-england-05.jpeg" alt="Customer Testimonials" loading="lazy">
+                </div>
+                <div class="bayford-card-label-wrap">
+                  <span class="bayford-card-label">CUSTOMER REVIEWS</span>
+                  <span class="bayford-card-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <a href="gallery.php" class="nav-link <?php echo ($activePage === 'gallery') ? 'active' : ''; ?>">Gallery</a>
-      <a href="contact.php" class="nav-link <?php echo ($activePage === 'contact') ? 'active' : ''; ?>">Contact</a>
+      <a href="gallery.php" class="nav-link <?php echo ($activePage === 'gallery') ? 'active' : ''; ?>">GALLERY</a>
+      <a href="contact.php" class="nav-link <?php echo ($activePage === 'contact') ? 'active' : ''; ?>">CONTACT</a>
     </nav>
 
     <!-- Header Actions (Direct Call + Clean CTA) -->
