@@ -116,23 +116,6 @@ try {
 <?php endif; ?>
 <div class="page-wrapper">
 
-<!-- Minimal Top Announcement & Direct Call Bar (Bayford Lofts Inspiration) -->
-<!-- Minimal Top Announcement & Direct Call Bar (Bayford Lofts Style) -->
-<div class="header-topbar">
-  <div class="topbar-inner">
-    <div class="topbar-left">
-      <span class="topbar-highlight">North West Loft Specialists</span>
-      <span class="topbar-sep">•</span>
-      <span class="topbar-text">Fixed Price Guarantee · Free 3D CAD Survey</span>
-    </div>
-    <div class="topbar-right">
-      <a href="#booking" data-open-booking class="topbar-link topbar-survey">Book a Free site survey</a>
-      <span class="topbar-dash">-</span>
-      <a href="<?php echo $telHref; ?>" class="topbar-link topbar-phone">Call us</a>
-    </div>
-  </div>
-</div>
-
 <!-- Main Clean Header (Bayford Lofts Style: Clear, Airy, Easy to Navigate) -->
 <header class="site-header">
   <div class="header-inner">
