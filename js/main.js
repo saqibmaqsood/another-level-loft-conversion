@@ -63,6 +63,36 @@ function initMobileMenu() {
     }
   });
 
+  // Mobile Accordion functionality (Bayford Lofts Style clean expandable menus)
+  const accordionBtns = mobileDrawer.querySelectorAll('.mobile-accordion-btn');
+  accordionBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const group = btn.closest('.mobile-accordion-group');
+      if (!group) return;
+
+      const isExpanded = group.classList.contains('open');
+
+      // Close sibling accordions
+      accordionBtns.forEach(otherBtn => {
+        if (otherBtn !== btn) {
+          otherBtn.setAttribute('aria-expanded', 'false');
+          const otherGroup = otherBtn.closest('.mobile-accordion-group');
+          if (otherGroup) otherGroup.classList.remove('open');
+        }
+      });
+
+      if (isExpanded) {
+        group.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      } else {
+        group.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
   const links = mobileDrawer.querySelectorAll('a');
   links.forEach(link => {
     link.addEventListener('click', () => {
@@ -78,6 +108,7 @@ function initMobileMenu() {
     }
   });
 }
+
 
 /* --------------------------------------------------------------------------
    Booking Modal & Trigger Handlers
