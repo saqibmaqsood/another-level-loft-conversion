@@ -97,7 +97,9 @@ foreach ($monthBookings as $b) {
 }
 
 // Calendar grid calculations
-$daysInMonth = cal_days_in_month(CAL_GREGORIAN, $selectedMonth, $selectedYear);
+$daysInMonth = function_exists('cal_days_in_month') 
+    ? cal_days_in_month(CAL_GREGORIAN, $selectedMonth, $selectedYear) 
+    : (int)date('t', strtotime(sprintf('%04d-%02d-01', $selectedYear, $selectedMonth)));
 $firstDayOfWeek = (int)date('N', strtotime("{$selectedYear}-{$selectedMonth}-01")); // 1 (Mon) to 7 (Sun)
 
 $pageTitle = "Interactive Booking Calendar";
