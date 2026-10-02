@@ -1,10 +1,6 @@
 <?php
 require_once __DIR__ . '/includes/sites.php';
 initSession();
-// If visiting dashboard root without an explicit switch_site or site param, ensure All Websites is active
-if (!isset($_GET['switch_site']) && !isset($_GET['site']) && (!isset($_SESSION['active_site_id']) || $_SESSION['active_site_id'] == 1)) {
-    $_SESSION['active_site_id'] = 'all';
-}
 $pageTitle = "Dashboard & Lead Metrics";
 $activeNav = "dashboard";
 require_once __DIR__ . '/includes/header.php';

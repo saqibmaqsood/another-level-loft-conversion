@@ -85,7 +85,7 @@ if (!isset($activeNav)) {
     <nav class="sidebar-nav">
       <div class="nav-section-label">Main Menu</div>
       
-      <a href="index.php?switch_site=all" class="nav-link <?php echo $activeNav === 'dashboard' ? 'active' : ''; ?>" title="Dashboard (All Websites)">
+      <a href="index.php" class="nav-link <?php echo $activeNav === 'dashboard' ? 'active' : ''; ?>" title="Dashboard">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
         <span>Dashboard</span>
       </a>
