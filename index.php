@@ -47,6 +47,191 @@ include 'includes/header.php';
 
   <main id="top">
 
+    <style>
+      .hero-minimal {
+        position: relative;
+        min-height: clamp(520px, 78vh, 720px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: clamp(64px, 10vh, 120px) 24px clamp(56px, 8vh, 100px);
+        background: #141A13 url('images/hero-loft-bg.jpg') center 40% / cover no-repeat;
+        color: #FFFFFF;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+      .hero-minimal-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(14, 20, 13, 0.45) 0%, rgba(12, 17, 11, 0.70) 55%, rgba(10, 15, 9, 0.85) 100%),
+                    radial-gradient(ellipse at 50% 35%, rgba(0, 0, 0, 0.15) 0%, rgba(10, 15, 9, 0.65) 100%);
+        pointer-events: none;
+        z-index: 1;
+      }
+      .hero-minimal-inner {
+        position: relative;
+        z-index: 2;
+        max-width: 860px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+      }
+      .hero-minimal-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        color: #FFFFFF;
+        font-family: var(--font-sans);
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 7px 18px;
+        border-radius: 999px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      }
+      .hero-minimal-title {
+        font-family: var(--font-serif);
+        font-size: clamp(38px, 6vw, 68px);
+        font-weight: 400;
+        line-height: 1.1;
+        letter-spacing: -0.025em;
+        color: #FFFFFF;
+        margin: 0;
+        text-wrap: balance;
+        text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6);
+      }
+      .hero-minimal-subtitle {
+        font-family: var(--font-sans);
+        font-size: clamp(16px, 2vw, 19px);
+        font-weight: 400;
+        line-height: 1.6;
+        color: rgba(255, 255, 255, 0.90);
+        max-width: 640px;
+        margin: 0;
+        text-wrap: pretty;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+      }
+      .hero-minimal-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6px;
+      }
+      .hero-minimal-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        background: linear-gradient(135deg, #6B8E5A 0%, #476239 100%);
+        color: #FFFFFF !important;
+        font-family: var(--font-sans);
+        font-size: 15.5px;
+        font-weight: 700;
+        letter-spacing: 0.015em;
+        padding: 16px 36px;
+        border-radius: 999px;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 6px 20px rgba(71, 98, 57, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+        transition: all 0.25s cubic-bezier(0.2, 0, 0, 1);
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-minimal-cta:hover {
+        background: linear-gradient(135deg, #789E65 0%, #4E6C3E 100%);
+        transform: none !important;
+        box-shadow: 0 6px 20px rgba(71, 98, 57, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+      }
+      .hero-minimal-cta svg {
+        transition: transform 0.22s ease;
+      }
+      .hero-minimal-cta:hover svg {
+        transform: translateX(3px);
+      }
+      .hero-minimal-phone {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        color: #FFFFFF !important;
+        font-family: var(--font-sans);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 28px;
+        border-radius: 999px;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: background-color 0.22s ease, border-color 0.22s ease;
+      }
+      .hero-minimal-phone:hover {
+        background: rgba(255, 255, 255, 0.22);
+        border-color: rgba(255, 255, 255, 0.45);
+        transform: none !important;
+        box-shadow: none;
+      }
+      .hero-minimal-features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 28px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+        font-family: var(--font-sans);
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.85);
+        text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+      }
+      .hero-minimal-feature {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .hero-minimal-feature svg {
+        stroke: #86B272;
+        flex-shrink: 0;
+      }
+      @media (max-width: 640px) {
+        .hero-minimal {
+          padding: 48px 18px 44px;
+          min-height: auto;
+        }
+        .hero-minimal-inner {
+          gap: 18px;
+        }
+        .hero-minimal-actions {
+          flex-direction: column;
+          width: 100%;
+          gap: 10px;
+        }
+        .hero-minimal-cta,
+        .hero-minimal-phone {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 14px 20px;
+          font-size: 15px;
+        }
+        .hero-minimal-features {
+          gap: 8px 16px;
+          font-size: 12px;
+        }
+      }
+    </style>
+
     <!-- Hero Section (Minimalist Full-Bleed Architectural Design) -->
     <section class="hero-minimal" aria-labelledby="hero-h">
       <div class="hero-minimal-overlay"></div>

@@ -87,10 +87,10 @@ try {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- External Stylesheets -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <!-- External Stylesheets (with cache-busting) -->
+  <link rel="stylesheet" href="css/style.css?v=<?php echo file_exists(__DIR__ . '/../css/style.css') ? filemtime(__DIR__ . '/../css/style.css') : '20261006'; ?>">
+  <link rel="stylesheet" href="css/components.css?v=<?php echo file_exists(__DIR__ . '/../css/components.css') ? filemtime(__DIR__ . '/../css/components.css') : '20261006'; ?>">
+  <link rel="stylesheet" href="css/animations.css?v=<?php echo file_exists(__DIR__ . '/../css/animations.css') ? filemtime(__DIR__ . '/../css/animations.css') : '20261006'; ?>">
 
   <!-- GSAP for Smooth Reveals -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
