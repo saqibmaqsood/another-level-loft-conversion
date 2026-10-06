@@ -47,26 +47,28 @@ include 'includes/header.php';
 
   <main id="top">
 
-    <!-- Hero Section -->
-    <section aria-labelledby="hero-h">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));max-width:1280px;margin:0 auto;align-items:stretch">
-        <div style="padding:clamp(32px,6vw,76px) 20px clamp(40px,5vw,72px);display:flex;flex-direction:column;justify-content:center;gap:24px">
-          <span class="section-label">Preston · Manchester · Lancashire · Cheshire</span>
-          <h1 id="hero-h" class="heading-h1">Your loft, converted at a fixed price &mdash; surveyed this week.</h1>
-          <p class="lead-text">Free home survey, free CAD design, one written quote that doesn't move. Most conversions are finished in three to six weeks.</p>
-          <div class="hero-actions-row">
-            <a href="#booking" data-open-booking class="btn-primary hero-btn">Book Free Survey</a>
-            <a href="tel:08000862744" class="btn-secondary hero-btn">Call 0800 0862744</a>
-          </div>
-          <div class="hero-trust-bullets">
-            <span class="hero-bullet"><svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3.5 8.5l3 3 6-6"/></svg> Fixed price</span>
-            <span class="hero-bullet"><svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3.5 8.5l3 3 6-6"/></svg> No hidden costs</span>
-            <span class="hero-bullet"><svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3.5 8.5l3 3 6-6"/></svg> Free CAD design</span>
-            <span class="hero-bullet"><svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3.5 8.5l3 3 6-6"/></svg> Checkatrade member</span>
-          </div>
+    <!-- Hero Section (Minimalist Full-Bleed Architectural Design) -->
+    <section class="hero-minimal" aria-labelledby="hero-h">
+      <div class="hero-minimal-overlay"></div>
+      <div class="hero-minimal-inner">
+        <span class="hero-minimal-pill">Preston · Manchester · Lancashire · Cheshire</span>
+        <h1 id="hero-h" class="hero-minimal-title">Your loft, converted at a fixed price.</h1>
+        <p class="hero-minimal-subtitle">Free home survey, free CAD design, one written quote that doesn't move. Most conversions are finished in three to six weeks.</p>
+        <div class="hero-minimal-actions">
+          <a href="#booking" data-open-booking class="hero-minimal-cta">
+            <span>Book Free Survey</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="tel:08000862744" class="hero-minimal-phone">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Call 0800 0862744</span>
+          </a>
         </div>
-        <div class="hero-img-box" style="min-height:clamp(300px,46vw,600px);border-left:1px solid #EDEDE8">
-          <img src="images/another-area-loft-conversions-north-west-england-15.jpeg" alt="Luxury Master Bedroom Loft Conversion with En-Suite in Preston, Northwest" class="hero-img" loading="eager">
+        <div class="hero-minimal-features">
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Guaranteed Fixed Price</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Free CAD Design</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> No Hidden Costs</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 6-Year Guarantee</span>
         </div>
       </div>
     </section>
