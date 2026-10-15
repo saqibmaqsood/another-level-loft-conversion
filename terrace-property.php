@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Terraced House Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for terraced houses. 40m³ permitted development allowance, rear dormer Fixed-Price Survey & CAD Design party wall notices handled.";
+$pageDesc = "Loft conversions for terraced houses. 40m³ permitted development allowance, rear dormer guaranteed fixed quote, party wall notices handled.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Before', 'what' => 'Survey, CAD drawing, structural calculations, party wall notices to both neighbours.'],
+    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, party wall notices to both neighbours.'],
     ['when' => 'Days 1–3', 'what' => 'Scaffold and rear hoist up, materials in over the roof, loft cleared.'],
     ['when' => 'Days 4–6', 'what' => 'Steels in off the party walls, new deeper floor joists laid.'],
     ['when' => 'Weeks 2–3', 'what' => 'Rear slope opened, dormer framed and made watertight, staircase fitted.'],
@@ -52,7 +52,7 @@ $fit = [
     ['yes' => true, 'text' => 'Hip-to-gable on an end-terrace with a hipped end to square off.'],
     ['yes' => false, 'text' => 'Wrap around on a mid-terrace — there is no hip, and 40m³ will not stretch that far.'],
     ['yes' => false, 'text' => 'A front-facing dormer, which needs full planning permission on almost every terrace.'],
-    ['yes' => false, 'text' => 'Anything at all under 2.2m with no ceilings to drop — a roof-lift is the only route.']
+    ['yes' => false, 'text' => 'Lofts under 2.2m clear height — feasibility and alternative layouts are checked on survey.']
 ];
 
 $included = [
@@ -70,7 +70,7 @@ $addOns = [
     ['name' => 'Rear dormer', 'price' => 'from £38,000', 'note' => 'The usual route. Maximum floor area at full standing height, four weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest, three weeks, but you keep the eaves. Needs 2.2m to the ridge.'],
     ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'End-terraces only — a mid-terrace has no hip to square off.'],
-    ['name' => 'En-suite shower room', 'price' => '+ £6,500 – £12,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.'],
+    ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.'],
     ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
 ];
 
@@ -81,7 +81,7 @@ $faqs = [
     ['q' => 'Do I need my neighbours’ permission?', 'a' => 'Not permission, but notice. Cutting into or building off a party wall triggers the Party Wall Act — notice served at least two months before work starts, on both sides for a mid-terrace. We prepare the notices with the structural drawings so it never delays your start date.'],
     ['q' => 'How do materials get in with no side access?', 'a' => 'Through the scaffold and a rear hoist, which is standard on terraces. Steels come in over the roof rather than up the stairs. Where the rear is inaccessible we plan a front scaffold and a street licence — we tell you which at the survey.'],
     ['q' => 'Will my neighbours’ conversion affect mine?', 'a' => 'Only helpfully. If the house next door already has a dormer, the planning precedent and the party wall condition are both known quantities, and matching the neighbouring dormer often makes the design decision for you.'],
-    ['q' => 'Is the staircase harder to fit in a terrace?', 'a' => 'It is the tightest part of the job. Terraces are narrow, so the new flight usually runs over the existing stairwell to keep the landing compact. Maximum 42° pitch and 1.9m headroom at the centre of the flight still apply — we show the layout on your CAD drawing before anything is cut.'],
+    ['q' => 'Is the staircase harder to fit in a terrace?', 'a' => 'It is the tightest part of the job. Terraces are narrow, so the new flight usually runs over the existing stairwell to keep the landing compact. Maximum 42° pitch and 1.9m headroom at the centre of the flight still apply — we show the layout in your proposed plans before anything is cut.'],
     ['q' => 'How much value does it add to a terrace?', 'a' => 'Loft conversions typically add 15% to 20% to a property value, and on a two-bedroom terrace a third bedroom often moves the house into a different bracket of buyer entirely. The uplift usually exceeds the build cost in the North West.']
 ];
 
@@ -143,7 +143,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:500;color:#6B6B6B">
-            <span>No obligation</span><span>&middot;</span><span>Free CAD design</span><span>&middot;</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>&middot;</span><span>Guaranteed Fixed Quote</span><span>&middot;</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -187,7 +187,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -365,7 +365,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">We'll measure your 40m³ allowance <em style="font-style:italic">before</em> you commit to anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If your terrace can take a full-width rear dormer we will say so and prepare the CAD drawings. Forty-five minutes, one fixed price.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If your terrace can take a full-width rear dormer we will say so and prepare the layout plans. Forty-five minutes, one fixed price.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -388,7 +388,7 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
                 <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -402,7 +402,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

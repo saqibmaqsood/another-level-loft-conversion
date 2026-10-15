@@ -170,7 +170,7 @@ function formatTemplateLabel(string $key): string {
         'booking_admin_alert'    => 'Admin Alert',
         'contact_confirmation'   => 'Contact Conf',
         'raw_custom'             => 'Broadcast',
-        'cad_drawings_followup'  => 'CAD Followup'
+        'design_followup'        => 'Design Followup'
     ];
     if (isset($map[$key])) {
         return $map[$key];
@@ -221,25 +221,25 @@ $marketingPresets = [
 <p>Reply to this email with your preferred day or call <strong>01772 978 770</strong> to speak with our survey team.</p>
 <p>Kind regards,<br><strong>Another Level Loft Conversions</strong><br>Preston &bull; Manchester &bull; Lancashire &bull; Cheshire</p>'
     ],
-    'free_3d_cad' => [
-        'id'          => 'free_3d_cad',
+    'architectural_design' => [
+        'id'          => 'architectural_design',
         'icon'        => '📐',
-        'title'       => 'Free 3D CAD Visualisation',
+        'title'       => 'Free Design & Layout Planning',
         'badge'       => 'Special Offer / £450 Value',
         'target'      => 'New',
         'target_desc' => 'New / Uncontacted Leads',
-        'subject'     => 'Exclusive Offer: Complimentary 3D Architectural Loft Visualisation (Valued at £450)',
+        'subject'     => 'Exclusive Offer: Complimentary Architectural Loft Design Consultation',
         'body'        => '<p>Hi {{name}},</p>
 <p>One of the biggest hurdles when considering a loft conversion is visualising how the space will actually look and feel. <em>Where will the staircase arrive? How much headroom will there be? How will the dormer transform your roofline?</em></p>
-<p>For enquiries confirmed this month, we are including our <strong>Comprehensive 3D Architectural CAD Visualisation</strong> completely free of charge (normally &pound;450).</p>
-<p><strong>With your bespoke 3D design package, you will see:</strong></p>
+<p>For enquiries confirmed this month, we are including our <strong>Comprehensive Architectural Design &amp; Layout Consultation</strong> completely free of charge.</p>
+<p><strong>With your bespoke layout proposal, you will see:</strong></p>
 <ul>
   <li>Exact second-floor room layout with proposed furniture placement.</li>
   <li>Natural light flow and window / Velux positioning.</li>
-  <li>Detailed external 3D renders showing matching brickwork and roof tiles.</li>
+  <li>Detailed structural planning showing matching materials and roofline.</li>
   <li>Precise structural calculations and guaranteed fixed pricing.</li>
 </ul>
-<p>There is zero obligation to proceed. If you would like our design team to create a 3D model of your roof, simply reply <strong>"YES"</strong> to this email or call <strong>01772 978 770</strong>.</p>
+<p>There is zero obligation to proceed. If you would like our design team to review your roof layout, simply reply <strong>"YES"</strong> to this email or call <strong>01772 978 770</strong>.</p>
 <p>Warm regards,<br><strong>Jonny Mee</strong><br>Another Level Loft Conversions</p>'
     ],
     'surveyor_slots' => [
@@ -278,7 +278,7 @@ $marketingPresets = [
 <ul>
   <li><strong>No Hidden Costs:</strong> Steel beams, Building Control fees, insulation, bespoke stairs &mdash; everything is included in one fixed number.</li>
   <li><strong>No Milestone Surprises:</strong> The price agreed before we start is the exact price you pay on completion.</li>
-  <li><strong>10-Year Insurance-Backed Guarantee:</strong> Complete structural peace of mind.</li>
+  <li><strong>6-Year Written Guarantee:</strong> Complete structural peace of mind.</li>
 </ul>
 <p>If you are still considering turning that unused roof space into valuable living accommodation, let&apos;s have a quick chat this week.</p>
 <p>Call Jonny Mee directly on <strong>07700 900123</strong> or reply to this email.</p>

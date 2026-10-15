@@ -351,7 +351,7 @@ require_once __DIR__ . '/includes/header.php';
     <div class="metric-value" style="color:#15803D"><?php echo number_format($totalBookings); ?></div>
     <div class="metric-sub">
       <span style="color:#16A34A;font-weight:700">Confirmed Slots</span>
-      <span style="color:#718096">Laser measuring &amp; CAD appointments</span>
+      <span style="color:#718096">Laser measuring &amp; survey appointments</span>
     </div>
   </div>
 

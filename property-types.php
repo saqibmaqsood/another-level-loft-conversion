@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Loft Conversions by Property Type — Another Level";
-$pageDesc = "Loft conversions by property type: terrace 40m³, semi-detached and detached 50m³, bungalow roof-lifts. What each house can take, timeline and permitted development limits.";
+$pageDesc = "Loft conversions by property type: terrace 40m³, semi-detached and detached 50m³, bungalows. What each house can take, timeline and permitted development limits.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -30,8 +30,8 @@ $propertyRows = [
         'price' => '3.5 weeks', 'ruledOut' => 'Both hips plus a dormer — over 50m³', 'href' => 'detached-property.php'
     ],
     [
-        'name' => 'Bungalow', 'volume' => 'On survey', 'party' => 'Usually none', 'route' => 'Roof-lift',
-        'price' => '6–8 weeks', 'ruledOut' => 'Anything, if the pitch is too shallow', 'href' => 'bungalow-property.php'
+        'name' => 'Bungalow', 'volume' => '50m³', 'party' => 'Usually none', 'route' => 'Dormer / Velux',
+        'price' => '3–4 weeks', 'ruledOut' => 'Anything, if the pitch is too shallow', 'href' => 'bungalow-property.php'
     ]
 ];
 
@@ -60,7 +60,7 @@ $detailedProperties = [
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
-            ['name' => 'Wrap Around', 'price' => 'from £48,000', 'href' => 'wrap-around-conversion.php'],
+            ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
         'points' => [
@@ -77,7 +77,7 @@ $detailedProperties = [
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
-            ['name' => 'Wrap Around', 'price' => 'from £48,000', 'href' => 'wrap-around-conversion.php'],
+            ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Hip-End Dormer', 'price' => 'from £37,000', 'href' => 'hip-end-dormer-conversion.php']
         ],
         'points' => [
@@ -87,12 +87,11 @@ $detailedProperties = [
         ]
     ],
     [
-        'num' => '04', 'name' => 'Bungalow', 'volume' => 'On survey', 'href' => 'bungalow-property.php',
-        'meta' => '6–8 weeks · full floor',
+        'num' => '04', 'name' => 'Bungalow', 'volume' => '50m³', 'href' => 'bungalow-property.php',
+        'meta' => '3–4 weeks · 25–35 m² typical',
         'glyph' => 'M4 30V18l20-12 20 12v12zM18 30v-7h12v7',
-        'body' => 'A bungalow roof is usually shallow, so headroom decides everything. Where there is height a dormer works. Where there is not, the roof comes off and goes back higher — which turns a bungalow into a house, and needs planning permission to do it.',
+        'body' => 'A bungalow roof is usually shallow, so headroom decides everything. Where there is height a rear dormer or Velux conversion delivers a spacious bedroom or suite without raising the roof line.',
         'options' => [
-            ['name' => 'Roof-Lift', 'price' => 'on survey', 'href' => 'roof-lift-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
@@ -105,10 +104,10 @@ $detailedProperties = [
 ];
 
 $faqs = [
-    ['q' => 'How does my property type affect permitted development volume?', 'a' => 'Permitted development rules grant 40m³ of additional roof volume for terraced houses and 50m³ for semi-detached and detached homes. This allowance includes all historical roof enlargements, which our surveyor calculates accurately during your free CAD survey.'],
+    ['q' => 'How does my property type affect permitted development volume?', 'a' => 'Permitted development rules grant 40m³ of additional roof volume for terraced houses and 50m³ for semi-detached and detached homes. This allowance includes all historical roof enlargements, which our surveyor calculates accurately during your free survey.'],
     ['q' => 'What if my semi-detached house has a hipped roof?', 'a' => 'A hipped side roof is ideal for a hip-to-gable conversion. It converts the sloping side into a straight vertical gable, providing the headroom required for a standard staircase and landing without losing habitable floor space below.'],
-    ['q' => 'Do I need party wall agreements for a terraced or semi-detached conversion?', 'a' => 'Yes. On terraced houses, notices must be served to neighbours on both sides. On semi-detached properties, only the adjoining neighbour needs notice. We prepare the complete structural notices alongside your CAD drawings at least two months in advance.'],
-    ['q' => 'Can a bungalow take a conversion without lifting the roof?', 'a' => 'If the existing ridge height exceeds 2.2m (common in chalet bungalows), a rear dormer or Velux conversion is often possible without raising the roof. For shallow-pitch bungalows, a roof-lift provides a full second floor with 2 to 3 bedrooms and a bathroom.']
+    ['q' => 'Do I need party wall agreements for a terraced or semi-detached conversion?', 'a' => 'Yes. On terraced houses, notices must be served to neighbours on both sides. On semi-detached properties, only the adjoining neighbour needs notice. We prepare the complete structural notices at least two months in advance.'],
+    ['q' => 'Can a bungalow take a conversion?', 'a' => 'If the existing ridge height exceeds 2.2m (common in chalet bungalows), a rear dormer or Velux conversion is often possible without raising the roof. We assess headroom honestly at your free home survey.']
 ];
 
 include 'includes/header.php';
@@ -170,7 +169,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:500;color:#6B6B6B">
-            <span>No obligation</span><span>&middot;</span><span>Free CAD design</span><span>&middot;</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>&middot;</span><span>Guaranteed Fixed Quote</span><span>&middot;</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -214,7 +213,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Dormer &amp; Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -432,7 +431,7 @@ include 'includes/header.php';
               <h3 style="font-family:Newsreader,Georgia,serif;font-size:22px;line-height:1.2;color:#FFFFFF;font-weight:400;margin:0 0 10px">Staircase geometry</h3>
               <p style="font-size:14.5px;line-height:1.6;color:#B8B8B0;margin:0">Maximum 42° pitch, 1.9m headroom at the centre of the flight and 1.8m at the edges under a slope. Usually the tightest design constraint.</p>
             </div>
-            <div style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#A8B79E;padding-top:12px;border-top:1px solid #2E2E2A">Shown on your CAD drawing</div>
+            <div style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#A8B79E;padding-top:12px;border-top:1px solid #2E2E2A">Shown on your proposed layout</div>
           </div>
           <div class="dark-qa-card">
             <div>
@@ -530,19 +529,7 @@ include 'includes/header.php';
               <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Gable plus dormer. The largest option available.</p>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:auto;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
-              <span style="color:#4F6B42">£48,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">6 wks</span>
-            </div>
-          </a>
-          <a href="roof-lift-conversion.php" class="byconv-type-card">
-            <div>
-              <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:6px">
-                <h3 style="font-family:Newsreader,Georgia,serif;font-size:22px;line-height:1.15;margin:0;color:#1A1A1A;font-weight:400">Roof-Lift</h3>
-                <span style="font-family:var(--font-sans);font-size:12px;font-weight:700;letter-spacing:.08em;color:#6B8E5A;margin-top:2px">06</span>
-              </div>
-              <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Roof off, back higher. For bungalows and low lofts.</p>
-            </div>
-            <div style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:auto;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
-              <span style="color:#4F6B42">On survey</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">6–8 wks</span>
+              <span style="color:#4F6B42">from £50,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">10–12 wks</span>
             </div>
           </a>
         </div>
@@ -555,7 +542,7 @@ include 'includes/header.php';
         <div class="faq-sticky-col">
           <span class="section-label">Property questions</span>
           <h2 id="faq-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:16ch">Before you decide.</h2>
-          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on permitted development volume, party walls, hips and bungalow roof-lifts. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
+          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on permitted development volume, party walls, hips and bungalow lofts. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
           <div class="hero-actions-row" style="margin-top:4px">
             <a href="#booking" data-open-booking class="btn-primary hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-secondary hero-btn">Ask us directly</a>
@@ -613,8 +600,8 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
             </li>
@@ -627,7 +614,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, and your fixed-price quote stands whatever you decide.</p>
         </div>
       </div>
     </section>

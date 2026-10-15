@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Loft Conversions in Bolton — Another Level";
-$pageDesc = "Loft conversions in Bolton. Fixed price, free survey, free CAD design. Velux, dormer and hip-to-gable conversions across BL postcodes.";
+$pageDesc = "Loft conversions in Bolton. Fixed price, free survey, guaranteed quote. Velux, dormer and hip-to-gable conversions across BL postcodes.";
 $activePage = "contact";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -43,9 +43,9 @@ $faqs = [
     ['q' => 'Do I still need Building Control if planning is not required?', 'a' => 'Yes — always. Structural work, floor loading, insulation, fire escape and stair geometry are signed off by Building Control regardless of planning. Bolton Council runs its own service; we can use them or a private Registered Building Control Approver, and the fees are inside your fixed price either way.'],
     ['q' => 'Which conversion suits a Bolton terrace?', 'a' => 'A flat-roof rear dormer gives the most usable floor area on a typical Bolton mid-terrace, and its 40m³ allowance is normally enough for a bedroom and a shower room. Where the ridge is already generous, a Velux conversion is quicker and cheaper because the roof line never changes.'],
     ['q' => 'What about the older stone and slate roofs?', 'a' => 'Common across Bolton and no obstacle — but the finish matters. On stone-flag and slate roofs we match materials and set the dormer down the slope so it defers to the original roofscape, which is exactly the test a case officer applies inside a conservation area.'],
-    ['q' => 'How quickly can you survey in Bolton?', 'a' => 'Our Manchester team covers all BL postcodes, usually with a slot inside five working days, evenings included. Your CAD drawing and fixed written quote follow within a few days of the visit.'],
-    ['q' => 'How long is the work on site?', 'a' => 'Three weeks for a Velux, four for a rear dormer, around six for a wrap around. Drawings and approvals run before that — allow two to four weeks from signing, longer if a full planning application is needed.'],
-    ['q' => 'What if my Bolton loft is under 2.2m?', 'a' => 'Many Victorian terraces here are tight. Where the floor below has generous ceilings, dropping the first-floor ceiling often recovers the height; on a bungalow or a very shallow pitch a roof-lift is the answer. We measure it on the survey and tell you honestly if it is not worth doing.']
+    ['q' => 'How quickly can you survey in Bolton?', 'a' => 'Our Manchester team covers all BL postcodes, usually with a slot inside five working days, weekday and Saturday slots available. Your layout advice and fixed written quote follow within a few days of the visit.'],
+    ['q' => 'How long is the work on site?', 'a' => 'Four to six weeks for a Velux, eight to ten for a dormer, around ten to twelve for a wrap around. Drawings and approvals run before that — allow two to four weeks from signing, longer if a full planning application is needed.'],
+    ['q' => 'What if my Bolton loft is under 2.2m?', 'a' => 'Many Victorian terraces here are tight. A working minimum of 2.2m clear height is required from the ceiling joists to the underside of the ridge. We measure it accurately on the survey and tell you honestly if a conversion is not viable.']
 ];
 
 $nearby = ['Horwich', 'Westhoughton', 'Bury', 'Salford', 'Worsley'];
@@ -85,7 +85,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 20px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B6B">
-            <span><?php echo $projectCount; ?> projects in <?php echo $city; ?></span><span>Checkatrade member</span><span>Free CAD design</span>
+            <span><?php echo $projectCount; ?> projects in <?php echo $city; ?></span><span>Checkatrade member</span><span>Guaranteed quote</span>
           </div>
         </div>
 
@@ -129,7 +129,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -139,7 +139,7 @@ include 'includes/header.php';
               <button type="button" id="cityHeroContinue" class="btn-primary" style="width:100%">Continue</button>
               <div id="cityHeroError" style="font-size:13px;color:#B4423A;margin-top:10px;min-height:18px"></div>
               <div style="display:flex;flex-wrap:wrap;gap:6px 16px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:auto;padding-top:12px">
-                <span>No obligation</span><span>Free CAD design</span><span><?php echo $projectCount; ?> in <?php echo $city; ?></span>
+                <span>No obligation</span><span>Guaranteed quote</span><span><?php echo $projectCount; ?> in <?php echo $city; ?></span>
               </div>
             </div>
           </div>
@@ -250,7 +250,7 @@ include 'includes/header.php';
         <div>
           <span class="section-label-subtle"><?php echo $postcodes; ?></span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">The surveyor is already in <?php echo $city; ?> this week.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:40ch">Forty-five minutes, a CAD drawing you keep, one fixed written price. Nothing to pay whatever you decide afterwards.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:40ch">Forty-five minutes, expert layout advice, one fixed written price. Nothing to pay whatever you decide afterwards.</p>
           <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:01614100155" class="btn-outline-white">
@@ -278,7 +278,7 @@ include 'includes/header.php';
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
               <span style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(24px,2.6vw,30px);line-height:1;letter-spacing:-.02em;color:#1A1A1A">5 Days</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B8E5A">To Survey</span>
-              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Typical wait for a slot, evenings included.</span>
+              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Typical wait for a survey appointment.</span>
             </div>
 
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
@@ -290,7 +290,7 @@ include 'includes/header.php';
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
               <span style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(24px,2.6vw,30px);line-height:1;letter-spacing:-.02em;color:#1A1A1A">£0</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B8E5A">Cost To You</span>
-              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Survey, 3D CAD drawing and fixed quote.</span>
+              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Survey, layout advice and fixed quote.</span>
             </div>
           </div>
 

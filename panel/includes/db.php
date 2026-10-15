@@ -372,8 +372,8 @@ function seedEmailTemplates(PDO $db): void {
         <ul style="padding-left: 20px; margin: 0 0 20px; color: #4A4A45; font-size: 14px;">
             <li>Our master surveyor takes laser measurements of ridge height and staircase alignment (approx. 45 mins).</li>
             <li>We discuss your design ideas and layout options.</li>
-            <li>Within a few days, you receive a complimentary <strong>3D CAD architectural drawing</strong> and one guaranteed fixed price.</li>
-            <li><strong>100% Free, £0 upfront deposit, and no sales pressure.</strong></li>
+            <li>Within a few days, you receive a detailed written proposal and one guaranteed fixed price.</li>
+            <li><strong>100% Free home survey with zero obligation and no sales pressure.</strong></li>
         </ul>
 
         <p style="font-size: 14px; color: #6B6B6B;">Need to reschedule? Simply call us toll-free on <strong>0800 0862744</strong> or reply directly to this email.</p>

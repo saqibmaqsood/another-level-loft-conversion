@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Hip-End Dormer Loft Conversions Fixed-Price Survey & CAD Design — Another Level";
-$pageDesc = "Hip-end dormer loft conversions Fixed-Price Survey & CAD Design finished in about three and a half weeks. A dormer built into the hipped end, finished in matching hanging tiles.";
+$pageTitle = "Hip-End Dormer Loft Conversions Guaranteed Fixed Price — Another Level";
+$pageDesc = "Hip-end dormer loft conversions Guaranteed Fixed Price finished in about three and a half weeks. A dormer built into the hipped end, finished in matching hanging tiles.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -22,7 +22,7 @@ $schemaJson = json_encode([
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
-    ['value' => 'Fixed-Price Survey & CAD Design', 'label' => 'Fixed price'],
+    ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
     ['value' => '3.5 weeks', 'label' => 'On site'],
     ['value' => 'Hipped roofs', 'label' => 'Best suited to']
 ];
@@ -67,8 +67,8 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'En-suite shower room', 'price' => '+ £6,500 – £12,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
-    ['name' => 'Rooflights to the rear slope', 'price' => '+ £800 – £1,100 each', 'note' => 'Light from two aspects, and often the cheapest way to brighten the room.'],
+    ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
+    ['name' => 'Rooflights to the rear slope', 'price' => 'From £1,200 each', 'note' => 'Light from two aspects, and often the cheapest way to brighten the room.'],
     ['name' => 'Lead or zinc cheeks', 'price' => '+ Quoted per spec', 'note' => 'Where the architecture calls for metal rather than hanging tiles.'],
     ['name' => 'Reclaimed tile match', 'price' => '+ Quoted per spec', 'note' => 'On older properties where modern tiles will not match the original roof.'],
     ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
@@ -80,7 +80,7 @@ $faqs = [
     ['q' => 'Why choose it over a rear dormer?', 'a' => 'Where the rear slope is short, already used, or overlooked, the hipped end may be the only elevation with room left. It also brings light in from a different aspect, which suits a bedroom that would otherwise face a neighbouring wall.'],
     ['q' => 'What finish do you use on the cheeks?', 'a' => 'Hanging tiles or slates matched to the roof, in almost every case. It reads far better than render on a hipped roof and it is the detail a planning officer looks for inside a conservation area. Lead or zinc is an option where the architecture supports it.'],
     ['q' => 'How much floor area does it add?', 'a' => 'Typically 24 to 28 m², enough for a good bedroom with an en-suite. Compared with a full-width rear dormer you lose some floor area at the edges, but you keep the roofline and usually the neighbours’ goodwill.'],
-    ['q' => 'Will it look like an afterthought?', 'a' => 'Not if it is proportioned properly. The rules we work to: set the dormer down the slope rather than tight to the ridge, keep it narrower than the elevation, align the windows with those below, and match materials. All of that is settled on your CAD drawing before we start.'],
+    ['q' => 'Will it look like an afterthought?', 'a' => 'Not if it is proportioned properly. The rules we work to: set the dormer down the slope rather than tight to the ridge, keep it narrower than the elevation, align the windows with those below, and match materials. All of that is settled in your design plans before we start.'],
     ['q' => 'Does the party wall matter?', 'a' => 'On a semi or end-terrace, yes — building off or cutting into a shared wall means serving Party Wall notices at least two months before work starts. We prepare them alongside the structural drawings.'],
     ['q' => 'How long does it take?', 'a' => 'Around three and a half weeks on site, plus two to four weeks beforehand for drawings, structural calculations and Building Control. A planning application, where one is needed, adds around eight weeks.']
 ];
@@ -143,7 +143,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B">
-            <span>No obligation</span><span>•</span><span>Free CAD design</span><span>•</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>•</span><span>Guaranteed Fixed Quote</span><span>•</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -187,7 +187,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -362,7 +362,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">We'll check the hipped end <em style="font-style:italic">before</em> you commit to anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If your roof would work better with a hip-to-gable or rear dormer we will say so. Forty-five minutes, a CAD drawing you keep, one fixed price.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If your roof would work better with a hip-to-gable or rear dormer we will say so. Forty-five minutes, expert layout advice, one fixed price.</p>
           <div class="cta-btn-group" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
             <a href="#booking" data-open-booking class="btn-dark hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white hero-btn">
@@ -385,7 +385,7 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;font-weight:700;flex:0 0 26px;padding-top:2px">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
                 <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -399,7 +399,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

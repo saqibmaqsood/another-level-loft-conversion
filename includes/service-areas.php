@@ -5,8 +5,8 @@ $serviceAreasData = [
         'team' => 'Manchester team',
         'towns' => [
             'Altrincham', 'Ashton-in-Makerfield', 'Ashton-under-Lyne', 'Bolton', 'Bury',
-            'Chorlton', 'Didsbury', 'Eccles', 'Horwich', 'Manchester', 'Middleton', 'Oldham', 'Reddish', 'Sale', 'Salford',
-            'Standish', 'Stockport', 'Stretford', 'Westhoughton', 'Wigan', 'Worsley'
+            'Chorlton', 'Didsbury', 'Eccles', 'Horwich', 'Manchester', 'Middleton', 'Oldham', 'Sale', 'Salford',
+            'Standish', 'Stretford', 'Westhoughton', 'Wigan', 'Worsley'
         ]
     ],
     [
@@ -49,7 +49,7 @@ if (!function_exists('getTownSlug')) {
     <div class="areas-header" style="display:flex;flex-wrap:wrap;gap:24px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:36px">
       <div style="flex:2 1 460px">
         <span class="section-label">Where we work</span>
-        <h2 id="area-h" class="heading-h2">Forty-one towns across the North West.</h2>
+        <h2 id="area-h" class="heading-h2">Thirty-nine towns across the North West.</h2>
       </div>
       <p class="areas-header-desc" style="flex:1 1 280px;max-width:38ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We cover Preston, Manchester, Lancashire and Cheshire. Pick your town for local prices, recent projects and planning notes.</p>
     </div>
@@ -57,7 +57,7 @@ if (!function_exists('getTownSlug')) {
     <!-- Stats Grid -->
     <div class="areas-stats-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;margin-bottom:8px">
       <div class="area-stat-box" style="background:#FFFFFF;padding:22px;display:flex;flex-direction:column;gap:6px">
-        <span class="area-stat-num" style="font-family:Newsreader,Georgia,serif;font-size:clamp(26px,3vw,34px);line-height:1;letter-spacing:-.02em">41</span>
+        <span class="area-stat-num" style="font-family:Newsreader,Georgia,serif;font-size:clamp(26px,3vw,34px);line-height:1;letter-spacing:-.02em">39</span>
         <span class="area-stat-label" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Towns covered</span>
       </div>
       <div class="area-stat-box" style="background:#FFFFFF;padding:22px;display:flex;flex-direction:column;gap:6px">

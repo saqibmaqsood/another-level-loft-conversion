@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Bungalow Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for bungalows and chalets. Roof-lift and dormer options, headroom assessed honestly, priced case by case.";
+$pageDesc = "Loft conversions for bungalows and chalets. Rear dormer and Velux options, headroom assessed honestly, fixed price in writing.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -21,9 +21,9 @@ $schemaJson = json_encode([
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
-    ['value' => 'On survey', 'label' => 'Fixed price'],
-    ['value' => '6–8 weeks', 'label' => 'Roof-lift on site'],
-    ['value' => '2.2m', 'label' => 'Headroom needed']
+    ['value' => '4 weeks', 'label' => 'Typical on site'],
+    ['value' => '2.2m', 'label' => 'Headroom needed'],
+    ['value' => '50m³', 'label' => 'Permitted dev volume']
 ];
 
 $galleryImages = [
@@ -38,50 +38,46 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Before', 'what' => 'Survey, CAD drawing, structural design, planning application — allow around eight weeks.'],
-    ['when' => 'Weeks 1–2', 'what' => 'Scaffold and temporary roof up, existing roof stripped and removed.'],
-    ['when' => 'Weeks 2–4', 'what' => 'New structure to the agreed height, floor joists in, roof covered and watertight.'],
-    ['when' => 'Weeks 5–6', 'what' => 'Insulation, staircase and enclosure, partitions and first-fix services.'],
-    ['when' => 'Weeks 7–8', 'what' => 'Plastering, second-fix electrics, external finishes, sign-off and handover.']
+    ['when' => 'Before', 'what' => 'Survey, architectural layout, structural design, building control application.'],
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffolding erected, structural steels installed, floor joists laid.'],
+    ['when' => 'Weeks 2–3', 'what' => 'Dormer constructed, rooflights fitted, roof made watertight.'],
+    ['when' => 'Weeks 3–4', 'what' => 'Staircase installed, insulation, plasterboard and skim.'],
+    ['when' => 'Weeks 4–5', 'what' => 'Second fix electrics, building control final sign-off and handover.']
 ];
 
 $fit = [
-    ['yes' => true, 'text' => 'Chalet bungalows and steeper roofs with 2.2m already — a dormer may be all you need.'],
-    ['yes' => true, 'text' => 'Shallow-pitch bungalows where you want a full extra floor, not one room.'],
-    ['yes' => true, 'text' => 'A hallway or bedroom that can give up the space for a proper staircase.'],
-    ['yes' => false, 'text' => 'A budget that only stretches to a dormer when the pitch genuinely needs a roof-lift.'],
-    ['yes' => false, 'text' => 'A plot where a single-storey rear extension would be cheaper for the same result.'],
-    ['yes' => false, 'text' => 'A programme that has to be finished inside a month — a roof-lift cannot be rushed.']
+    ['yes' => true, 'text' => 'Chalet bungalows and steeper roofs with 2.2m of ridge height already.'],
+    ['yes' => true, 'text' => 'Bungalows where a rear dormer can unlock a generous master bedroom and en-suite.'],
+    ['yes' => true, 'text' => 'A hallway or room that can accommodate a building-regulation compliant staircase.'],
+    ['yes' => false, 'text' => 'Roofs under 2.2m with shallow pitch where ceilings cannot be lowered.'],
+    ['yes' => false, 'text' => 'Plots where a ground-floor rear extension is a better fit for your layout.'],
+    ['yes' => false, 'text' => 'Projects with unrealistic timelines — quality craft cannot be rushed.']
 ];
 
 $included = [
-    'Structural design, calculations and engineer’s sign-off',
-    'Temporary weatherproof scaffold roof for the whole open period',
-    'New roof structure at the agreed height and pitch, or dormer where viable',
-    'Tiles or slate matched to the house, new eaves, verge and rainwater goods',
-    'New floor structure over the existing ceilings',
-    'Bespoke staircase, protected enclosure and fire-rated doors',
-    'Insulation, plasterboard, skim, first-fix and second-fix electrics',
-    'Planning drawings, Building Control fees and completion certificate'
+    'Structural engineering, calculations and council sign-off',
+    'Rear dormer construction or Velux rooflight installation',
+    'Tiles or slate matched to the existing roof, new rainwater goods',
+    'New independent structural floor over existing ceilings',
+    'Bespoke timber staircase, fire-rated doors and enclosure',
+    'High-grade insulation, plasterboard and smooth plaster skim',
+    'First-fix and second-fix electrical and plumbing installation',
+    'Building Control inspections and completion certificate'
 ];
 
 $addOns = [
-    ['name' => 'Roof-lift', 'price' => 'Quoted on survey', 'note' => 'The full solution for a shallow pitch. Six to eight weeks, planning application included.'],
-    ['name' => 'Rear or side dormer', 'price' => 'from £38,000', 'note' => 'Where you already have 2.2m. Far cheaper and four weeks on site.'],
+    ['name' => 'Rear or side dormer', 'price' => 'from £38,000', 'note' => 'Where you already have 2.2m. Full headroom across the floor and four weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Chalet bungalows with generous ridge height only. Three weeks.'],
-    ['name' => 'Bathroom and en-suite', 'price' => '+ Quoted per spec', 'note' => 'A roof-lift usually creates a full floor, so most schemes include more than one wet room.'],
+    ['name' => 'Bathroom and en-suite', 'price' => '+ Quoted per spec', 'note' => 'Plumbed-in luxury wet room or en-suite with shower, basin and toilet.'],
     ['name' => 'Ground-floor alterations', 'price' => 'Quoted per spec', 'note' => 'Rearranging the hallway to take the new staircase cleanly.']
 ];
 
 $faqs = [
-    ['q' => 'Can a bungalow loft actually be converted?', 'a' => 'Often, yes — but it depends entirely on the pitch. Chalet bungalows and steeper 1930s roofs frequently have the 2.2m of headroom needed over half the floor area. Shallow-pitch 1960s and 70s bungalows usually do not, and then a roof-lift is the only route to a usable room.'],
-    ['q' => 'What is a roof-lift and why does it cost more?', 'a' => 'The existing roof is removed and rebuilt higher or at a steeper pitch, creating headroom where there was none. It costs more because of the temporary weatherproof scaffold roof, the new roof structure and the planning application — but it produces a full floor rather than one compromised room.'],
-    ['q' => 'Will a roof-lift need planning permission?', 'a' => 'Almost always. Permitted development does not allow the roof to exceed the height of the existing highest part, and raising the ridge is the entire point. We prepare and submit the application — allow around eight weeks for a decision on top of the build programme.'],
-    ['q' => 'Is a dormer enough on a bungalow?', 'a' => 'Where you already have the height, yes — a rear or side dormer within the 50m³ allowance gives full standing height across the new room at a fraction of a roof-lift’s cost. We always price the dormer option first if it is viable at all.'],
-    ['q' => 'Where does the staircase go in a bungalow?', 'a' => 'This is usually the real design constraint, because a bungalow has no existing stairwell. The new flight has to come out of a hallway, a bedroom or occasionally the living space, and it needs a protected enclosure at the bottom. We show the trade-off on your CAD drawing before you commit.'],
-    ['q' => 'Can I live in it while the roof is off?', 'a' => 'Sometimes, and this is the one conversion type where we occasionally advise against it. The house is never left open — a temporary scaffold roof covers the whole period — but on a single-storey property the disruption reaches every room. You get a straight answer at the survey.'],
-    ['q' => 'Will it still look like a bungalow?', 'a' => 'Not entirely, and that is worth thinking about. Raising the ridge changes the proportions of the house, and a planning officer will judge the pitch, eaves, verge and materials against the street. Your CAD drawing shows the finished elevation before anything is ordered.'],
-    ['q' => 'Is it better to extend at ground level instead?', 'a' => 'Sometimes, and we will say so. A single-storey rear extension can be cheaper per square metre and needs no staircase. Going up wins where the plot is tight, the garden matters, or you need bedrooms rather than living space — which on a bungalow is the usual reason.']
+    ['q' => 'Can a bungalow loft actually be converted?', 'a' => 'Often, yes — but it depends entirely on the pitch. Chalet bungalows and steeper 1930s roofs frequently have the 2.2m of headroom needed over half the floor area. We assess the pitch and ridge height accurately on the initial survey.'],
+    ['q' => 'Is a dormer conversion suitable for a bungalow?', 'a' => 'Where you have the necessary ridge height, yes — a rear or side dormer within the 50m³ permitted development allowance gives full standing height across the new room.'],
+    ['q' => 'Where does the staircase go in a bungalow?', 'a' => 'Because a bungalow has no existing stairwell, the new flight comes out of a hallway or bedroom, with a fire-protected enclosure. We show the exact staircase layout during your survey before you commit.'],
+    ['q' => 'Can I live in the bungalow during the conversion?', 'a' => 'Yes. Almost every customer remains in the home throughout the build. Scaffolding and external hoists keep the majority of materials outside until the staircase is cut through.'],
+    ['q' => 'Is it better to extend at ground level instead?', 'a' => 'Sometimes, and we will advise you honestly. Going up preserves your garden and creates private bedrooms, which is usually why bungalow owners convert.']
 ];
 
 include 'includes/header.php';
@@ -108,22 +104,22 @@ include 'includes/header.php';
             </span>
           </div>
           <h1 id="v-h" class="heading-h1" style="font-size:clamp(34px,5.4vw,56px);letter-spacing:-.025em;margin:0">Bungalow Loft Conversions</h1>
-          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Dormer conversions &amp; roof-lifts for shallow roofs.</p>
-          <p class="lead-text" style="max-width:46ch">A bungalow roof is usually shallow, so headroom decides everything. Where there is height a dormer works; where there is not, the roof comes off and goes back higher to create a full second floor.</p>
+          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Dormer &amp; Velux conversions for bungalows.</p>
+          <p class="lead-text" style="max-width:46ch">A bungalow roof is usually shallow, so headroom decides everything. Where there is height a rear dormer or Velux conversion delivers a spacious bedroom or master suite under permitted development.</p>
           
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">6–8 Wks</span>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Roof-lift build</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">4 Wks</span>
+              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Typical build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">On survey</span>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed quote</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">Fixed price</span>
+              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Written quote</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">Full floor</span>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Layout gained</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">50m³</span>
+              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">PD volume limit</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
               <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">2.2m</span>
@@ -142,7 +138,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:500;color:#6B6B6B">
-            <span>No obligation</span><span>&middot;</span><span>Free CAD design</span><span>&middot;</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>&middot;</span><span>Guaranteed Fixed Quote</span><span>&middot;</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -186,7 +182,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -266,15 +262,15 @@ include 'includes/header.php';
             <span class="section-label-light">Pricing</span>
             <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">How bungalow conversions are priced</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">From a dormer conversion at £38,000 to a complete roof-lift for a shallow pitch. Every project is measured at your survey with a fixed price in writing.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">From a Velux conversion at £24,000 to a rear dormer at £38,000. Every project is measured at your survey with a fixed price in writing.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Pricing method</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(34px,4vw,48px);line-height:1.05;letter-spacing:-.02em;color:#FFFFFF;margin-top:10px">Quoted per project on survey</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">Dormer or bespoke roof-lift structure, staged payments against completed work.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(34px,4vw,48px);line-height:1.05;letter-spacing:-.02em;color:#FFFFFF;margin-top:10px">Guaranteed fixed price</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">One comprehensive written price covering structural steels, build, and completion certificate.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>
@@ -314,7 +310,7 @@ include 'includes/header.php';
             <span class="section-label">Free survey</span>
             <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0">Book a survey on your bungalow</h2>
           </div>
-          <p style="flex:1 1 260px;max-width:36ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We measure existing ridge height and explain dormer vs roof-lift routes. Three steps to book.</p>
+          <p style="flex:1 1 260px;max-width:36ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We measure existing ridge height and explain your viable dormer and Velux options. Three steps to book.</p>
         </div>
         <?php 
           $widgetHeading = "Book a Bungalow survey";
@@ -329,7 +325,7 @@ include 'includes/header.php';
         <div class="faq-sticky-col">
           <span class="section-label">Bungalow questions</span>
           <h2 id="faq-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:16ch">Before you decide.</h2>
-          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on headroom, roof-lifts vs dormers, staircases and cost. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
+          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on headroom, dormers, staircases and cost. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
           <div class="hero-actions-row" style="margin-top:4px">
             <a href="#booking" data-open-booking class="btn-primary hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-secondary hero-btn">Ask us directly</a>
@@ -364,7 +360,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">We'll check your bungalow's height <em style="font-style:italic">before</em> you commit.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If a dormer is possible we price it. If a roof-lift is needed we explain the structural design and planning route. Forty-five minutes, one fixed price.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">We check ridge height, explain your staircase options, and provide one fixed price in writing. Forty-five minutes in your home.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -380,15 +376,15 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">01</span>
               <span style="display:flex;flex-direction:column;gap:4px">
                 <span style="font-size:16px;font-weight:600;line-height:1.3">The survey</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Ridge height, dormer vs roof-lift check, staircase options.</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Ridge height, pitch inspection, staircase route.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">45 min</span>
             </li>
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
             </li>
@@ -401,7 +397,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, and your fixed-price quote stands whatever you decide.</p>
         </div>
       </div>
     </section>

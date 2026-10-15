@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Velux Loft Conversions Fixed-Price Survey & CAD Design — Another Level";
-$pageDesc = "Velux loft conversions Fixed-Price Survey & CAD Design finished in about three weeks. Free survey and CAD design across Preston, Manchester, Lancashire and Cheshire.";
+$pageTitle = "Velux Loft Conversions Guaranteed Fixed Price — Another Level";
+$pageDesc = "Velux loft conversions Guaranteed Fixed Price finished in about 6 to 8 weeks. free survey and layout advice across Preston, Manchester, Lancashire and Cheshire.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -22,37 +22,33 @@ $schemaJson = json_encode([
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
-    ['value' => 'Fixed-Price Survey & CAD Design', 'label' => 'Fixed price'],
-    ['value' => '3 weeks', 'label' => 'On site'],
+    ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
+    ['value' => '6–8 weeks', 'label' => 'On site'],
     ['value' => '2.2m', 'label' => 'Min. headroom']
 ];
 
 $galleryImages = [
     'images/another-area-loft-conversions-north-west-england-03.jpeg',
     'images/another-area-loft-conversions-north-west-england-05.jpeg',
-    'images/another-area-loft-conversions-north-west-england-07.jpeg',
-    'images/another-area-loft-conversions-north-west-england-09.jpeg',
     'images/another-area-loft-conversions-north-west-england-11.jpeg',
-    'images/another-area-loft-conversions-north-west-england-13.jpeg',
-    'images/another-area-loft-conversions-north-west-england-15.jpeg',
     'images/another-area-loft-conversions-north-west-england-17.jpeg',
 ];
 
 $timeline = [
-    ['when' => 'Days 1–2', 'what' => 'Scaffold up, materials delivered, loft cleared and boarded for safe working.'],
-    ['when' => 'Days 3–5', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
-    ['when' => 'Week 2', 'what' => 'Roof upgraded, Velux windows fitted and flashed, insulation to current regulations.'],
-    ['when' => 'Week 2–3', 'what' => 'Stairwell aperture cut, bespoke staircase fitted, partitions and joinery finished.'],
-    ['when' => 'Week 3', 'what' => 'Plastering, second-fix electrics, building control sign-off and handover.']
+    ['when' => 'Week 1', 'what' => 'Scaffold up, materials delivered, loft cleared and boarded for safe working.'],
+    ['when' => 'Weeks 2–3', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
+    ['when' => 'Weeks 4–5', 'what' => 'Roof upgraded, Velux windows fitted and flashed, Part L insulation installed.'],
+    ['when' => 'Weeks 6–7', 'what' => 'Stairwell aperture cut, bespoke staircase fitted, partitions and joinery finished.'],
+    ['when' => 'Week 8', 'what' => 'Plastering, second-fix electrics, building control sign-off and handover.']
 ];
 
 $fit = [
-    ['yes' => true, 'text' => '2.2m or more from ceiling joists to the underside of the ridge (2.4m on modern trusses).'],
+    ['yes' => true, 'text' => '2.2m or more from ceiling joists to the underside of the ridge (2.2m on modern trusses).'],
     ['yes' => true, 'text' => 'You want the shortest, least disruptive build and the lowest fixed price.'],
     ['yes' => true, 'text' => 'The roof shape must stay as it is — conservation area, or you simply prefer it.'],
     ['yes' => false, 'text' => 'You need maximum floor area with full standing height across the room — choose a rear dormer.'],
     ['yes' => false, 'text' => 'The loft has a hipped roof with little usable volume — hip-to-gable is the route.'],
-    ['yes' => false, 'text' => 'Headroom is under 2.2m with no ceilings to drop — look at a roof-lift instead.']
+    ['yes' => false, 'text' => 'Headroom is under 2.2m — conversion viability is assessed on survey.']
 ];
 
 $included = [
@@ -67,26 +63,25 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'En-suite shower room', 'price' => '+ £6,500 – £12,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
-    ['name' => 'Extra rooflights', 'price' => '+ £800 – £1,100 each', 'note' => 'Supplied and fitted. Integra remote operation or a Cabrio balcony window costs more.'],
-    ['name' => 'Ceiling drop below', 'price' => 'On survey', 'note' => 'Where you are just under 2.2m and the first floor has generous ceilings. Adds plastering and redecoration.'],
+    ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
+    ['name' => 'Extra rooflights', 'price' => 'From £1,200 each', 'note' => 'Supplied and fitted. Integra remote operation or a Cabrio balcony window costs more.'],
+    ['name' => 'Fitted eaves storage', 'price' => '+ £950 – £1,800', 'note' => 'Custom timber-framed eaves cupboards and access doors to maximize storage in the lower roof pitch.'],
     ['name' => 'Larger floor area', 'price' => '£24k → £38k', 'note' => 'A 32 m² master-plus-ensuite in a Victorian terrace sits at the top of the rooflight range.'],
-    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
+    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, bespoke fitted wardrobes, feature lighting. Standard spec is included above.']
 ];
 
 $faqs = [
     ['q' => 'Do I need planning permission for a Velux conversion?', 'a' => 'Rarely. Because the roof profile is unchanged, a rooflight conversion almost always sits within permitted development. The conditions: the window must not project more than 150mm from the roof slope, side-facing units must be obscure glazed and non-opening below 1.7m, and front-facing windows onto a highway usually do need permission. Conservation areas and Article 4 zones are the real exception — there a full application is likely.'],
-    ['q' => 'Is my loft tall enough?', 'a' => 'You need at least 2.2m of headroom over half the usable floor area — measured from the joists to the underside of the ridge. Modern trussed roofs usually want 2.4m because the structure eats into the space. We measure it properly at the survey and tell you straight if a rooflight conversion will not work.'],
+    ['q' => 'Is my loft tall enough?', 'a' => 'You need at least 2.2m of headroom over half the usable floor area — measured from the joists to the underside of the ridge. Modern trussed roofs also require 2.2m clear height. We measure it properly at the survey and tell you straight if a rooflight conversion will not work.'],
     ['q' => 'How many windows will I get, and how big?', 'a' => 'Regulations expect a glazed area of roughly one tenth of the floor area, so two windows covers most single rooms. One has to double as the escape window: a clear opening of at least 0.33m² with no dimension under 450mm, and the sill no more than 1.1m above the floor. We size and place them at the survey so the light lands where you will actually use it.'],
     ['q' => 'Which Velux window should I choose?', 'a' => 'Centre-pivot units suit furniture placed underneath and pitches from 15° to 90°. Top-hung units open fully outward, suit 15° to 55°, and give a better view and more headroom at the window. Polyurethane finishes are the right call in a loft bathroom, and triple glazing is worth it on a north-facing slope.'],
     ['q' => 'What does Building Control actually check?', 'a' => 'Inspections at key stages: the steels going in, insulation, fire stopping, and a final visit before sign-off. They check the roof reaches a 0.15 W/m²K U-value, walls and floors 0.18, the escape window, interlinked mains-powered smoke alarms on every floor, and the stair geometry. You get a completion certificate at the end — you will need it when you sell.'],
-    ['q' => 'Will the new staircase fit?', 'a' => 'Almost always, and it is a design question rather than a structural one. The rules: maximum 42° pitch, 1.9m headroom at the centre of the flight and 1.8m at the edges under a slope. We show the landing and stair position on your CAD drawing so you can see what it takes off the floor below before committing.'],
+    ['q' => 'Will the new staircase fit?', 'a' => 'Almost always, and it is a design question rather than a structural one. The rules: maximum 42° pitch, 1.9m headroom at the centre of the flight and 1.8m at the edges under a slope. We show the landing and stair position in your proposed design so you can see what it takes off the floor below before committing.'],
     ['q' => 'What fire protection is needed?', 'a' => 'A loft room makes a two-storey house into three storeys, so the stairwell becomes a protected escape route. In practice that means fire-rated doors to habitable rooms off the stairwell, 30-minute protection to the stair enclosure, and interlinked mains-powered smoke alarms on every level. All of it is inside your fixed price.'],
     ['q' => 'Warm roof or cold roof insulation?', 'a' => 'Cold roof puts insulation between the rafters and keeps the ceiling line high — the usual choice when headroom is tight. Warm roof puts it above the rafters, performs better and avoids cold bridging, but costs a little of your height. We recommend one or the other after measuring, not before.'],
-    ['q' => 'Can I add a bathroom to a Velux conversion?', 'a' => 'Yes, though it is easier if the new room sits near the existing soil stack. Where it does not, a macerator moves waste to the main stack. Mechanical ventilation is required either way. It is the biggest single cost step — budget £6,500 to £12,000 — and it can always be added later.'],
+    ['q' => 'Can I add a bathroom to a Velux conversion?', 'a' => 'Yes, though it is easier if the new room sits near the existing soil stack. Where it does not, a macerator moves waste to the main stack. Mechanical ventilation is required either way. It is the biggest single cost step — budget £5,000 to £6,000 — and it can always be added later.'],
     ['q' => 'How much value does it add?', 'a' => 'A loft conversion typically adds 15% to 20% to a property value, and a rooflight conversion is the cheapest route to it. An extra bedroom with a shower room is the single highest-value addition for most North West houses, and the conversion normally costs less than the uplift.'],
-    ['q' => 'Will noise carry to the room below?', 'a' => 'Not if it is built properly. Acoustic insulation between the new floor joists and resilient bars under the plasterboard stop most of it — Part E of the regulations sets the standard. It is included in our specification rather than sold as an upgrade.'],
-    ['q' => 'Can I live in the house during the work?', 'a' => 'Yes, and nearly everyone does. Access is through a scaffold and rear hoist for most of the three weeks, so material never comes through the house. The stairwell is only cut through late in the build, and there is one noisy day when the steels land.']
+    ['q' => 'Can I live in the house during the work?', 'a' => 'Yes, and nearly everyone does. Access is through a scaffold and rear hoist for most of the 6 to 8 weeks, so material never comes through the house. The stairwell is only cut through late in the build, and there is one noisy day when the steels land.']
 ];
 
 include 'includes/header.php';
@@ -113,13 +108,12 @@ include 'includes/header.php';
             </span>
           </div>
           <h1 id="v-h" class="heading-h1" style="font-size:clamp(34px,5.4vw,56px);letter-spacing:-.025em;margin:0">Velux Loft Conversions</h1>
-          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">The roof line never changes, so there is rarely a planning question and the build is short.</p>
-          <p class="lead-text" style="max-width:46ch">Every Velux loft conversion works within your existing roof structure. The right choice when your ridge height is already generous (minimum 2.2m). Our team provides fixed-price conversions with drawings you keep across the North West.</p>
+          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 24px;letter-spacing:-.015em">The roof line never changes, so there is rarely a planning question and the build is short.</p>
           
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">3 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">6–8 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fastest build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -147,7 +141,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 16px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B">
-            <span>No obligation</span><span>•</span><span>Free CAD design</span><span>•</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>•</span><span>Guaranteed Fixed Quote</span><span>•</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -191,7 +185,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11px;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11px;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -215,7 +209,7 @@ include 'includes/header.php';
             <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0">Velux conversions we've finished</h2>
           </div>
           <div class="gallery-header-meta" style="display:flex;align-items:center;gap:12px">
-            <span style="font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B">8 of 400+ projects</span>
+            <span style="font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B"><?php echo count($galleryImages); ?> of 400+ projects</span>
             <div class="velux-gal-nav" style="display:none;align-items:center;gap:8px">
               <button type="button" class="velux-gal-prev" aria-label="Previous gallery image">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
@@ -239,7 +233,7 @@ include 'includes/header.php';
       <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:start">
         <div>
           <span class="section-label">Process notes</span>
-          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What three weeks actually looks like</h2>
+          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 6 to 8 weeks actually looks like</h2>
           <ol style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
             <?php foreach ($timeline as $t): ?>
               <li style="display:flex;gap:16px;align-items:baseline;padding-bottom:14px;border-bottom:1px solid #DCDCD6">
@@ -279,7 +273,7 @@ include 'includes/header.php';
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
               <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£24,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 18–22 m² rooflight conversion, three weeks on site.</span>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical rooflight conversion, 6 to 8 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>
@@ -366,7 +360,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">We'll measure the ridge <em style="font-style:italic">before</em> you commit to anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If a Velux won't work on your roof we'll say so, and show you what will. Forty-five minutes, a CAD drawing you keep, one fixed price.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If a Velux won't work on your roof we'll say so, and show you what will. Forty-five minutes, expert layout advice, one fixed price.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -389,7 +383,7 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
                 <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -403,7 +397,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

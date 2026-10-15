@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Wrap Around Loft Conversions Fixed-Price Survey & CAD Design — Another Level";
-$pageDesc = "Wrap around loft conversions Fixed-Price Survey & CAD Design finished in about six weeks. Hip-to-gable and rear dormer combined — the largest conversion available.";
+$pageTitle = "Wrap Around Loft Conversions Guaranteed Fixed Price — Another Level";
+$pageDesc = "Wrap around loft conversions Guaranteed Fixed Price finished in about six weeks. Hip-to-gable and rear dormer combined — the largest conversion available.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -22,7 +22,7 @@ $schemaJson = json_encode([
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
-    ['value' => 'Fixed-Price Survey & CAD Design', 'label' => 'Fixed price'],
+    ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
     ['value' => '6 weeks', 'label' => 'On site'],
     ['value' => '40–46 m²', 'label' => 'Floor area added']
 ];
@@ -67,7 +67,7 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'En-suite shower room', 'price' => '+ £6,500 – £12,000', 'note' => 'On a wrap around most customers take one. Cheaper near the existing soil stack.'],
+    ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'On a wrap around most customers take one. Cheaper near the existing soil stack.'],
     ['name' => 'Full bathroom instead of a shower room', 'price' => '+ Quoted per spec', 'note' => 'A bath needs extra floor loading and more plumbing than a shower room.'],
     ['name' => 'Planning application', 'price' => '+ Quoted per spec', 'note' => 'Where the design exceeds your volume allowance. Drawings, fees and submission handled by us.'],
     ['name' => 'Juliet balcony or French doors', 'price' => '+ £2,500 – £5,000', 'note' => 'Almost always turns the scheme into a planning application.'],
@@ -77,7 +77,7 @@ $addOns = [
 $faqs = [
     ['q' => 'Will a wrap around need planning permission?', 'a' => 'More often than the other types. Combining a hip-to-gable with a rear dormer frequently uses the whole 50m³ permitted development allowance, and anything beyond it needs a full application. Where the design stays inside the limit, sits 200mm back from the eaves and does not exceed the ridge, it can still be permitted development. We calculate the volume exactly at the survey and tell you which route you are on before you commit.'],
     ['q' => 'How much space does it actually create?', 'a' => 'Typically 40 to 46 m² — comfortably two bedrooms and a bathroom, or a master suite with a dressing area and a second room. It is the only conversion type that regularly delivers a genuine second-floor layout rather than one big room.'],
-    ['q' => 'Which houses suit it?', 'a' => 'Semis, detached houses and end-terraces with a hipped roof and a rear slope worth building into. A mid-terrace has no hip, so a rear dormer alone is the option there. Bungalows with a shallow pitch usually need a roof-lift instead.'],
+    ['q' => 'Which houses suit it?', 'a' => 'Semis, detached houses and end-terraces with a hipped roof and a rear slope worth building into. A mid-terrace has no hip, so a rear dormer alone is the option there. Bungalows with a shallow pitch are assessed for dormer feasibility.'],
     ['q' => 'Is six weeks realistic?', 'a' => 'Yes, and we would rather quote six honestly than four optimistically. Weeks one and two are structure — hip down, gable up, steels in. Weeks three and four are the dormer and making everything watertight. Weeks five and six are staircase, plaster and finishing.'],
     ['q' => 'How disruptive is it compared with a smaller conversion?', 'a' => 'More, and it is fair to plan for that. Two elevations are open at different points, the scaffold is up longer, and there are perhaps four genuinely noisy days rather than two. Access is still through the scaffold and rear hoist, the loft stays sealed off, and almost everyone stays in the house throughout.'],
     ['q' => 'Do I need to tell my neighbours?', 'a' => 'Yes. Building off or cutting into a party wall triggers the Party Wall Act — notice at least two months before work starts. On a wrap around both the gable and the dormer can touch the shared boundary, so we prepare the notices with the structural drawings.'],
@@ -119,7 +119,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£48,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£50,000+</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -143,7 +143,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B">
-            <span>No obligation</span><span>•</span><span>Free CAD design</span><span>•</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>•</span><span>Guaranteed Fixed Quote</span><span>•</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -187,7 +187,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -265,17 +265,17 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
           <div style="flex:1 1 420px">
             <span class="section-label-light">Pricing</span>
-            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £48,000 includes &mdash; and what pushes it up</h2>
+            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £50,000 includes &mdash; and what pushes it up</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Wrap around conversions run £45,000–£75,000 across the UK in 2026 for around 45 m². North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Wrap around conversions run £50,000–£75,000+ across the UK in 2026 for around 45 m². North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£48,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 40–46 m² wrap around conversion, six weeks on site.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£50,000+</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 40–46 m² wrap around conversion, ten to twelve weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>
@@ -362,7 +362,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">We'll measure your volume allowance <em style="font-style:italic">before</em> you commit to anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If your roof cannot take a full wrap around we will say so and show you what it can take. Forty-five minutes, a CAD drawing you keep, one fixed price.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">If your roof cannot take a full wrap around we will say so and show you what it can take. Forty-five minutes, expert layout advice, one fixed price.</p>
           <div class="cta-btn-group" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
             <a href="#booking" data-open-booking class="btn-dark hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white hero-btn">
@@ -385,7 +385,7 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;font-weight:700;flex:0 0 26px;padding-top:2px">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
                 <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -399,7 +399,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

@@ -59,7 +59,7 @@ if (!isset($widgetHeading)) {
               </svg>
             </div>
             <div style="font-size:14px;font-weight:600;margin-top:12px">Bungalow</div>
-            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:4px">Roof-lift option</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:4px">Dormer &amp; Velux</div>
           </button>
         </div>
         <div class="form-error"></div>

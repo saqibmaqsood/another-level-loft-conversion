@@ -5,8 +5,7 @@ $footerTypes = [
     ['label' => 'Rear Dormer', 'href' => 'rear-dormer-conversion.php'],
     ['label' => 'Hip-to-Gable', 'href' => 'hip-to-gable-conversion.php'],
     ['label' => 'Hip-End Dormer', 'href' => 'hip-end-dormer-conversion.php'],
-    ['label' => 'Wrap Around', 'href' => 'wrap-around-conversion.php'],
-    ['label' => 'Roof-Lift', 'href' => 'roof-lift-conversion.php']
+    ['label' => 'Wrap Around', 'href' => 'wrap-around-conversion.php']
 ];
 
 $footerProperties = [
@@ -21,9 +20,9 @@ $footerAreas = [
     ['label' => 'Bolton', 'href' => 'loft-conversions-in-bolton.php'],
     ['label' => 'Manchester', 'href' => 'loft-conversions-in-manchester.php'],
     ['label' => 'Preston', 'href' => 'loft-conversions-in-preston.php'],
-    ['label' => 'Stockport', 'href' => 'loft-conversions-in-stockport.php'],
+    ['label' => 'Bury', 'href' => 'loft-conversions-in-bury.php'],
     ['label' => 'Warrington', 'href' => 'loft-conversions-in-warrington.php'],
-    ['label' => 'All 41 areas', 'href' => 'index.php#areas']
+    ['label' => 'All 39 areas', 'href' => 'index.php#areas']
 ];
 
 $badges = ['VELUX Certified', 'Gas Safe', 'NIC EIC', 'Checkatrade'];

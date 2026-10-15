@@ -32,7 +32,7 @@ $galleryProjects = [
     ],
     [
         'type' => 'Wrap Around', 'town' => 'Sale', 'title' => 'Full-width master suite across the roof.',
-        'weeks' => '6 weeks', 'area' => '44 m²', 'property' => 'Semi-detached', 'price' => '£48,000',
+        'weeks' => '11 weeks', 'area' => '44 m²', 'property' => 'Semi-detached', 'price' => '£52,000',
         'body' => 'Hip-to-gable plus a rear dormer, so the floor plate runs the full footprint of the house. Dressing area, en-suite, and a window seat over the garden.'
     ],
     [
@@ -46,9 +46,9 @@ $galleryProjects = [
         'body' => 'A conservation-sensitive street, so the dormer was clad in hanging tiles taken from the same range as the roof. From the pavement you have to look twice.'
     ],
     [
-        'type' => 'Roof-Lift', 'town' => 'Bury', 'title' => 'A 1960s bungalow that gained a first floor.',
-        'weeks' => '8 weeks', 'area' => '52 m²', 'property' => 'Bungalow', 'price' => 'On survey',
-        'body' => 'Original loft was 2.1m. The roof came off in a day, the walls went up, and the new roof went back 900mm higher with two dormers to the front.'
+        'type' => 'Rear Dormer', 'town' => 'Bury', 'title' => 'Spacious rear dormer master bedroom with ensuite.',
+        'weeks' => '8.5 weeks', 'area' => '32 m²', 'property' => 'Semi-detached', 'price' => '£39,000',
+        'body' => 'Full-width rear dormer creating a spacious master suite with ensuite bathroom, built-in storage and maximum natural light.'
     ],
     [
         'type' => 'Velux', 'town' => 'Warrington', 'title' => 'Quiet study over a terraced kitchen.',
@@ -77,7 +77,7 @@ $galleryProjects = [
     ]
 ];
 
-$filterTypes = ['All', 'Velux', 'Rear Dormer', 'Hip-to-Gable', 'Hip-End Dormer', 'Wrap Around', 'Roof-Lift'];
+$filterTypes = ['All', 'Velux', 'Rear Dormer', 'Hip-to-Gable', 'Hip-End Dormer', 'Wrap Around'];
 
 include 'includes/header.php';
 ?>
@@ -129,11 +129,11 @@ include 'includes/header.php';
             </span>
             <span style="display:inline-flex;align-items:center;gap:6px">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              10-Year Written Guarantee
+              6-Year Written Guarantee
             </span>
             <span style="display:inline-flex;align-items:center;gap:6px">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              £0 Upfront Deposit
+              Guaranteed Fixed Price
             </span>
           </div>
         </div>
@@ -154,8 +154,8 @@ include 'includes/header.php';
           </div>
 
           <div class="gallery-metric-card">
-            <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">3–6</span>
-            <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Weeks on Site</span>
+            <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">6–8</span>
+            <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Weeks to Completion</span>
             <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">Dedicated single crew</span>
           </div>
 
@@ -330,7 +330,7 @@ include 'includes/header.php';
               <span style="letter-spacing:.16em;font-size:13px;color:#6B8E5A">★★★★★</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Wrap around</span>
             </div>
-            <blockquote class="testimonial-quote">The CAD drawing sold it to my husband. Seeing the staircase landing made the whole thing real.</blockquote>
+            <blockquote class="testimonial-quote">The design advice sold it to my husband. Seeing the staircase landing layout made the whole thing real.</blockquote>
             <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
               <span class="testimonial-avatar">E</span>
               <span style="display:flex;flex-direction:column;line-height:1.35">
@@ -343,9 +343,9 @@ include 'includes/header.php';
           <figure class="testimonial-card accent">
             <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
               <span style="letter-spacing:.16em;font-size:13px;color:#6B8E5A">★★★★★</span>
-              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Roof-lift</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Rear dormer</span>
             </div>
-            <blockquote class="testimonial-quote">Our loft was 2.1m so I assumed it was a no. They dropped the landing ceiling and it works beautifully.</blockquote>
+            <blockquote class="testimonial-quote">Our ridge height was right on 2.2m so we were worried about headroom. Their rear dormer design gave us full standing height throughout.</blockquote>
             <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
               <span class="testimonial-avatar">J</span>
               <span style="display:flex;flex-direction:column;line-height:1.35">
@@ -419,7 +419,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Meet the surveyor before you decide anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, a CAD drawing you keep, one fixed price. Say no afterwards and it has cost you nothing.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -442,8 +442,8 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
             </li>
@@ -456,7 +456,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, and your fixed-price quote stands whatever you decide.</p>
         </div>
       </div>
     </section>

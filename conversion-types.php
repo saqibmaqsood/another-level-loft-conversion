@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Loft Conversion Types Compared — Another Level";
-$pageDesc = "All six loft conversion types compared: Velux, rear dormer, hip-to-gable, hip-end dormer, wrap around and roof-lift. Free survey & CAD design across the North West.";
+$pageDesc = "All five loft conversion types compared: Velux, rear dormer, hip-to-gable, hip-end dormer and wrap around. Free survey & fixed quote across the North West.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -13,18 +13,17 @@ $schemaJson = json_encode([
         ["@type" => "ListItem", "position" => 2, "name" => "Rear dormer loft conversion", "url" => "/rear-dormer-conversion.php"],
         ["@type" => "ListItem", "position" => 3, "name" => "Hip-to-gable loft conversion", "url" => "/hip-to-gable-conversion.php"],
         ["@type" => "ListItem", "position" => 4, "name" => "Hip-end dormer loft conversion", "url" => "/hip-end-dormer-conversion.php"],
-        ["@type" => "ListItem", "position" => 5, "name" => "Wrap around loft conversion", "url" => "/wrap-around-conversion.php"],
-        ["@type" => "ListItem", "position" => 6, "name" => "Roof-lift loft conversion", "url" => "/roof-lift-conversion.php"]
+        ["@type" => "ListItem", "position" => 5, "name" => "Wrap around loft conversion", "url" => "/wrap-around-conversion.php"]
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $comparisonRows = [
     [
-        'name' => 'Velux', 'price' => '3 weeks on site', 'weeks' => '3 weeks', 'area' => '18–22 m²',
+        'name' => 'Velux', 'price' => '6–8 weeks on site', 'weeks' => '6–8 weeks', 'area' => 'Existing footprint',
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Lofts that already have 2.2m of headroom', 'href' => 'velux-conversion.php'
     ],
     [
-        'name' => 'Rear Dormer', 'price' => '4 weeks on site', 'weeks' => '4 weeks', 'area' => '28–32 m²',
+        'name' => 'Rear Dormer', 'price' => '8–10 weeks on site', 'weeks' => '8–10 weeks', 'area' => '28–32 m²',
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Terraces and semis wanting maximum floor area', 'href' => 'rear-dormer-conversion.php'
     ],
     [
@@ -38,29 +37,25 @@ $comparisonRows = [
     [
         'name' => 'Wrap Around', 'price' => '6 weeks on site', 'weeks' => '6 weeks', 'area' => '40–46 m²',
         'planning' => 'Often needed', 'ok' => false, 'suits' => 'Semis and detached needing two rooms plus a bathroom', 'href' => 'wrap-around-conversion.php'
-    ],
-    [
-        'name' => 'Roof-Lift', 'price' => 'Custom build', 'weeks' => '6–8 weeks', 'area' => 'Full floor',
-        'planning' => 'Always needed', 'ok' => false, 'suits' => 'Bungalows and lofts under 2.2m of headroom', 'href' => 'roof-lift-conversion.php'
     ]
 ];
 
 $detailedTypes = [
     [
-        'num' => '01', 'name' => 'Velux', 'price' => '3 weeks on site', 'href' => 'velux-conversion.php',
+        'num' => '01', 'name' => 'Velux', 'price' => '6–8 weeks on site', 'href' => 'velux-conversion.php',
         'glyph' => 'M6 30V15L24 4l18 11v15zM17 12l6 4M15 15l6 4',
-        'meta' => '3 weeks · 18–22 m²',
+        'meta' => '6–8 weeks on site',
         'body' => 'Rooflights are cut into the existing roof slope and nothing else about the roof changes. It is the cheapest and quickest conversion, and because the profile stays as it is, planning permission is rarely a question.',
         'points' => [
-            'Needs 2.2m from the joists to the underside of the ridge — 2.4m on modern trusses',
+            'Needs 2.2m from the joists to the underside of the ridge — 2.2m on modern trusses',
             'You keep the sloping eaves, so usable floor area is roughly half a dormer’s',
             'Almost always permitted development, even in most conservation areas'
         ]
     ],
     [
-        'num' => '02', 'name' => 'Rear Dormer', 'price' => '4 weeks on site', 'href' => 'rear-dormer-conversion.php',
+        'num' => '02', 'name' => 'Rear Dormer', 'price' => '8–10 weeks on site', 'href' => 'rear-dormer-conversion.php',
         'glyph' => 'M6 30V15L24 4l18 11v15zM16 30v-12h16v12M16 18h16',
-        'meta' => '4 weeks · 28–32 m²',
+        'meta' => '8–10 weeks · 28–32 m²',
         'body' => 'A flat-roof box built out across the rear slope. It gives more usable floor area than any other single-elevation option, with straight walls and full standing height where a rooflight room would have eaves.',
         'points' => [
             'The default choice for a mid-terrace, which has no hip to square off',
@@ -98,18 +93,7 @@ $detailedTypes = [
         'points' => [
             'Around 40–46 m² — comfortably two bedrooms and a bathroom',
             'Usually consumes the whole 50m³ allowance, so planning is more likely',
-            'Six weeks on site, and the most technical build of the six'
-        ]
-    ],
-    [
-        'num' => '06', 'name' => 'Roof-Lift', 'price' => '6–8 weeks on site', 'href' => 'roof-lift-conversion.php',
-        'glyph' => 'M6 30V18L24 7l18 11v12zM24 3v6M20 6l4-4 4 4',
-        'meta' => '6–8 weeks · full floor',
-        'body' => 'The existing roof is removed and rebuilt higher or at a steeper pitch, creating headroom where there was none. It is the answer for bungalows, chalets and shallow-pitch houses that cannot otherwise be converted.',
-        'points' => [
-            'Needs full planning permission — raising the ridge is never permitted development',
-            'A temporary weatherproof scaffold roof covers the house throughout',
-            'Always priced against a ceiling drop first, which is often the cheaper fix'
+            'Six weeks on site, and the most technical build of the five'
         ]
     ]
 ];
@@ -134,22 +118,22 @@ include 'includes/header.php';
             <span style="color:#D4D4CC;font-size:12px">•</span>
             <span style="font-family:var(--font-sans);display:inline-flex;align-items:center;gap:6px;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 10px;border-radius:14px;color:#3E5C32;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase">
               <span style="width:5px;height:5px;border-radius:50%;background:#6B8E5A;display:inline-block"></span>
-              All 6 Types Compared
+              All 5 Types Compared
             </span>
           </div>
 
           <h1 id="c-h" class="heading-h1" style="font-size:clamp(34px,5.4vw,56px);letter-spacing:-.025em;margin:0">Loft Conversion Types</h1>
-          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Six ways up. Your roof rules out four of them.</p>
-          <p class="lead-text" style="max-width:46ch">Every loft conversion is one of these six. Which ones are actually available to you comes down to your ridge height, whether your roof has a hip, and how much permitted development volume you have left. Our team provides fixed-price conversions across the North West.</p>
+          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Five ways up. Your roof rules out three of them.</p>
+          <p class="lead-text" style="max-width:46ch">Every standard loft conversion is one of these five. Which ones are actually available to you comes down to your ridge height, whether your roof has a hip, and how much permitted development volume you have left. Our team provides fixed-price conversions across the North West.</p>
           
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">3 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">6–8 Weeks</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:#6B6B6B">Fastest build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">6 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">10–12 Weeks</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:#6B6B6B">Largest build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -173,7 +157,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:500;color:#6B6B6B">
-            <span>No obligation</span><span>&middot;</span><span>Free CAD design</span><span>&middot;</span><span>400+ finished lofts</span>
+            <span>No obligation</span><span>&middot;</span><span>Guaranteed fixed quote</span><span>&middot;</span><span>400+ finished lofts</span>
           </div>
         </div>
 
@@ -217,7 +201,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Dormer &amp; Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -396,7 +380,7 @@ include 'includes/header.php';
                 <span style="width:6px;height:6px;border-radius:50%;background:#6B8E5A"></span>
               </div>
               <h3 style="font-family:Newsreader,Georgia,serif;font-size:22px;line-height:1.2;color:#FFFFFF;font-weight:400;margin:0 0 10px">How tall is your loft?</h3>
-              <p style="font-size:14.5px;line-height:1.6;color:#B8B8B0;margin:0">Measure from the ceiling joists to the underside of the ridge. Under 2.2m and only a roof-lift or a ceiling drop will work; over it, everything is open.</p>
+              <p style="font-size:14.5px;line-height:1.6;color:#B8B8B0;margin:0">Measure from the ceiling joists to the underside of the ridge. A minimum 2.2m is required; over 2.2m, everything is open.</p>
             </div>
             <div style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#A8B79E;padding-top:12px;border-top:1px solid #2E2E2A">The one that needs a tape measure</div>
           </div>
@@ -517,7 +501,7 @@ include 'includes/header.php';
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
               <span style="color:#4F6B42">On survey</span>
               <span style="color:#8A8A82">•</span>
-              <span style="color:#6B6B6B">Roof-lift</span>
+              <span style="color:#6B6B6B">Dormer &amp; Velux</span>
             </div>
           </a>
         </div>
@@ -548,7 +532,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">We name the type your roof <em style="font-style:italic">can</em> take.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Not the most expensive one. Forty-five minutes, a CAD drawing you keep, one fixed price.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Not the most expensive one. Forty-five minutes, expert layout advice, one fixed price.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -571,8 +555,8 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
             </li>
@@ -585,7 +569,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

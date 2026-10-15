@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Loft Conversions in Horwich — Another Level";
-$pageDesc = "Loft conversions in Horwich. Fixed price, free survey, free CAD design. Velux, dormer and hip-to-gable conversions across BL6.";
+$pageDesc = "Loft conversions in Horwich. Fixed price, free survey, guaranteed quote. Velux, dormer and hip-to-gable conversions across BL6.";
 $activePage = "contact";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -42,11 +42,11 @@ $faqs = [
     ['q' => 'Do Horwich conversions need planning permission?', 'a' => 'Most conversions in BL6 are Permitted Development. Properties in Horwich Town Centre and Wallsuches conservation areas require full planning applications with Bolton Council.'],
     ['q' => 'Can older stone cottages in Horwich be converted?', 'a' => 'Yes. Stone cottages often have thick load-bearing walls and steep pitches that convert into characterful bedrooms with exposed timbers.'],
     ['q' => 'What conversion style works best on Horwich semis?', 'a' => 'Hip-to-gable dormers provide maximum floor area and headroom on semi-detached houses along Chorley New Road.'],
-    ['q' => 'How long does construction take in Horwich?', 'a' => 'Velux conversions take 3 weeks; dormers take 4 weeks on site.'],
+    ['q' => 'How long does construction take in Horwich?', 'a' => 'Velux conversions take 4 to 6 weeks; dormers take 8 to 10 weeks on site.'],
     ['q' => 'How do you handle fire regulations for high cottages?', 'a' => 'We install interlinked mains smoke alarms, 30-minute fire doors, and protected escape routes to satisfy Building Regulations Part B.'],
     ['q' => 'How quickly can you survey my home in BL6?', 'a' => 'Our surveyor is in Horwich, Westhoughton, and Bolton several days a week, offering survey appointments within 5 days.'],
     ['q' => 'Is heating included in the loft design?', 'a' => 'Yes, our Gas Safe engineers extend your central heating with new radiators or underfloor heating.'],
-    ['q' => 'What guarantees are provided?', 'a' => 'A 10-year structural warranty and full Building Control completion certificates.'],
+    ['q' => 'What guarantees are provided?', 'a' => 'A 6-year structural warranty and full Building Control completion certificates.'],
 ];
 
 $nearby = ['Bolton', 'Westhoughton', 'Chorley', 'Wigan', 'Standish'];
@@ -86,7 +86,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 20px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B6B">
-            <span><?php echo $projectCount; ?> projects in <?php echo $city; ?></span><span>Checkatrade member</span><span>Free CAD design</span>
+            <span><?php echo $projectCount; ?> projects in <?php echo $city; ?></span><span>Checkatrade member</span><span>Guaranteed quote</span>
           </div>
         </div>
 
@@ -130,7 +130,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -140,7 +140,7 @@ include 'includes/header.php';
               <button type="button" id="cityHeroContinue" class="btn-primary" style="width:100%">Continue</button>
               <div id="cityHeroError" style="font-size:13px;color:#B4423A;margin-top:10px;min-height:18px"></div>
               <div style="display:flex;flex-wrap:wrap;gap:6px 16px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:auto;padding-top:12px">
-                <span>No obligation</span><span>Free CAD design</span><span><?php echo $projectCount; ?> in <?php echo $city; ?></span>
+                <span>No obligation</span><span>Guaranteed quote</span><span><?php echo $projectCount; ?> in <?php echo $city; ?></span>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ include 'includes/header.php';
         <div>
           <span class="section-label-subtle"><?php echo $postcodes; ?></span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">The surveyor is already in <?php echo $city; ?> this week.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:40ch">Forty-five minutes, a CAD drawing you keep, one fixed written price. Nothing to pay whatever you decide afterwards.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:40ch">Forty-five minutes, expert layout advice, one fixed written price. Nothing to pay whatever you decide afterwards.</p>
           <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:<?php echo preg_replace('/[^0-9]/', '', $localPhone); ?>" class="btn-outline-white">
@@ -279,7 +279,7 @@ include 'includes/header.php';
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
               <span style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(24px,2.6vw,30px);line-height:1;letter-spacing:-.02em;color:#1A1A1A">5 Days</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B8E5A">To Survey</span>
-              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Typical wait for a slot, evenings included.</span>
+              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Typical wait for a survey appointment.</span>
             </div>
 
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
@@ -291,7 +291,7 @@ include 'includes/header.php';
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
               <span style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(24px,2.6vw,30px);line-height:1;letter-spacing:-.02em;color:#1A1A1A">£0</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B8E5A">Cost To You</span>
-              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Survey, 3D CAD drawing and fixed quote.</span>
+              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Survey, layout advice and fixed quote.</span>
             </div>
           </div>
 

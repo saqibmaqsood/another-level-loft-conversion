@@ -48,7 +48,7 @@ include 'includes/header.php';
             We use your data solely to:
           </p>
           <ul style="margin:8px 0 0 20px;padding:0">
-            <li>Schedule and conduct your free 45-minute home survey &amp; 3D CAD design consultation.</li>
+            <li>Schedule and conduct your free 45-minute home survey &amp; feasibility consultation.</li>
             <li>Prepare your itemized fixed-price quotation.</li>
             <li>Submit statutory Building Control and Planning applications when instructed.</li>
             <li>We do not sell, rent, or trade your personal data to third parties for marketing purposes.</li>

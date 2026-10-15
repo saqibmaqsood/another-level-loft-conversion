@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "About Another Level Loft Conversions — 18 Years in North West";
-$pageDesc = "Eighteen years converting lofts across Preston, Manchester, Lancashire and Cheshire. 400+ finished projects, in-house team, fixed prices, free CAD design.";
+$pageDesc = "Eighteen years converting lofts across Preston, Manchester, Lancashire and Cheshire. 400+ finished projects, in-house team, guaranteed fixed prices.";
 $activePage = "about";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -82,7 +82,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--font-sans);font-size:13px;font-weight:500;color:#6B6B6B">
-            <span>No obligation</span><span>&middot;</span><span>Free CAD design</span><span>&middot;</span><span>One fixed price</span>
+            <span>No obligation</span><span>&middot;</span><span>Guaranteed fixed quote</span><span>&middot;</span><span>One fixed price</span>
           </div>
         </div>
 
@@ -156,7 +156,7 @@ include 'includes/header.php';
               </div>
 
               <p style="margin:0;text-wrap:pretty">Over the last 18 years we’ve perfected every detail — from calculating complex RSJ structural steel placements and fitting compliant staircases to crafting weatherproof dormers and handling all local authority approvals.</p>
-              <p style="margin:0;text-wrap:pretty">Today, the team operates out of Old Docks House in Preston, covering 41 towns across Lancashire, Greater Manchester, and Cheshire. We maintain dedicated in-house build crews, our own CAD architectural studio, structural engineers on call, and a surveyor who visits your home personally.</p>
+              <p style="margin:0;text-wrap:pretty">Today, the team operates out of Old Docks House in Preston, covering 41 towns across Lancashire, Greater Manchester, and Cheshire. We maintain dedicated in-house build crews, architectural survey specialists, structural engineers on call, and a surveyor who visits your home personally.</p>
             </div>
           </div>
 
@@ -206,7 +206,7 @@ include 'includes/header.php';
                 </div>
                 <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid #EDEDE8">
                   <dt style="font-family:var(--font-sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6B6B6B;font-weight:600">Guarantee</dt>
-                  <dd style="margin:0;font-size:13px;font-weight:700;text-align:right;color:#3E5C32">10-Year Written Guarantee</dd>
+                  <dd style="margin:0;font-size:13px;font-weight:700;text-align:right;color:#3E5C32">6-Year Written Guarantee</dd>
                 </div>
               </dl>
               <div style="display:flex;gap:10px;margin-top:4px">
@@ -242,8 +242,8 @@ include 'includes/header.php';
               <span class="milestone-year-badge">2019</span>
               <span class="milestone-phase-label">Technology</span>
             </div>
-            <h3 class="milestone-title">In-house CAD Studio</h3>
-            <p class="milestone-desc">Instant bespoke 3D CAD drawings for every survey.</p>
+            <h3 class="milestone-title">Architectural Planning</h3>
+            <p class="milestone-desc">Bespoke technical drawings and building control compliance.</p>
           </div>
 
           <div class="milestone-card active-today">
@@ -369,7 +369,7 @@ include 'includes/header.php';
         <div class="accred-left-col">
           <span class="section-label">Accreditations &amp; Security</span>
           <h2 id="acc-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:20ch">Paperwork you can hand straight to a buyer.</h2>
-          <p style="font-size:16px;line-height:1.7;color:#4A4A45;margin:0 0 24px;max-width:48ch;text-wrap:pretty">Every conversion leaves with a building control completion certificate, structural calculations pack, and our 10-year written guarantee. Keep them in your house deeds file &mdash; a surveyor will ask for them when you eventually sell.</p>
+          <p style="font-size:16px;line-height:1.7;color:#4A4A45;margin:0 0 24px;max-width:48ch;text-wrap:pretty">Every conversion leaves with a building control completion certificate, structural calculations pack, and our 6-year written guarantee. Keep them in your house deeds file &mdash; a surveyor will ask for them when you eventually sell.</p>
           
           <!-- Real Accreditation Logos (3 Prominent Cards) -->
           <div class="accred-logos-grid">
@@ -396,7 +396,7 @@ include 'includes/header.php';
           <li class="guarantee-item">
             <span class="guar-num">02</span>
             <span class="guar-content">
-              <span class="guar-title">10-Year Written Structural Warranty</span>
+              <span class="guar-title">6-Year Written Structural Warranty</span>
               <span class="guar-desc">Covers structural timbers, steels, dormer framework, and flat roof membranes.</span>
             </span>
           </li>
@@ -431,7 +431,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Meet the surveyor before you decide anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, a CAD drawing you keep, one fixed price. Say no afterwards and it has cost you nothing.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -454,8 +454,8 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
             </li>
@@ -468,7 +468,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, and your fixed-price quote stands whatever you decide.</p>
         </div>
       </div>
     </section>

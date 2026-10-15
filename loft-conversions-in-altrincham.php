@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Loft Conversions in Altrincham — Another Level";
-$pageDesc = "Loft conversions in Altrincham. Fixed price, free survey, free CAD design. Velux, dormer and hip-to-gable conversions across WA14, WA15.";
+$pageDesc = "Loft conversions in Altrincham. Fixed price, free survey, guaranteed quote. Velux, dormer and hip-to-gable conversions across WA14, WA15.";
 $activePage = "contact";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -43,8 +43,8 @@ $faqs = [
     ['q' => 'What if my property is inside a Trafford conservation area?', 'a' => 'If your home is in a conservation area or subject to an Article 4 direction, a full planning application is required. We prepare all architectural drawings and planning submissions directly with Trafford Planning Department — allow 8 weeks for council decision.'],
     ['q' => 'Do I still need Building Control approval?', 'a' => 'Yes, Building Regulations approval is mandatory for all structural conversions, stairways, insulation (Part L), and fire doors (Part B). We manage full sign-off with Trafford Building Control or approved inspectors, included in your fixed quote.'],
     ['q' => 'Which conversion style works best on Hale and Timperley semis?', 'a' => '1930s hipped-roof semis throughout Timperley and Hale are ideal for hip-to-gable conversions combined with a rear dormer, giving a full standing-height bedroom and en-suite without altering the front street scene.'],
-    ['q' => 'How quickly can you survey my loft in Altrincham?', 'a' => 'Our Manchester surveying team is in WA14/WA15 weekly. We offer free surveys within 5 working days, including evening and Saturday morning appointments.'],
-    ['q' => 'How long does on-site construction take?', 'a' => 'Velux conversions take 3 weeks; standard rear dormers and hip-to-gables take 3.5 to 4 weeks; full wrap around master suites take 5 to 6 weeks on site.'],
+    ['q' => 'How quickly can you survey my loft in Altrincham?', 'a' => 'Our Manchester surveying team is in WA14/WA15 weekly. We offer free surveys within 5 working days, including weekday morning, afternoon, and Saturday appointments.'],
+    ['q' => 'How long does on-site construction take?', 'a' => 'Velux conversions take 4 to 6 weeks; standard rear dormers and hip-to-gables take 8 to 10 weeks; full wrap around master suites take 10 to 12 weeks on site.'],
     ['q' => 'What headroom is required in an Altrincham loft?', 'a' => 'You need a minimum of 2.2m from the top of the ceiling joists to the ridge board. Many older Victorian and Edwardian properties have generous roof pitch, making conversions straightforward.'],
     ['q' => 'Do I need a Party Wall agreement with my neighbour?', 'a' => 'If steel beams rest on a shared party wall or you are building up a shared gable, Party Wall notices are served under the Party Wall Act 1996. We supply template notices and advice at your survey.'],
 ];
@@ -86,7 +86,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px 20px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B6B">
-            <span><?php echo $projectCount; ?> projects in <?php echo $city; ?></span><span>Checkatrade member</span><span>Free CAD design</span>
+            <span><?php echo $projectCount; ?> projects in <?php echo $city; ?></span><span>Checkatrade member</span><span>Guaranteed quote</span>
           </div>
         </div>
 
@@ -130,7 +130,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -140,7 +140,7 @@ include 'includes/header.php';
               <button type="button" id="cityHeroContinue" class="btn-primary" style="width:100%">Continue</button>
               <div id="cityHeroError" style="font-size:13px;color:#B4423A;margin-top:10px;min-height:18px"></div>
               <div style="display:flex;flex-wrap:wrap;gap:6px 16px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:auto;padding-top:12px">
-                <span>No obligation</span><span>Free CAD design</span><span><?php echo $projectCount; ?> in <?php echo $city; ?></span>
+                <span>No obligation</span><span>Guaranteed quote</span><span><?php echo $projectCount; ?> in <?php echo $city; ?></span>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ include 'includes/header.php';
         <div>
           <span class="section-label-subtle"><?php echo $postcodes; ?></span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">The surveyor is already in <?php echo $city; ?> this week.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:40ch">Forty-five minutes, a CAD drawing you keep, one fixed written price. Nothing to pay whatever you decide afterwards.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:40ch">Forty-five minutes, expert layout advice, one fixed written price. Nothing to pay whatever you decide afterwards.</p>
           <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:<?php echo preg_replace('/[^0-9]/', '', $localPhone); ?>" class="btn-outline-white">
@@ -279,7 +279,7 @@ include 'includes/header.php';
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
               <span style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(24px,2.6vw,30px);line-height:1;letter-spacing:-.02em;color:#1A1A1A">5 Days</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B8E5A">To Survey</span>
-              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Typical wait for a slot, evenings included.</span>
+              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Typical wait for a survey appointment.</span>
             </div>
 
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
@@ -291,7 +291,7 @@ include 'includes/header.php';
             <div style="background:#FAFAF8;padding:16px 18px;display:flex;flex-direction:column;gap:4px">
               <span style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(24px,2.6vw,30px);line-height:1;letter-spacing:-.02em;color:#1A1A1A">£0</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B8E5A">Cost To You</span>
-              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Survey, 3D CAD drawing and fixed quote.</span>
+              <span style="font-family:var(--font-sans);font-size:12.5px;line-height:1.5;color:#6B6B6B;margin-top:2px">Survey, layout advice and fixed quote.</span>
             </div>
           </div>
 

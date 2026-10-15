@@ -358,7 +358,7 @@ include 'includes/header.php';
       <div class="cta-banner-content">
         <span class="section-label-subtle">One free visit</span>
         <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Meet the surveyor before you decide anything.</h2>
-        <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, a CAD drawing you keep, one fixed price. Say no afterwards and it has cost you nothing.</p>
+        <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
         <div class="cta-btn-group">
           <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
           <a href="tel:08000862744" class="btn-outline-white">
@@ -381,7 +381,7 @@ include 'includes/header.php';
           <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
             <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
             <span style="display:flex;flex-direction:column;gap:4px">
-              <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+              <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
               <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
             </span>
             <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -395,7 +395,7 @@ include 'includes/header.php';
             <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
           </li>
         </ol>
-        <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+        <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
       </div>
     </div>
   </section>

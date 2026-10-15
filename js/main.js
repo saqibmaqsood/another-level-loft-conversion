@@ -250,7 +250,7 @@ const PROJECTS_DATA = [
     tag: 'Rear dormer · Bolton',
     title: 'Two bedrooms and a bathroom over a 1930s semi.',
     name: 'Bolton semi',
-    before: 'images/another-area-loft-conversions-north-west-england-06.jpeg',
+    before: 'images/loft-space-before-conversion.jpg',
     after: 'images/another-area-loft-conversions-north-west-england-01.jpeg',
     facts: [
       { k: 'Property', v: 'Semi-detached' },
@@ -267,7 +267,7 @@ const PROJECTS_DATA = [
     after: 'images/another-area-loft-conversions-north-west-england-03.jpeg',
     facts: [
       { k: 'Property', v: 'Terrace' },
-      { k: 'On site', v: '3 weeks' },
+      { k: 'On site', v: '6 weeks' },
       { k: 'Floor added', v: '18 m²' },
       { k: 'Guarantee', v: '6 Years' }
     ]

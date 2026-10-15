@@ -71,7 +71,7 @@ include 'includes/header.php';
           <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:8px;padding-top:16px;border-top:1px solid #EAEAE4;font-family:var(--font-sans);font-size:13px;color:#3E5C32;font-weight:600">
             <span style="display:inline-flex;align-items:center;gap:6px">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              Free Survey &amp; 3D CAD Drawing
+              Free Survey &amp; Expert Layout Advice
             </span>
             <span style="display:inline-flex;align-items:center;gap:6px">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
@@ -202,9 +202,9 @@ include 'includes/header.php';
               <span style="width:42px;height:42px;border-radius:8px;background:#FFFFFF;border:1px solid #DFEBD9;display:flex;align-items:center;justify-content:center;color:#4F6B42;margin-bottom:16px">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
               </span>
-              <h3 style="font-family:var(--font-serif);font-size:20px;margin:0 0 8px;color:#1A1A1A;font-weight:400">Book Free 3D Survey</h3>
+              <h3 style="font-family:var(--font-serif);font-size:20px;margin:0 0 8px;color:#1A1A1A;font-weight:400">Book Free Survey</h3>
               <p style="font-family:var(--font-sans);font-size:13.5px;color:#555550;line-height:1.6;margin:0 0 16px">
-                Choose a morning, afternoon, evening, or Saturday appointment in just 90 seconds.
+                Choose a morning, afternoon, or Saturday appointment in just 90 seconds.
               </p>
             </div>
             <a href="#booking" data-open-booking style="font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#4F6B42;text-decoration:none;display:inline-flex;align-items:center;gap:6px">
@@ -247,7 +247,7 @@ include 'includes/header.php';
             </h2>
           </div>
           <p style="max-width:38ch;font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#4A4A45;margin:0">
-            You will receive a written fixed-price proposal and a 3D CAD drawing within a few days of the visit &mdash; 100% free with no deposit required.
+            You will receive a written fixed-price proposal within a few days of the visit &mdash; 100% free with guaranteed fixed pricing.
           </p>
         </div>
         <?php 
@@ -298,7 +298,7 @@ include 'includes/header.php';
               When Our Team Is Available
             </h2>
             <p style="font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#4A4A45;margin:0 0 20px">
-              Our survey team operates across all North West towns during weekdays, evenings, and Saturday mornings to fit around your family schedule.
+              Our survey team operates across all North West towns during weekdays and Saturday mornings to fit around your family schedule.
             </p>
           </div>
 
@@ -317,7 +317,7 @@ include 'includes/header.php';
             </div>
             <div style="display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 0">
               <dt style="font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#2C2C2A">Home Survey Visits</dt>
-              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#3E5C32">Evenings &amp; Weekends by request</dd>
+              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#3E5C32">Weekday &amp; Saturday slots</dd>
             </div>
           </dl>
         </div>
@@ -331,7 +331,7 @@ include 'includes/header.php';
         <div class="cta-banner-content">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Meet the surveyor before you decide anything.</h2>
-          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, a CAD drawing you keep, one fixed price. Say no afterwards and it has cost you nothing.</p>
+          <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white">
@@ -354,7 +354,7 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
                 <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -368,7 +368,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

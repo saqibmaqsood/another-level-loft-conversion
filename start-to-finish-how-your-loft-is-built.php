@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Start To Finish — How Your Loft Conversion Is Built | Another Level";
-$pageDesc = "From initial CAD design and building control approval to steel beams, bespoke stairs and 6-year guarantee sign-off. See our 8-step build process.";
+$pageDesc = "From initial survey and building control approval to steel beams, bespoke stairs and 6-year guarantee sign-off. See our 8-step build process.";
 $activePage = "start-to-finish";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -10,7 +10,7 @@ $schemaJson = json_encode([
     "name" => "How a Loft Conversion Is Built from Start to Finish",
     "description" => "A step-by-step guide to the loft conversion process by Another Level Loft Conversions.",
     "step" => [
-        ["@type" => "HowToStep", "name" => "Initial Survey & Free CAD Design", "text" => "Free home visit to measure headroom, assess roof trusses, and produce 3D CAD drawings."],
+        ["@type" => "HowToStep", "name" => "Initial Survey & Feasibility Check", "text" => "Free home visit to measure headroom, assess roof trusses, and provide expert layout advice with a guaranteed fixed quote."],
         ["@type" => "HowToStep", "name" => "Planning & Building Regulations", "text" => "Full structural engineering calculations and Building Control submissions handled for you."],
         ["@type" => "HowToStep", "name" => "Structural Steel & Floor Joists", "text" => "Steel beams installed above existing ceilings to support independent new floor joists."],
         ["@type" => "HowToStep", "name" => "Roof Work & Dormer Construction", "text" => "Dormer construction with Firestone EPDM rubber roof or Velux rooflight installation."],
@@ -54,7 +54,7 @@ include 'includes/header.php';
         </h1>
         
         <p class="lead-text" style="font-family:var(--font-sans);font-size:16.5px;line-height:1.7;color:#4A4A45;max-width:54ch;margin:0">
-          Have you ever wondered how a loft conversion is actually constructed? We manage every phase in-house &mdash; architectural CAD drawings, structural steels, Building Control inspections, and bespoke joinery. No guesswork, no subcontracted strangers.
+          Have you ever wondered how a loft conversion is actually constructed? We manage every phase in-house &mdash; architectural drawings, structural steels, Building Control inspections, and bespoke joinery. No guesswork, no subcontracted strangers.
         </p>
         
         <div class="hero-actions-row" style="margin-top:4px">
@@ -62,14 +62,14 @@ include 'includes/header.php';
             <span>Book Free Survey</span>
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"></path></svg>
           </a>
-          <a href="guarantee.php" class="btn-secondary hero-btn"><span class="hide-mobile">Read Our </span>10-Year Guarantee</a>
+          <a href="guarantee.php" class="btn-secondary hero-btn"><span class="hide-mobile">Read Our </span>6-Year Guarantee</a>
         </div>
 
         <div class="proc-hero-trust-bullets">
-          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 3–6 Weeks Typical Build</span>
+          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 6–8 Weeks to Completion</span>
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 100% In-House Craftsmen</span>
-          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Zero Deposit Required</span>
-          <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#3E5C32">✓</strong> 10-Year Guarantee</span>
+          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Guaranteed Fixed Price</span>
+          <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#3E5C32">✓</strong> 6-Year Guarantee</span>
         </div>
       </div>
 
@@ -106,7 +106,7 @@ include 'includes/header.php';
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
             </div>
             <div style="font-family:var(--font-sans);font-size:14px;line-height:1.55;color:#4A4A45">
-              <strong style="color:#1A1A1A;font-weight:600;display:block">Zero deposit required</strong>
+              <strong style="color:#1A1A1A;font-weight:600;display:block">Guaranteed fixed price</strong>
               Staged payment schedule tied to verified build milestones.
             </div>
           </li>
@@ -125,7 +125,7 @@ include 'includes/header.php';
         <div style="margin-top:4px;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:12.5px;color:#3E5C32;font-weight:600">
           <span style="display:inline-flex;align-items:center;gap:6px">
             <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
-            10-Year Written Guarantee
+            6-Year Written Guarantee
           </span>
           <a href="guarantee.php" style="color:#4F6B42;text-decoration:none;font-weight:600">Learn more &rarr;</a>
         </div>
@@ -299,7 +299,7 @@ include 'includes/header.php';
           <div style="display:flex;align-items:center;gap:12px">
             <span class="stage-num-badge" style="font-family:var(--font-sans);font-size:13px;font-weight:800;color:#FFFFFF;background:#4F6B42;width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0">01</span>
             <div class="stage-title-wrap">
-              <strong style="font-family:var(--font-sans);font-size:14px;color:#1A1A1A;display:block;font-weight:700">Initial Survey &amp; 3D CAD</strong>
+              <strong style="font-family:var(--font-sans);font-size:14px;color:#1A1A1A;display:block;font-weight:700">Initial Survey &amp; Layout Advice</strong>
               <span class="stage-sub" style="font-family:var(--font-sans);font-size:11.5px;color:#4F6B42;font-weight:500">Days 1–3 &middot; Feasibility &amp; Quote</span>
             </div>
           </div>
@@ -383,7 +383,7 @@ include 'includes/header.php';
           <div style="display:flex;align-items:center;gap:12px">
             <span class="stage-num-badge" style="font-family:var(--font-sans);font-size:13px;font-weight:700;color:#3E5C32;background:#F1F7EE;border:1px solid #DFEBD9;width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0">08</span>
             <div class="stage-title-wrap">
-              <strong style="font-family:var(--font-sans);font-size:14px;color:#1A1A1A;display:block;font-weight:600">2nd Fix, Sign-Off &amp; 10-Yr Warranty</strong>
+              <strong style="font-family:var(--font-sans);font-size:14px;color:#1A1A1A;display:block;font-weight:600">2nd Fix, Sign-Off &amp; 6-Yr Warranty</strong>
               <span class="stage-sub" style="font-family:var(--font-sans);font-size:11.5px;color:#6B6B65;font-weight:500">Handover &middot; Official Completion Cert</span>
             </div>
           </div>
@@ -407,10 +407,10 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;color:#6B6B65">Phase: Survey &amp; Feasibility</span>
             </div>
 
-            <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">Initial Survey, Feasibility Check &amp; Free 3D CAD Design</h3>
+            <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">Initial Survey, Feasibility Check &amp; Fixed Quotation</h3>
             
             <p style="font-family:var(--font-sans);font-size:15.5px;color:#4A4A45;line-height:1.75;margin:0 0 20px;position:relative;z-index:1">
-              Jonny personally visits your property to measure ridge-to-joist headroom, evaluate existing roof trusses or purlins, check chimney breasts, and discuss your desired layout (master bedroom, en-suite bathroom, dressing room, or home office). Within days, you receive bespoke 3D CAD layout drawings and a fixed-price written quotation with no hidden extras.
+              Jonny personally visits your property to measure ridge-to-joist headroom, evaluate existing roof trusses or purlins, check chimney breasts, and discuss your desired layout (master bedroom, en-suite bathroom, dressing room, or home office). Within days, you receive expert layout guidance and a guaranteed fixed-price written quotation with no hidden extras.
             </p>
 
             <div style="border:1px solid #E2E5DF;border-radius:10px;overflow:hidden;margin-bottom:22px;box-shadow:0 3px 12px rgba(0,0,0,0.04)">
@@ -418,9 +418,9 @@ include 'includes/header.php';
             </div>
 
             <div style="background:#FAF9F5;border:1px solid #EDEDE8;border-radius:8px;padding:14px 18px;margin-bottom:20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-family:var(--font-sans);font-size:13px;color:#3E5C32;font-weight:600">
-              <span>✓ Free 3D CAD layout included</span>
+              <span>✓ Expert layout guidance</span>
               <span>✓ Guaranteed fixed-price quote</span>
-              <span>✓ Zero deposit required</span>
+              <span>✓ Dedicated single-project crew</span>
             </div>
 
             <div style="display:flex;justify-content:flex-end;gap:12px;margin-top:10px">
@@ -646,10 +646,10 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;color:#6B6B65">Phase: Final Certification</span>
             </div>
 
-            <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">2nd-Fix Joinery, Final Building Control Sign-Off &amp; 10-Yr Guarantee</h3>
+            <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">2nd-Fix Joinery, Final Building Control Sign-Off &amp; 6-Yr Guarantee</h3>
             
             <p style="font-family:var(--font-sans);font-size:15.5px;color:#4A4A45;line-height:1.75;margin:0 0 20px;position:relative;z-index:1">
-              We install FD30 fire doors, architraves, skirting boards, electrical sockets, switches, and bathroom sanitaryware. The Building Control officer conducts the final walk-through inspection. Once approved, you receive your official <strong>Building Control Completion Certificate</strong> and our <strong>10-Year Written Structural Guarantee</strong>.
+              We install FD30 fire doors, architraves, skirting boards, electrical sockets, switches, and bathroom sanitaryware. The Building Control officer conducts the final walk-through inspection. Once approved, you receive your official <strong>Building Control Completion Certificate</strong> and our <strong>6-Year Written Structural Guarantee</strong>.
             </p>
 
             <div style="border:1px solid #E2E5DF;border-radius:10px;overflow:hidden;margin-bottom:22px;box-shadow:0 3px 12px rgba(0,0,0,0.04)">
@@ -659,7 +659,7 @@ include 'includes/header.php';
             <div style="background:#FAF9F5;border:1px solid #EDEDE8;border-radius:8px;padding:14px 18px;margin-bottom:20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-family:var(--font-sans);font-size:13px;color:#3E5C32;font-weight:600">
               <span>✓ FD30 fire doors &amp; architectural finish</span>
               <span>✓ Official Building Control Completion Certificate</span>
-              <span>✓ 10-Year written structural warranty</span>
+              <span>✓ 6-Year written structural warranty</span>
             </div>
 
             <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px">
@@ -838,7 +838,7 @@ include 'includes/header.php';
             <span style="letter-spacing:.16em;font-size:13px;color:#6B8E5A">★★★★★</span>
             <span style="font-family:var(--font-sans);font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6B6B65">Wrap around</span>
           </div>
-          <blockquote class="testimonial-quote">The CAD drawing sold it to my husband. Seeing the staircase landing made the whole thing real.</blockquote>
+          <blockquote class="testimonial-quote">The staircase design and clear layout advice sold it to my husband. Seeing the landing plan made the whole thing real.</blockquote>
           <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
             <span class="testimonial-avatar">E</span>
             <span style="display:flex;flex-direction:column;line-height:1.35">
@@ -851,9 +851,9 @@ include 'includes/header.php';
         <figure class="testimonial-card accent">
           <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
             <span style="letter-spacing:.16em;font-size:13px;color:#6B8E5A">★★★★★</span>
-            <span style="font-family:var(--font-sans);font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6B6B65">Roof-lift</span>
+            <span style="font-family:var(--font-sans);font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6B6B65">Rear dormer</span>
           </div>
-          <blockquote class="testimonial-quote">Our loft was 2.1m so I assumed it was a no. They dropped the landing ceiling and it works beautifully.</blockquote>
+          <blockquote class="testimonial-quote">Our ridge height was right on 2.2m so we were worried about headroom. Their rear dormer design gave us full standing height throughout.</blockquote>
           <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
             <span class="testimonial-avatar">J</span>
             <span style="display:flex;flex-direction:column;line-height:1.35">
@@ -924,7 +924,7 @@ include 'includes/header.php';
       <div class="cta-banner-content">
         <span class="section-label-subtle">One free visit</span>
         <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Meet the surveyor before you decide anything.</h2>
-        <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, a CAD drawing you keep, one fixed price. Say no afterwards and it has cost you nothing.</p>
+        <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
         <div class="cta-btn-group">
           <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
           <a href="tel:08000862744" class="btn-outline-white">
@@ -947,8 +947,8 @@ include 'includes/header.php';
           <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
             <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
             <span style="display:flex;flex-direction:column;gap:4px">
-              <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-              <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+              <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+              <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Expert layout advice and one guaranteed fixed price.</span>
             </span>
             <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
           </li>
@@ -961,7 +961,7 @@ include 'includes/header.php';
             <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
           </li>
         </ol>
-        <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+        <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No pressure, no obligation, and the advice is yours whatever you decide.</p>
       </div>
     </div>
   </section>

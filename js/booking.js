@@ -200,7 +200,7 @@ class BookingWidget {
 
   isDayFullyBooked(day) {
     if (!day) return false;
-    const slots = ['Morning', 'Afternoon', 'Evening'];
+    const slots = ['Morning', 'Afternoon'];
     return slots.every((s) => this.isSlotBooked(day, s));
   }
 
@@ -218,8 +218,8 @@ class BookingWidget {
         errors.step2 = s.postcodeError || 'This postcode was not found in the UK National database.';
       } else if (!s.address || !s.address.trim()) {
         errors.step2 = 'Please enter your house number & street address to proceed.';
-      } else if (!s.notSure && !s.height.trim()) {
-        errors.step2 = 'Add a rough loft height, or tick "I\u2019m not sure".';
+      } else if (!s.height || !s.height.trim()) {
+        errors.step2 = 'Please enter your approximate loft height (e.g. 2.4m).';
       }
     } else if (s.step === 3) {
       if (!s.day || !s.slot) {
@@ -400,7 +400,7 @@ class BookingWidget {
             ${s.day ? `${s.day} September 2026 &bull; <strong>${s.slot}</strong> slot &bull; ${s.postcode || 'Your property'}` : 'Details confirmed'}
           </p>
           <p style="font-size:14px;line-height:1.65;color:#6B6B6B;margin:0;max-width:44ch">
-            A confirmation email has been dispatched. Our team will call ${s.phone || 'you'} within one working day to confirm entry details. Your free 3D CAD design follows within a few days of the visit.
+            A confirmation email has been dispatched. Our team will call ${s.phone || 'you'} within one working day to confirm entry details. Your fixed written quote follows within a few days of the visit.
           </p>
           <button type="button" class="btn-booking-reset" style="margin-top:26px;background:none;border:none;border-bottom:1px solid #4F6B42;color:#4F6B42;font-size:14px;font-weight:600;padding:0 0 3px;cursor:pointer">Book another survey</button>
         </div>
@@ -459,7 +459,7 @@ class BookingWidget {
                 </svg>
               </div>
               <div style="font-size:14px;font-weight:600;margin-top:12px">Bungalow</div>
-              <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:4px">Roof-lift option</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B;margin-top:4px">Dormer &amp; Velux</div>
             </button>
           </div>
           <div class="form-error">${s.errors.property || ''}</div>
@@ -482,30 +482,19 @@ class BookingWidget {
             <!-- Row 1, Col 2: Loft height -->
             <label class="booking-step2-item-height" style="display:block">
               <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;min-height:22px">
-                <span style="font-size:13px;font-weight:600;letter-spacing:.02em">Loft height</span>
-                <span style="font-size:11px;color:#718096;font-weight:500">Approximate</span>
+                <span style="font-size:13px;font-weight:600;letter-spacing:.02em">Loft height *</span>
+                <span style="font-size:11px;color:#718096;font-weight:500">Min 2.2m floor to ridge</span>
               </div>
-              <input type="text" class="form-input-base input-height" value="${s.height}" ${s.notSure ? 'disabled' : ''} placeholder="e.g. 2.4m" />
+              <input type="text" class="form-input-base input-height" value="${s.height}" placeholder="e.g. 2.4m" required />
             </label>
 
-            <!-- Row 2, Col 1: House number & street address -->
-            <label class="booking-step2-item-address" style="display:block">
+            <!-- Row 2: House number & street address spanning full width -->
+            <label class="booking-step2-item-address" style="display:block;grid-column:1 / -1">
               <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;min-height:22px">
                 <span style="font-size:13px;font-weight:600;letter-spacing:.02em">House number &amp; street address *</span>
               </div>
               <input type="text" class="form-input-base input-address" value="${s.address}" placeholder="e.g. 14 Victoria Road" autocomplete="street-address" required />
             </label>
-
-            <!-- Row 2, Col 2: I'm not sure (Amny Samny with House number) -->
-            <div class="booking-step2-item-notsure">
-              <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;min-height:22px">
-                <span style="font-size:12.5px;font-weight:600;letter-spacing:.01em;color:#555555">Measure floor to ridge beam (2.2m min)</span>
-              </div>
-              <button type="button" class="not-sure-btn ${s.notSure ? 'active' : ''}" aria-pressed="${s.notSure}">
-                <span class="not-sure-check"></span>
-                <span style="font-size:14px;font-weight:500;text-align:left">I'm not sure &mdash; measure it on the survey</span>
-              </button>
-            </div>
           </div>
           <div class="form-error">${s.errors.step2 || ''}</div>
         </div>
@@ -535,11 +524,10 @@ class BookingWidget {
         `;
       }
 
-      // Slot Buttons Rendering with Locked Availability
+      // Slot Buttons Rendering with Locked Availability (Morning & Afternoon only)
       const slots = [
         { name: 'Morning', time: '08:30 – 12:00' },
-        { name: 'Afternoon', time: '12:00 – 16:30' },
-        { name: 'Evening', time: '17:00 – 19:00' }
+        { name: 'Afternoon', time: '12:00 – 16:30' }
       ];
 
       let slotsHtml = '';
@@ -604,7 +592,7 @@ class BookingWidget {
               <input type="tel" class="form-input-base input-phone" value="${s.phone}" placeholder="e.g. 07700 900077" autocomplete="tel" required />
             </label>
             <label style="display:block">
-              <span style="display:block;font-size:13px;font-weight:600;margin-bottom:8px">Email <span style="font-weight:400;color:#6B6B6B">(for instant CAD plans)</span></span>
+              <span style="display:block;font-size:13px;font-weight:600;margin-bottom:8px">Email <span style="font-weight:400;color:#6B6B6B">(for booking confirmation &amp; quote)</span></span>
               <input type="email" class="form-input-base input-email" value="${s.email}" placeholder="e.g. david@example.co.uk" autocomplete="email" />
             </label>
           </div>

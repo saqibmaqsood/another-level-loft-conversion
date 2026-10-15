@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Before', 'what' => 'Survey, CAD drawing, structural calculations, Building Control application. No party wall notices.'],
+    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, Building Control application. No party wall notices.'],
     ['when' => 'Days 1–3', 'what' => 'Scaffold up, loft cleared, hip carefully taken down.'],
     ['when' => 'Days 4–7', 'what' => 'New gable built up off the engineer’s load-bearing line, steels and joists in.'],
     ['when' => 'Weeks 2–3', 'what' => 'Roof extended and made watertight, windows fitted, staircase and partitions in.'],
@@ -52,7 +52,7 @@ $fit = [
     ['yes' => true, 'text' => 'Rear dormer where the side elevation is prominent and best left alone.'],
     ['yes' => false, 'text' => 'Squaring off both hips plus a dormer — that exceeds 50m³ and needs planning.'],
     ['yes' => false, 'text' => 'Assuming a large roof means a large allowance — the 50m³ cap applies regardless.'],
-    ['yes' => false, 'text' => 'Any conversion under 2.2m with no ceilings to drop — a roof-lift is the route.']
+    ['yes' => false, 'text' => 'Any conversion under 2.2m — headroom feasibility is assessed on survey.']
 ];
 
 $included = [
@@ -69,9 +69,9 @@ $included = [
 $addOns = [
     ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'One side squared off. Usually all the volume a good layout needs.'],
     ['name' => 'Rear dormer', 'price' => 'from £38,000', 'note' => 'Maximum floor area at full standing height, four weeks on site.'],
-    ['name' => 'Wrap around', 'price' => 'from £48,000', 'note' => 'Gable plus dormer, around 44 m² — two bedrooms and a bathroom, six weeks.'],
+    ['name' => 'Wrap around', 'price' => 'from £50,000', 'note' => 'Gable plus dormer, around 44 m² — two bedrooms and a bathroom, ten to twelve weeks.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest at three weeks, where the ridge height allows.'],
-    ['name' => 'En-suite shower room', 'price' => '+ £6,500 – £12,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.']
+    ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.']
 ];
 
 $faqs = [
@@ -82,7 +82,7 @@ $faqs = [
     ['q' => 'Where will the new staircase go?', 'a' => 'You normally have more choices than in a terrace or semi, which is worth exploiting. Over the existing flight keeps the landing compact; taking space from a large bedroom gives a better-proportioned landing and a straighter run. Either way, maximum 42° pitch with 1.9m headroom at the centre.'],
     ['q' => 'Do I need planning permission?', 'a' => 'Usually not, provided the design stays inside 50m³, sits 200mm back from the original eaves and does not exceed the existing ridge. Larger detached houses in Green Belt, conservation areas or on Article 4 land are the exception — we check your address before drawing.'],
     ['q' => 'Is a bigger roof more expensive to convert?', 'a' => 'Only partly. Steels, staircase, Building Control and scaffolding cost much the same whatever the floor area; what scales is flooring, plastering, electrics and insulation. That is why our prices start from the same figures as a semi and rise with area rather than property type.'],
-    ['q' => 'How much value does it add?', 'a' => 'Loft conversions typically add 15% to 20% to a property value. On a detached house the ceiling is usually set by the street rather than the house, so it is worth asking a local agent what the top of your road achieves before choosing between a £37,000 and a £48,000 scheme.']
+    ['q' => 'How much value does it add?', 'a' => 'Loft conversions typically add 15% to 20% to a property value. On a detached house the ceiling is usually set by the street rather than the house, so it is worth asking a local agent what the top of your road achieves before choosing between a £37,000 and a £50,000 scheme.']
 ];
 
 include 'includes/header.php';
@@ -143,7 +143,7 @@ include 'includes/header.php';
             </a>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:500;color:#6B6B6B">
-            <span>No obligation</span><span>&middot;</span><span>Free CAD design</span><span>&middot;</span><span>400+ finished projects</span>
+            <span>No obligation</span><span>&middot;</span><span>Guaranteed Fixed Quote</span><span>&middot;</span><span>400+ finished projects</span>
           </div>
         </div>
 
@@ -187,7 +187,7 @@ include 'includes/header.php';
                     <svg viewBox="0 0 48 32" width="46" height="31" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
                   </div>
                   <div style="font-size:14px;font-weight:600;margin-top:10px">Bungalow</div>
-                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Roof-lift option</div>
+                  <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;color:#6B6B6B;margin-top:3px">Dormer & Velux</div>
                 </button>
               </div>
               <label style="display:block;margin-bottom:18px">
@@ -315,7 +315,7 @@ include 'includes/header.php';
             <span class="section-label">Free survey</span>
             <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0">Book a survey on your detached home</h2>
           </div>
-          <p style="flex:1 1 260px;max-width:36ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We measure both hips, the rear slope, and provide a full CAD design. Three steps to book.</p>
+          <p style="flex:1 1 260px;max-width:36ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We measure both hips, the rear slope, and provide expert layout advice. Three steps to book.</p>
         </div>
         <?php 
           $widgetHeading = "Book a Detached survey";
@@ -388,7 +388,7 @@ include 'includes/header.php';
             <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
                 <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
@@ -402,7 +402,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>

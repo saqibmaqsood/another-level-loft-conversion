@@ -214,9 +214,9 @@ CORE ACCURATE COMPANY FACTS:
 - Velux Rooflight: ~£25,000 – £35,000
 - Rear Dormer (most popular): ~£38,000 – £52,000 (full standing height master bedroom + ensuite)
 - Hip-to-Gable: ~£42,000 – £56,000 (ideal for semi-detached)
-- Mansard / L-shape Wrap-around: £48,000 – £65,000+
-- Built in 4 to 6 weeks on site with external scaffold access (minimal disruption).
-- 10-Year Insurance-Backed Structural Guarantee.
+- Mansard / L-shape Wrap-around: £50,000 – £65,000+
+- Built in 6 to 8 weeks to completion with external scaffold access (minimal disruption).
+- 6-Year Written Structural Guarantee.
 - 85%+ lofts fall under Permitted Development (no full planning needed). We handle all drawings, structural engineering, and building control sign-offs.
 - Free, zero-obligation 20-minute feasibility survey with fixed quotes.";
 
@@ -310,12 +310,12 @@ if (empty($reply)) {
                . "• **Velux / Rooflight**: £25,000 – £35,000\n"
                . "• **Rear Dormer**: £38,000 – £52,000 (adds full standing height + master ensuite)\n"
                . "• **Hip-to-Gable**: £42,000 – £56,000 (ideal for 1930s semi-detached)\n"
-               . "• **Mansard / Wrap-Around**: £48,000 – £65,000+\n\n"
-               . "All our projects come with a 10-Year Insurance-Backed Guarantee. Would you like to check if your roof qualifies for a free survey?";
+               . "• **Mansard / Wrap-Around**: £50,000 – £65,000+\n\n"
+               . "All our projects come with a 6-Year Written Guarantee. Would you like to check if your roof qualifies for a free survey?";
     }
     // Time / Duration
     elseif (preg_match('/\b(how long|time|weeks|duration|timeline|schedule|start)\b/i', $msgLower)) {
-        $reply = "A typical loft conversion takes just **4 to 6 weeks on site** from start to final sign-off. The first few weeks of structural timber and steel installation are accessed entirely via external scaffolding, keeping interior disruption to your home at an absolute minimum!";
+        $reply = "Most loft conversions are **6 to 8 weeks to completion** from start to final sign-off. The first few weeks of structural timber and steel installation are accessed entirely via external scaffolding, keeping interior disruption to your home at an absolute minimum!";
     }
     // Planning Permission
     elseif (preg_match('/\b(planning|permission|permitted development|council|regulations|building control)\b/i', $msgLower)) {

@@ -19,5 +19,6 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 
-# Empty duplicate DB if present
-panel/database.sqlite
+# Temporary video recordings
+*.mov
+*.mp4

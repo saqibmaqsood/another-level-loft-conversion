@@ -48,7 +48,7 @@ include 'includes/header.php';
         </h1>
         
         <p class="lead-text" style="font-family:var(--font-sans);font-size:clamp(16px,1.8vw,17.5px);color:#4A4A45;line-height:1.7;margin:0;max-width:54ch">
-          Inviting tradesmen into your home requires complete trust. That is why we work on only <strong>one loft conversion at a time</strong>, protect your carpets with heavy-duty coverings, and back every steel, joist, and joint with our <strong>10-year written structural guarantee</strong>.
+          Inviting tradesmen into your home requires complete trust. That is why we work on only <strong>one loft conversion at a time</strong>, protect your carpets with heavy-duty coverings, and back every steel, joist, and joint with our <strong>6-year written structural guarantee</strong>.
         </p>
 
         <div class="hero-actions-row" style="margin-top:6px">
@@ -61,8 +61,8 @@ include 'includes/header.php';
 
         <!-- Quick Trust Pill Row -->
         <div class="proc-hero-trust-bullets">
-          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 10-Yr Structural Warranty</span>
-          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Zero Upfront Deposit</span>
+          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 6-Yr Structural Warranty</span>
+          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Guaranteed Fixed Price</span>
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 1 Crew · 1 Loft Policy</span>
           <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#3E5C32">✓</strong> £5M Public Liability</span>
         </div>
@@ -89,15 +89,15 @@ include 'includes/header.php';
         <div class="guar-metrics-grid">
           
           <div class="guar-metric-badge">
-            <span class="guar-metric-val">10 Years</span>
+            <span class="guar-metric-val">6 Years</span>
             <strong class="guar-metric-title">Written Warranty</strong>
             <span class="guar-metric-sub">All timbers, steels &amp; roof</span>
           </div>
 
           <div class="guar-metric-badge">
-            <span class="guar-metric-val">&pound;0 Deposit</span>
-            <strong class="guar-metric-title">Zero Risk Start</strong>
-            <span class="guar-metric-sub">Pay only on milestones</span>
+            <span class="guar-metric-val">Fixed Price</span>
+            <strong class="guar-metric-title">Guaranteed Contract</strong>
+            <span class="guar-metric-sub">Zero hidden extras</span>
           </div>
 
           <div class="guar-metric-badge">
@@ -333,7 +333,7 @@ include 'includes/header.php';
             </p>
           </div>
           <div style="border-top:1px solid #EBEBE6;padding-top:12px;font-family:var(--font-sans);font-size:12.5px;color:#4F6B42;font-weight:600">
-            ✓ 10-Year written certificate presented at handover
+            ✓ 6-Year written certificate presented at handover
           </div>
         </div>
 
@@ -353,7 +353,7 @@ include 'includes/header.php';
             Verified Workmanship
           </span>
           <h2 class="heading-h2" style="font-family:var(--font-serif);font-size:clamp(28px,3.8vw,42px);margin:10px 0 12px;color:#1A1A1A;font-weight:400">
-            Real Conversions, Backed by Our 10-Year Guarantee
+            Real Conversions, Backed by Our 6-Year Guarantee
           </h2>
           <p style="font-family:var(--font-sans);font-size:16px;color:#4A4A45;line-height:1.65;margin:0">
             Every project below was surveyed, engineered, and built by our permanent crew to strict UK Building Regulations standards &mdash; signed off with full legal completion certificates.
@@ -508,7 +508,7 @@ include 'includes/header.php';
       <div class="cta-banner-content">
         <span class="section-label-subtle">One free visit</span>
         <h2 id="cta-h" class="heading-h1" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Meet the surveyor before you decide anything.</h2>
-        <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, a CAD drawing you keep, one fixed price. Say no afterwards and it has cost you nothing.</p>
+        <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
         <div class="cta-btn-group">
           <a href="#booking" data-open-booking class="btn-dark">Book Free Survey</a>
           <a href="tel:08000862744" class="btn-outline-white">
@@ -531,8 +531,8 @@ include 'includes/header.php';
           <li style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
             <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
             <span style="display:flex;flex-direction:column;gap:4px">
-              <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-              <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+              <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+              <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
             </span>
             <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
           </li>
@@ -545,7 +545,7 @@ include 'includes/header.php';
             <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
           </li>
         </ol>
-        <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+        <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, and your fixed-price quote stands whatever you decide.</p>
       </div>
     </div>
   </section>

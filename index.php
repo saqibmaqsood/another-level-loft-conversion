@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Another Level Loft Conversions — Fixed-price loft conversions, North West";
-$pageDesc = "Loft conversions in Preston, Manchester, Lancashire and Cheshire. Fixed price, free CAD design, no hidden costs. Book a free survey.";
+$pageDesc = "Loft conversions in Preston, Manchester, Lancashire and Cheshire. Fixed price, guaranteed written quotes, no hidden costs. Book a free survey.";
 $activePage = "home";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -238,7 +238,7 @@ include 'includes/header.php';
       <div class="hero-minimal-inner">
         <span class="hero-minimal-pill">Preston · Manchester · Lancashire · Cheshire</span>
         <h1 id="hero-h" class="hero-minimal-title">Your loft, converted at a fixed price.</h1>
-        <p class="hero-minimal-subtitle">Free home survey, free CAD design, one written quote that doesn't move. Most conversions are finished in three to six weeks.</p>
+        <p class="hero-minimal-subtitle">Free home survey, guaranteed fixed price, one written quote that doesn't move. Most conversions are 6–8 weeks to completion.</p>
         <div class="hero-minimal-actions">
           <a href="#booking" data-open-booking class="hero-minimal-cta">
             <span>Book Free Survey</span>
@@ -251,7 +251,7 @@ include 'includes/header.php';
         </div>
         <div class="hero-minimal-features">
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Guaranteed Fixed Price</span>
-          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Free CAD Design</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 1 Project at a Time</span>
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> No Hidden Costs</span>
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 6-Year Guarantee</span>
         </div>
@@ -353,10 +353,10 @@ include 'includes/header.php';
               <span class="proc-step-num" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B8E5A;letter-spacing:.14em;font-weight:600">02</span>
               <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h14l4 4v20H7zM11 13h10M11 18h10M11 23h6"></path></svg>
             </div>
-            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Design &amp; fixed quote</span>
-            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">A free CAD drawing plus one written price. It includes building control fees.</span>
+            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Survey &amp; fixed quote</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">A comprehensive survey plus one written price. It includes building control fees.</span>
             <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span class="proc-step-tag proc-tag-accent" style="color:#4F6B42">Free CAD</span><span class="proc-step-tag" style="color:#6B6B6B">Fixed price</span>
+              <span class="proc-step-tag proc-tag-accent" style="color:#4F6B42">Guaranteed</span><span class="proc-step-tag" style="color:#6B6B6B">Fixed price</span>
             </span>
           </div>
 
@@ -378,9 +378,9 @@ include 'includes/header.php';
               <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 28V12l10-7 10 7v16M6 12h20M16 5v23M11 20h10"></path></svg>
             </div>
             <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Build</span>
-            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Steels, floor, dormer, staircase, insulation, plaster. Three to six weeks.</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Steels, floor, dormer, staircase, insulation, plaster. Six to eight weeks.</span>
             <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span class="proc-step-tag proc-tag-accent" style="color:#4F6B42">3–6 weeks</span><span class="proc-step-tag" style="color:#6B6B6B">In-house team</span>
+              <span class="proc-step-tag proc-tag-accent" style="color:#4F6B42">6–8 weeks</span><span class="proc-step-tag" style="color:#6B6B6B">In-house team</span>
             </span>
           </div>
 
@@ -392,7 +392,7 @@ include 'includes/header.php';
             <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Handover</span>
             <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Completion certificate, guarantee paperwork, and the site left clean.</span>
             <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span class="proc-step-tag proc-tag-accent" style="color:#4F6B42">10-yr guarantee</span><span class="proc-step-tag" style="color:#6B6B6B">Certified</span>
+              <span class="proc-step-tag proc-tag-accent" style="color:#4F6B42">6-yr guarantee</span><span class="proc-step-tag" style="color:#6B6B6B">Certified</span>
             </span>
           </div>
 
@@ -408,7 +408,7 @@ include 'includes/header.php';
             <span class="section-label">Free survey</span>
             <h2 id="book-h" class="heading-h2">Book a surveyor, not a call centre.</h2>
           </div>
-          <p style="flex:1 1 280px;max-width:38ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">Three short steps, about ninety seconds. You'll get a written fixed-price proposal and a CAD drawing within a few days of the visit.</p>
+          <p style="flex:1 1 280px;max-width:38ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">Three short steps, about ninety seconds. You'll get a written fixed-price proposal within a few days of the visit.</p>
         </div>
         <?php 
           $widgetHeading = "Book your free survey";
@@ -423,10 +423,10 @@ include 'includes/header.php';
         <div class="conv-types-header" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:44px">
           <div style="flex:2 1 420px">
             <span class="section-label">Conversion types</span>
-            <h2 id="types-h" class="heading-h2" style="max-width:26ch">Six ways up. We'll tell you which two suit your roof.</h2>
+            <h2 id="types-h" class="heading-h2" style="max-width:26ch">Five ways up. We'll tell you which two suit your roof.</h2>
           </div>
           <div class="conv-types-actions" style="display:flex;align-items:center;gap:12px">
-            <a href="conversion-types.php" class="btn-secondary conv-types-btn" style="padding:13px 20px;font-size:15px;font-weight:600">Compare all six</a>
+            <a href="conversion-types.php" class="btn-secondary conv-types-btn" style="padding:13px 20px;font-size:15px;font-weight:600">Compare all five</a>
             <div class="carousel-nav-arrows">
               <button type="button" class="carousel-nav-btn carousel-prev-btn" aria-label="Previous conversion type">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
@@ -440,35 +440,35 @@ include 'includes/header.php';
         <div class="conversion-types-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px">
           <a href="velux-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-03.jpeg" alt="Velux Loft Conversion Bedroom" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-06.jpeg" alt="Velux Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Velux</h3>
               <p class="conversion-card-desc">Roof profile untouched. The quickest, cleanest route when you already have the headroom.</p>
               <div class="conversion-card-meta">
                 <span class="meta-tag">Quickest build</span>
-                <span class="meta-sub">3 weeks on site</span>
+                <span class="meta-sub">6–8 weeks on site</span>
               </div>
             </div>
           </a>
 
           <a href="rear-dormer-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Rear Dormer Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-02.jpeg" alt="Rear Dormer Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Rear Dormer</h3>
               <p class="conversion-card-desc">Flat-roof timber box across the rear. Maximum floor area, usually permitted development.</p>
               <div class="conversion-card-meta">
                 <span class="meta-tag">Maximum floor space</span>
-                <span class="meta-sub">4 weeks on site</span>
+                <span class="meta-sub">8–10 weeks on site</span>
               </div>
             </div>
           </a>
 
           <a href="hip-to-gable-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-02.jpeg" alt="Hip-to-Gable Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-04.jpeg" alt="Hip-to-Gable Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Hip-to-Gable</h3>
@@ -482,7 +482,7 @@ include 'includes/header.php';
 
           <a href="hip-end-dormer-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-04.jpeg" alt="Hip-End Dormer Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Hip-End Dormer Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Hip-End Dormer</h3>
@@ -504,20 +504,6 @@ include 'includes/header.php';
               <div class="conversion-card-meta">
                 <span class="meta-tag">Master suite + en-suite</span>
                 <span class="meta-sub">6 weeks on site</span>
-              </div>
-            </div>
-          </a>
-
-          <a href="roof-lift-conversion.php" class="conversion-card">
-            <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-06.jpeg" alt="Roof-Lift Loft Conversion" class="real-img" loading="lazy">
-            </div>
-            <div class="conversion-card-body">
-              <h3 class="conversion-card-title">Roof-Lift</h3>
-              <p class="conversion-card-desc">For bungalows and low lofts: the roof comes off and goes back higher.</p>
-              <div class="conversion-card-meta">
-                <span class="meta-tag">For low headroom</span>
-                <span class="meta-sub">6–8 weeks on site</span>
               </div>
             </div>
           </a>
@@ -578,7 +564,7 @@ include 'includes/header.php';
             <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Bungalow</span>
             <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Shallow pitch, so headroom decides. Sometimes the roof comes off.</span>
             <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span style="color:#4F6B42">Dormer &amp; Roof-Lift</span><span style="color:#6B6B6B">Ground vs Upwards</span>
+              <span style="color:#4F6B42">Dormer &amp; Velux</span><span style="color:#6B6B6B">Ground vs Upwards</span>
             </span>
           </a>
         </div>
@@ -599,7 +585,7 @@ include 'includes/header.php';
         <div class="ba-container">
           <div class="ba-slider-area">
             <div class="ba-before-layer">
-              <img src="images/another-area-loft-conversions-north-west-england-06.jpeg" alt="Loft Space Before Conversion" style="width:100%;height:100%;object-fit:cover;display:block">
+              <img src="images/loft-space-before-conversion.jpg" alt="Loft Space Before Conversion" style="width:100%;height:100%;object-fit:cover;display:block">
             </div>
             <div class="ba-after-layer" style="clip-path: inset(0 0 0 50%)">
               <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Finished Luxury Loft Conversion Bedroom" style="width:100%;height:100%;object-fit:cover;display:block">
@@ -733,7 +719,7 @@ include 'includes/header.php';
               <span style="letter-spacing:.16em;font-size:13px;color:#6B8E5A">★★★★★</span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Wrap around</span>
             </div>
-            <blockquote class="testimonial-quote">The CAD drawing sold it to my husband. Seeing the staircase landing made the whole thing real.</blockquote>
+            <blockquote class="testimonial-quote">The design advice sold it to my husband. Seeing the staircase landing layout made the whole thing real.</blockquote>
             <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
               <span class="testimonial-avatar">E</span>
               <span style="display:flex;flex-direction:column;line-height:1.35">
@@ -746,9 +732,9 @@ include 'includes/header.php';
           <figure class="testimonial-card accent">
             <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
               <span style="letter-spacing:.16em;font-size:13px;color:#6B8E5A">★★★★★</span>
-              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Roof-lift</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Rear dormer</span>
             </div>
-            <blockquote class="testimonial-quote">Our loft was 2.1m so I assumed it was a no. They dropped the landing ceiling and it works beautifully.</blockquote>
+            <blockquote class="testimonial-quote">Our ridge height was right on 2.2m so we were worried about headroom. Their rear dormer design gave us full standing height throughout.</blockquote>
             <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
               <span class="testimonial-avatar">J</span>
               <span style="display:flex;flex-direction:column;line-height:1.35">
@@ -819,15 +805,15 @@ include 'includes/header.php';
         <div class="promise-header" style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between;margin-bottom:44px">
           <div>
             <span class="section-label-light">The Another Level Promise</span>
-            <h2 id="guar-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">Fixed price certainty, zero deposit required.</h2>
+            <h2 id="guar-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">Fixed price certainty, guaranteed from day one.</h2>
           </div>
           <p class="promise-header-desc" style="font-size:14px;line-height:1.6;color:#B8B8B0;margin:0;max-width:34ch">Every quote is a fixed-price written contract that never moves once signed. Staged payments on Building Control completion milestones.</p>
         </div>
         <div class="promise-cards-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
           <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
-            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">01 / Deposit</span>
-            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">&pound;0 Upfront Deposit</span>
-            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">You only pay in stages as verified structural milestones are signed off by Building Control.</p>
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">01 / Pricing</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Guaranteed Fixed Price</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">A complete, transparent contract price with zero hidden extras. What we quote is what you pay.</p>
           </div>
           <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
             <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">02 / Guarantee</span>
@@ -840,9 +826,9 @@ include 'includes/header.php';
             <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Dedicated full-time craftsmen on your property every single day until completion. No subcontract juggling.</p>
           </div>
           <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
-            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">04 / Design</span>
-            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Free 3D CAD Plans</span>
-            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">See your exact stairs and bedroom layout drawn to scale within days of your home survey.</p>
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">04 / Compliance</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Building Control Handled</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">All structural calculations, council applications, and completion sign-offs fully managed.</p>
           </div>
         </div>
         <!-- Creative Integrated CTA Banner (No harsh lines, pure architectural trust) -->
@@ -856,7 +842,7 @@ include 'includes/header.php';
               Ready to explore what's possible for your loft?
             </h3>
             <p class="promise-cta-sub" style="font-size:13.5px;line-height:1.55;color:#B8B8B0;margin:0">
-              Get an accurate fixed quote &amp; bespoke 3D layout from Jonny Mee — without paying a penny upfront.
+              Get an accurate fixed quote &amp; bespoke layout advice — with zero obligation to proceed.
             </p>
           </div>
           <div class="promise-cta-action" style="display:flex;align-items:center">
@@ -903,7 +889,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>Three weeks for a Velux, four for a rear dormer, around six for a wrap around. Plans and approval run before that — typically two to four weeks from signing.</p>
+              <p>Four to six weeks for a Velux, eight to ten for a dormer, around ten to twelve for a wrap around. Plans and approval run before that — typically two to four weeks from signing.</p>
             </div>
           </div>
 
@@ -914,7 +900,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>There is dust, but the loft is sealed off and the stairwell is only cut through late in the build. Scaffolding and a rear hoist keep most material out of the house entirely.</p>
+              <p>The loft is sealed off and the stairwell is only cut through late in the build. Scaffolding and a rear hoist keep most material out of the house entirely.</p>
             </div>
           </div>
 
@@ -925,7 +911,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>No. Almost every customer stays in the house. Water is off for a few hours when radiators go in, and there is one noisy day when the steels land.</p>
+              <p>No, the works are carried out with minimum disturbance.</p>
             </div>
           </div>
 
@@ -936,7 +922,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>2.2m from the ceiling joists to the underside of the ridge is the working minimum — 2.4m on modern trusses. If you are slightly short and have generous ceilings below, dropping the first-floor ceilings is often possible. A roof-lift is the other route.</p>
+              <p>2.2m from the ceiling joists to the underside of the ridge is the working minimum — 2.2m on modern trusses.</p>
             </div>
           </div>
 
@@ -947,7 +933,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>Velux conversions start at £24,000 and a wrap around at £48,000. After the survey you get one fixed written figure covering structure, staircase, insulation, plastering and building control.</p>
+              <p>Velux conversions start at £24,000 and a wrap around at £50,000+. After the survey you get one fixed written figure covering structure, staircase, insulation, plastering and building control.</p>
             </div>
           </div>
         </div>
@@ -960,7 +946,7 @@ include 'includes/header.php';
         <div class="final-cta-left">
           <span class="section-label-subtle">One free visit</span>
           <h2 id="cta-h" class="heading-h1 final-cta-title" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Find out what your loft is worth <em style="font-style:italic">before</em> you spend a penny.</h2>
-          <p class="final-cta-desc" style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes in your house, a CAD drawing you keep, and one fixed price. Say no afterwards and it has cost you nothing.</p>
+          <p class="final-cta-desc" style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#EDF2E9;max-width:42ch">Forty-five minutes in your house, expert layout advice, and one fixed price. Say no afterwards and it has cost you nothing.</p>
           <div class="final-cta-btns" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
             <a href="#booking" data-open-booking class="btn-dark final-cta-btn-book">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-outline-white final-cta-btn-call">
@@ -983,8 +969,8 @@ include 'includes/header.php';
             <li class="final-cta-step" style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
               <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B8E5A;flex:0 0 26px;padding-top:4px">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
-                <span style="font-size:16px;font-weight:600;line-height:1.3">CAD design + fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey &amp; fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95;margin-left:auto;white-space:nowrap;padding-top:4px">A few days</span>
             </li>
@@ -997,7 +983,7 @@ include 'includes/header.php';
               <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95;margin-left:auto;white-space:nowrap;padding-top:4px">Your call</span>
             </li>
           </ol>
-          <p class="final-cta-card-foot" style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and the drawings stay yours whatever you decide.</p>
+          <p class="final-cta-card-foot" style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, and your fixed-price quote stands whatever you decide.</p>
         </div>
       </div>
     </section>

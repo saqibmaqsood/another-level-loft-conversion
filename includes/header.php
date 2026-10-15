@@ -4,7 +4,7 @@ if (!isset($pageTitle)) {
     $pageTitle = "Another Level Loft Conversions — Fixed-price loft conversions, North West";
 }
 if (!isset($pageDesc)) {
-    $pageDesc = "Loft conversions in Preston, Manchester, Lancashire and Cheshire. Fixed price, free CAD design, no hidden costs. Book a free survey.";
+    $pageDesc = "Loft conversions in Preston, Manchester, Lancashire and Cheshire. Fixed price, guaranteed written quotes, no hidden costs. Book a free survey.";
 }
 if (!isset($activePage)) {
     $activePage = "";
@@ -149,7 +149,7 @@ try {
               <div class="bayford-accent-bar"></div>
               <h3 class="bayford-heading">LOFT CONVERSION TYPES</h3>
               <p class="bayford-desc">
-                All 6 architectural conversion packages engineered to maximise headroom, floor space, and property value with full structural sign-off.
+                All 5 architectural conversion packages engineered to maximise headroom, floor space, and property value with full structural sign-off.
               </p>
               <a href="#booking" data-open-booking class="bayford-split-btn">
                 <span class="bayford-btn-text">BOOK FREE SURVEY</span>
@@ -159,7 +159,7 @@ try {
               </a>
             </div>
 
-            <!-- Right 6 Photo Cards Grid (2 Rows of 3 Cards) -->
+            <!-- Right Photo Cards Grid -->
             <div class="bayford-cards-grid grid-6">
               <!-- Card 1: Velux -->
               <a href="velux-conversion.php" class="bayford-card">
@@ -220,19 +220,6 @@ try {
                 </div>
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">WRAP AROUND</span>
-                  <span class="bayford-card-arrow">
-                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                  </span>
-                </div>
-              </a>
-
-              <!-- Card 6: Roof-Lift -->
-              <a href="roof-lift-conversion.php" class="bayford-card">
-                <div class="bayford-card-media">
-                  <img src="images/another-area-loft-conversions-north-west-england-10.jpeg" alt="Roof-Lift Loft Conversion" loading="lazy">
-                </div>
-                <div class="bayford-card-label-wrap">
-                  <span class="bayford-card-label">ROOF-LIFT</span>
                   <span class="bayford-card-arrow">
                     <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
@@ -445,13 +432,12 @@ try {
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
           </button>
           <div class="mobile-accordion-content">
-            <a href="conversion-types.php" class="mobile-sublink overview-sublink">Overview — All 6 Types →</a>
+            <a href="conversion-types.php" class="mobile-sublink overview-sublink">Overview — All 5 Types →</a>
             <a href="velux-conversion.php" class="mobile-sublink">Velux Loft Conversion</a>
             <a href="rear-dormer-conversion.php" class="mobile-sublink">Rear Dormer Conversion</a>
             <a href="hip-to-gable-conversion.php" class="mobile-sublink">Hip-to-Gable Conversion</a>
             <a href="hip-end-dormer-conversion.php" class="mobile-sublink">Hip-End Dormer Conversion</a>
             <a href="wrap-around-conversion.php" class="mobile-sublink">Wrap Around Conversion</a>
-            <a href="roof-lift-conversion.php" class="mobile-sublink">Roof-Lift Conversion</a>
           </div>
         </div>
 
