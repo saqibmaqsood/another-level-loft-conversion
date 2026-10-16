@@ -212,10 +212,11 @@ CRITICAL RULES TO PREVENT REPETITIVE QUESTIONS:
 
 CORE ACCURATE COMPANY FACTS:
 - Velux Rooflight: ~£24,000 – £35,000
-- Rear Dormer (most popular): from £50,000 (full standing height master bedroom + ensuite)
-- Hip-to-Gable: from £55,000 (ideal for semi-detached)
+- Terraced & Semi-Detached conversions: from £48,000 (typical 40 m², 6 to 8 weeks on site)
+- Rear Dormer: from £48,000 (full standing height master bedroom + ensuite)
+- Hip-to-Gable: from £55,000
 - Mansard / L-shape Wrap-around: £55,000 – £65,000+
-- Built in 6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer / hip-to-gable / wrap around with external scaffold access (minimal disruption).
+- Built in 6 to 8 weeks for standard lofts (Velux, Rear Dormer, Semi-detached) or 8 to 10 weeks for large wrap arounds with external scaffold access (minimal disruption).
 - 6-Year Written Structural Guarantee.
 - 85%+ lofts fall under Permitted Development (no full planning needed). We handle all drawings, structural engineering, and building control sign-offs.
 - Free, zero-obligation 20-minute feasibility survey with fixed quotes.";
@@ -308,7 +309,7 @@ if (empty($reply)) {
     elseif (preg_match('/\b(cost|price|quote|how much|pricing|estimate|rates|fee)\b/i', $msgLower)) {
         $reply = "Loft conversion costs typically depend on your roof shape and desired layout:\n\n"
                . "• **Velux / Rooflight**: £24,000 – £35,000\n"
-               . "• **Rear Dormer**: from £50,000 (adds full standing height + master ensuite)\n"
+               . "• **Semi-Detached / Rear Dormer**: from £48,000 (adds 40 m² typical floor + master ensuite)\n"
                . "• **Hip-to-Gable**: from £55,000 (ideal for 1930s semi-detached)\n"
                . "• **Mansard / Wrap-Around**: £55,000 – £65,000+\n\n"
                . "All our projects come with a 6-Year Written Guarantee. Would you like to check if your roof qualifies for a free survey?";

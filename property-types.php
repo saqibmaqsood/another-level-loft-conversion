@@ -23,7 +23,7 @@ $propertyRows = [
     ],
     [
         'name' => 'Semi-detached', 'volume' => '50m³', 'adjoining' => 'One side', 'route' => 'Hip-to-gable',
-        'price' => '8–10 weeks', 'ruledOut' => 'Nothing, if the volume allows', 'href' => 'semi-detached-property.php'
+        'price' => '6–8 weeks', 'ruledOut' => 'Nothing, if the volume allows', 'href' => 'semi-detached-property.php'
     ],
     [
         'name' => 'Detached', 'volume' => '50m³', 'adjoining' => 'None', 'route' => 'Hip-to-gable',
@@ -54,12 +54,12 @@ $detailedProperties = [
     ],
     [
         'num' => '02', 'name' => 'Semi-detached', 'volume' => '50m³', 'href' => 'semi-detached-property.php',
-        'meta' => '8–10 weeks · 25–44 m² typical',
+        'meta' => '6–8 weeks · 40 m² typical',
         'glyph' => 'M8 30V13l12-9 12 9v17M20 30V13M14 30v-7h12v7',
         'body' => 'The most converted house in the North West and the most flexible. A 50m³ allowance and a hipped side roof mean every conversion type is on the table — from a three-week rooflight room to a wrap around with two bedrooms and a bathroom.',
         'options' => [
+            ['name' => 'Rear Dormer', 'price' => 'from £48,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
-            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Wrap Around', 'price' => 'from £55,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
