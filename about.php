@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "About Another Level Loft Conversions — 18 Years in North West";
-$pageDesc = "Eighteen years converting lofts across Preston, Manchester, Lancashire and Cheshire. 400+ finished projects, in-house team, guaranteed fixed prices.";
+$pageTitle = "About Another Level Loft Conversions — 22 Years in North West";
+$pageDesc = "Twenty-two years converting lofts across Preston, Manchester, Lancashire and Cheshire. 400+ finished projects, in-house team, guaranteed fixed prices.";
 $activePage = "about";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -43,18 +43,18 @@ include 'includes/header.php';
             <span style="color:#D4D4CC;font-size:12px">•</span>
             <span style="font-family:var(--font-sans);display:inline-flex;align-items:center;gap:6px;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 10px;border-radius:14px;color:#3E5C32;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase">
               <span style="width:5px;height:5px;border-radius:50%;background:#6B8E5A;display:inline-block"></span>
-              Established 2008
+              Established 2004
             </span>
           </div>
 
           <h1 id="h1" class="heading-h1" style="font-size:clamp(34px,5.4vw,58px);letter-spacing:-.025em;margin:0">A North West team that <em style="font-style:italic">only</em> builds lofts.</h1>
-          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">18 years, 400+ finished projects, and zero sub-contractors.</p>
+          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">22 years converting loft conversions with 400+ finished projects.</p>
           <p class="lead-text" style="max-width:50ch">We don’t take on kitchens, extensions, or general building work. Every member of our team is a dedicated loft specialist — from Jonny surveying the roof structure to the joiners framing your dormer.</p>
           
           <!-- Key Stats / Numbers Grid -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:460px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:12px 16px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">18 Years</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">22 Years</span>
               <span style="font-family:var(--font-sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6B6B6B;font-weight:600">Converting lofts</span>
             </div>
             <div style="background:#FAFAF8;padding:12px 16px;display:flex;flex-direction:column;gap:3px">
@@ -110,7 +110,7 @@ include 'includes/header.php';
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
           <div class="trust-item-content">
-            <span class="trust-item-val" data-target-value="18" data-decimals="0" data-suffix="yrs">18 yrs</span>
+            <span class="trust-item-val" data-target-value="22" data-decimals="0" data-suffix="yrs">22 yrs</span>
             <span class="trust-item-lbl">Converting lofts</span>
           </div>
         </div>
@@ -145,7 +145,7 @@ include 'includes/header.php';
           <!-- Story Narrative -->
           <div>
             <span class="section-label">Our Background &amp; Heritage</span>
-            <h2 id="story-h" class="heading-h2" style="font-size:clamp(28px,3.8vw,42px);margin:12px 0 20px;max-width:24ch">Started with one Preston dormer. 18 years of perfecting a single craft.</h2>
+            <h2 id="story-h" class="heading-h2" style="font-size:clamp(28px,3.8vw,42px);margin:12px 0 20px;max-width:24ch">Started with one Preston dormer. 22 years of perfecting a single craft.</h2>
             
             <div style="display:grid;gap:18px;font-size:15.5px;line-height:1.75;color:#4A4A45">
               <p style="margin:0;text-wrap:pretty">We began in 2008 as two joiners constructing rear dormers on 1930s semis around Preston. Lofts were originally meant to be a sideline, but we quickly realised they were the only home improvement where a growing family gets a complete new master bedroom suite or two kids' rooms without losing an inch of garden.</p>
@@ -155,7 +155,7 @@ include 'includes/header.php';
                 <p style="font-family:Newsreader,Georgia,serif;font-style:italic;font-size:18px;line-height:1.45;color:#2D4523;margin:0">"Focus 100% on roofs. Stop doing general building, extensions, and kitchen refits. Master every single detail of loft construction."</p>
               </div>
 
-              <p style="margin:0;text-wrap:pretty">Over the last 18 years we’ve perfected every detail — from calculating complex RSJ structural steel placements and fitting compliant staircases to crafting weatherproof dormers and handling all local authority approvals.</p>
+              <p style="margin:0;text-wrap:pretty">Over the last 22 years we’ve perfected every detail — from calculating complex RSJ structural steel placements and fitting compliant staircases to crafting weatherproof dormers and handling all local authority approvals.</p>
               <p style="margin:0;text-wrap:pretty">Today, the team operates out of Old Docks House in Preston, covering 41 towns across Lancashire, Greater Manchester, and Cheshire. We maintain dedicated in-house build crews, architectural survey specialists, structural engineers on call, and a surveyor who visits your home personally.</p>
             </div>
           </div>

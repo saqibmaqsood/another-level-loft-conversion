@@ -276,7 +276,7 @@ include 'includes/header.php';
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
           <div class="trust-item-content">
-            <span class="trust-item-val" data-target-value="18" data-decimals="0" data-suffix="yrs">18 yrs</span>
+            <span class="trust-item-val" data-target-value="22" data-decimals="0" data-suffix="yrs">22 yrs</span>
             <span class="trust-item-lbl">Converting lofts</span>
           </div>
         </div>

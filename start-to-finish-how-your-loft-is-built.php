@@ -54,7 +54,7 @@ include 'includes/header.php';
         </h1>
         
         <p class="lead-text" style="font-family:var(--font-sans);font-size:16.5px;line-height:1.7;color:#4A4A45;max-width:54ch;margin:0">
-          Have you ever wondered how a loft conversion is actually constructed? We manage every phase in-house &mdash; architectural drawings, structural steels, Building Control inspections, and bespoke joinery. No guesswork, no subcontracted strangers.
+          Have you ever wondered how a loft conversion is actually constructed? We manage every phase in-house &mdash; architectural drawings, structural steels, Building Control inspections, and bespoke joinery. No guesswork, dedicated in-house craftsmen.
         </p>
         
         <div class="hero-actions-row" style="margin-top:4px">
