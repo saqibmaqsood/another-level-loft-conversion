@@ -30,7 +30,6 @@ $facts = [
 $galleryImages = [
     'images/another-area-loft-conversions-north-west-england-01.jpeg',
     'images/another-area-loft-conversions-north-west-england-03.jpeg',
-    'images/another-area-loft-conversions-north-west-england-04.jpeg',
     'images/another-area-loft-conversions-north-west-england-08.jpeg',
     'images/another-area-loft-conversions-north-west-england-11.jpeg',
     'images/another-area-loft-conversions-north-west-england-14.jpeg',
@@ -210,7 +209,7 @@ include 'includes/header.php';
             <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0">Terraces we've converted</h2>
           </div>
           <div class="gallery-header-meta" style="display:flex;align-items:center;gap:12px">
-            <span style="font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B">8 of 400+ terrace projects</span>
+            <span style="font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#6B6B6B"><?php echo count($galleryImages); ?> of 400+ terrace projects</span>
             <div class="type-gal-nav" aria-label="Gallery carousel navigation">
               <button type="button" class="type-gal-prev" aria-label="Previous image">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
