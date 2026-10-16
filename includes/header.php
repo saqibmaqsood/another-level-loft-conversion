@@ -284,26 +284,26 @@ try {
                 </div>
               </a>
 
-              <!-- Card 3: Detached -->
-              <a href="detached-property.php" class="bayford-card">
+              <!-- Card 3: Bungalow -->
+              <a href="bungalow-property.php" class="bayford-card">
                 <div class="bayford-card-media">
-                  <img src="images/another-area-loft-conversions-north-west-england-09.jpeg" alt="Detached Property Loft Conversion" loading="lazy">
+                  <img src="images/another-area-loft-conversions-north-west-england-09.jpeg" alt="Bungalow Loft Conversion" loading="lazy">
                 </div>
                 <div class="bayford-card-label-wrap">
-                  <span class="bayford-card-label">DETACHED HOMES</span>
+                  <span class="bayford-card-label">BUNGALOWS</span>
                   <span class="bayford-card-arrow">
                     <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
                 </div>
               </a>
 
-              <!-- Card 4: Bungalow -->
-              <a href="bungalow-property.php" class="bayford-card">
+              <!-- Card 4: Detached -->
+              <a href="detached-property.php" class="bayford-card">
                 <div class="bayford-card-media">
-                  <img src="images/another-area-loft-conversions-north-west-england-10.jpeg" alt="Bungalow Loft Conversion" loading="lazy">
+                  <img src="images/another-area-loft-conversions-north-west-england-10.jpeg" alt="Detached Property Loft Conversion" loading="lazy">
                 </div>
                 <div class="bayford-card-label-wrap">
-                  <span class="bayford-card-label">BUNGALOWS</span>
+                  <span class="bayford-card-label">DETACHED HOMES</span>
                   <span class="bayford-card-arrow">
                     <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
@@ -451,8 +451,8 @@ try {
             <a href="property-types.php" class="mobile-sublink overview-sublink">Overview — All Properties →</a>
             <a href="terrace-property.php" class="mobile-sublink">Terraced Homes</a>
             <a href="semi-detached-property.php" class="mobile-sublink">Semi-Detached Homes</a>
-            <a href="detached-property.php" class="mobile-sublink">Detached Homes</a>
             <a href="bungalow-property.php" class="mobile-sublink">Bungalow Conversions</a>
+            <a href="detached-property.php" class="mobile-sublink">Detached Homes</a>
           </div>
         </div>
 
