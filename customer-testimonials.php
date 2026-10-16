@@ -133,7 +133,7 @@ include 'includes/header.php';
         </h1>
         
         <p class="lead-text" style="font-family:var(--font-sans);font-size:clamp(16px,1.8vw,17.5px);color:#4A4A45;line-height:1.7;margin:0;max-width:54ch">
-          Every review below is from a real customer whose conversion we designed, built, and handed over across Lancashire, Greater Manchester, and Cheshire. We take pride in polite craftsmen, spotless daily clean-ups, transparent fixed pricing, and milestone-based payments.
+          Every review below is from a real customer whose conversion we designed, built, and handed over across Lancashire, Greater Manchester, and Cheshire. We take pride in polite craftsmen, spotless daily clean-ups, transparent fixed pricing, and guaranteed structural workmanship.
         </p>
 
         <div class="hero-actions-row" style="margin-top:4px">
@@ -156,7 +156,7 @@ include 'includes/header.php';
           </span>
           <span style="display:inline-flex;align-items:center;gap:6px">
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            Milestone Payments
+            6-Year Guarantee
           </span>
         </div>
       </div>

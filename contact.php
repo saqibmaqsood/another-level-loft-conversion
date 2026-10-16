@@ -79,7 +79,7 @@ include 'includes/header.php';
             </span>
             <span style="display:inline-flex;align-items:center;gap:6px">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              Milestone Payments
+              Building Control Handled
             </span>
           </div>
         </div>
