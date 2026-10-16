@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Hip-to-Gable Loft Conversions Guaranteed Fixed Price — Another Level";
-$pageDesc = "Hip-to-gable loft conversions Guaranteed Fixed Price finished in about three and a half weeks. Squares off a sloping side roof to win usable volume.";
+$pageDesc = "Hip-to-gable loft conversions Guaranteed Fixed Price finished in 8 to 10 weeks on site from £55,000. Squares off a sloping side roof to win usable volume.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -235,7 +235,7 @@ include 'includes/header.php';
       <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:start">
         <div>
           <span class="section-label">Process notes</span>
-          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 8 to 10 weeks actually looks like</h2>
+          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 8 to 10 weeks looks like</h2>
           <ol style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
             <?php foreach ($timeline as $t): ?>
               <li style="display:flex;gap:16px;align-items:baseline;padding-bottom:14px;border-bottom:1px solid #DCDCD6">
@@ -267,7 +267,7 @@ include 'includes/header.php';
             <span class="section-label-light">Pricing</span>
             <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £55,000 includes &mdash; and what pushes it up</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Hip-to-gable conversions run £35,000–£55,000 across the UK in 2026. North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Hip-to-gable conversions typically start from £55,000 across the North West in 2026. Our starting figure is a real fixed price, not an estimate or teaser.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
