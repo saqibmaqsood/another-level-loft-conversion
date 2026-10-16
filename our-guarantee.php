@@ -314,28 +314,29 @@ include 'includes/header.php';
           </div>
         </div>
 
-        <!-- Card 6: Aftercare -->
+        <!-- Card 6: Written Structural Guarantee -->
         <div class="guar-safeguard-card" onmouseover="this.style.borderColor='#A9C699';this.style.boxShadow='0 8px 24px -4px rgba(24,34,22,0.06)'" onmouseout="this.style.borderColor='#E4E4DF';this.style.boxShadow='none'">
           <div>
             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
               <span style="width:44px;height:44px;border-radius:8px;background:#FFFFFF;border:1px solid #DFEBD9;display:flex;align-items:center;justify-content:center;color:#4F6B42;flex-shrink:0">
                 <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4F6B42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="M9 12l2 2 4-4"></path>
                 </svg>
               </span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#3E5C32;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 10px;border-radius:12px">
-                Lifetime Care
+                Written Warranty
               </span>
             </div>
             <h3 style="font-family:var(--font-serif);font-size:21px;margin:0 0 10px;color:#1A1A1A;font-weight:400">
-              Dedicated Aftercare &amp; Seasonal Timber Tuning
+              6-Year Written Structural Guarantee
             </h3>
             <p style="font-family:var(--font-sans);font-size:14.5px;color:#4A4A45;line-height:1.65;margin:0 0 16px">
-              Our relationship does not end on completion day. If you notice seasonal timber settlement, need door adjustments, or have questions months later, our aftercare team is always just a phone call away.
+              Every structural steel beam, floor joist, timber frame, and dormer installation is backed by our comprehensive 6-year written structural warranty, providing lasting peace of mind long after project handover.
             </p>
           </div>
           <div style="border-top:1px solid #EBEBE6;padding-top:12px;font-family:var(--font-sans);font-size:12.5px;color:#4F6B42;font-weight:600">
-            ✓ 6-Year written certificate presented at handover
+            ✓ Official signed guarantee presented at handover
           </div>
         </div>
 
