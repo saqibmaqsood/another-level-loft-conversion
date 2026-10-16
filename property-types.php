@@ -27,7 +27,7 @@ $propertyRows = [
     ],
     [
         'name' => 'Detached', 'volume' => '50m³', 'adjoining' => 'None', 'route' => 'Hip-to-gable',
-        'price' => '8–10 weeks', 'ruledOut' => 'Both hips plus a dormer — over 50m³', 'href' => 'detached-property.php'
+        'price' => '6–10 weeks', 'ruledOut' => 'Both hips plus a dormer — over 50m³', 'href' => 'detached-property.php'
     ],
     [
         'name' => 'Bungalow', 'volume' => '50m³', 'adjoining' => 'Usually none', 'route' => 'Dormer / Velux',
@@ -71,12 +71,12 @@ $detailedProperties = [
     ],
     [
         'num' => '03', 'name' => 'Detached', 'volume' => '50m³', 'href' => 'detached-property.php',
-        'meta' => '8–10 weeks · 25–46 m² typical',
+        'meta' => '6–10 weeks · 25–46 m² typical',
         'glyph' => 'M8 30V14l16-10 16 10v16zM19 30v-8h10v8',
         'body' => 'Hips on both sides, a 50m³ allowance and complete structural independence. Detached houses give the most design freedom of any property type — and the fewest reasons for a conversion to end up compromised.',
         'options' => [
+            ['name' => 'Rear Dormer', 'price' => 'from £48,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
-            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Wrap Around', 'price' => 'from £55,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Hip-End Dormer', 'price' => 'from £40,000', 'href' => 'hip-end-dormer-conversion.php']
         ],

@@ -212,11 +212,11 @@ CRITICAL RULES TO PREVENT REPETITIVE QUESTIONS:
 
 CORE ACCURATE COMPANY FACTS:
 - Velux Rooflight: ~£24,000 – £35,000
-- Terraced & Semi-Detached conversions: from £48,000 (typical 40 m², 6 to 8 weeks on site)
+- Terraced, Semi-Detached & Detached conversions: from £48,000 (6 to 10 weeks on site)
 - Rear Dormer: from £48,000 (full standing height master bedroom + ensuite)
 - Hip-to-Gable: from £55,000
 - Mansard / L-shape Wrap-around: £55,000 – £65,000+
-- Built in 6 to 8 weeks for standard lofts (Velux, Rear Dormer, Semi-detached) or 8 to 10 weeks for large wrap arounds with external scaffold access (minimal disruption).
+- Built in 6 to 8 weeks for standard lofts, 6 to 10 weeks for detached, or 8 to 10 weeks for large wrap arounds with external scaffold access (minimal disruption).
 - 6-Year Written Structural Guarantee.
 - 85%+ lofts fall under Permitted Development (no full planning needed). We handle all drawings, structural engineering, and building control sign-offs.
 - Free, zero-obligation 20-minute feasibility survey with fixed quotes.";
