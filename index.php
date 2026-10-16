@@ -537,7 +537,7 @@ include 'includes/header.php';
             <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Terrace</span>
             <span style="font-size:14px;line-height:1.6;color:#6B6B6B">No hip to square off and neighbours both sides, so the rear slope does the work.</span>
             <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span style="color:#4F6B42">Rear Dormer Specialist</span><span style="color:#6B6B6B">2-Month Party Wall</span>
+              <span style="color:#4F6B42">Rear Dormer Specialist</span><span style="color:#6B6B6B">40m³ Allowance</span>
             </span>
           </a>
 
@@ -553,9 +553,9 @@ include 'includes/header.php';
           <a href="detached-property.php" class="property-overview-card">
             <svg viewBox="0 0 48 32" width="52" height="35" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 30V14l16-10 16 10v16zM19 30v-8h10v8"></path></svg>
             <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Detached</span>
-            <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Hips both sides and no party wall. The most design freedom of any type.</span>
+            <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Hips both sides on standalone plots. The most design freedom of any type.</span>
             <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span style="color:#4F6B42">Maximum Design Freedom</span><span style="color:#6B6B6B">No Party Wall</span>
+              <span style="color:#4F6B42">Maximum Design Freedom</span><span style="color:#6B6B6B">50m³ Allowance</span>
             </span>
           </a>
 

@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, materials delivered, loft cleared and hipped roof stripped. Party wall notices served.'],
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, materials delivered, loft cleared and hipped roof stripped. Site set up.'],
     ['when' => 'Weeks 3–4', 'what' => 'Hip taken down, structural steels craned in, new vertical gable wall built up to roof pitch.'],
     ['when' => 'Weeks 5–6', 'what' => 'Roof timbers extended over new gable, tiles matched, ridge extended, structure fully watertight.'],
     ['when' => 'Weeks 7–8', 'what' => 'New floor joists laid, high-spec insulation installed, gable windows fitted, bespoke staircase installed.'],
@@ -63,7 +63,7 @@ $included = [
     'Windows to the new gable, including one escape opening',
     'Bespoke staircase and fire-rated doors to the protected stair',
     'Insulation, plasterboard, skim and second-fix electrics',
-    'Building Control fees, party wall notices and completion certificate'
+    'Building Control fees, structural calculations and completion certificate'
 ];
 
 $addOns = [
@@ -79,7 +79,7 @@ $faqs = [
     ['q' => 'Will the new gable match the rest of the house?', 'a' => 'That is the whole test a planning officer applies, and it is worth getting right regardless. We match the brick or render and the tile or slate to the original, carry the existing verge detail up, and keep the ridge line continuous. On older stone properties we source reclaimed to match rather than a modern approximation.'],
     ['q' => 'How much space does it actually add?', 'a' => 'On its own, a hip-to-gable typically yields 25 to 28 m² and one good bedroom with room for an en-suite. Its real value is often structural rather than spatial: squaring off the hip is what creates the headroom for a compliant staircase and a proper landing.'],
     ['q' => 'Should I combine it with a rear dormer?', 'a' => 'Frequently, yes — that combination is the wrap around, and it produces the largest conversion available at around 44 m². It also uses most of your volume allowance, so a planning application becomes more likely. We price both options at the survey so you can see the difference.'],
-    ['q' => 'Is my neighbour affected?', 'a' => 'On a semi or end-terrace the new gable is built off or beside the party wall, which triggers the Party Wall Act — notice at least two months before work starts. Neighbours also see the change from the street, so we keep the proportions and materials deferential rather than assertive.'],
+    ['q' => 'Is my neighbour affected?', 'a' => 'On a semi or end-terrace neighbours will see the change from the street, so we ensure the proportions and materials match the existing brick, render or tiles deferentially rather than assertively. Works take place through scaffolding to minimise any disturbance.'],
     ['q' => 'What structural work is involved?', 'a' => 'More than a rooflight conversion, less than people expect. The hip is taken down, a new gable wall is built up in blockwork or brick off a load-bearing line established by the engineer, and steels carry the new roof and floor. Your structural calculations are part of the fixed price.'],
     ['q' => 'How long does it take start to finish?', 'a' => 'Around 8 to 10 weeks on site. Drawings, structural calculations and Building Control approval run before that — usually two to four weeks from signing, longer where a full planning application is needed.']
 ];

@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, party wall notice to your neighbour.'],
+    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, building regulations specification.'],
     ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and steels craned in.'],
     ['when' => 'Weeks 3–5', 'what' => 'New gable built up off the engineer’s load-bearing line, roof timbers extended and made watertight.'],
     ['when' => 'Weeks 6–8', 'what' => 'High-spec insulation, windows fitted, bespoke staircase and partitions installed.'],
@@ -62,7 +62,7 @@ $included = [
     'New floor joists laid over the existing ceiling',
     'Bespoke staircase and fire-rated doors to the protected stair',
     'Insulation, plasterboard, skim and second-fix electrics',
-    'Party wall notice served on your neighbour',
+    'Architectural CAD plans and layout drawings',
     'Building Control fees and completion certificate'
 ];
 
@@ -79,7 +79,7 @@ $faqs = [
     ['q' => 'Which conversion should I choose?', 'a' => 'It depends on what you need. A rooflight conversion is cheapest at three weeks if you have the height. A hip-to-gable squares off the side and creates the headroom for a proper staircase. A rear dormer maximises floor area. A wrap around combines the last two and gives around 44 m². We price the realistic ones and say which we would do.'],
     ['q' => 'Is a wrap around worth the extra?', 'a' => 'If you need two bedrooms and a bathroom rather than one large room, usually yes. It also uses most of your 50m³, so a planning application becomes more likely and the build runs to 8 to 10 weeks. On a typical semi it is the difference between a study and a second floor.'],
     ['q' => 'Will the new gable match my neighbour’s half?', 'a' => 'That is the whole design question on a matched pair, and it is what a planning officer looks at. We match brick or render and the tiles to the original, carry the verge detail up, and keep the ridge continuous. Where the pair should stay symmetrical, a hip-end dormer is the gentler option.'],
-    ['q' => 'Do I need to tell my neighbour?', 'a' => 'Yes — building off or cutting into the party wall means serving Party Wall notice at least two months before work starts. We prepare it alongside the structural drawings. Only one neighbour on a semi, which makes it simpler than a terrace.'],
+    ['q' => 'How does the build affect our adjoining neighbour?', 'a' => 'Most work takes place externally via scaffolding and roof access, keeping disturbance to an absolute minimum. We keep your adjoining neighbour informed regarding start dates and crane deliveries so expectations are clear from day one.'],
     ['q' => 'Do I need planning permission?', 'a' => 'Usually not. Hip-to-gable, rear dormer and hip-end dormer are all roof enlargements under Class B, permitted as long as you stay inside 50m³, sit 200mm back from the original eaves and do not exceed the existing ridge. Conservation areas and Article 4 land remove those rights.'],
     ['q' => 'How long will the work take?', 'a' => 'Four to six weeks for a rooflight conversion, seven to eight for a hip-to-gable, eight to ten for a rear dormer, 8 to 10 weeks for a wrap around. Drawings and Building Control approval run before that — two to four weeks from signing.'],
     ['q' => 'How much value does it add?', 'a' => 'Loft conversions typically add 15% to 20% to a property value. On a three-bedroom semi, a fourth bedroom with an en-suite is the single highest-value addition available, and it normally costs less than the uplift in the North West.']
@@ -330,7 +330,7 @@ include 'includes/header.php';
         <div class="faq-sticky-col">
           <span class="section-label">Semi-detached questions</span>
           <h2 id="faq-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:16ch">Before you decide.</h2>
-          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on the 50m³ limit, which option to pick, party walls and cost. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
+          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on the 50m³ limit, which option to pick, building regulations and cost. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
           <div class="hero-actions-row" style="margin-top:4px">
             <a href="#booking" data-open-booking class="btn-primary hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-secondary hero-btn">Ask us directly</a>

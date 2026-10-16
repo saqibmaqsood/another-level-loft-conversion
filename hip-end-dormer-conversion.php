@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Week 1', 'what' => 'Scaffold up, materials delivered, loft cleared and boarded for safe working. Party wall notices served.'],
+    ['when' => 'Week 1', 'what' => 'Scaffold up, materials delivered, loft cleared and boarded for safe working. Site set up.'],
     ['when' => 'Weeks 2–3', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
     ['when' => 'Weeks 4–5', 'what' => 'Hipped end opened, dormer framed into the roof, roofed and made watertight.'],
     ['when' => 'Weeks 6–7', 'what' => 'Windows fitted, tile-hung cheeks, insulation, stairwell cut and bespoke staircase fitted.'],
@@ -63,7 +63,7 @@ $included = [
     'New floor joists laid over the existing ceiling',
     'Bespoke staircase and fire-rated doors to the protected stair',
     'Insulation, plasterboard, skim and second-fix electrics',
-    'Building Control fees, party wall notices and completion certificate'
+    'Building Control fees, structural calculations and completion certificate'
 ];
 
 $addOns = [
@@ -80,7 +80,7 @@ $faqs = [
     ['q' => 'What finish do you use on the cheeks?', 'a' => 'Hanging tiles or slates matched to the roof, in almost every case. It reads far better than render on a hipped roof and it is the detail a planning officer looks for inside a conservation area. Lead or zinc is an option where the architecture supports it.'],
     ['q' => 'How much floor area does it add?', 'a' => 'Typically 24 to 28 m², enough for a good bedroom with an en-suite. Compared with a full-width rear dormer you lose some floor area at the edges, but you keep the roofline and usually the neighbours’ goodwill.'],
     ['q' => 'Will it look like an afterthought?', 'a' => 'Not if it is proportioned properly. The rules we work to: set the dormer down the slope rather than tight to the ridge, keep it narrower than the elevation, align the windows with those below, and match materials. All of that is settled in your design plans before we start.'],
-    ['q' => 'Does the party wall matter?', 'a' => 'On a semi or end-terrace, yes — building off or cutting into a shared wall means serving Party Wall notices at least two months before work starts. We prepare them alongside the structural drawings.'],
+    ['q' => 'How are Building Regulations handled?', 'a' => 'All structural alterations require Building Regulations sign-off covering steel beams, insulation standards, fire-rated doors, and staircase pitch. We manage the entire inspection and certification process for you.'],
     ['q' => 'How long does it take?', 'a' => 'Around 6 to 8 weeks on site, plus two to four weeks beforehand for drawings, structural calculations and Building Control. A planning application, where one is needed, adds around eight weeks.']
 ];
 

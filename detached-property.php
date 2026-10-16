@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Detached House Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for detached houses. 50m³ permitted development allowance, no party wall notices, hip-to-gable from £55,000.";
+$pageDesc = "Loft conversions for detached houses. 50m³ permitted development allowance, complete structural freedom, hip-to-gable from £55,000.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -23,7 +23,7 @@ $schemaJson = json_encode([
 
 $facts = [
     ['value' => '50m³', 'label' => 'PD volume limit'],
-    ['value' => 'No party wall', 'label' => 'Notices needed'],
+    ['value' => 'Standalone', 'label' => 'Plot type'],
     ['value' => '8–10 weeks', 'label' => 'On site']
 ];
 
@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, Building Control application. No party wall notices.'],
+    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, and Building Control application.'],
     ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and structural steels craned in.'],
     ['when' => 'Weeks 3–5', 'what' => 'New gable built up off the engineer’s load-bearing line, roof extended and made watertight.'],
     ['when' => 'Weeks 6–8', 'what' => 'High-grade insulation, windows fitted, bespoke staircase and internal partitions in.'],
@@ -76,8 +76,8 @@ $addOns = [
 
 $faqs = [
     ['q' => 'How much can I build on a detached house?', 'a' => 'Permitted development allows 50m³ of added roof volume. It covers every roof enlargement ever made to the property, so an existing dormer counts against the total. On a larger detached roof the allowance, not the floor area, is usually what limits the design — we calculate the remainder at the survey.'],
-    ['q' => 'Can I square off both hips?', 'a' => 'Physically yes, and there is no party wall to stop you — but two gables plus a dormer will normally exceed 50m³, which means a full planning application. It is often better to square off one side and put the volume into a deeper rear dormer instead. We model both on your drawings.'],
-    ['q' => 'Do I still need Party Wall notices?', 'a' => 'No — that is the practical advantage of a detached house. No notices, no two-month waiting period, no neighbour surveyor. You do still need Building Control approval and structural calculations, both of which are inside your fixed price.'],
+    ['q' => 'Can I square off both hips?', 'a' => 'Physically yes, and there is no adjoining property to restrict you — but two gables plus a dormer will normally exceed 50m³, which means a full planning application. It is often better to square off one side and put the volume into a deeper rear dormer instead. We model both on your drawings.'],
+    ['q' => 'How does detached construction keep disruption low?', 'a' => 'All materials and scaffold access remain completely external to your living spaces. Because there are no adjoining shared structures, construction moves quickly and efficiently under Building Control supervision.'],
     ['q' => 'Which conversion gives the best result?', 'a' => 'On a detached house a wrap around usually wins on space, around 44 m², but a single hip-to-gable often gives everything you actually need. The deciding factors are the staircase route and how much of the 50m³ is left. We recommend one rather than upselling the largest.'],
     ['q' => 'Where will the new staircase go?', 'a' => 'You normally have more choices than in a terrace or semi, which is worth exploiting. Over the existing flight keeps the landing compact; taking space from a large bedroom gives a better-proportioned landing and a straighter run. Either way, maximum 42° pitch with 1.9m headroom at the centre.'],
     ['q' => 'Do I need planning permission?', 'a' => 'Usually not, provided the design stays inside 50m³, sits 200mm back from the original eaves and does not exceed the existing ridge. Larger detached houses in Green Belt, conservation areas or on Article 4 land are the exception — we check your address before drawing.'],
@@ -109,8 +109,8 @@ include 'includes/header.php';
             </span>
           </div>
           <h1 id="v-h" class="heading-h1" style="font-size:clamp(34px,5.4vw,56px);letter-spacing:-.025em;margin:0">Detached House Loft Conversions</h1>
-          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Complete design freedom with zero party wall paperwork.</p>
-          <p class="lead-text" style="max-width:46ch">A 50m³ allowance, hips on both sides and no party wall to negotiate. Detached houses give the most design freedom of any property type with no neighbour delays.</p>
+          <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Complete design freedom on standalone plots.</p>
+          <p class="lead-text" style="max-width:46ch">A 50m³ allowance, hips on both sides and complete structural independence. Detached houses give the most design freedom of any property type with no neighbour delays.</p>
           
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
@@ -267,7 +267,7 @@ include 'includes/header.php';
             <span class="section-label-light">Pricing</span>
             <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What a detached conversion costs</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">With no party wall delays, detached conversions move fast. Starting figures are real fixed prices after survey, not estimates.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">With standalone plots and independent access, detached conversions move fast. Starting figures are real fixed prices after survey, not estimates.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">

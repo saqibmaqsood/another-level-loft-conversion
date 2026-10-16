@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Terraced House Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for terraced houses. 40m³ permitted development allowance, rear dormer guaranteed fixed quote, party wall notices handled.";
+$pageDesc = "Loft conversions for terraced houses. 40m³ permitted development allowance, rear dormer guaranteed fixed quote from £48,000.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -16,14 +16,14 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "38000",
+        "price" => "48000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
     ['value' => '40m³', 'label' => 'PD volume limit'],
-    ['value' => 'from £50,000', 'label' => 'Rear dormer'],
+    ['value' => 'from £48,000', 'label' => 'Rear dormer'],
     ['value' => '8 weeks', 'label' => 'On site']
 ];
 
@@ -39,9 +39,9 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, party wall notices to both neighbours.'],
+    ['when' => 'Before', 'what' => 'Survey, layout planning, architectural drawings, and structural calculations.'],
     ['when' => 'Days 1–3', 'what' => 'Scaffold and rear hoist up, materials in over the roof, loft cleared.'],
-    ['when' => 'Days 4–6', 'what' => 'Steels in off the party walls, new deeper floor joists laid.'],
+    ['when' => 'Days 4–6', 'what' => 'Steels in, new deeper floor joists laid over the existing ceiling.'],
     ['when' => 'Weeks 2–3', 'what' => 'Rear slope opened, dormer framed and made watertight, staircase fitted.'],
     ['when' => 'Week 4', 'what' => 'Plastering, second-fix electrics, cheek finish, sign-off and handover.']
 ];
@@ -62,12 +62,11 @@ $included = [
     'New floor joists laid over the existing ceiling',
     'Bespoke staircase and fire-rated doors to the protected stair',
     'Insulation, plasterboard, skim and second-fix electrics',
-    'Party wall notices served on both neighbours',
     'Building Control fees and completion certificate'
 ];
 
 $addOns = [
-    ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'The usual route. Maximum floor area at full standing height, 8 weeks on site.'],
+    ['name' => 'Rear dormer', 'price' => 'from £48,000', 'note' => 'The usual route. Maximum floor area at full standing height, 8 weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest, 6–8 weeks, but you keep the eaves. Needs 2.2m to the ridge.'],
     ['name' => 'Hip-to-gable', 'price' => 'from £55,000', 'note' => 'End-terraces only — a mid-terrace has no hip to square off.'],
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.'],
@@ -78,9 +77,9 @@ $faqs = [
     ['q' => 'How much can I build on a terraced house?', 'a' => 'Permitted development allows 40m³ of added roof volume on a terrace — 20% less than a semi or detached house gets. The allowance covers every roof enlargement ever made to the property, so a previous dormer counts against it. We measure the existing roof and show the remaining volume on your drawings.'],
     ['q' => 'Which conversion suits a mid-terrace?', 'a' => 'A rear dormer, in almost every case. There is no hip to square off, so hip-to-gable and wrap around are not available, and a rooflight conversion leaves you with eaves on both sides. A full-width rear dormer inside the 40m³ allowance typically gives 28 to 32 m² at full standing height.'],
     ['q' => 'What about an end-terrace?', 'a' => 'An end-terrace often has a hipped end, which puts hip-to-gable and even a wrap around back on the table. The volume allowance stays at 40m³ though, so the design has to work harder. It is worth surveying properly rather than assuming.'],
-    ['q' => 'Do I need my neighbours’ permission?', 'a' => 'Not permission, but notice. Cutting into or building off a party wall triggers the Party Wall Act — notice served at least two months before work starts, on both sides for a mid-terrace. We prepare the notices with the structural drawings so it never delays your start date.'],
+    ['q' => 'Do I need planning permission?', 'a' => 'Most terraced loft conversions fall under Permitted Development rights (up to 40m³ added volume), meaning a full planning application is not required provided the dormer sits within specified limits and does not exceed the ridge. We verify your permitted rights prior to drawing.'],
     ['q' => 'How do materials get in with no side access?', 'a' => 'Through the scaffold and a rear hoist, which is standard on terraces. Steels come in over the roof rather than up the stairs. Where the rear is inaccessible we plan a front scaffold and a street licence — we tell you which at the survey.'],
-    ['q' => 'Will my neighbours’ conversion affect mine?', 'a' => 'Only helpfully. If the house next door already has a dormer, the planning precedent and the party wall condition are both known quantities, and matching the neighbouring dormer often makes the design decision for you.'],
+    ['q' => 'Will my neighbours’ conversion affect mine?', 'a' => 'Only helpfully. If the house next door already has a dormer, the planning precedent is already established, and matching the neighbouring dormer often makes the design decision straightforward.'],
     ['q' => 'Is the staircase harder to fit in a terrace?', 'a' => 'It is the tightest part of the job. Terraces are narrow, so the new flight usually runs over the existing stairwell to keep the landing compact. Maximum 42° pitch and 1.9m headroom at the centre of the flight still apply — we show the layout in your proposed plans before anything is cut.'],
     ['q' => 'How much value does it add to a terrace?', 'a' => 'Loft conversions typically add 15% to 20% to a property value, and on a two-bedroom terrace a third bedroom often moves the house into a different bracket of buyer entirely. The uplift usually exceeds the build cost in the North West.']
 ];
@@ -110,7 +109,7 @@ include 'includes/header.php';
           </div>
           <h1 id="v-h" class="heading-h1" style="font-size:clamp(34px,5.4vw,56px);letter-spacing:-.025em;margin:0">Terraced House Loft Conversions</h1>
           <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Maximising your 40m³ allowance with zero neighbour hassle.</p>
-          <p class="lead-text" style="max-width:46ch">A terrace has no hip to square off and neighbours on both sides, so the rear slope does the work. Within the 40m³ allowance a full-width rear dormer delivers two rooms — and party wall paperwork is handled by us.</p>
+          <p class="lead-text" style="max-width:46ch">A terrace has no hip to square off and neighbours on both sides, so the rear slope does the work. Within the 40m³ allowance a full-width rear dormer delivers two rooms with zero hassle.</p>
           
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
@@ -119,7 +118,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£50,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£48,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -265,16 +264,16 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
           <div style="flex:1 1 420px">
             <span class="section-label-light">Pricing</span>
-            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £50,000 includes &mdash; and terrace options</h2>
+            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £48,000 includes &mdash; and terrace options</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">A full-width rear dormer on a terrace typically runs from £50,000 fixed. All structural steels, party wall notices and Building Control fees are inside.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">A full-width rear dormer on a terrace typically runs from £48,000 fixed. All structural steels, architectural calculations and Building Control fees are inside.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£50,000</div>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£48,000</div>
               <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 28–32 m² terrace rear dormer, 8 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
@@ -315,7 +314,7 @@ include 'includes/header.php';
             <span class="section-label">Free survey</span>
             <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0">Book a survey for your terrace</h2>
           </div>
-          <p style="flex:1 1 260px;max-width:36ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We check ridge height, the 40m³ volume limit and party wall details. Three steps to book.</p>
+          <p style="flex:1 1 260px;max-width:36ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">We check ridge height, the 40m³ volume limit and roof feasibility. Three steps to book.</p>
         </div>
         <?php 
           $widgetHeading = "Book a Terrace loft survey";
@@ -330,7 +329,7 @@ include 'includes/header.php';
         <div class="faq-sticky-col">
           <span class="section-label">Terrace questions</span>
           <h2 id="faq-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:16ch">Before you decide.</h2>
-          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on the 40m³ volume limit, party walls, scaffolds and staircase fit. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
+          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on the 40m³ volume limit, building regulations, scaffolds and staircase fit. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
           <div class="hero-actions-row" style="margin-top:4px">
             <a href="#booking" data-open-booking class="btn-primary hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-secondary hero-btn">Ask us directly</a>

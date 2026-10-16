@@ -328,7 +328,7 @@ include 'includes/header.php';
 
             <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:8px">
               <h3 style="font-family:var(--font-serif);font-size:21px;line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">All paperwork is on us</h3>
-              <p style="font-family:var(--font-sans);font-size:14px;line-height:1.65;color:#555550;margin:0">Structural engineer calculations, Building Control submissions, party wall notices and official completion sign-off are fully managed.</p>
+              <p style="font-family:var(--font-sans);font-size:14px;line-height:1.65;color:#555550;margin:0">Structural engineer calculations, Building Control submissions, architectural drawings and official completion sign-off are fully managed.</p>
             </div>
 
             <div style="margin-top:auto;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#3E5C32;position:relative;z-index:1">

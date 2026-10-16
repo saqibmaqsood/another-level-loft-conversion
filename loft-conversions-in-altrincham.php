@@ -46,7 +46,7 @@ $faqs = [
     ['q' => 'How quickly can you survey my loft in Altrincham?', 'a' => 'Our Manchester surveying team is in WA14/WA15 weekly. We offer free surveys within 5 working days, including weekday morning, afternoon, and Saturday appointments.'],
     ['q' => 'How long does on-site construction take?', 'a' => 'Velux conversions take 4 to 6 weeks; standard rear dormers, hip-to-gables, and wrap around master suites take 8 to 10 weeks on site.'],
     ['q' => 'What headroom is required in an Altrincham loft?', 'a' => 'You need a minimum of 2.2m from the top of the ceiling joists to the ridge board. Many older Victorian and Edwardian properties have generous roof pitch, making conversions straightforward.'],
-    ['q' => 'Do I need a Party Wall agreement with my neighbour?', 'a' => 'If steel beams rest on a shared party wall or you are building up a shared gable, Party Wall notices are served under the Party Wall Act 1996. We supply template notices and advice at your survey.'],
+    ['q' => 'Do I need planning permission for a loft conversion in Altrincham?', 'a' => 'Most loft conversions in Altrincham fall under Permitted Development, requiring no formal planning application. If your home is in a designated conservation area or requires a front-facing alteration, we handle all planning submissions and architectural drawings for you.'],
 ];
 
 $nearby = ['Sale', 'Stretford', 'Manchester', 'Didsbury', 'Chorlton'];

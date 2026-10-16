@@ -43,7 +43,7 @@ $faqs = [
     ['q' => 'How does Manchester City Council handle Building Control?', 'a' => 'We submit full architectural plans and structural calculations, coordinating all on-site inspections for joists, steelwork, thermal insulation, and fire safety.'],
     ['q' => 'What is the cost of a loft conversion in Manchester?', 'a' => 'Prices start from £24,000 for Velux conversions, £50,000 for rear dormers, and £55,000 for hip-to-gable conversions with fixed written quotes.'],
     ['q' => 'How long does the on-site build take in Manchester?', 'a' => 'Velux conversions typically take 6 to 8 weeks, while dormer and hip-to-gable conversions take 8 to 10 weeks, with external scaffolding ensuring minimal disruption to your daily life.'],
-    ['q' => 'How do you handle party walls on Manchester terraces?', 'a' => 'We provide standard Party Wall notices for your neighbours under the Party Wall Act 1996, making the legal process straightforward.'],
+    ['q' => 'How do you handle structural steelwork on Manchester terraces?', 'a' => 'Our structural engineer calculates exact beam sizing and bearing requirements for Building Control sign-off, ensuring all weight is distributed safely down to primary load-bearing walls without compromising adjoining properties.'],
     ['q' => 'Can you convert a low-pitch roof in Manchester?', 'a' => 'If headroom is under 2.2m, a roof-lift conversion can elevate the roof structure where planning allows.'],
     ['q' => 'Is the survey and layout advice free?', 'a' => 'Yes, our free home survey includes expert layout guidance detailing room dimensions and staircase configuration.'],
     ['q' => 'How soon can you start after survey and planning?', 'a' => 'We typically schedule start dates within 2 to 4 weeks of final approvals.'],

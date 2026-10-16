@@ -60,7 +60,7 @@ $detailedTypes = [
         'points' => [
             'The default choice for a mid-terrace, which has no hip to square off',
             'Must sit 200mm back from the original eaves and stay under the existing ridge',
-            'Party wall notices needed where it meets a shared wall — two months’ notice'
+            'Engineered steel beams and full Building Regulations certification included'
         ]
     ],
     [
@@ -481,7 +481,7 @@ include 'includes/header.php';
                 <svg viewBox="0 0 48 32" width="38" height="24" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 30V14l16-10 16 10v16zM19 30v-8h10v8"></path></svg>
               </div>
               <h3 style="font-family:Newsreader,Georgia,serif;font-size:22px;line-height:1.15;margin:0 0 8px;color:#1A1A1A;font-weight:400">Detached</h3>
-              <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Hips both sides and no party wall. The most design freedom of any type.</p>
+              <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Hips both sides on standalone plots. The most design freedom of any type.</p>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
               <span style="color:#4F6B42">50m³ limit</span>

@@ -18,19 +18,19 @@ $schemaJson = json_encode([
 
 $propertyRows = [
     [
-        'name' => 'Terrace', 'volume' => '40m³', 'party' => 'Both sides', 'route' => 'Rear dormer',
+        'name' => 'Terrace', 'volume' => '40m³', 'adjoining' => 'Both sides', 'route' => 'Rear dormer',
         'price' => '8 weeks', 'ruledOut' => 'Wrap around, hip-to-gable (mid-terrace)', 'href' => 'terrace-property.php'
     ],
     [
-        'name' => 'Semi-detached', 'volume' => '50m³', 'party' => 'One side', 'route' => 'Hip-to-gable',
+        'name' => 'Semi-detached', 'volume' => '50m³', 'adjoining' => 'One side', 'route' => 'Hip-to-gable',
         'price' => '8–10 weeks', 'ruledOut' => 'Nothing, if the volume allows', 'href' => 'semi-detached-property.php'
     ],
     [
-        'name' => 'Detached', 'volume' => '50m³', 'party' => 'None', 'route' => 'Hip-to-gable',
+        'name' => 'Detached', 'volume' => '50m³', 'adjoining' => 'None', 'route' => 'Hip-to-gable',
         'price' => '8–10 weeks', 'ruledOut' => 'Both hips plus a dormer — over 50m³', 'href' => 'detached-property.php'
     ],
     [
-        'name' => 'Bungalow', 'volume' => '50m³', 'party' => 'Usually none', 'route' => 'Dormer / Velux',
+        'name' => 'Bungalow', 'volume' => '50m³', 'adjoining' => 'Usually none', 'route' => 'Dormer / Velux',
         'price' => '3–4 weeks', 'ruledOut' => 'Anything, if the pitch is too shallow', 'href' => 'bungalow-property.php'
     ]
 ];
@@ -42,12 +42,12 @@ $detailedProperties = [
         'glyph' => 'M4 30V14l10-8 10 8v16M24 30V14l10-8 10 8v16M14 30v-8h10v8',
         'body' => 'A terrace has the smallest volume allowance of any property type, no hip to square off, and neighbours on both sides. That narrows the design to the rear slope — but within 40m³ a full-width rear dormer still delivers two rooms at full standing height.',
         'options' => [
-            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
+            ['name' => 'Rear Dormer', 'price' => 'from £48,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php'],
             ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php']
         ],
         'points' => [
-            'Party wall notices to both neighbours, served two months before work starts',
+            'Building Control compliance and certified structural calculations included',
             'Materials come in over the roof by scaffold and rear hoist, not through the house',
             'End-terraces often have a hipped end, which puts hip-to-gable back on the table'
         ]
@@ -64,7 +64,7 @@ $detailedProperties = [
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
         'points' => [
-            'One party wall rather than two, which makes the paperwork simpler than a terrace',
+            'Generous width allows a full master bedroom with dedicated en-suite',
             'A full gable on a matched pair is a design question — hip-end dormer is the gentler option',
             'A wrap around uses most of the 50m³, so planning becomes more likely'
         ]
@@ -73,7 +73,7 @@ $detailedProperties = [
         'num' => '03', 'name' => 'Detached', 'volume' => '50m³', 'href' => 'detached-property.php',
         'meta' => '8–10 weeks · 25–46 m² typical',
         'glyph' => 'M8 30V14l16-10 16 10v16zM19 30v-8h10v8',
-        'body' => 'Hips on both sides, a 50m³ allowance and no party wall to negotiate. Detached houses give the most design freedom of any property type — and the fewest reasons for a conversion to end up compromised.',
+        'body' => 'Hips on both sides, a 50m³ allowance and complete structural independence. Detached houses give the most design freedom of any property type — and the fewest reasons for a conversion to end up compromised.',
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
@@ -81,7 +81,7 @@ $detailedProperties = [
             ['name' => 'Hip-End Dormer', 'price' => 'from £40,000', 'href' => 'hip-end-dormer-conversion.php']
         ],
         'points' => [
-            'No party wall notices, so no two-month waiting period before work starts',
+            'Independent external scaffold access with zero disturbance to your living areas',
             'Squaring off both hips plus a dormer exceeds 50m³ — that becomes a planning application',
             'More staircase routes available, which usually means a better-proportioned landing'
         ]
@@ -106,7 +106,7 @@ $detailedProperties = [
 $faqs = [
     ['q' => 'How does my property type affect permitted development volume?', 'a' => 'Permitted development rules grant 40m³ of additional roof volume for terraced houses and 50m³ for semi-detached and detached homes. This allowance includes all historical roof enlargements, which our surveyor calculates accurately during your free survey.'],
     ['q' => 'What if my semi-detached house has a hipped roof?', 'a' => 'A hipped side roof is ideal for a hip-to-gable conversion. It converts the sloping side into a straight vertical gable, providing the headroom required for a standard staircase and landing without losing habitable floor space below.'],
-    ['q' => 'Do I need party wall agreements for a terraced or semi-detached conversion?', 'a' => 'Yes. On terraced houses, notices must be served to neighbours on both sides. On semi-detached properties, only the adjoining neighbour needs notice. We prepare the complete structural notices at least two months in advance.'],
+    ['q' => 'How are Building Regulations handled for my property type?', 'a' => 'All structural conversions, regardless of property type, require Building Regulations sign-off covering structural beams, fire safety, thermal insulation, and staircase geometry. We manage all inspector applications, on-site stage checks, and final completion certification.'],
     ['q' => 'Can a bungalow take a conversion?', 'a' => 'If the existing ridge height exceeds 2.2m (common in chalet bungalows), a rear dormer or Velux conversion is often possible without raising the roof. We assess headroom honestly at your free home survey.']
 ];
 
@@ -136,7 +136,7 @@ include 'includes/header.php';
 
           <h1 id="h1" class="heading-h1" style="font-size:clamp(34px,5.4vw,56px);letter-spacing:-.025em;margin:0">Loft Conversions by Property Type</h1>
           <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">Your house decides what is possible.</p>
-          <p class="lead-text" style="max-width:46ch">Permitted development gives a terrace 40m³ of added roof volume and a semi or detached 50m³. Whether your roof has a hip decides which types are available, and party walls decide the paperwork. Start from the house and the shortlist writes itself.</p>
+          <p class="lead-text" style="max-width:46ch">Permitted development gives a terrace 40m³ of added roof volume and a semi or detached 50m³. Whether your roof has a hip decides which conversion types are available. Start from the house and the shortlist writes itself.</p>
           
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
@@ -153,8 +153,8 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Min headroom</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">2 Months</span>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Party wall notice</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">100%</span>
+              <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Building Control</span>
             </div>
           </div>
 
@@ -254,7 +254,7 @@ include 'includes/header.php';
           <div style="display:grid;grid-template-columns:1.2fr .7fr .8fr 1.2fr .8fr 1.3fr;gap:16px;padding:14px 22px;background:#FAFAF8;border-bottom:1px solid #E4E4DF;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">
             <span>Property</span>
             <span>PD volume</span>
-            <span>Party walls</span>
+            <span>Adjoining walls</span>
             <span>Usual route</span>
             <span>Timeline</span>
             <span>Ruled out</span>
@@ -263,7 +263,7 @@ include 'includes/header.php';
             <a href="<?php echo $r['href']; ?>" style="display:grid;grid-template-columns:1.2fr .7fr .8fr 1.2fr .8fr 1.3fr;gap:16px;align-items:center;padding:18px 22px;text-decoration:none;color:#1A1A1A;transition:background .2s;<?php if ($idx < count($propertyRows) - 1) echo 'border-bottom:1px solid #EDEDE8;'; ?>" onmouseover="this.style.background='#F1F5EE'" onmouseout="this.style.background='#FFFFFF'">
               <span style="font-family:Newsreader,Georgia,serif;font-size:19px;line-height:1.2;color:#1A1A1A"><?php echo $r['name']; ?></span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#4F6B42;font-weight:500"><?php echo $r['volume']; ?></span>
-              <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B6B"><?php echo $r['party']; ?></span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B6B"><?php echo $r['adjoining']; ?></span>
               <span style="font-size:13px;line-height:1.5;color:#1A1A1A"><?php echo $r['route']; ?></span>
               <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B6B"><?php echo $r['price']; ?></span>
               <span style="font-size:13px;line-height:1.5;color:#A0662F"><?php echo $r['ruledOut']; ?></span>
@@ -284,8 +284,8 @@ include 'includes/header.php';
                 </div>
                 <div class="cmp-card-stats" style="margin-top:12px">
                   <div class="cmp-stat-box">
-                    <span class="cmp-stat-label">Party Walls</span>
-                    <span class="cmp-stat-val"><?php echo $r['party']; ?></span>
+                    <span class="cmp-stat-label">Adjoining Walls</span>
+                    <span class="cmp-stat-val"><?php echo $r['adjoining']; ?></span>
                   </div>
                   <div class="cmp-stat-box">
                     <span class="cmp-stat-label">Timeline</span>
@@ -542,7 +542,7 @@ include 'includes/header.php';
         <div class="faq-sticky-col">
           <span class="section-label">Property questions</span>
           <h2 id="faq-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:16ch">Before you decide.</h2>
-          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on permitted development volume, party walls, hips and bungalow lofts. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
+          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on permitted development volume, building regulations, hips and bungalow lofts. Anything else, ask the surveyor &mdash; the visit is free whether you go ahead or not.</p>
           <div class="hero-actions-row" style="margin-top:4px">
             <a href="#booking" data-open-booking class="btn-primary hero-btn">Book Free Survey</a>
             <a href="tel:08000862744" class="btn-secondary hero-btn">Ask us directly</a>

@@ -39,7 +39,7 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and hip taken down. Party wall notices served.'],
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and hip taken down. Steels and materials delivered.'],
     ['when' => 'Weeks 3–4', 'what' => 'New gable wall built up in matching brick/render, structural steels and floor joists in.'],
     ['when' => 'Weeks 5–6', 'what' => 'Rear slope opened, full-width dormer framed, flat roofed, and made watertight with roof tiles extended.'],
     ['when' => 'Weeks 7–8', 'what' => 'Windows fitted, high-spec insulation, stairwell cut, bespoke staircase and internal partitions framed.'],
@@ -63,7 +63,7 @@ $included = [
     'Roof extended over the new gable with matching tiles or slate',
     'Bespoke staircase, landing and fire-rated doors to the protected stair',
     'Insulation, plasterboard, skim and second-fix electrics throughout',
-    'Building Control fees, party wall notices and completion certificate'
+    'Building Control fees, structural calculations and completion certificate'
 ];
 
 $addOns = [
@@ -80,7 +80,7 @@ $faqs = [
     ['q' => 'Which houses suit it?', 'a' => 'Semis, detached houses and end-terraces with a hipped roof and a rear slope worth building into. A mid-terrace has no hip, so a rear dormer alone is the option there. Bungalows with a shallow pitch are assessed for dormer feasibility.'],
     ['q' => 'How long does a wrap around take on site?', 'a' => 'Typically 8 to 10 weeks on site. Weeks one to three are structure — hip down, gable up, steels in. Weeks four and five are the dormer and making everything watertight. Weeks six to ten are staircase, partitions, plaster, plumbing and sign-off.'],
     ['q' => 'How disruptive is it compared with a smaller conversion?', 'a' => 'More, and it is fair to plan for that. Two elevations are open at different points, the scaffold is up longer, and there are perhaps four genuinely noisy days rather than two. Access is still through the scaffold and rear hoist, the loft stays sealed off, and almost everyone stays in the house throughout.'],
-    ['q' => 'Do I need to tell my neighbours?', 'a' => 'Yes. Building off or cutting into a party wall triggers the Party Wall Act — notice at least two months before work starts. On a wrap around both the gable and the dormer can touch the shared boundary, so we prepare the notices with the structural drawings.'],
+    ['q' => 'How are structural connections handled with adjoining properties?', 'a' => 'Our structural engineer produces full calculations and beam bearing specifications for Building Control approval before any works begin on site, ensuring complete structural integrity and peace of mind.'],
     ['q' => 'Can I do it in two stages?', 'a' => 'It is possible but rarely economical. Two scaffolds, two sets of drawings, two Building Control applications and the second job disturbs the first job’s finishes. If budget is the constraint, a hip-to-gable now with the dormer designed in for later is the cleaner way to stage it.'],
     ['q' => 'What does it do to the property value?', 'a' => 'A conversion that adds two bedrooms and a bathroom is the highest-value addition available to a typical North West house — usually well above the 15% to 20% that loft conversions add on average. It also changes which buyers your house appeals to when you sell.']
 ];
