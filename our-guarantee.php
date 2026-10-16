@@ -192,11 +192,11 @@ include 'includes/header.php';
                 </svg>
               </span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#3E5C32;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 10px;border-radius:12px">
-                100% In-House
+                Personal Oversight
               </span>
             </div>
             <h3 style="font-family:var(--font-serif);font-size:21px;margin:0 0 10px;color:#1A1A1A;font-weight:400">
-              Direct Master Builder, Never Subcontracted Brokers
+              Dedicated Project Management &amp; Personal Oversight
             </h3>
             <p style="font-family:var(--font-sans);font-size:14.5px;color:#4A4A45;line-height:1.65;margin:0 0 16px">
               Another Level is an independent, family-run company. The person who visits your home for the initial survey is Jonny Mee, who personally oversees your build schedule and on-site craftsmen.
