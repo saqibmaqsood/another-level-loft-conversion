@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Rear Dormer Loft Conversions Guaranteed Fixed Price — Another Level";
-$pageDesc = "Rear dormer loft conversions Guaranteed Fixed Price finished in about 8 to 10 weeks. Maximum floor area, usually permitted development.";
+$pageDesc = "Rear dormer loft conversions Guaranteed Fixed Price finished in about 6 to 8 weeks. Maximum floor area, usually permitted development.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -39,11 +39,11 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Days 1–3', 'what' => 'Scaffold up, materials delivered, loft cleared. Party wall notices already served.'],
-    ['when' => 'Days 4–6', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
-    ['when' => 'Week 2', 'what' => 'Rear slope opened, dormer structure framed, roofed and made watertight.'],
-    ['when' => 'Week 3', 'what' => 'Windows fitted, insulation, stairwell cut, bespoke staircase and partitions in.'],
-    ['when' => 'Week 4', 'what' => 'Plastering, second-fix electrics, cheek finish, Building Control sign-off and handover.']
+    ['when' => 'Week 1', 'what' => 'Scaffold up, materials delivered, loft cleared and boarded for safe working. Party wall notices already served.'],
+    ['when' => 'Weeks 2–3', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
+    ['when' => 'Weeks 4–5', 'what' => 'Rear slope opened, dormer structure framed, roofed, clad and made watertight.'],
+    ['when' => 'Weeks 6–7', 'what' => 'Windows fitted, insulation, stairwell cut, bespoke staircase and partitions in.'],
+    ['when' => 'Week 8', 'what' => 'Plastering, second-fix electrics, cheek finish, Building Control sign-off and handover.']
 ];
 
 $fit = [
@@ -81,7 +81,7 @@ $faqs = [
     ['q' => 'Will the flat roof leak?', 'a' => 'Not with the right membrane. We use a single-ply or GRP system with a manufacturer-backed guarantee rather than felt, laid to a slight fall with proper upstands and a code-4 lead apron at the junction. Flat-roof failures come from ponding and bad detailing at the abutment, not the flatness itself.'],
     ['q' => 'How will the dormer look from the garden?', 'a' => 'That is a design decision we make on your drawings. The choices are the cheek finish (hanging tiles to match the roof, render, or the same brick as the house), the window proportions, and how far the dormer is set in from the party walls. Set back and tile-hung reads far better than a full-width rendered box.'],
     ['q' => 'Does the party wall matter?', 'a' => 'Yes, on a terrace or semi. Cutting into or building off a shared wall triggers the Party Wall Act, which means serving notice on your neighbour at least two months before work starts. We prepare the notices with the structural drawings so it never becomes the thing that delays your start date.'],
-    ['q' => 'Is it noisier or messier than a rooflight conversion?', 'a' => 'A little, because the rear slope is opened up and rebuilt. Scaffolding and a rear hoist mean material does not come through the house, the loft is sealed off, and the stairwell is only cut through late in the build. There are two or three genuinely noisy days out of 8 to 10 weeks.'],
+    ['q' => 'Is it noisier or messier than a rooflight conversion?', 'a' => 'A little, because the rear slope is opened up and rebuilt. Scaffolding and a rear hoist mean material does not come through the house, the loft is sealed off, and the stairwell is only cut through late in the build. There are two or three genuinely noisy days out of 6 to 8 weeks.'],
     ['q' => 'How much value does a rear dormer add?', 'a' => 'Most loft conversions add 15% to 20% to a property value, and a dormer sits at the top of that range because it creates full-height bedrooms rather than a study. On a typical North West semi the uplift usually exceeds the build cost.']
 ];
 
@@ -235,7 +235,7 @@ include 'includes/header.php';
       <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:start">
         <div>
           <span class="section-label">Process notes</span>
-          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 8 to 10 weeks actually looks like</h2>
+          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 6 to 8 weeks actually looks like</h2>
           <ol style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
             <?php foreach ($timeline as $t): ?>
               <li style="display:flex;gap:16px;align-items:baseline;padding-bottom:14px;border-bottom:1px solid #DCDCD6">
@@ -275,7 +275,7 @@ include 'includes/header.php';
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
               <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£50,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 28–32 m² rear dormer, 8 to 10 weeks on site.</span>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 28–32 m² rear dormer, 6 to 8 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>
