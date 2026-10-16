@@ -42,7 +42,7 @@ $faqs = [
     ['q' => 'Do Oldham loft conversions need planning permission?', 'a' => 'Most conversions in OL1-OL9 are Permitted Development. Oldham Council requires planning permission in Saddleworth, Uppermill, Dobcross, and local conservation areas.'],
     ['q' => 'Can stone and slate roofs in Oldham be converted safely?', 'a' => 'Yes. Our structural engineers specify appropriate steel ridge beams and match natural slates or stone flags to respect the local aesthetic.'],
     ['q' => 'How does Oldham Council inspect building works?', 'a' => 'Building Control checks foundations/walls, steelwork, floor joists, fire barriers, and stairs before issuing a completion certificate.'],
-    ['q' => 'What is the cost of a loft conversion in Oldham?', 'a' => 'Velux conversions start from £24,000; Rear dormers from £38,000; Hip-to-Gables from £37,000 with a single fixed written price.'],
+    ['q' => 'What is the cost of a loft conversion in Oldham?', 'a' => 'Velux conversions start from £24,000; Rear dormers from £50,000; Hip-to-Gables from £37,000 with a single fixed written price.'],
     ['q' => 'How long will builders be on site?', 'a' => 'Typical on-site build duration is 3 to 4.5 weeks.'],
     ['q' => 'How do you keep the house weather-tight during construction?', 'a' => 'We open roofs only when weather windows permit and install heavy-duty waterproof tarpaulins and scaffold covers throughout.'],
     ['q' => 'Do you install bespoke stairs?', 'a' => 'Yes, our joiners build custom staircases matching your existing banister and spindle profiles.'],

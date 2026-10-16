@@ -19,7 +19,7 @@ $schemaJson = json_encode([
 $propertyRows = [
     [
         'name' => 'Terrace', 'volume' => '40m³', 'party' => 'Both sides', 'route' => 'Rear dormer',
-        'price' => '4 weeks', 'ruledOut' => 'Wrap around, hip-to-gable (mid-terrace)', 'href' => 'terrace-property.php'
+        'price' => '8–10 weeks', 'ruledOut' => 'Wrap around, hip-to-gable (mid-terrace)', 'href' => 'terrace-property.php'
     ],
     [
         'name' => 'Semi-detached', 'volume' => '50m³', 'party' => 'One side', 'route' => 'Hip-to-gable',
@@ -38,11 +38,11 @@ $propertyRows = [
 $detailedProperties = [
     [
         'num' => '01', 'name' => 'Terrace', 'volume' => '40m³', 'href' => 'terrace-property.php',
-        'meta' => '4 weeks · 28–32 m² typical',
+        'meta' => '8–10 weeks · 28–32 m² typical',
         'glyph' => 'M4 30V14l10-8 10 8v16M24 30V14l10-8 10 8v16M14 30v-8h10v8',
         'body' => 'A terrace has the smallest volume allowance of any property type, no hip to square off, and neighbours on both sides. That narrows the design to the rear slope — but within 40m³ a full-width rear dormer still delivers two rooms at full standing height.',
         'options' => [
-            ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
+            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php'],
             ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php']
         ],
@@ -59,7 +59,7 @@ $detailedProperties = [
         'body' => 'The most converted house in the North West and the most flexible. A 50m³ allowance and a hipped side roof mean every conversion type is on the table — from a three-week rooflight room to a wrap around with two bedrooms and a bathroom.',
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php'],
-            ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
+            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
@@ -76,7 +76,7 @@ $detailedProperties = [
         'body' => 'Hips on both sides, a 50m³ allowance and no party wall to negotiate. Detached houses give the most design freedom of any property type — and the fewest reasons for a conversion to end up compromised.',
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php'],
-            ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
+            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Hip-End Dormer', 'price' => 'from £37,000', 'href' => 'hip-end-dormer-conversion.php']
         ],
@@ -92,7 +92,7 @@ $detailedProperties = [
         'glyph' => 'M4 30V18l20-12 20 12v12zM18 30v-7h12v7',
         'body' => 'A bungalow roof is usually shallow, so headroom decides everything. Where there is height a rear dormer or Velux conversion delivers a spacious bedroom or suite without raising the roof line.',
         'options' => [
-            ['name' => 'Rear Dormer', 'price' => 'from £38,000', 'href' => 'rear-dormer-conversion.php'],
+            ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
         'points' => [
@@ -493,7 +493,7 @@ include 'includes/header.php';
               <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Flat-roof box across the rear. Most floor area.</p>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:auto;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
-              <span style="color:#4F6B42">£38,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">4 wks</span>
+              <span style="color:#4F6B42">£50,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">8–10 wks</span>
             </div>
           </a>
           <a href="hip-to-gable-conversion.php" class="byconv-type-card">

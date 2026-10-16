@@ -16,7 +16,7 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "38000",
+        "price" => "50000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
@@ -115,11 +115,11 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">4 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£38,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£50,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -265,7 +265,7 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
           <div style="flex:1 1 420px">
             <span class="section-label-light">Pricing</span>
-            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £38,000 includes &mdash; and what pushes it up</h2>
+            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £50,000 includes &mdash; and what pushes it up</h2>
           </div>
           <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Dormer conversions run £35,000–£60,000 across the UK in 2026 for around 30 m². North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
         </div>
@@ -274,7 +274,7 @@ include 'includes/header.php';
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£38,000</div>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£50,000</div>
               <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 28–32 m² rear dormer, 8 to 10 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">

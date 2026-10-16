@@ -42,7 +42,7 @@ $faqs = [
     ['q' => 'Do Preston loft conversions need planning permission?', 'a' => 'Most conversions in PR1-PR5 are Permitted Development. Preston City Council requires planning permission within Winckley Square, Fulwood, and St Ignatius conservation areas.'],
     ['q' => 'How does Preston City Council handle Building Regulations?', 'a' => 'Preston Building Control inspects structural steelwork, joist sizing, thermal performance (Part L), and fire safety systems.'],
     ['q' => 'Where is your head office located?', 'a' => 'We are based at Old Docks House, 90 Watery Lane, Preston PR2 1AU. Homeowners are welcome to visit our design offices by appointment.'],
-    ['q' => 'What is the cost of a loft conversion in Preston?', 'a' => 'Velux conversions from £24,000; Rear dormers from £38,000; Hip-to-Gables from £37,000 with a single fixed written price.'],
+    ['q' => 'What is the cost of a loft conversion in Preston?', 'a' => 'Velux conversions from £24,000; Rear dormers from £50,000; Hip-to-Gables from £37,000 with a single fixed written price.'],
     ['q' => 'How fast can you survey my home in Preston?', 'a' => 'Because we are locally based, we can often survey your Preston home within 24 to 48 hours.'],
     ['q' => 'How long does construction take on site?', 'a' => 'Most Preston conversions take 3 to 4.5 weeks from scaffold erection to final plaster skim.'],
     ['q' => 'Are layout plans provided before building?', 'a' => 'Yes, our free home survey includes expert layout guidance showing exact layouts and stair positioning.'],

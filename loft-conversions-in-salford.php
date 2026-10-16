@@ -44,7 +44,7 @@ $faqs = [
     ['q' => 'What conversion type suits a Salford terrace?', 'a' => 'A full-width flat roof rear dormer provides the maximum usable floor area for an additional bedroom and bathroom.'],
     ['q' => 'What is the build timeline in Salford?', 'a' => '3 to 4.5 weeks on site, with minimal disruption to your home.'],
     ['q' => 'How do you handle fire safety on three storeys?', 'a' => 'We install 30-minute fire-rated doors (FD30) and interlinked mains-powered smoke detectors on all floors.'],
-    ['q' => 'How much does a loft conversion cost in Salford?', 'a' => 'Velux conversions from £24,000; Rear dormers from £38,000; Hip-to-Gables from £37,000.'],
+    ['q' => 'How much does a loft conversion cost in Salford?', 'a' => 'Velux conversions from £24,000; Rear dormers from £50,000; Hip-to-Gables from £37,000.'],
     ['q' => 'Are structural engineer calculations included?', 'a' => 'Yes, full structural calculations and architectural plans are included in your fixed quote.'],
     ['q' => 'How do I schedule a free survey in Salford?', 'a' => 'Contact our Manchester office on 0161 4100155 or use our online survey calendar.'],
 ];

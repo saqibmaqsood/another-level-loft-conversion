@@ -211,11 +211,11 @@ CRITICAL RULES TO PREVENT REPETITIVE QUESTIONS:
 4. Keep replies concise, conversational, and friendly (2-3 short sentences).
 
 CORE ACCURATE COMPANY FACTS:
-- Velux Rooflight: ~£25,000 – £35,000
-- Rear Dormer (most popular): ~£38,000 – £52,000 (full standing height master bedroom + ensuite)
+- Velux Rooflight: ~£24,000 – £35,000
+- Rear Dormer (most popular): from £50,000 (full standing height master bedroom + ensuite)
 - Hip-to-Gable: ~£42,000 – £56,000 (ideal for semi-detached)
 - Mansard / L-shape Wrap-around: £50,000 – £65,000+
-- Built in 6 to 8 weeks to completion with external scaffold access (minimal disruption).
+- Built in 6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer with external scaffold access (minimal disruption).
 - 6-Year Written Structural Guarantee.
 - 85%+ lofts fall under Permitted Development (no full planning needed). We handle all drawings, structural engineering, and building control sign-offs.
 - Free, zero-obligation 20-minute feasibility survey with fixed quotes.";
@@ -307,15 +307,15 @@ if (empty($reply)) {
     // Cost / Pricing
     elseif (preg_match('/\b(cost|price|quote|how much|pricing|estimate|rates|fee)\b/i', $msgLower)) {
         $reply = "Loft conversion costs typically depend on your roof shape and desired layout:\n\n"
-               . "• **Velux / Rooflight**: £25,000 – £35,000\n"
-               . "• **Rear Dormer**: £38,000 – £52,000 (adds full standing height + master ensuite)\n"
+               . "• **Velux / Rooflight**: £24,000 – £35,000\n"
+               . "• **Rear Dormer**: from £50,000 (adds full standing height + master ensuite)\n"
                . "• **Hip-to-Gable**: £42,000 – £56,000 (ideal for 1930s semi-detached)\n"
                . "• **Mansard / Wrap-Around**: £50,000 – £65,000+\n\n"
                . "All our projects come with a 6-Year Written Guarantee. Would you like to check if your roof qualifies for a free survey?";
     }
     // Time / Duration
     elseif (preg_match('/\b(how long|time|weeks|duration|timeline|schedule|start)\b/i', $msgLower)) {
-        $reply = "Most loft conversions are **6 to 8 weeks to completion** from start to final sign-off. The first few weeks of structural timber and steel installation are accessed entirely via external scaffolding, keeping interior disruption to your home at an absolute minimum!";
+        $reply = "Most loft conversions take **6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer** from start to final sign-off. The first few weeks of structural timber and steel installation are accessed entirely via external scaffolding, keeping interior disruption to your home at an absolute minimum!";
     }
     // Planning Permission
     elseif (preg_match('/\b(planning|permission|permitted development|council|regulations|building control)\b/i', $msgLower)) {

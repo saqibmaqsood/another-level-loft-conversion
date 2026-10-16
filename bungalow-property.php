@@ -66,8 +66,8 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'Rear or side dormer', 'price' => 'from £38,000', 'note' => 'Where you already have 2.2m. Full headroom across the floor and four weeks on site.'],
-    ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Chalet bungalows with generous ridge height only. Three weeks.'],
+    ['name' => 'Rear or side dormer', 'price' => 'from £50,000', 'note' => 'Where you already have 2.2m. Full headroom across the floor and 8–10 weeks on site.'],
+    ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Chalet bungalows with generous ridge height only. 6–8 weeks on site.'],
     ['name' => 'Bathroom and en-suite', 'price' => '+ Quoted per spec', 'note' => 'Plumbed-in luxury wet room or en-suite with shower, basin and toilet.'],
     ['name' => 'Ground-floor alterations', 'price' => 'Quoted per spec', 'note' => 'Rearranging the hallway to take the new staircase cleanly.']
 ];
@@ -262,7 +262,7 @@ include 'includes/header.php';
             <span class="section-label-light">Pricing</span>
             <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">How bungalow conversions are priced</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">From a Velux conversion at £24,000 to a rear dormer at £38,000. Every project is measured at your survey with a fixed price in writing.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">From a Velux conversion at £24,000 to a rear dormer at £50,000. Every project is measured at your survey with a fixed price in writing.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">

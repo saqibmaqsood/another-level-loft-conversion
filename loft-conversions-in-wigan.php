@@ -41,7 +41,7 @@ $localProjects = [
 $faqs = [
     ['q' => 'Do Wigan loft conversions need planning permission?', 'a' => 'Most conversions fall under Permitted Development. Wigan Council requires planning approval in Swinley and Wigan Town Centre conservation areas.'],
     ['q' => 'How does Wigan Council handle Building Control?', 'a' => 'Wigan Building Control conducts structural, thermal, and fire safety inspections leading to the completion certificate.'],
-    ['q' => 'What is the cost of a loft conversion in Wigan?', 'a' => 'Velux conversions from £24,000; Rear dormers from £38,000; Hip-to-Gables from £37,000.'],
+    ['q' => 'What is the cost of a loft conversion in Wigan?', 'a' => 'Velux conversions from £24,000; Rear dormers from £50,000; Hip-to-Gables from £37,000.'],
     ['q' => 'How long does a Wigan loft build take?', 'a' => '3 to 4.5 weeks on site on average.'],
     ['q' => 'Can trussed roofs in modern Wigan estates be converted?', 'a' => 'Yes, our structural engineers install steel support systems to convert truss-framed roofs safely.'],
     ['q' => 'What minimum headroom is required?', 'a' => '2.2 metres from ceiling joists to the ridge board.'],

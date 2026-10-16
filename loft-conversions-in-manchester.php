@@ -41,7 +41,7 @@ $localProjects = [
 $faqs = [
     ['q' => 'Do Manchester loft conversions need planning permission?', 'a' => 'The vast majority fall under Permitted Development rights (up to 40m³ on terraces, 50m³ on semis). Manchester City Council maintains 35 conservation areas where planning permission is required for exterior changes.'],
     ['q' => 'How does Manchester City Council handle Building Control?', 'a' => 'We submit full architectural plans and structural calculations, coordinating all on-site inspections for joists, steelwork, thermal insulation, and fire safety.'],
-    ['q' => 'What is the cost of a loft conversion in Manchester?', 'a' => 'Prices start from £24,000 for Velux conversions, £38,000 for rear dormers, and £37,000 for hip-to-gable conversions with fixed written quotes.'],
+    ['q' => 'What is the cost of a loft conversion in Manchester?', 'a' => 'Prices start from £24,000 for Velux conversions, £50,000 for rear dormers, and £37,000 for hip-to-gable conversions with fixed written quotes.'],
     ['q' => 'How long does the on-site build take in Manchester?', 'a' => 'Velux conversions typically take 6 to 8 weeks, while dormer conversions take 8 to 10 weeks, with external scaffolding ensuring minimal disruption to your daily life.'],
     ['q' => 'How do you handle party walls on Manchester terraces?', 'a' => 'We provide standard Party Wall notices for your neighbours under the Party Wall Act 1996, making the legal process straightforward.'],
     ['q' => 'Can you convert a low-pitch roof in Manchester?', 'a' => 'If headroom is under 2.2m, a roof-lift conversion can elevate the roof structure where planning allows.'],
