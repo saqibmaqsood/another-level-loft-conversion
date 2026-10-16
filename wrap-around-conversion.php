@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Wrap Around Loft Conversions Guaranteed Fixed Price — Another Level";
-$pageDesc = "Wrap around loft conversions Guaranteed Fixed Price finished in about six weeks. Hip-to-gable and rear dormer combined — the largest conversion available.";
+$pageDesc = "Wrap around loft conversions Guaranteed Fixed Price finished in 8 to 10 weeks on site from £55,000. Hip-to-gable and rear dormer combined — the largest conversion available.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -16,14 +16,14 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "48000",
+        "price" => "55000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
     ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
-    ['value' => '6 weeks', 'label' => 'On site'],
+    ['value' => '8–10 weeks', 'label' => 'On site'],
     ['value' => '40–46 m²', 'label' => 'Floor area added']
 ];
 
@@ -40,10 +40,10 @@ $galleryImages = [
 
 $timeline = [
     ['when' => 'Week 1', 'what' => 'Scaffold up, loft cleared, hip carefully taken down. Party wall notices already served.'],
-    ['when' => 'Week 2', 'what' => 'New gable wall built up, steels and primary beams in, deeper floor joists laid.'],
-    ['when' => 'Week 3', 'what' => 'Rear slope opened, dormer framed and roofed. Roof extended over the gable.'],
-    ['when' => 'Week 4', 'what' => 'Everything watertight, windows fitted, insulation and first-fix electrics.'],
-    ['when' => 'Weeks 5–6', 'what' => 'Stairwell cut, staircase and partitions, plastering, cheek finish, sign-off and handover.']
+    ['when' => 'Weeks 2–3', 'what' => 'New gable wall built up, structural steels and primary beams in, deeper floor joists laid.'],
+    ['when' => 'Weeks 4–5', 'what' => 'Rear slope opened, full-width dormer framed and flat roofed. Roof extended over the gable.'],
+    ['when' => 'Weeks 6–7', 'what' => 'Everything watertight, windows fitted, insulation, bespoke staircase fitted and partitions framed.'],
+    ['when' => 'Weeks 8–10', 'what' => 'Plastering, second-fix electrics & plumbing, Building Control sign-off and handover.']
 ];
 
 $fit = [
@@ -78,7 +78,7 @@ $faqs = [
     ['q' => 'Will a wrap around need planning permission?', 'a' => 'More often than the other types. Combining a hip-to-gable with a rear dormer frequently uses the whole 50m³ permitted development allowance, and anything beyond it needs a full application. Where the design stays inside the limit, sits 200mm back from the eaves and does not exceed the ridge, it can still be permitted development. We calculate the volume exactly at the survey and tell you which route you are on before you commit.'],
     ['q' => 'How much space does it actually create?', 'a' => 'Typically 40 to 46 m² — comfortably two bedrooms and a bathroom, or a master suite with a dressing area and a second room. It is the only conversion type that regularly delivers a genuine second-floor layout rather than one big room.'],
     ['q' => 'Which houses suit it?', 'a' => 'Semis, detached houses and end-terraces with a hipped roof and a rear slope worth building into. A mid-terrace has no hip, so a rear dormer alone is the option there. Bungalows with a shallow pitch are assessed for dormer feasibility.'],
-    ['q' => 'Is six weeks realistic?', 'a' => 'Yes, and we would rather quote six honestly than four optimistically. Weeks one and two are structure — hip down, gable up, steels in. Weeks three and four are the dormer and making everything watertight. Weeks five and six are staircase, plaster and finishing.'],
+    ['q' => 'How long does a wrap around take on site?', 'a' => 'Typically 8 to 10 weeks on site. Weeks one to three are structure — hip down, gable up, steels in. Weeks four and five are the dormer and making everything watertight. Weeks six to ten are staircase, partitions, plaster, plumbing and sign-off.'],
     ['q' => 'How disruptive is it compared with a smaller conversion?', 'a' => 'More, and it is fair to plan for that. Two elevations are open at different points, the scaffold is up longer, and there are perhaps four genuinely noisy days rather than two. Access is still through the scaffold and rear hoist, the loft stays sealed off, and almost everyone stays in the house throughout.'],
     ['q' => 'Do I need to tell my neighbours?', 'a' => 'Yes. Building off or cutting into a party wall triggers the Party Wall Act — notice at least two months before work starts. On a wrap around both the gable and the dormer can touch the shared boundary, so we prepare the notices with the structural drawings.'],
     ['q' => 'Can I do it in two stages?', 'a' => 'It is possible but rarely economical. Two scaffolds, two sets of drawings, two Building Control applications and the second job disturbs the first job’s finishes. If budget is the constraint, a hip-to-gable now with the dormer designed in for later is the cleaner way to stage it.'],
@@ -115,11 +115,11 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">6 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£50,000+</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£55,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -235,7 +235,7 @@ include 'includes/header.php';
       <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:start">
         <div>
           <span class="section-label">Process notes</span>
-          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What six weeks looks like</h2>
+          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 8 to 10 weeks looks like</h2>
           <ol style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
             <?php foreach ($timeline as $t): ?>
               <li style="display:flex;gap:16px;align-items:baseline;padding-bottom:14px;border-bottom:1px solid #DCDCD6">
@@ -265,17 +265,17 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
           <div style="flex:1 1 420px">
             <span class="section-label-light">Pricing</span>
-            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £50,000 includes &mdash; and what pushes it up</h2>
+            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £55,000 includes &mdash; and what pushes it up</h2>
           </div>
-          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Wrap around conversions run £50,000–£75,000+ across the UK in 2026 for around 45 m². North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
+          <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Wrap around conversions run £55,000–£75,000+ across the UK in 2026 for around 45 m². North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£50,000+</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 40–46 m² wrap around conversion, ten to twelve weeks on site.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£55,000</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 40–46 m² wrap around conversion, 8 to 10 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>

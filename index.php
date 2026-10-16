@@ -503,7 +503,7 @@ include 'includes/header.php';
               <p class="conversion-card-desc">Hip-to-gable plus rear dormer. The largest option, and the most technical.</p>
               <div class="conversion-card-meta">
                 <span class="meta-tag">Master suite + en-suite</span>
-                <span class="meta-sub">6 weeks on site</span>
+                <span class="meta-sub">8–10 weeks on site</span>
               </div>
             </div>
           </a>
@@ -889,7 +889,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>Four to six weeks for a Velux, eight to ten for a dormer, around ten to twelve for a wrap around. Plans and approval run before that — typically two to four weeks from signing.</p>
+              <p>Four to six weeks for a Velux, eight to ten for a dormer or wrap around. Plans and approval run before that — typically two to four weeks from signing.</p>
             </div>
           </div>
 
@@ -933,7 +933,7 @@ include 'includes/header.php';
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <p>Velux conversions start at £24,000 and a wrap around at £50,000+. After the survey you get one fixed written figure covering structure, staircase, insulation, plastering and building control.</p>
+              <p>Velux conversions start at £24,000 and a wrap around at £55,000. After the survey you get one fixed written figure covering structure, staircase, insulation, plastering and building control.</p>
             </div>
           </div>
         </div>

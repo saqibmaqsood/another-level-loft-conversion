@@ -214,8 +214,8 @@ CORE ACCURATE COMPANY FACTS:
 - Velux Rooflight: ~£24,000 – £35,000
 - Rear Dormer (most popular): from £50,000 (full standing height master bedroom + ensuite)
 - Hip-to-Gable: from £55,000 (ideal for semi-detached)
-- Mansard / L-shape Wrap-around: £50,000 – £65,000+
-- Built in 6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer / hip-to-gable with external scaffold access (minimal disruption).
+- Mansard / L-shape Wrap-around: £55,000 – £65,000+
+- Built in 6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer / hip-to-gable / wrap around with external scaffold access (minimal disruption).
 - 6-Year Written Structural Guarantee.
 - 85%+ lofts fall under Permitted Development (no full planning needed). We handle all drawings, structural engineering, and building control sign-offs.
 - Free, zero-obligation 20-minute feasibility survey with fixed quotes.";
@@ -310,12 +310,12 @@ if (empty($reply)) {
                . "• **Velux / Rooflight**: £24,000 – £35,000\n"
                . "• **Rear Dormer**: from £50,000 (adds full standing height + master ensuite)\n"
                . "• **Hip-to-Gable**: from £55,000 (ideal for 1930s semi-detached)\n"
-               . "• **Mansard / Wrap-Around**: £50,000 – £65,000+\n\n"
+               . "• **Mansard / Wrap-Around**: £55,000 – £65,000+\n\n"
                . "All our projects come with a 6-Year Written Guarantee. Would you like to check if your roof qualifies for a free survey?";
     }
     // Time / Duration
     elseif (preg_match('/\b(how long|time|weeks|duration|timeline|schedule|start)\b/i', $msgLower)) {
-        $reply = "Most loft conversions take **6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer or hip-to-gable** from start to final sign-off. The first few weeks of structural timber and steel installation are accessed entirely via external scaffolding, keeping interior disruption to your home at an absolute minimum!";
+        $reply = "Most loft conversions take **6 to 8 weeks for a Velux or 8 to 10 weeks for a dormer, hip-to-gable, or wrap around** from start to final sign-off. The first few weeks of structural timber and steel installation are accessed entirely via external scaffolding, keeping interior disruption to your home at an absolute minimum!";
     }
     // Planning Permission
     elseif (preg_match('/\b(planning|permission|permitted development|council|regulations|building control)\b/i', $msgLower)) {

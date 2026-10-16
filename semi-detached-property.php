@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Semi-Detached Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for semi-detached houses. 50m³ permitted development allowance, hip-to-gable from £55,000, wrap around from £50,000.";
+$pageDesc = "Loft conversions for semi-detached houses. 50m³ permitted development allowance, hip-to-gable from £55,000, wrap around from £55,000.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -69,7 +69,7 @@ $included = [
 $addOns = [
     ['name' => 'Hip-to-gable', 'price' => 'from £55,000', 'note' => 'Squares off the side roof. Usually what makes a compliant staircase possible.'],
     ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'Maximum floor area at full standing height, 8 weeks on site.'],
-    ['name' => 'Wrap around', 'price' => 'from £50,000', 'note' => 'Both of the above. Around 44 m² — two bedrooms and a bathroom, ten to twelve weeks.'],
+    ['name' => 'Wrap around', 'price' => 'from £55,000', 'note' => 'Both of the above. Around 44 m² — two bedrooms and a bathroom, 8 to 10 weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest at 6–8 weeks, if you already have 2.2m to the ridge.'],
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.']
 ];
@@ -77,11 +77,11 @@ $addOns = [
 $faqs = [
     ['q' => 'How much can I build on a semi-detached house?', 'a' => 'Permitted development allows 50m³ of added roof volume on a semi — 10m³ more than a terrace. It covers every roof enlargement ever made to the house, so a previous dormer or hip-to-gable counts against it. We calculate what is left at the survey and show the workings on your drawings.'],
     ['q' => 'Which conversion should I choose?', 'a' => 'It depends on what you need. A rooflight conversion is cheapest at three weeks if you have the height. A hip-to-gable squares off the side and creates the headroom for a proper staircase. A rear dormer maximises floor area. A wrap around combines the last two and gives around 44 m². We price the realistic ones and say which we would do.'],
-    ['q' => 'Is a wrap around worth the extra?', 'a' => 'If you need two bedrooms and a bathroom rather than one large room, usually yes. It also uses most of your 50m³, so a planning application becomes more likely and the build runs to six weeks. On a typical semi it is the difference between a study and a second floor.'],
+    ['q' => 'Is a wrap around worth the extra?', 'a' => 'If you need two bedrooms and a bathroom rather than one large room, usually yes. It also uses most of your 50m³, so a planning application becomes more likely and the build runs to 8 to 10 weeks. On a typical semi it is the difference between a study and a second floor.'],
     ['q' => 'Will the new gable match my neighbour’s half?', 'a' => 'That is the whole design question on a matched pair, and it is what a planning officer looks at. We match brick or render and the tiles to the original, carry the verge detail up, and keep the ridge continuous. Where the pair should stay symmetrical, a hip-end dormer is the gentler option.'],
     ['q' => 'Do I need to tell my neighbour?', 'a' => 'Yes — building off or cutting into the party wall means serving Party Wall notice at least two months before work starts. We prepare it alongside the structural drawings. Only one neighbour on a semi, which makes it simpler than a terrace.'],
     ['q' => 'Do I need planning permission?', 'a' => 'Usually not. Hip-to-gable, rear dormer and hip-end dormer are all roof enlargements under Class B, permitted as long as you stay inside 50m³, sit 200mm back from the original eaves and do not exceed the existing ridge. Conservation areas and Article 4 land remove those rights.'],
-    ['q' => 'How long will the work take?', 'a' => 'Four to six weeks for a rooflight conversion, seven to eight for a hip-to-gable, eight to ten for a rear dormer, around ten to twelve for a wrap around. Drawings and Building Control approval run before that — two to four weeks from signing.'],
+    ['q' => 'How long will the work take?', 'a' => 'Four to six weeks for a rooflight conversion, seven to eight for a hip-to-gable, eight to ten for a rear dormer, 8 to 10 weeks for a wrap around. Drawings and Building Control approval run before that — two to four weeks from signing.'],
     ['q' => 'How much value does it add?', 'a' => 'Loft conversions typically add 15% to 20% to a property value. On a three-bedroom semi, a fourth bedroom with an en-suite is the single highest-value addition available, and it normally costs less than the uplift in the North West.']
 ];
 

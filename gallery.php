@@ -32,7 +32,7 @@ $galleryProjects = [
     ],
     [
         'type' => 'Wrap Around', 'town' => 'Sale', 'title' => 'Full-width master suite across the roof.',
-        'weeks' => '11 weeks', 'area' => '44 m²', 'property' => 'Semi-detached', 'price' => '£52,000',
+        'weeks' => '8–10 weeks', 'area' => '44 m²', 'property' => 'Semi-detached', 'price' => '£55,000',
         'body' => 'Hip-to-gable plus a rear dormer, so the floor plate runs the full footprint of the house. Dressing area, en-suite, and a window seat over the garden.'
     ],
     [

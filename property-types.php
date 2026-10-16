@@ -60,7 +60,7 @@ $detailedProperties = [
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
-            ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
+            ['name' => 'Wrap Around', 'price' => 'from £55,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
         ],
         'points' => [
@@ -77,7 +77,7 @@ $detailedProperties = [
         'options' => [
             ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
-            ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
+            ['name' => 'Wrap Around', 'price' => 'from £55,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Hip-End Dormer', 'price' => 'from £40,000', 'href' => 'hip-end-dormer-conversion.php']
         ],
         'points' => [
@@ -529,7 +529,7 @@ include 'includes/header.php';
               <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Gable plus dormer. The largest option available.</p>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:auto;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
-              <span style="color:#4F6B42">from £50,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">10–12 wks</span>
+              <span style="color:#4F6B42">from £55,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">8–10 wks</span>
             </div>
           </a>
         </div>

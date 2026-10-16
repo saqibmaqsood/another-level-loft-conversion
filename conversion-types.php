@@ -35,7 +35,7 @@ $comparisonRows = [
         'planning' => 'Sometimes', 'ok' => true, 'suits' => 'Hipped roofs where a full gable would look wrong', 'href' => 'hip-end-dormer-conversion.php'
     ],
     [
-        'name' => 'Wrap Around', 'price' => '6 weeks on site', 'weeks' => '6 weeks', 'area' => '40–46 m²',
+        'name' => 'Wrap Around', 'price' => '8–10 weeks on site', 'weeks' => '8–10 weeks', 'area' => '40–46 m²',
         'planning' => 'Often needed', 'ok' => false, 'suits' => 'Semis and detached needing two rooms plus a bathroom', 'href' => 'wrap-around-conversion.php'
     ]
 ];
@@ -86,14 +86,14 @@ $detailedTypes = [
         ]
     ],
     [
-        'num' => '05', 'name' => 'Wrap Around', 'price' => '6 weeks on site', 'href' => 'wrap-around-conversion.php',
+        'num' => '05', 'name' => 'Wrap Around', 'price' => '8–10 weeks on site', 'href' => 'wrap-around-conversion.php',
         'glyph' => 'M4 30V12h14L32 4l8 5v21zM4 12h14v18M18 30v-9h14v9',
-        'meta' => '6 weeks · 40–46 m²',
+        'meta' => '8–10 weeks · 40–46 m²',
         'body' => 'A hip-to-gable and a rear dormer built as one, wrapping the new floor around the corner. It is the largest conversion available and the only one that regularly delivers a genuine second floor rather than one big room.',
         'points' => [
             'Around 40–46 m² — comfortably two bedrooms and a bathroom',
             'Usually consumes the whole 50m³ allowance, so planning is more likely',
-            'Six weeks on site, and the most technical build of the five'
+            '8 to 10 weeks on site, and the most technical build of the five'
         ]
     ]
 ];
