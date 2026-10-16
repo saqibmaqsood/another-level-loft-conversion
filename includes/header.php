@@ -330,7 +330,7 @@ try {
               <div class="bayford-accent-bar"></div>
               <h3 class="bayford-heading">MEET ANOTHER LEVEL</h3>
               <p class="bayford-desc">
-                Founded in 2008 by Jonny Mee. 18+ years North West specialists operating with our strict 1-project policy, fixed-price quote and 6-year structural warranty.
+                Founded in 2008 by Jonny Mee. 18+ years North West specialists operating with dedicated master trades, fixed-price quote and 6-year structural warranty.
               </p>
               <a href="#booking" data-open-booking class="bayford-split-btn">
                 <span class="bayford-btn-text">BOOK FREE SURVEY</span>

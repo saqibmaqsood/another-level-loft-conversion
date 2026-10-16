@@ -86,8 +86,8 @@ include 'includes/header.php';
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
             </div>
             <div style="font-family:var(--font-sans);font-size:14px;line-height:1.55;color:#4A4A45">
-              <strong style="color:#1A1A1A;font-weight:600;display:block">One project at a time</strong>
-              100% dedicated build crew on your site daily until completion.
+              <strong style="color:#1A1A1A;font-weight:600;display:block">Dedicated trade specialists</strong>
+              Skilled build crew on your site daily until completion.
             </div>
           </li>
 
@@ -420,7 +420,7 @@ include 'includes/header.php';
             <div style="background:#FAF9F5;border:1px solid #EDEDE8;border-radius:8px;padding:14px 18px;margin-bottom:20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-family:var(--font-sans);font-size:13px;color:#3E5C32;font-weight:600">
               <span>✓ Expert layout guidance</span>
               <span>✓ Guaranteed fixed-price quote</span>
-              <span>✓ Dedicated single-project crew</span>
+              <span>✓ Dedicated expert build crew</span>
             </div>
 
             <div style="display:flex;justify-content:flex-end;gap:12px;margin-top:10px">

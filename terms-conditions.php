@@ -62,7 +62,7 @@ include 'includes/header.php';
         <div>
           <h2 style="font-family:var(--font-serif);font-size:20px;margin:0 0 8px;color:#1C1C1A">5. Customer Care &amp; Property Respect</h2>
           <p style="margin:0">
-            5.1. Our team operates a single-project commitment policy, ensuring dedicated craftsmanship on your home without unnecessary delays.<br>
+            5.1. Our team ensures dedicated craftsmanship and prompt progress on your home without unnecessary delays.<br>
             5.2. Scaffolding is used for external access where practical to protect internal living spaces. The Contractor maintains £5,000,000 public liability insurance throughout the duration of works.
           </p>
         </div>

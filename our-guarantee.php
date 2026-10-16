@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Our 6-Year Structural Guarantee & Quality Promise | Another Level";
-$pageDesc = "6-year written structural guarantee, 100% dedicated build crew with our one-loft-at-a-time policy, and complete respect for your home. Learn about our guarantee.";
+$pageDesc = "6-year written structural guarantee, dedicated build crew, and complete respect for your home. Learn about our guarantee.";
 $activePage = "guarantee";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -48,7 +48,7 @@ include 'includes/header.php';
         </h1>
         
         <p class="lead-text" style="font-family:var(--font-sans);font-size:clamp(16px,1.8vw,17.5px);color:#4A4A45;line-height:1.7;margin:0;max-width:54ch">
-          Inviting tradesmen into your home requires complete trust. That is why we work on only <strong>one loft conversion at a time</strong>, protect your carpets with heavy-duty coverings, and back every steel, joist, and joint with our <strong>6-year written structural guarantee</strong>.
+          Inviting tradesmen into your home requires complete trust. That is why we protect your carpets with heavy-duty coverings, treat your living spaces with total care, and back every steel, joist, and joint with our <strong>6-year written structural guarantee</strong>.
         </p>
 
         <div class="hero-actions-row" style="margin-top:6px">
@@ -63,7 +63,7 @@ include 'includes/header.php';
         <div class="proc-hero-trust-bullets">
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 6-Yr Structural Warranty</span>
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Guaranteed Fixed Price</span>
-          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 1 Crew · 1 Loft Policy</span>
+          <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Dedicated Build Crew</span>
           <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#3E5C32">✓</strong> £5M Public Liability</span>
         </div>
       </div>
@@ -101,8 +101,8 @@ include 'includes/header.php';
           </div>
 
           <div class="guar-metric-badge">
-            <span class="guar-metric-val">1 Single Crew</span>
-            <strong class="guar-metric-title">Dedicated Focus</strong>
+            <span class="guar-metric-val">Dedicated Crew</span>
+            <strong class="guar-metric-title">In-House Trades</strong>
             <span class="guar-metric-sub">On your site every day</span>
           </div>
 
@@ -156,7 +156,7 @@ include 'includes/header.php';
             Why Our Guarantee Gives You Total Confidence
           </h2>
           <p style="font-family:var(--font-sans);font-size:16px;color:#4A4A45;line-height:1.65;margin:0">
-            Having major building work in your home can feel daunting. We eliminate every risk with rock-solid warranties, single-crew dedication, and transparent milestone payments.
+            Having major building work in your home can feel daunting. We eliminate every risk with rock-solid warranties, dedicated master trades, and transparent milestone payments.
           </p>
         </div>
         <div class="guar-header-actions" style="display:flex;align-items:center;gap:12px">

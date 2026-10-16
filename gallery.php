@@ -156,7 +156,7 @@ include 'includes/header.php';
           <div class="gallery-metric-card">
             <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">6–8</span>
             <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Weeks to Completion</span>
-            <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">Dedicated single crew</span>
+            <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">Dedicated build crew</span>
           </div>
 
           <div class="gallery-metric-card">

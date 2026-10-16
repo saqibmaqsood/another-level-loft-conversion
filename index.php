@@ -251,7 +251,7 @@ include 'includes/header.php';
         </div>
         <div class="hero-minimal-features">
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Guaranteed Fixed Price</span>
-          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 1 Project at a Time</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Free CAD Design</span>
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> No Hidden Costs</span>
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 6-Year Guarantee</span>
         </div>
@@ -821,9 +821,9 @@ include 'includes/header.php';
             <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Full structural warranty covering all timber frameworks, structural steelwork, and dormer envelopes.</p>
           </div>
           <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
-            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">03 / Commitment</span>
-            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">1 Project at a Time</span>
-            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Dedicated full-time craftsmen on your property every single day until completion. No subcontract juggling.</p>
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">03 / Craftsmanship</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Dedicated Master Trades</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Experienced in-house master carpenters and certified tradesmen on site daily to maintain seamless quality.</p>
           </div>
           <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
             <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#A8B79E;letter-spacing:.12em;text-transform:uppercase">04 / Compliance</span>
