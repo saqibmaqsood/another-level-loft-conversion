@@ -10,7 +10,7 @@ $schemaJson = json_encode([
     "mainEntity" => [
         "@type" => "LocalBusiness",
         "name" => "Another Level Loft Conversions",
-        "foundingDate" => "2008",
+        "foundingDate" => "2004",
         "telephone" => "0800 0862744",
         "address" => [
             "@type" => "PostalAddress",
@@ -148,7 +148,7 @@ include 'includes/header.php';
             <h2 id="story-h" class="heading-h2" style="font-size:clamp(28px,3.8vw,42px);margin:12px 0 20px;max-width:24ch">Started with one Preston dormer. 22 years of perfecting a single craft.</h2>
             
             <div style="display:grid;gap:18px;font-size:15.5px;line-height:1.75;color:#4A4A45">
-              <p style="margin:0;text-wrap:pretty">We began in 2008 as two joiners constructing rear dormers on 1930s semis around Preston. Lofts were originally meant to be a sideline, but we quickly realised they were the only home improvement where a growing family gets a complete new master bedroom suite or two kids' rooms without losing an inch of garden.</p>
+              <p style="margin:0;text-wrap:pretty">We began in 2004 as two joiners constructing rear dormers on 1930s semis around Preston. Lofts were originally meant to be a sideline, but we quickly realised they were the only home improvement where a growing family gets a complete new master bedroom suite or two kids' rooms without losing an inch of garden.</p>
               
               <!-- Highlight Callout Box -->
               <div style="background:#F7F9F5;border-left:3px solid #6B8E5A;border-radius:0 8px 8px 0;padding:14px 18px;margin:2px 0">
@@ -221,7 +221,7 @@ include 'includes/header.php';
         <div class="milestones-timeline-grid">
           <div class="milestone-card">
             <div class="milestone-card-top">
-              <span class="milestone-year-badge">2008</span>
+              <span class="milestone-year-badge">2004</span>
               <span class="milestone-phase-label">Origin</span>
             </div>
             <h3 class="milestone-title">Founded in Preston</h3>
