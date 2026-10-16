@@ -461,7 +461,7 @@ include 'includes/header.php';
               <p class="conversion-card-desc">Flat-roof timber box across the rear. Maximum floor area, usually permitted development.</p>
               <div class="conversion-card-meta">
                 <span class="meta-tag">Maximum floor space</span>
-                <span class="meta-sub">8–10 weeks on site</span>
+                <span class="meta-sub">8 weeks on site</span>
               </div>
             </div>
           </a>
@@ -609,7 +609,7 @@ include 'includes/header.php';
               </div>
               <div class="ba-fact-item" style="display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-top:1px solid #EDEDE8">
                 <dt style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B6B">On site</dt>
-                <dd style="margin:0;font-size:14px;font-weight:600;text-align:right">8–10 weeks</dd>
+                <dd style="margin:0;font-size:14px;font-weight:600;text-align:right">8 weeks</dd>
               </div>
               <div class="ba-fact-item" style="display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-top:1px solid #EDEDE8">
                 <dt style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B6B">Floor added</dt>

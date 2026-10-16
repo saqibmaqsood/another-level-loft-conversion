@@ -23,7 +23,7 @@ $schemaJson = json_encode([
 
 $facts = [
     ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
-    ['value' => '8–10 weeks', 'label' => 'On site'],
+    ['value' => '8 weeks', 'label' => 'On site'],
     ['value' => '40–50m³', 'label' => 'PD volume limit']
 ];
 
@@ -115,7 +115,7 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">

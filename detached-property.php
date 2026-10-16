@@ -68,7 +68,7 @@ $included = [
 
 $addOns = [
     ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'One side squared off. Usually all the volume a good layout needs.'],
-    ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'Maximum floor area at full standing height, 8–10 weeks on site.'],
+    ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'Maximum floor area at full standing height, 8 weeks on site.'],
     ['name' => 'Wrap around', 'price' => 'from £50,000', 'note' => 'Gable plus dormer, around 44 m² — two bedrooms and a bathroom, ten to twelve weeks.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest at 6–8 weeks, where the ridge height allows.'],
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.']

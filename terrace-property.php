@@ -24,7 +24,7 @@ $schemaJson = json_encode([
 $facts = [
     ['value' => '40m³', 'label' => 'PD volume limit'],
     ['value' => 'from £50,000', 'label' => 'Rear dormer'],
-    ['value' => '8–10 weeks', 'label' => 'On site']
+    ['value' => '8 weeks', 'label' => 'On site']
 ];
 
 $galleryImages = [
@@ -67,7 +67,7 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'The usual route. Maximum floor area at full standing height, 8–10 weeks on site.'],
+    ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'The usual route. Maximum floor area at full standing height, 8 weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest, 6–8 weeks, but you keep the eaves. Needs 2.2m to the ridge.'],
     ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'End-terraces only — a mid-terrace has no hip to square off.'],
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.'],
@@ -115,7 +115,7 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -275,7 +275,7 @@ include 'includes/header.php';
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
               <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£50,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 28–32 m² terrace rear dormer, 8 to 10 weeks on site.</span>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 28–32 m² terrace rear dormer, 8 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>

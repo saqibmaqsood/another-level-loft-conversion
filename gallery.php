@@ -17,7 +17,7 @@ $schemaJson = json_encode([
 $galleryProjects = [
     [
         'type' => 'Rear Dormer', 'town' => 'Bolton', 'title' => 'Two bedrooms and a bathroom over a 1930s semi.',
-        'weeks' => '8–10 weeks', 'area' => '31 m²', 'property' => 'Semi-detached', 'price' => '£50,000',
+        'weeks' => '8 weeks', 'area' => '31 m²', 'property' => 'Semi-detached', 'price' => '£50,000',
         'body' => 'A full-width rear dormer under permitted development. The old hatch became a dog-leg staircase off the landing, which kept both existing bedrooms full size.'
     ],
     [

@@ -19,7 +19,7 @@ $schemaJson = json_encode([
 $propertyRows = [
     [
         'name' => 'Terrace', 'volume' => '40m³', 'party' => 'Both sides', 'route' => 'Rear dormer',
-        'price' => '8–10 weeks', 'ruledOut' => 'Wrap around, hip-to-gable (mid-terrace)', 'href' => 'terrace-property.php'
+        'price' => '8 weeks', 'ruledOut' => 'Wrap around, hip-to-gable (mid-terrace)', 'href' => 'terrace-property.php'
     ],
     [
         'name' => 'Semi-detached', 'volume' => '50m³', 'party' => 'One side', 'route' => 'Hip-to-gable',
@@ -38,7 +38,7 @@ $propertyRows = [
 $detailedProperties = [
     [
         'num' => '01', 'name' => 'Terrace', 'volume' => '40m³', 'href' => 'terrace-property.php',
-        'meta' => '8–10 weeks · 28–32 m² typical',
+        'meta' => '8 weeks · 28–32 m² typical',
         'glyph' => 'M4 30V14l10-8 10 8v16M24 30V14l10-8 10 8v16M14 30v-8h10v8',
         'body' => 'A terrace has the smallest volume allowance of any property type, no hip to square off, and neighbours on both sides. That narrows the design to the rear slope — but within 40m³ a full-width rear dormer still delivers two rooms at full standing height.',
         'options' => [
@@ -493,7 +493,7 @@ include 'includes/header.php';
               <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Flat-roof box across the rear. Most floor area.</p>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:auto;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
-              <span style="color:#4F6B42">£50,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">8–10 wks</span>
+              <span style="color:#4F6B42">£50,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">8 wks</span>
             </div>
           </a>
           <a href="hip-to-gable-conversion.php" class="byconv-type-card">

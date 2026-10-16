@@ -66,7 +66,7 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'Rear or side dormer', 'price' => 'from £50,000', 'note' => 'Where you already have 2.2m. Full headroom across the floor and 8–10 weeks on site.'],
+    ['name' => 'Rear or side dormer', 'price' => 'from £50,000', 'note' => 'Where you already have 2.2m. Full headroom across the floor and 8 weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Chalet bungalows with generous ridge height only. 6–8 weeks on site.'],
     ['name' => 'Bathroom and en-suite', 'price' => '+ Quoted per spec', 'note' => 'Plumbed-in luxury wet room or en-suite with shower, basin and toilet.'],
     ['name' => 'Ground-floor alterations', 'price' => 'Quoted per spec', 'note' => 'Rearranging the hallway to take the new staircase cleanly.']

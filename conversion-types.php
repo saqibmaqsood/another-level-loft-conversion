@@ -23,7 +23,7 @@ $comparisonRows = [
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Lofts that already have 2.2m of headroom', 'href' => 'velux-conversion.php'
     ],
     [
-        'name' => 'Rear Dormer', 'price' => '8–10 weeks on site', 'weeks' => '8–10 weeks', 'area' => '28–32 m²',
+        'name' => 'Rear Dormer', 'price' => '8 weeks on site', 'weeks' => '8 weeks', 'area' => '28–32 m²',
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Terraces and semis wanting maximum floor area', 'href' => 'rear-dormer-conversion.php'
     ],
     [
@@ -53,9 +53,9 @@ $detailedTypes = [
         ]
     ],
     [
-        'num' => '02', 'name' => 'Rear Dormer', 'price' => '8–10 weeks on site', 'href' => 'rear-dormer-conversion.php',
+        'num' => '02', 'name' => 'Rear Dormer', 'price' => '8 weeks on site', 'href' => 'rear-dormer-conversion.php',
         'glyph' => 'M6 30V15L24 4l18 11v15zM16 30v-12h16v12M16 18h16',
-        'meta' => '8–10 weeks · 28–32 m²',
+        'meta' => '8 weeks · 28–32 m²',
         'body' => 'A flat-roof box built out across the rear slope. It gives more usable floor area than any other single-elevation option, with straight walls and full standing height where a rooflight room would have eaves.',
         'points' => [
             'The default choice for a mid-terrace, which has no hip to square off',
