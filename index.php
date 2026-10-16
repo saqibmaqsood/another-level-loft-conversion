@@ -475,7 +475,7 @@ include 'includes/header.php';
               <p class="conversion-card-desc">Squares off a sloping side roof to win the volume a new staircase needs.</p>
               <div class="conversion-card-meta">
                 <span class="meta-tag">Ideal for 1930s semis</span>
-                <span class="meta-sub">3.5 weeks on site</span>
+                <span class="meta-sub">8–10 weeks on site</span>
               </div>
             </div>
           </a>

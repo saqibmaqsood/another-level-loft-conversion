@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Semi-Detached Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for semi-detached houses. 50m³ permitted development allowance, hip-to-gable from £37,000, wrap around from £50,000.";
+$pageDesc = "Loft conversions for semi-detached houses. 50m³ permitted development allowance, hip-to-gable from £55,000, wrap around from £50,000.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -16,15 +16,15 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "37000",
+        "price" => "55000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
     ['value' => '50m³', 'label' => 'PD volume limit'],
-    ['value' => 'from £37,000', 'label' => 'Hip-to-gable'],
-    ['value' => '3.5 weeks', 'label' => 'On site']
+    ['value' => 'from £55,000', 'label' => 'Hip-to-gable'],
+    ['value' => '8–10 weeks', 'label' => 'On site']
 ];
 
 $galleryImages = [
@@ -40,10 +40,10 @@ $galleryImages = [
 
 $timeline = [
     ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, party wall notice to your neighbour.'],
-    ['when' => 'Days 1–3', 'what' => 'Scaffold up, loft cleared, hip carefully taken down.'],
-    ['when' => 'Days 4–7', 'what' => 'New gable built up off the engineer’s load-bearing line, steels and joists in.'],
-    ['when' => 'Week 2–3', 'what' => 'Roof extended and made watertight, windows fitted, staircase and partitions in.'],
-    ['when' => 'Final days', 'what' => 'Plastering, second-fix electrics, Building Control sign-off and handover.']
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and steels craned in.'],
+    ['when' => 'Weeks 3–5', 'what' => 'New gable built up off the engineer’s load-bearing line, roof timbers extended and made watertight.'],
+    ['when' => 'Weeks 6–8', 'what' => 'High-spec insulation, windows fitted, bespoke staircase and partitions installed.'],
+    ['when' => 'Weeks 9–10', 'what' => 'Plaster skim, second-fix electrics & plumbing, Building Control sign-off and handover.']
 ];
 
 $fit = [
@@ -67,7 +67,7 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'Squares off the side roof. Usually what makes a compliant staircase possible.'],
+    ['name' => 'Hip-to-gable', 'price' => 'from £55,000', 'note' => 'Squares off the side roof. Usually what makes a compliant staircase possible.'],
     ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'Maximum floor area at full standing height, 8 weeks on site.'],
     ['name' => 'Wrap around', 'price' => 'from £50,000', 'note' => 'Both of the above. Around 44 m² — two bedrooms and a bathroom, ten to twelve weeks.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest at 6–8 weeks, if you already have 2.2m to the ridge.'],
@@ -115,11 +115,11 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">3.5 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Hip-to-gable build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£37,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£55,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -274,8 +274,8 @@ include 'includes/header.php';
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Hip-to-gable from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£37,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 25–28 m² hip-to-gable, three and a half weeks on site.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£55,000</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 25–28 m² hip-to-gable, 8 to 10 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>

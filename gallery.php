@@ -27,7 +27,7 @@ $galleryProjects = [
     ],
     [
         'type' => 'Hip-to-Gable', 'town' => 'Stockport', 'title' => 'Squared-off roof, en-suite guest room.',
-        'weeks' => '3.5 weeks', 'area' => '27 m²', 'property' => 'Detached', 'price' => '£37,000',
+        'weeks' => '8–10 weeks', 'area' => '27 m²', 'property' => 'Detached', 'price' => '£55,000',
         'body' => 'The hip came off the side elevation and went back as a gable wall in matching brick. That single change gave the staircase the head height it needed at the top.'
     ],
     [

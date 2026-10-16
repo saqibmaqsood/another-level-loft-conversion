@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Detached House Loft Conversions — Another Level";
-$pageDesc = "Loft conversions for detached houses. 50m³ permitted development allowance, no party wall notices, hip-to-gable from £37,000.";
+$pageDesc = "Loft conversions for detached houses. 50m³ permitted development allowance, no party wall notices, hip-to-gable from £55,000.";
 $activePage = "property";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -16,7 +16,7 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "37000",
+        "price" => "55000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
@@ -24,7 +24,7 @@ $schemaJson = json_encode([
 $facts = [
     ['value' => '50m³', 'label' => 'PD volume limit'],
     ['value' => 'No party wall', 'label' => 'Notices needed'],
-    ['value' => '3.5 weeks', 'label' => 'On site']
+    ['value' => '8–10 weeks', 'label' => 'On site']
 ];
 
 $galleryImages = [
@@ -40,10 +40,10 @@ $galleryImages = [
 
 $timeline = [
     ['when' => 'Before', 'what' => 'Survey, layout planning, structural calculations, Building Control application. No party wall notices.'],
-    ['when' => 'Days 1–3', 'what' => 'Scaffold up, loft cleared, hip carefully taken down.'],
-    ['when' => 'Days 4–7', 'what' => 'New gable built up off the engineer’s load-bearing line, steels and joists in.'],
-    ['when' => 'Weeks 2–3', 'what' => 'Roof extended and made watertight, windows fitted, staircase and partitions in.'],
-    ['when' => 'Final days', 'what' => 'Plastering, second-fix electrics, Building Control sign-off and handover.']
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and structural steels craned in.'],
+    ['when' => 'Weeks 3–5', 'what' => 'New gable built up off the engineer’s load-bearing line, roof extended and made watertight.'],
+    ['when' => 'Weeks 6–8', 'what' => 'High-grade insulation, windows fitted, bespoke staircase and internal partitions in.'],
+    ['when' => 'Weeks 9–10', 'what' => 'Plaster skim, second-fix electrics, Building Control sign-off and handover.']
 ];
 
 $fit = [
@@ -67,7 +67,7 @@ $included = [
 ];
 
 $addOns = [
-    ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'One side squared off. Usually all the volume a good layout needs.'],
+    ['name' => 'Hip-to-gable', 'price' => 'from £55,000', 'note' => 'One side squared off. Usually all the volume a good layout needs.'],
     ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'Maximum floor area at full standing height, 8 weeks on site.'],
     ['name' => 'Wrap around', 'price' => 'from £50,000', 'note' => 'Gable plus dormer, around 44 m² — two bedrooms and a bathroom, ten to twelve weeks.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest at 6–8 weeks, where the ridge height allows.'],
@@ -82,7 +82,7 @@ $faqs = [
     ['q' => 'Where will the new staircase go?', 'a' => 'You normally have more choices than in a terrace or semi, which is worth exploiting. Over the existing flight keeps the landing compact; taking space from a large bedroom gives a better-proportioned landing and a straighter run. Either way, maximum 42° pitch with 1.9m headroom at the centre.'],
     ['q' => 'Do I need planning permission?', 'a' => 'Usually not, provided the design stays inside 50m³, sits 200mm back from the original eaves and does not exceed the existing ridge. Larger detached houses in Green Belt, conservation areas or on Article 4 land are the exception — we check your address before drawing.'],
     ['q' => 'Is a bigger roof more expensive to convert?', 'a' => 'Only partly. Steels, staircase, Building Control and scaffolding cost much the same whatever the floor area; what scales is flooring, plastering, electrics and insulation. That is why our prices start from the same figures as a semi and rise with area rather than property type.'],
-    ['q' => 'How much value does it add?', 'a' => 'Loft conversions typically add 15% to 20% to a property value. On a detached house the ceiling is usually set by the street rather than the house, so it is worth asking a local agent what the top of your road achieves before choosing between a £37,000 and a £50,000 scheme.']
+    ['q' => 'How much value does it add?', 'a' => 'Loft conversions typically add 15% to 20% to a property value. On a detached house the ceiling is usually set by the street rather than the house, so it is worth asking a local agent what the top of your road achieves before choosing between a £50,000 and a £55,000 scheme.']
 ];
 
 include 'includes/header.php';
@@ -115,11 +115,11 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">3.5 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£37,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£55,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -274,8 +274,8 @@ include 'includes/header.php';
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Hip-to-gable from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£37,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 25–28 m² hip-to-gable on a detached house, 3.5 weeks.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£55,000</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 25–28 m² hip-to-gable on a detached house, 8 to 10 weeks.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>

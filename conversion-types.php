@@ -27,7 +27,7 @@ $comparisonRows = [
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Terraces and semis wanting maximum floor area', 'href' => 'rear-dormer-conversion.php'
     ],
     [
-        'name' => 'Hip-to-Gable', 'price' => '3.5 weeks on site', 'weeks' => '3.5 weeks', 'area' => '25–28 m²',
+        'name' => 'Hip-to-Gable', 'price' => '8–10 weeks on site', 'weeks' => '8–10 weeks', 'area' => '25–28 m²',
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Hipped roofs — semis, detached, end-terraces', 'href' => 'hip-to-gable-conversion.php'
     ],
     [
@@ -64,9 +64,9 @@ $detailedTypes = [
         ]
     ],
     [
-        'num' => '03', 'name' => 'Hip-to-Gable', 'price' => '3.5 weeks on site', 'href' => 'hip-to-gable-conversion.php',
+        'num' => '03', 'name' => 'Hip-to-Gable', 'price' => '8–10 weeks on site', 'href' => 'hip-to-gable-conversion.php',
         'glyph' => 'M4 30V13h16L34 5l6 4v21zM4 13h16V30',
-        'meta' => '3.5 weeks · 25–28 m²',
+        'meta' => '8–10 weeks · 25–28 m²',
         'body' => 'The sloping side of the roof is built up into a vertical gable wall. Its real value is often structural rather than spatial: squaring off the hip is what creates the headroom a compliant staircase and landing need.',
         'points' => [
             'Only for houses with a hipped roof — semis, detached and most end-terraces',

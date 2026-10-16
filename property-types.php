@@ -23,11 +23,11 @@ $propertyRows = [
     ],
     [
         'name' => 'Semi-detached', 'volume' => '50m³', 'party' => 'One side', 'route' => 'Hip-to-gable',
-        'price' => '3.5 weeks', 'ruledOut' => 'Nothing, if the volume allows', 'href' => 'semi-detached-property.php'
+        'price' => '8–10 weeks', 'ruledOut' => 'Nothing, if the volume allows', 'href' => 'semi-detached-property.php'
     ],
     [
         'name' => 'Detached', 'volume' => '50m³', 'party' => 'None', 'route' => 'Hip-to-gable',
-        'price' => '3.5 weeks', 'ruledOut' => 'Both hips plus a dormer — over 50m³', 'href' => 'detached-property.php'
+        'price' => '8–10 weeks', 'ruledOut' => 'Both hips plus a dormer — over 50m³', 'href' => 'detached-property.php'
     ],
     [
         'name' => 'Bungalow', 'volume' => '50m³', 'party' => 'Usually none', 'route' => 'Dormer / Velux',
@@ -44,7 +44,7 @@ $detailedProperties = [
         'options' => [
             ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php'],
-            ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php']
+            ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php']
         ],
         'points' => [
             'Party wall notices to both neighbours, served two months before work starts',
@@ -54,11 +54,11 @@ $detailedProperties = [
     ],
     [
         'num' => '02', 'name' => 'Semi-detached', 'volume' => '50m³', 'href' => 'semi-detached-property.php',
-        'meta' => '3.5 weeks · 25–44 m² typical',
+        'meta' => '8–10 weeks · 25–44 m² typical',
         'glyph' => 'M8 30V13l12-9 12 9v17M20 30V13M14 30v-7h12v7',
         'body' => 'The most converted house in the North West and the most flexible. A 50m³ allowance and a hipped side roof mean every conversion type is on the table — from a three-week rooflight room to a wrap around with two bedrooms and a bathroom.',
         'options' => [
-            ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php'],
+            ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Velux', 'price' => 'from £24,000', 'href' => 'velux-conversion.php']
@@ -71,11 +71,11 @@ $detailedProperties = [
     ],
     [
         'num' => '03', 'name' => 'Detached', 'volume' => '50m³', 'href' => 'detached-property.php',
-        'meta' => '3.5 weeks · 25–46 m² typical',
+        'meta' => '8–10 weeks · 25–46 m² typical',
         'glyph' => 'M8 30V14l16-10 16 10v16zM19 30v-8h10v8',
         'body' => 'Hips on both sides, a 50m³ allowance and no party wall to negotiate. Detached houses give the most design freedom of any property type — and the fewest reasons for a conversion to end up compromised.',
         'options' => [
-            ['name' => 'Hip-to-Gable', 'price' => 'from £37,000', 'href' => 'hip-to-gable-conversion.php'],
+            ['name' => 'Hip-to-Gable', 'price' => 'from £55,000', 'href' => 'hip-to-gable-conversion.php'],
             ['name' => 'Rear Dormer', 'price' => 'from £50,000', 'href' => 'rear-dormer-conversion.php'],
             ['name' => 'Wrap Around', 'price' => 'from £50,000', 'href' => 'wrap-around-conversion.php'],
             ['name' => 'Hip-End Dormer', 'price' => 'from £37,000', 'href' => 'hip-end-dormer-conversion.php']
@@ -505,7 +505,7 @@ include 'includes/header.php';
               <p style="font-size:14px;line-height:1.6;color:#6B6B6B;margin:0">Sloping side built up into a vertical gable wall.</p>
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:auto;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:12.5px;font-weight:600">
-              <span style="color:#4F6B42">£37,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">3.5 wks</span>
+              <span style="color:#4F6B42">£55,000</span><span style="color:#8A8A82">•</span><span style="color:#6B6B6B">8–10 wks</span>
             </div>
           </a>
           <a href="hip-end-dormer-conversion.php" class="byconv-type-card">

@@ -280,7 +280,7 @@ const PROJECTS_DATA = [
     after: 'images/another-area-loft-conversions-north-west-england-02.jpeg',
     facts: [
       { k: 'Property', v: 'Detached' },
-      { k: 'On site', v: '3.5 weeks' },
+      { k: 'On site', v: '8–10 weeks' },
       { k: 'Floor added', v: '27 m²' },
       { k: 'Guarantee', v: '6 Years' }
     ]

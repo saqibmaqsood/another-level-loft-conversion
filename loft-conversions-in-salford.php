@@ -42,9 +42,9 @@ $faqs = [
     ['q' => 'Do Salford conversions require planning permission?', 'a' => "Most rear dormers and Velux conversions are Permitted Development. Properties in Salford City Council conservation areas (e.g. Irlams o' th' Height, The Cliff) require formal planning permission."],
     ['q' => 'How does Salford City Council approve Building Regulations?', 'a' => 'Salford Building Control inspects structural steelwork, floor joists, insulation, and fire safety systems throughout the build.'],
     ['q' => 'What conversion type suits a Salford terrace?', 'a' => 'A full-width flat roof rear dormer provides the maximum usable floor area for an additional bedroom and bathroom.'],
-    ['q' => 'What is the build timeline in Salford?', 'a' => '3 to 4.5 weeks on site, with minimal disruption to your home.'],
+    ['q' => 'What is the build timeline in Salford?', 'a' => 'Velux conversions take 6 to 8 weeks, while dormer and hip-to-gable projects take 8 to 10 weeks on site, with minimal disruption to your home.'],
     ['q' => 'How do you handle fire safety on three storeys?', 'a' => 'We install 30-minute fire-rated doors (FD30) and interlinked mains-powered smoke detectors on all floors.'],
-    ['q' => 'How much does a loft conversion cost in Salford?', 'a' => 'Velux conversions from £24,000; Rear dormers from £50,000; Hip-to-Gables from £37,000.'],
+    ['q' => 'How much does a loft conversion cost in Salford?', 'a' => 'Velux conversions from £24,000; Rear dormers from £50,000; Hip-to-Gables from £55,000.'],
     ['q' => 'Are structural engineer calculations included?', 'a' => 'Yes, full structural calculations and architectural plans are included in your fixed quote.'],
     ['q' => 'How do I schedule a free survey in Salford?', 'a' => 'Contact our Manchester office on 0161 4100155 or use our online survey calendar.'],
 ];

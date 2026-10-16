@@ -16,14 +16,14 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "37000",
+        "price" => "55000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
     ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
-    ['value' => '3.5 weeks', 'label' => 'On site'],
+    ['value' => '8–10 weeks', 'label' => 'On site'],
     ['value' => 'Semi / detached', 'label' => 'Best suited to']
 ];
 
@@ -39,11 +39,11 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Days 1–3', 'what' => 'Scaffold up, materials delivered, loft cleared. Party wall notices already served.'],
-    ['when' => 'Days 4–7', 'what' => 'Hip carefully taken down, new gable wall built up off the engineer’s load-bearing line.'],
-    ['when' => 'Week 2', 'what' => 'Roof extended over the gable, tiles matched, structure made watertight. Steels and joists in.'],
-    ['when' => 'Week 3', 'what' => 'Windows fitted, insulation, stairwell cut, bespoke staircase and partitions in.'],
-    ['when' => 'Final days', 'what' => 'Plastering, second-fix electrics, Building Control sign-off and handover.']
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, materials delivered, loft cleared and hipped roof stripped. Party wall notices served.'],
+    ['when' => 'Weeks 3–4', 'what' => 'Hip taken down, structural steels craned in, new vertical gable wall built up to roof pitch.'],
+    ['when' => 'Weeks 5–6', 'what' => 'Roof timbers extended over new gable, tiles matched, ridge extended, structure fully watertight.'],
+    ['when' => 'Weeks 7–8', 'what' => 'New floor joists laid, high-spec insulation installed, gable windows fitted, bespoke staircase installed.'],
+    ['when' => 'Weeks 9–10', 'what' => 'Plaster skim, second-fix electrics & heating, Building Control final inspection and sign-off.']
 ];
 
 $fit = [
@@ -82,7 +82,7 @@ $faqs = [
     ['q' => 'Should I combine it with a rear dormer?', 'a' => 'Frequently, yes — that combination is the wrap around, and it produces the largest conversion available at around 44 m². It also uses most of your volume allowance, so a planning application becomes more likely. We price both options at the survey so you can see the difference.'],
     ['q' => 'Is my neighbour affected?', 'a' => 'On a semi or end-terrace the new gable is built off or beside the party wall, which triggers the Party Wall Act — notice at least two months before work starts. Neighbours also see the change from the street, so we keep the proportions and materials deferential rather than assertive.'],
     ['q' => 'What structural work is involved?', 'a' => 'More than a rooflight conversion, less than people expect. The hip is taken down, a new gable wall is built up in blockwork or brick off a load-bearing line established by the engineer, and steels carry the new roof and floor. Your structural calculations are part of the fixed price.'],
-    ['q' => 'How long does it take start to finish?', 'a' => 'Around three and a half weeks on site. Drawings, structural calculations and Building Control approval run before that — usually two to four weeks from signing, longer where a full planning application is needed.']
+    ['q' => 'How long does it take start to finish?', 'a' => 'Around 8 to 10 weeks on site. Drawings, structural calculations and Building Control approval run before that — usually two to four weeks from signing, longer where a full planning application is needed.']
 ];
 
 include 'includes/header.php';
@@ -115,11 +115,11 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">3.5 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">8–10 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£37,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£55,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -235,7 +235,7 @@ include 'includes/header.php';
       <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:start">
         <div>
           <span class="section-label">Process notes</span>
-          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What three and a half weeks looks like</h2>
+          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 8 to 10 weeks actually looks like</h2>
           <ol style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
             <?php foreach ($timeline as $t): ?>
               <li style="display:flex;gap:16px;align-items:baseline;padding-bottom:14px;border-bottom:1px solid #DCDCD6">
@@ -265,7 +265,7 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
           <div style="flex:1 1 420px">
             <span class="section-label-light">Pricing</span>
-            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £37,000 includes &mdash; and what pushes it up</h2>
+            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £55,000 includes &mdash; and what pushes it up</h2>
           </div>
           <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Hip-to-gable conversions run £35,000–£55,000 across the UK in 2026. North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
         </div>
@@ -274,8 +274,8 @@ include 'includes/header.php';
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£37,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 25–28 m² hip-to-gable, three and a half weeks on site.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£55,000</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 25–28 m² hip-to-gable, 8 to 10 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>

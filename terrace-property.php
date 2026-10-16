@@ -69,7 +69,7 @@ $included = [
 $addOns = [
     ['name' => 'Rear dormer', 'price' => 'from £50,000', 'note' => 'The usual route. Maximum floor area at full standing height, 8 weeks on site.'],
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest, 6–8 weeks, but you keep the eaves. Needs 2.2m to the ridge.'],
-    ['name' => 'Hip-to-gable', 'price' => 'from £37,000', 'note' => 'End-terraces only — a mid-terrace has no hip to square off.'],
+    ['name' => 'Hip-to-gable', 'price' => 'from £55,000', 'note' => 'End-terraces only — a mid-terrace has no hip to square off.'],
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.'],
     ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
 ];
