@@ -31,7 +31,7 @@ $comparisonRows = [
         'planning' => 'Rarely needed', 'ok' => true, 'suits' => 'Hipped roofs — semis, detached, end-terraces', 'href' => 'hip-to-gable-conversion.php'
     ],
     [
-        'name' => 'Hip-End Dormer', 'price' => '3.5 weeks on site', 'weeks' => '3.5 weeks', 'area' => '24–28 m²',
+        'name' => 'Hip-End Dormer', 'price' => '6–8 weeks on site', 'weeks' => '6–8 weeks', 'area' => '24–28 m²',
         'planning' => 'Sometimes', 'ok' => true, 'suits' => 'Hipped roofs where a full gable would look wrong', 'href' => 'hip-end-dormer-conversion.php'
     ],
     [
@@ -75,9 +75,9 @@ $detailedTypes = [
         ]
     ],
     [
-        'num' => '04', 'name' => 'Hip-End Dormer', 'price' => '3.5 weeks on site', 'href' => 'hip-end-dormer-conversion.php',
+        'num' => '04', 'name' => 'Hip-End Dormer', 'price' => '6–8 weeks on site', 'href' => 'hip-end-dormer-conversion.php',
         'glyph' => 'M6 30l6-14h24l6 14zM16 30v-8h12v8M16 22h12',
-        'meta' => '3.5 weeks · 24–28 m²',
+        'meta' => '6–8 weeks · 24–28 m²',
         'body' => 'A dormer inserted into the hipped end rather than the rear slope. You gain less floor area than a full gable but the roof keeps its original shape — which matters on a matched pair or inside a conservation area.',
         'points' => [
             'Cheeks finished in hanging tiles matched to the roof, not render',

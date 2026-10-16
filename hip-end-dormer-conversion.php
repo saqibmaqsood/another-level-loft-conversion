@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Hip-End Dormer Loft Conversions Guaranteed Fixed Price — Another Level";
-$pageDesc = "Hip-end dormer loft conversions Guaranteed Fixed Price finished in about three and a half weeks. A dormer built into the hipped end, finished in matching hanging tiles.";
+$pageDesc = "Hip-end dormer loft conversions Guaranteed Fixed Price finished in 6 to 8 weeks on site from £40,000. A dormer built into the hipped end, finished in matching hanging tiles.";
 $activePage = "types";
 $ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
 
@@ -16,14 +16,14 @@ $schemaJson = json_encode([
     "offers" => [
         "@type" => "Offer",
         "priceCurrency" => "GBP",
-        "price" => "37000",
+        "price" => "40000",
         "priceSpecification" => "from"
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 $facts = [
     ['value' => 'Guaranteed Fixed Price', 'label' => 'Fixed price'],
-    ['value' => '3.5 weeks', 'label' => 'On site'],
+    ['value' => '6–8 weeks', 'label' => 'On site'],
     ['value' => 'Hipped roofs', 'label' => 'Best suited to']
 ];
 
@@ -39,11 +39,11 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Days 1–3', 'what' => 'Scaffold up, materials delivered, loft cleared. Party wall notices already served.'],
-    ['when' => 'Days 4–6', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
-    ['when' => 'Week 2', 'what' => 'Hipped end opened, dormer framed into the roof, roofed and made watertight.'],
-    ['when' => 'Week 3', 'what' => 'Windows fitted, tile-hung cheeks, insulation, stairwell cut and staircase fitted.'],
-    ['when' => 'Final days', 'what' => 'Plastering, second-fix electrics, Building Control sign-off and handover.']
+    ['when' => 'Week 1', 'what' => 'Scaffold up, materials delivered, loft cleared and boarded for safe working. Party wall notices served.'],
+    ['when' => 'Weeks 2–3', 'what' => 'Steels and primary beams in, new deeper floor joists laid over the existing ceiling.'],
+    ['when' => 'Weeks 4–5', 'what' => 'Hipped end opened, dormer framed into the roof, roofed and made watertight.'],
+    ['when' => 'Weeks 6–7', 'what' => 'Windows fitted, tile-hung cheeks, insulation, stairwell cut and bespoke staircase fitted.'],
+    ['when' => 'Week 8', 'what' => 'Plastering, second-fix electrics, Building Control sign-off and handover.']
 ];
 
 $fit = [
@@ -82,7 +82,7 @@ $faqs = [
     ['q' => 'How much floor area does it add?', 'a' => 'Typically 24 to 28 m², enough for a good bedroom with an en-suite. Compared with a full-width rear dormer you lose some floor area at the edges, but you keep the roofline and usually the neighbours’ goodwill.'],
     ['q' => 'Will it look like an afterthought?', 'a' => 'Not if it is proportioned properly. The rules we work to: set the dormer down the slope rather than tight to the ridge, keep it narrower than the elevation, align the windows with those below, and match materials. All of that is settled in your design plans before we start.'],
     ['q' => 'Does the party wall matter?', 'a' => 'On a semi or end-terrace, yes — building off or cutting into a shared wall means serving Party Wall notices at least two months before work starts. We prepare them alongside the structural drawings.'],
-    ['q' => 'How long does it take?', 'a' => 'Around three and a half weeks on site, plus two to four weeks beforehand for drawings, structural calculations and Building Control. A planning application, where one is needed, adds around eight weeks.']
+    ['q' => 'How long does it take?', 'a' => 'Around 6 to 8 weeks on site, plus two to four weeks beforehand for drawings, structural calculations and Building Control. A planning application, where one is needed, adds around eight weeks.']
 ];
 
 include 'includes/header.php';
@@ -115,11 +115,11 @@ include 'includes/header.php';
           <!-- Key Stats / Numbers Grid on Left -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:440px;border-radius:3px;overflow:hidden">
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">3.5 Weeks</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">6–8 Weeks</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">On site build</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
-              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£37,000</span>
+              <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1;letter-spacing:-.015em;color:#1A1A1A">£40,000</span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#6B6B6B">Fixed price from</span>
             </div>
             <div style="background:#FAFAF8;padding:10px 14px;display:flex;flex-direction:column;gap:3px">
@@ -235,7 +235,7 @@ include 'includes/header.php';
       <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:44px;align-items:start">
         <div>
           <span class="section-label">Process notes</span>
-          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What three and a half weeks looks like</h2>
+          <h2 class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 24px;max-width:20ch">What 6 to 8 weeks looks like</h2>
           <ol style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
             <?php foreach ($timeline as $t): ?>
               <li style="display:flex;gap:16px;align-items:baseline;padding-bottom:14px;border-bottom:1px solid #DCDCD6">
@@ -265,7 +265,7 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
           <div style="flex:1 1 420px">
             <span class="section-label-light">Pricing</span>
-            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £37,000 includes &mdash; and what pushes it up</h2>
+            <h2 id="price-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">What £40,000 includes &mdash; and what pushes it up</h2>
           </div>
           <p style="flex:1 1 300px;max-width:38ch;font-size:15px;line-height:1.65;color:#B8B8B0;margin:0">Hip-end dormer conversions run £35,000–£55,000 across the UK in 2026. North West build costs sit below that average, and our starting figure is a real fixed price, not a teaser.</p>
         </div>
@@ -274,8 +274,8 @@ include 'includes/header.php';
           <div style="background:#6B8E5A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column;gap:18px">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#EDF2E9">Fixed price from</span>
-              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£37,000</div>
-              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 24–28 m² hip-end dormer, three and a half weeks on site.</span>
+              <div style="font-family:Newsreader,Georgia,serif;font-size:clamp(40px,5vw,58px);line-height:1;letter-spacing:-.03em;color:#FFFFFF;margin-top:10px">£40,000</div>
+              <span style="display:block;font-size:14px;line-height:1.6;color:#EDF2E9;margin-top:10px">A typical 24–28 m² hip-end dormer, 6 to 8 weeks on site.</span>
             </div>
             <ul style="list-style:none;margin:0;padding:0;display:grid;gap:9px">
               <?php foreach ($included as $inc): ?>

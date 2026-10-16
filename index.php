@@ -489,7 +489,7 @@ include 'includes/header.php';
               <p class="conversion-card-desc">Extends the ridge on a hipped roof, finished in hanging tiles to match.</p>
               <div class="conversion-card-meta">
                 <span class="meta-tag">Tile-hung extension</span>
-                <span class="meta-sub">3.5 weeks on site</span>
+                <span class="meta-sub">6–8 weeks on site</span>
               </div>
             </div>
           </a>

@@ -42,7 +42,7 @@ $galleryProjects = [
     ],
     [
         'type' => 'Hip-End Dormer', 'town' => 'Didsbury', 'title' => 'Ridge extended in hanging tiles to match.',
-        'weeks' => '3.5 weeks', 'area' => '24 m²', 'property' => 'Semi-detached', 'price' => '£37,000',
+        'weeks' => '6–8 weeks', 'area' => '24 m²', 'property' => 'Semi-detached', 'price' => '£40,000',
         'body' => 'A conservation-sensitive street, so the dormer was clad in hanging tiles taken from the same range as the roof. From the pavement you have to look twice.'
     ],
     [
