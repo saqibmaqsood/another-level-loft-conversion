@@ -39,7 +39,7 @@ include 'includes/header.php';
           <h2 style="font-family:var(--font-serif);font-size:20px;margin:0 0 8px;color:#1C1C1A">2. Fixed Price Quotation &amp; Payment Milestones</h2>
           <p style="margin:0">
             2.1. The total price for the loft conversion is set out in the written Quote and includes all materials, structural steels, scaffolding, and labour as specified.<br>
-            2.2. We do not require an upfront deposit. Payments are made in stages upon the satisfactory completion of verified milestones (e.g. Steels &amp; Floor Joists Installed, Roof Watertight &amp; Weatherproof, Plastering Skim Completed, and Final Building Control Sign-Off).
+            2.2. Payments are made in stages upon the satisfactory completion of verified milestones (e.g. Steels &amp; Floor Joists Installed, Roof Watertight &amp; Weatherproof, Plastering Skim Completed, and Final Building Control Sign-Off).
           </p>
         </div>
 
@@ -63,7 +63,7 @@ include 'includes/header.php';
           <h2 style="font-family:var(--font-serif);font-size:20px;margin:0 0 8px;color:#1C1C1A">5. Customer Care &amp; Property Respect</h2>
           <p style="margin:0">
             5.1. Our team ensures dedicated craftsmanship and prompt progress on your home without unnecessary delays.<br>
-            5.2. Scaffolding is used for external access where practical to protect internal living spaces. The Contractor maintains £5,000,000 public liability insurance throughout the duration of works.
+            5.2. Scaffolding is used for external access where practical to protect internal living spaces, ensuring minimal disruption throughout the duration of works.
           </p>
         </div>
       </div>

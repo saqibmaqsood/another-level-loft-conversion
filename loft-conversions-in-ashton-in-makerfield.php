@@ -46,7 +46,7 @@ $faqs = [
     ['q' => 'How quickly can you survey in Ashton-in-Makerfield?', 'a' => 'Surveys across WN4 are typically booked within 3 to 5 working days, with layout guidance and a fixed quote supplied shortly after.'],
     ['q' => 'What is included in the fixed quote?', 'a' => 'Structural engineering, timber framework, Velux windows or dormer construction, insulation, bespoke stairs, plastering, electrics, and building control sign-off.'],
     ['q' => 'What if my roof has trusses rather than rafters?', 'a' => 'Post-1960s modern properties with W-truss timber frames can still be converted by installing steel load-bearing beams to support the new floor and roof load.'],
-    ['q' => 'Do you take a deposit upfront?', 'a' => 'No. We take zero deposit upfront; staged payments are made against completed build phases that you and Building Control inspect.'],
+    ['q' => 'How are project payments structured?', 'a' => 'Payments are divided into transparent staged milestones made against completed build phases that you and Building Control inspect.'],
 ];
 
 $nearby = ['Wigan', 'Standish', 'St Helens', 'Warrington', 'Haydock'];

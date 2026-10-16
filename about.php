@@ -201,8 +201,8 @@ include 'includes/header.php';
                   <dd style="margin:0;font-size:13px;font-weight:600;text-align:right;color:#1A1A1A">41 North West locations</dd>
                 </div>
                 <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid #EDEDE8">
-                  <dt style="font-family:var(--font-sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6B6B6B;font-weight:600">Insurance</dt>
-                  <dd style="margin:0;font-size:13px;font-weight:600;text-align:right;color:#1A1A1A">£5M Public Liability</dd>
+                  <dt style="font-family:var(--font-sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6B6B6B;font-weight:600">Compliance</dt>
+                  <dd style="margin:0;font-size:13px;font-weight:600;text-align:right;color:#1A1A1A">Building Control Handled</dd>
                 </div>
                 <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid #EDEDE8">
                   <dt style="font-family:var(--font-sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6B6B6B;font-weight:600">Guarantee</dt>
@@ -410,15 +410,15 @@ include 'includes/header.php';
           <li class="guarantee-item">
             <span class="guar-num">04</span>
             <span class="guar-content">
-              <span class="guar-title">£5M Public Liability Insurance</span>
-              <span class="guar-desc">Comprehensive contractors insurance protecting your property at all stages.</span>
+              <span class="guar-title">Official Building Control Sign-Off</span>
+              <span class="guar-desc">Complete management of council inspections and completion certification.</span>
             </span>
           </li>
           <li class="guarantee-item">
             <span class="guar-num">05</span>
             <span class="guar-content">
               <span class="guar-title">Plain-English Fixed-Price Contract</span>
-              <span class="guar-desc">No deposit, staged payments against verified completed milestones.</span>
+              <span class="guar-desc">Transparent staged payments against verified completed milestones.</span>
             </span>
           </li>
         </ul>

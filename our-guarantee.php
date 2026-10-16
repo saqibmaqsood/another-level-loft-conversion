@@ -64,7 +64,7 @@ include 'includes/header.php';
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> 6-Yr Structural Warranty</span>
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Guaranteed Fixed Price</span>
           <span class="proc-trust-bullet"><strong style="color:#3E5C32">✓</strong> Dedicated Build Crew</span>
-          <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#3E5C32">✓</strong> £5M Public Liability</span>
+          <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#3E5C32">✓</strong> Building Control Handled</span>
         </div>
       </div>
 
@@ -107,9 +107,9 @@ include 'includes/header.php';
           </div>
 
           <div class="guar-metric-badge">
-            <span class="guar-metric-val">&pound;5,000,000</span>
-            <strong class="guar-metric-title">Public Liability</strong>
-            <span class="guar-metric-sub">Comprehensive coverage</span>
+            <span class="guar-metric-val">100% Signed-Off</span>
+            <strong class="guar-metric-title">Building Control</strong>
+            <span class="guar-metric-sub">Official completion cert</span>
           </div>
 
         </div>
@@ -258,7 +258,7 @@ include 'includes/header.php';
           </div>
         </div>
 
-        <!-- Card 4: Zero Deposit -->
+        <!-- Card 4: Transparent Milestone Payments -->
         <div class="guar-safeguard-card" onmouseover="this.style.borderColor='#A9C699';this.style.boxShadow='0 8px 24px -4px rgba(24,34,22,0.06)'" onmouseout="this.style.borderColor='#E4E4DF';this.style.boxShadow='none'">
           <div>
             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
@@ -270,45 +270,47 @@ include 'includes/header.php';
                 </svg>
               </span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#3E5C32;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 10px;border-radius:12px">
-                Zero Upfront Risk
+                Fair Terms
               </span>
             </div>
             <h3 style="font-family:var(--font-serif);font-size:21px;margin:0 0 10px;color:#1A1A1A;font-weight:400">
-              Zero Upfront Deposit &amp; Milestone Payments
+              Transparent Milestone Payments
             </h3>
             <p style="font-family:var(--font-sans);font-size:14.5px;color:#4A4A45;line-height:1.65;margin:0 0 16px">
-              You never pay upfront for work not yet delivered. Our structured payment schedule is linked to real on-site milestones &mdash; you only pay when steels are placed, dormer is watertight, and plaster is completed.
+              Our clear, structured payment schedule is linked directly to verified on-site build milestones &mdash; you pay in stages as steels are set, the dormer is made watertight, and plastering is completed.
             </p>
           </div>
           <div style="border-top:1px solid #EBEBE6;padding-top:12px;font-family:var(--font-sans);font-size:12.5px;color:#4F6B42;font-weight:600">
-            ✓ Fixed written quotation with no hidden extras
+            ✓ Fixed written schedule tied to build milestones
           </div>
         </div>
 
-        <!-- Card 5: £5M Insurance -->
+        <!-- Card 5: Building Control Handled -->
         <div class="guar-safeguard-card" onmouseover="this.style.borderColor='#A9C699';this.style.boxShadow='0 8px 24px -4px rgba(24,34,22,0.06)'" onmouseout="this.style.borderColor='#E4E4DF';this.style.boxShadow='none'">
           <div>
             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
               <span style="width:44px;height:44px;border-radius:8px;background:#FFFFFF;border:1px solid #DFEBD9;display:flex;align-items:center;justify-content:center;color:#4F6B42;flex-shrink:0">
                 <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4F6B42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  <line x1="12" y1="8" x2="12" y2="12"></line>
-                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
                 </svg>
               </span>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#3E5C32;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 10px;border-radius:12px">
-                &pound;5,000,000
+                100% Compliant
               </span>
             </div>
             <h3 style="font-family:var(--font-serif);font-size:21px;margin:0 0 10px;color:#1A1A1A;font-weight:400">
-              Full Public &amp; Employer Liability Cover
+              Official Building Control Handled
             </h3>
             <p style="font-family:var(--font-sans);font-size:14.5px;color:#4A4A45;line-height:1.65;margin:0 0 16px">
-              We hold comprehensive public liability insurance coverage up to £5,000,000. Your home, boundary walls, neighbouring properties, and team members are completely protected from the first scaffold pole.
+              We manage all structural calculations, council building notices, and mandatory site inspections from start to finish. You receive your official Local Authority Completion Certificate upon project handover.
             </p>
           </div>
           <div style="border-top:1px solid #EBEBE6;padding-top:12px;font-family:var(--font-sans);font-size:12.5px;color:#4F6B42;font-weight:600">
-            ✓ Total financial and legal protection
+            ✓ Official Local Authority Completion Certificate
           </div>
         </div>
 

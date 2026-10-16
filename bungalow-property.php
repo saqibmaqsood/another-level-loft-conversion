@@ -280,7 +280,7 @@ include 'includes/header.php';
                 </li>
               <?php endforeach; ?>
             </ul>
-            <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#EDF2E9;margin-top:auto">No deposit. Staged payments against completed work.</span>
+            <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#EDF2E9;margin-top:auto">Transparent staged payments against completed work.</span>
           </div>
 
           <div style="background:#1A1A1A;padding:clamp(24px,3vw,32px);display:flex;flex-direction:column">

@@ -46,7 +46,7 @@ $faqs = [
     ['q' => 'How quickly can you survey in Chorlton?', 'a' => 'Our surveyor is in South Manchester throughout the week. Free surveys can be booked in M21 within 48 to 72 hours.'],
     ['q' => 'What is the average timeline for an M21 conversion?', 'a' => 'On-site construction takes between 3.5 and 5 weeks, depending on whether an en-suite and custom dormer windows are specified.'],
     ['q' => 'Is the survey and layout advice free?', 'a' => 'Yes, every survey includes expert layout guidance showing your proposed room layout, staircase, and head clearances with a fixed quote.'],
-    ['q' => 'How does payment work?', 'a' => 'No deposit is needed. Payments are staged across milestones (scaffold/timbers, watertight shell, first-fix, plastering, completion).'],
+    ['q' => 'How does payment work?', 'a' => 'Payments are staged across transparent milestones (scaffold/timbers, watertight shell, first-fix, plastering, completion).'],
 ];
 
 $nearby = ['Didsbury', 'Sale', 'Stretford', 'Manchester', 'Salford'];

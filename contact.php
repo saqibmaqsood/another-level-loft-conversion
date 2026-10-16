@@ -79,7 +79,7 @@ include 'includes/header.php';
             </span>
             <span style="display:inline-flex;align-items:center;gap:6px">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              £0 Upfront Deposit
+              Milestone Payments
             </span>
           </div>
         </div>
@@ -368,7 +368,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">Your call</span>
             </li>
           </ol>
-          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No deposit, no obligation, and zero pressure to proceed whatever you decide.</p>
+          <p style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, 100% free consultation, and zero pressure to proceed whatever you decide.</p>
         </div>
       </div>
     </section>
