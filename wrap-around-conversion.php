@@ -39,11 +39,11 @@ $galleryImages = [
 ];
 
 $timeline = [
-    ['when' => 'Week 1', 'what' => 'Scaffold up, loft cleared, hip carefully taken down. Party wall notices already served.'],
-    ['when' => 'Weeks 2–3', 'what' => 'New gable wall built up, structural steels and primary beams in, deeper floor joists laid.'],
-    ['when' => 'Weeks 4–5', 'what' => 'Rear slope opened, full-width dormer framed and flat roofed. Roof extended over the gable.'],
-    ['when' => 'Weeks 6–7', 'what' => 'Everything watertight, windows fitted, insulation, bespoke staircase fitted and partitions framed.'],
-    ['when' => 'Weeks 8–10', 'what' => 'Plastering, second-fix electrics & plumbing, Building Control sign-off and handover.']
+    ['when' => 'Weeks 1–2', 'what' => 'Scaffold up, loft cleared, hipped roof stripped and hip taken down. Party wall notices served.'],
+    ['when' => 'Weeks 3–4', 'what' => 'New gable wall built up in matching brick/render, structural steels and floor joists in.'],
+    ['when' => 'Weeks 5–6', 'what' => 'Rear slope opened, full-width dormer framed, flat roofed, and made watertight with roof tiles extended.'],
+    ['when' => 'Weeks 7–8', 'what' => 'Windows fitted, high-spec insulation, stairwell cut, bespoke staircase and internal partitions framed.'],
+    ['when' => 'Weeks 9–10', 'what' => 'Plastering, en-suite plumbing & second-fix electrics, Building Control sign-off and final handover.']
 ];
 
 $fit = [
