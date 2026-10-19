@@ -251,7 +251,6 @@ include 'includes/header.php';
         </div>
         <div class="hero-minimal-features">
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Guaranteed Fixed Price</span>
-          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Free CAD Design</span>
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> No Hidden Costs</span>
           <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 6-Year Guarantee</span>
         </div>
@@ -480,23 +479,9 @@ include 'includes/header.php';
             </div>
           </a>
 
-          <a href="hip-end-dormer-conversion.php" class="conversion-card">
-            <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Hip-End Dormer Loft Conversion" class="real-img" loading="lazy">
-            </div>
-            <div class="conversion-card-body">
-              <h3 class="conversion-card-title">Hip-End Dormer</h3>
-              <p class="conversion-card-desc">Extends the ridge on a hipped roof, finished in hanging tiles to match.</p>
-              <div class="conversion-card-meta">
-                <span class="meta-tag">Tile-hung extension</span>
-                <span class="meta-sub">6–8 weeks on site</span>
-              </div>
-            </div>
-          </a>
-
           <a href="wrap-around-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-05.jpeg" alt="Wrap Around Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-07.jpeg" alt="Wrap Around Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Wrap Around</h3>
@@ -504,6 +489,20 @@ include 'includes/header.php';
               <div class="conversion-card-meta">
                 <span class="meta-tag">Master suite + en-suite</span>
                 <span class="meta-sub">8–10 weeks on site</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="hip-end-dormer-conversion.php" class="conversion-card">
+            <div class="conversion-card-img-wrap">
+              <img src="images/another-area-loft-conversions-north-west-england-05.jpeg" alt="Hip-End Dormer Loft Conversion" class="real-img" loading="lazy">
+            </div>
+            <div class="conversion-card-body">
+              <h3 class="conversion-card-title">Hip-End Dormer</h3>
+              <p class="conversion-card-desc">Extends the ridge on a hipped roof, finished in hanging tiles to match.</p>
+              <div class="conversion-card-meta">
+                <span class="meta-tag">Tile-hung extension</span>
+                <span class="meta-sub">6–8 weeks on site</span>
               </div>
             </div>
           </a>

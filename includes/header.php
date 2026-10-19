@@ -330,7 +330,7 @@ try {
               <div class="bayford-accent-bar"></div>
               <h3 class="bayford-heading">MEET ANOTHER LEVEL</h3>
               <p class="bayford-desc">
-                Founded in 2004 by Jonny Mee. 22+ years North West specialists operating with dedicated master trades, fixed-price quote and 6-year structural warranty.
+                Founded in 2004 by John Mee. 22+ years North West specialists operating with dedicated master trades, fixed-price quote and 6-year structural warranty.
               </p>
               <a href="#booking" data-open-booking class="bayford-split-btn">
                 <span class="bayford-btn-text">BOOK FREE SURVEY</span>
@@ -404,7 +404,7 @@ try {
 
     <!-- Header Actions (Direct Call + Clean CTA) -->
     <div class="header-actions">
-      <a href="<?php echo $telHref; ?>" class="header-phone" aria-label="Call Jonny Mee">
+      <a href="<?php echo $telHref; ?>" class="header-phone" aria-label="Call John Mee">
         <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         <span><?php echo htmlspecialchars($phone); ?></span>
       </a>

@@ -410,7 +410,7 @@ include 'includes/header.php';
             <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">Initial Survey, Feasibility Check &amp; Fixed Quotation</h3>
             
             <p style="font-family:var(--font-sans);font-size:15.5px;color:#4A4A45;line-height:1.75;margin:0 0 20px;position:relative;z-index:1">
-              Jonny personally visits your property to measure ridge-to-joist headroom, evaluate existing roof trusses or purlins, check chimney breasts, and discuss your desired layout (master bedroom, en-suite bathroom, dressing room, or home office). Within days, you receive expert layout guidance and a guaranteed fixed-price written quotation with no hidden extras.
+              John personally visits your property to measure ridge-to-joist headroom, evaluate existing roof trusses or purlins, check chimney breasts, and discuss your desired layout (master bedroom, en-suite bathroom, dressing room, or home office). Within days, you receive expert layout guidance and a guaranteed fixed-price written quotation with no hidden extras.
             </p>
 
             <div style="border:1px solid #E2E5DF;border-radius:10px;overflow:hidden;margin-bottom:22px;box-shadow:0 3px 12px rgba(0,0,0,0.04)">

@@ -28,7 +28,7 @@ $facts = [
 ];
 
 $galleryImages = [
-    'images/another-area-loft-conversions-north-west-england-04.jpeg',
+    'images/another-area-loft-conversions-north-west-england-05.jpeg',
     'images/another-area-loft-conversions-north-west-england-20.jpeg',
     'images/another-area-loft-conversions-north-west-england-21.jpeg',
     'images/another-area-loft-conversions-north-west-england-22.jpeg',

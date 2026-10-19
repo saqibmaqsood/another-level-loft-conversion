@@ -36,9 +36,9 @@ $galleryProjects = [
         'body' => 'Tile-hung hip-to-gable combined with a full-width rear dormer, maximizing standing headroom and floor area across the full footprint of the house.'
     ],
     [
-        'type' => 'Rear Dormer', 'town' => 'Preston', 'title' => 'Twin rooms for two growing children.',
+        'type' => 'Hip-End Dormer', 'town' => 'Preston', 'title' => 'Twin rooms for two growing children.',
         'weeks' => '4 weeks', 'area' => '29 m²', 'property' => 'Semi-detached', 'price' => '£39,500',
-        'body' => 'One dormer, one partition wall, two identical rooms. Building control signed off the fire door and mains-linked alarms on the first visit.'
+        'body' => 'Hip-end dormer with partition wall creating two identical rooms. Building control signed off the fire door and mains-linked alarms on the first visit.'
     ],
     [
         'type' => 'Hip-End Dormer', 'town' => 'Didsbury', 'title' => 'Ridge extended in hanging tiles to match.',

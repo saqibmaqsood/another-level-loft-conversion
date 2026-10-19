@@ -49,7 +49,7 @@ include 'includes/header.php';
 
           <h1 id="h1" class="heading-h1" style="font-size:clamp(34px,5.4vw,58px);letter-spacing:-.025em;margin:0">A North West team that <em style="font-style:italic">only</em> builds lofts.</h1>
           <p style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,25px);line-height:1.25;color:#4F6B42;margin:-4px 0 2px;letter-spacing:-.015em">22 years converting loft conversions with 400+ finished projects.</p>
-          <p class="lead-text" style="max-width:50ch">We don’t take on kitchens, extensions, or general building work. Every member of our team is a dedicated loft specialist — from Jonny surveying the roof structure to the joiners framing your dormer.</p>
+          <p class="lead-text" style="max-width:50ch">We don’t take on kitchens, extensions, or general building work. Every member of our team is a dedicated loft specialist — from John surveying the roof structure to the joiners framing your dormer.</p>
           
           <!-- Key Stats / Numbers Grid -->
           <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#E4E4DF;border:1px solid #E4E4DF;max-width:460px;border-radius:3px;overflow:hidden">

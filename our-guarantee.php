@@ -132,7 +132,7 @@ include 'includes/header.php';
 
         <!-- Director Handover Note -->
         <div style="margin-top:16px;padding-top:12px;border-top:1px solid #F0F0EB;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:12px;color:#70706A">
-          <span>Overseen personally by <strong>Jonny Mee</strong></span>
+          <span>Overseen personally by <strong>John Mee</strong></span>
           <span style="color:#4F6B42;font-weight:700">400+ Lofts Completed</span>
         </div>
 
@@ -199,7 +199,7 @@ include 'includes/header.php';
               Dedicated Project Management &amp; Personal Oversight
             </h3>
             <p style="font-family:var(--font-sans);font-size:14.5px;color:#4A4A45;line-height:1.65;margin:0 0 16px">
-              Another Level is an independent, family-run company. The person who visits your home for the initial survey is Jonny Mee, who personally oversees your build schedule and on-site craftsmen.
+              Another Level is an independent, family-run company. The person who visits your home for the initial survey is John Mee, who personally oversees your build schedule and on-site craftsmen.
             </p>
           </div>
           <div style="border-top:1px solid #EBEBE6;padding-top:12px;font-family:var(--font-sans);font-size:12.5px;color:#4F6B42;font-weight:600">
