@@ -767,7 +767,7 @@ include 'includes/header.php';
       <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
         <div>
           <span class="section-label">Customer feedback</span>
-          <h2 id="test-h" class="heading-h2">What the neighbours said.</h2>
+          <h2 id="test-h" class="heading-h2">What our customers said.</h2>
         </div>
         <span style="font-family:var(--font-sans);font-size:12.5px;color:#6B6B65">Verified via Checkatrade &middot; 400+ reviews</span>
       </div>

@@ -648,7 +648,7 @@ include 'includes/header.php';
         <div style="display:flex;flex-wrap:wrap;gap:14px 28px;align-items:flex-end;justify-content:space-between;margin-bottom:28px">
           <div>
             <span class="section-label">Customer feedback</span>
-            <h2 id="test-h" class="heading-h2">What the neighbours said.</h2>
+            <h2 id="test-h" class="heading-h2">What our customers said.</h2>
           </div>
           <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6B6B6B">Verified via Checkatrade &middot; 400+ reviews</span>
         </div>
