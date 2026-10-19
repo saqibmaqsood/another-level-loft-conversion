@@ -84,89 +84,20 @@ include 'includes/header.php';
 
   <main>
 
-    <!-- Creative Hero Section -->
-    <section aria-labelledby="h1" class="border-bottom" style="background:#FAF9F5;position:relative;overflow:hidden">
-      <div class="gallery-hero-grid">
-        
-        <!-- Left: Headline & Trust Intro -->
-        <div style="display:flex;flex-direction:column;gap:18px">
-          
-          <!-- Embedded Breadcrumb & Badge -->
-          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px">
-            <nav aria-label="Breadcrumb" class="breadcrumb-inline">
-              <a href="index.php">Home</a>
-              <span class="crumb-sep">/</span>
-              <span class="crumb-current" aria-current="page">Gallery</span>
-            </nav>
-            <span style="color:#D4D4CC;font-size:12px">•</span>
-            <span style="font-family:var(--font-sans);display:inline-flex;align-items:center;gap:6px;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 11px;border-radius:14px;color:#3E5C32;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase">
-              <span style="width:6px;height:6px;border-radius:50%;background:#6B8E5A;display:inline-block"></span>
-              Real Completed Projects
-            </span>
-          </div>
-
-          <h1 id="h1" class="heading-h1" style="font-family:var(--font-serif);font-size:clamp(34px,4.8vw,58px);letter-spacing:-.025em;line-height:1.14;font-weight:400;margin:0;color:#1A1A1A">
-            Real North West loft conversions, photographed on handover day.
-          </h1>
-          
-          <p class="lead-text" style="font-family:var(--font-sans);font-size:clamp(16px,1.8vw,17.5px);color:#4A4A45;line-height:1.7;margin:0;max-width:52ch">
-            Every project below was surveyed, engineered, and completed by our permanent in-house craftsmen across Lancashire, Greater Manchester, and Cheshire. Explore real floorplans, timescales, and architectural details.
-          </p>
-
-          <div class="hero-actions-row" style="margin-top:4px">
-            <a href="#booking" data-open-booking class="btn-primary hero-btn">
-              <span>Book Free Survey</span>
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-            </a>
-            <a href="#projects" class="btn-secondary hero-btn">Explore Projects Below</a>
-          </div>
-
-          <!-- Trust Pill Row -->
-          <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:6px;padding-top:16px;border-top:1px solid #EAEAE4;font-family:var(--font-sans);font-size:13px;color:#3E5C32;font-weight:600">
-            <span style="display:inline-flex;align-items:center;gap:6px">
-              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              Building Control Signed Off
-            </span>
-            <span style="display:inline-flex;align-items:center;gap:6px">
-              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              6-Year Written Guarantee
-            </span>
-            <span style="display:inline-flex;align-items:center;gap:6px">
-              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              Guaranteed Fixed Price
-            </span>
-          </div>
-        </div>
-
-        <!-- Right: 2x2 Architectural Metrics Dashboard -->
-        <div class="gallery-metrics-grid">
-          
-          <div class="gallery-metric-card">
-            <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">400+</span>
-            <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Lofts Completed</span>
-            <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">Across North West</span>
-          </div>
-
-          <div class="gallery-metric-card">
-            <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">41</span>
-            <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Towns Covered</span>
-            <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">Lancs, Gtr MCR &amp; Chesh</span>
-          </div>
-
-          <div class="gallery-metric-card">
-            <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">6–8</span>
-            <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Weeks to Completion</span>
-            <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">Dedicated build crew</span>
-          </div>
-
-          <div class="gallery-metric-card">
-            <span style="font-family:var(--font-serif);font-size:clamp(28px,3.2vw,40px);font-weight:400;color:#1A1A1A;line-height:1">9.8<span style="font-size:16px;color:#70706A">/10</span></span>
-            <span style="font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#4F6B42;letter-spacing:.04em;text-transform:uppercase">Checkatrade Score</span>
-            <span style="font-family:var(--font-sans);font-size:12px;color:#70706A;margin-top:2px">400+ verified reviews</span>
-          </div>
-
-        </div>
-
+    <!-- Minimalist Gallery Header -->
+    <section aria-labelledby="h1" class="border-bottom" style="background:#FAF9F5">
+      <div style="max-width:1280px;margin:0 auto;padding:clamp(26px,3.2vw,42px) 20px clamp(18px,2.2vw,26px)">
+        <nav aria-label="Breadcrumb" class="breadcrumb-inline" style="margin-bottom:10px">
+          <a href="index.php">Home</a>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current" aria-current="page">Gallery</span>
+        </nav>
+        <h1 id="h1" class="heading-h1" style="font-family:var(--font-serif);font-size:clamp(28px,3.4vw,42px);letter-spacing:-.02em;line-height:1.2;font-weight:400;margin:0 0 8px 0;color:#1A1A1A">
+          Real North West loft conversions, photographed on handover day.
+        </h1>
+        <p style="font-family:var(--font-sans);font-size:15px;color:#5A5A55;line-height:1.55;margin:0;max-width:62ch">
+          Explore real completed floorplans, timescales, and handover photography across Greater Manchester, Lancashire, and Cheshire.
+        </p>
       </div>
     </section>
 
