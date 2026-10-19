@@ -212,18 +212,18 @@ include 'includes/header.php';
               When Our Team Is Available
             </h2>
             <p style="font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#4A4A45;margin:0 0 20px">
-              Our survey team operates across all North West towns during weekdays and Saturday mornings to fit around your family schedule.
+              Our survey team operates across all North West towns Monday to Friday (8:00 &ndash; 17:00) to fit around your schedule.
             </p>
           </div>
 
           <dl style="margin:0;display:grid;gap:0;background:#FAF9F5;border:1px solid #E2E5DF;border-radius:10px;padding:4px 20px">
             <div style="display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #EDEDE8">
               <dt style="font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#2C2C2A">Monday &ndash; Friday</dt>
-              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:600;color:#4F6B42">8:00 &ndash; 18:00</dd>
+              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:600;color:#4F6B42">8:00 &ndash; 17:00</dd>
             </div>
             <div style="display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #EDEDE8">
               <dt style="font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#2C2C2A">Saturday</dt>
-              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:600;color:#4F6B42">9:00 &ndash; 14:00</dd>
+              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:600;color:#8A8A82">Closed</dd>
             </div>
             <div style="display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #EDEDE8">
               <dt style="font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#2C2C2A">Sunday</dt>
@@ -231,7 +231,7 @@ include 'includes/header.php';
             </div>
             <div style="display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 0">
               <dt style="font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#2C2C2A">Home Survey Visits</dt>
-              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#3E5C32">Weekday &amp; Saturday slots</dd>
+              <dd style="margin:0;font-family:var(--font-sans);font-size:13.5px;font-weight:700;color:#3E5C32">Monday &ndash; Friday slots</dd>
             </div>
           </dl>
         </div>
