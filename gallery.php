@@ -21,14 +21,14 @@ $galleryProjects = [
         'body' => 'A full-width rear dormer under permitted development. The old hatch became a dog-leg staircase off the landing, which kept both existing bedrooms full size.'
     ],
     [
-        'type' => 'Velux', 'town' => 'Chorlton', 'title' => 'A home office under the original roof line.',
-        'weeks' => '3 weeks', 'area' => '18 m²', 'property' => 'Terrace', 'price' => '£24,000',
-        'body' => 'Ridge height was already 2.5m, so nothing outside changed. Three Velux windows, a full insulation upgrade and a fixed staircase where the loft ladder used to be.'
+        'type' => 'Rear Dormer', 'town' => 'Chorlton', 'title' => 'Rear dormer home office with rooftop terrace.',
+        'weeks' => '6–8 weeks', 'area' => '22 m²', 'property' => 'Terrace', 'price' => '£48,000',
+        'body' => 'Bespoke slate-clad rear dormer creating a bright home office with generous standing headroom and external walk-out access.'
     ],
     [
-        'type' => 'Hip-to-Gable', 'town' => 'Stockport', 'title' => 'Squared-off roof, en-suite guest room.',
-        'weeks' => '8–10 weeks', 'area' => '27 m²', 'property' => 'Detached', 'price' => '£55,000',
-        'body' => 'The hip came off the side elevation and went back as a gable wall in matching brick. That single change gave the staircase the head height it needed at the top.'
+        'type' => 'Velux', 'town' => 'Stockport', 'title' => 'Light-filled guest bedroom and landing.',
+        'weeks' => '4–5 weeks', 'area' => '24 m²', 'property' => 'Detached', 'price' => '£30,000+',
+        'body' => 'Velux rooflight conversion creating a bright guest room and staircase landing under the original roofline, keeping the exterior character intact.'
     ],
     [
         'type' => 'Wrap Around', 'town' => 'Sale', 'title' => 'Full-width master suite across the roof.',
@@ -52,18 +52,18 @@ $galleryProjects = [
     ],
     [
         'type' => 'Velux', 'town' => 'Warrington', 'title' => 'Quiet study over a terraced kitchen.',
-        'weeks' => '3 weeks', 'area' => '16 m²', 'property' => 'Terrace', 'price' => '£24,000',
+        'weeks' => '3–4 weeks', 'area' => '16 m²', 'property' => 'Terrace', 'price' => '£30,000+',
         'body' => 'The tightest plan we have done this year. A space-saver staircase, built-in desk run under the slope, and storage in the eaves on both sides.'
     ],
     [
-        'type' => 'Hip-to-Gable', 'town' => 'Lytham', 'title' => 'Sea-view bedroom with a dormer to the rear.',
-        'weeks' => '4 weeks', 'area' => '30 m²', 'property' => 'Detached', 'price' => '£41,000',
-        'body' => 'Gable to the side and a small rear dormer for the shower room. Rendered to match the existing elevation rather than left in brick.'
+        'type' => 'Front Dormer', 'town' => 'Lytham', 'title' => 'Front-facing dormer bedroom and ensuite.',
+        'weeks' => '6–8 weeks', 'area' => '30 m²', 'property' => 'Detached', 'price' => '£45,000',
+        'body' => 'Front-facing dormer bedroom designed to blend with the original elevation, adding substantial standing headroom and natural light.'
     ],
     [
-        'type' => 'Rear Dormer', 'town' => 'Manchester', 'title' => 'Rental conversion turned into two lettable rooms.',
-        'weeks' => '4.5 weeks', 'area' => '33 m²', 'property' => 'Terrace', 'price' => '£40,000',
-        'body' => 'A landlord job with a hard deadline. Two rooms, one shower room, and all the fire-separation paperwork completed for the HMO licence.'
+        'type' => 'Hip-End Dormer', 'town' => 'Manchester', 'title' => 'Rental conversion turned into two lettable rooms.',
+        'weeks' => '6–8 weeks', 'area' => '33 m²', 'property' => 'Semi-detached', 'price' => '£45,000',
+        'body' => 'Hip-end dormer built to HMO standards with two rooms, shower room, and full fire-separation sign-off.'
     ],
     [
         'type' => 'Wrap Around', 'town' => 'Chorley', 'title' => 'Family bathroom moved upstairs, twice over.',
@@ -71,13 +71,13 @@ $galleryProjects = [
         'body' => 'The largest job of the year. Two double bedrooms and a family bathroom, with the plumbing re-run so nothing crosses the original landing.'
     ],
     [
-        'type' => 'Velux', 'town' => 'Southport', 'title' => 'Guest room kept deliberately simple.',
-        'weeks' => '3 weeks', 'area' => '19 m²', 'property' => 'Semi-detached', 'price' => '£25,500',
-        'body' => 'The customer wanted the cheapest honest option, so we talked them out of a dormer. Two Velux windows and a proper staircase did the job.'
+        'type' => 'Rear Dormer', 'town' => 'Southport', 'title' => 'Full-width rear dormer with triple sash windows.',
+        'weeks' => '6–8 weeks', 'area' => '30 m²', 'property' => 'Semi-detached', 'price' => '£50,000+',
+        'body' => 'Slate-hung rear dormer featuring three large sash windows, creating an expansive master bedroom with full standing height throughout.'
     ]
 ];
 
-$filterTypes = ['All', 'Velux', 'Rear Dormer', 'Hip-to-Gable', 'Hip-End Dormer', 'Wrap Around'];
+$filterTypes = ['All', 'Velux', 'Rear Dormer', 'Front Dormer', 'Hip-End Dormer', 'Wrap Around'];
 
 include 'includes/header.php';
 ?>
