@@ -45,7 +45,7 @@ $faqs = [
     ['q' => 'What is the cost of a loft conversion in Preston?', 'a' => 'Velux conversions from £24,000; Rear dormers from £50,000; Hip-to-Gables from £55,000 with a single fixed written price.'],
     ['q' => 'How fast can you survey my home in Preston?', 'a' => 'Because we are locally based, we can often survey your Preston home within 24 to 48 hours.'],
     ['q' => 'How long does construction take on site?', 'a' => 'Velux conversions take 6 to 8 weeks, while dormers and hip-to-gable builds take 8 to 10 weeks from scaffold erection to final plaster skim.'],
-    ['q' => 'Are layout plans provided before building?', 'a' => 'Yes, our free home survey includes expert layout guidance showing exact layouts and stair positioning.'],
+    ['q' => 'Is the survey and quote free of charge?', 'a' => 'Yes, our on-site survey and written fixed quote are completely free with zero obligation.'],
     ['q' => 'How do I book a survey in Preston?', 'a' => 'Call our direct office on 01772 393005 or book online in 90 seconds.'],
 ];
 
@@ -297,7 +297,7 @@ include 'includes/header.php';
 
           <div style="display:flex;align-items:center;gap:10px;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:13px;color:#4A4A45;line-height:1.5">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>Survey, drawing and quote. Say no afterwards and owe nothing.</span>
+            <span>Survey, layout advice and fixed quote. Say no afterwards and owe nothing.</span>
           </div>
         </div>
       </div>

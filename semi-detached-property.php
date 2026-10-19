@@ -62,7 +62,7 @@ $included = [
     'New floor joists laid over the existing ceiling',
     'Bespoke staircase and fire-rated doors to the protected stair',
     'Insulation, plasterboard, skim and second-fix electrics',
-    'Architectural CAD plans and layout drawings',
+    'Architectural plans and layout specifications',
     'Building Control fees and completion certificate'
 ];
 
@@ -389,7 +389,7 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:13px;color:#4F6B42;flex:0 0 26px;padding-top:2px;font-weight:700">02</span>
               <span style="display:flex;flex-direction:column;gap:4px">
                 <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
-                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A drawing of the finished layout and one written price.</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
               </span>
               <span style="font-family:var(--font-sans);font-size:12px;font-weight:600;color:#8A8A82;margin-left:auto;white-space:nowrap;padding-top:2px">A few days</span>
             </li>

@@ -45,7 +45,7 @@ $faqs = [
     ['q' => 'How long does a conversion take in Clitheroe?', 'a' => '3.5 to 4.5 weeks on site.'],
     ['q' => 'What headroom is needed?', 'a' => '2.2 metres from ceiling joists to the ridge board.'],
     ['q' => 'Can you survey in the Ribble Valley villages?', 'a' => 'Yes, our surveyor covers Clitheroe, Whalley, Waddington, and surrounding villages weekly.'],
-    ['q' => 'Is the survey and layout advice free?', 'a' => 'Yes, full architectural drawings and fixed pricing are provided after the free survey.'],
+    ['q' => 'Is the survey and quote free of charge?', 'a' => 'Yes, our on-site survey and written fixed quote are completely free with zero obligation.'],
     ['q' => 'How do I book a survey in Clitheroe?', 'a' => 'Call 01772 393005 or book online.'],
 ];
 
@@ -297,7 +297,7 @@ include 'includes/header.php';
 
           <div style="display:flex;align-items:center;gap:10px;padding-top:12px;border-top:1px solid #EDEDE8;font-family:var(--font-sans);font-size:13px;color:#4A4A45;line-height:1.5">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#4F6B42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>Survey, drawing and quote. Say no afterwards and owe nothing.</span>
+            <span>Survey, layout advice and fixed quote. Say no afterwards and owe nothing.</span>
           </div>
         </div>
       </div>
