@@ -25,7 +25,7 @@ include 'includes/header.php';
       </div>
 
       <h1 class="heading-h1" style="font-size:clamp(28px,4vw,44px);margin:0 0 16px">Terms &amp; Conditions of Business</h1>
-      <p style="font-size:13px;color:#7A7A72;font-family:var(--font-sans);margin-bottom:32px">Last updated: May 2024 · Another Level Loft Conversions (NW)</p>
+      <p style="font-size:13px;color:#7A7A72;font-family:var(--font-sans);margin-bottom:32px">Last updated: May 2024 · Another Level Lofts NW LTD</p>
 
       <div style="font-size:15px;line-height:1.75;color:#333;display:grid;gap:24px">
         <div>

@@ -44,16 +44,16 @@ include 'includes/header.php';
             <span style="color:#D4D4CC;font-size:12px">•</span>
             <span style="font-family:var(--font-sans);display:inline-flex;align-items:center;gap:6px;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 11px;border-radius:14px;color:#3E5C32;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase">
               <span style="width:6px;height:6px;border-radius:50%;background:#6B8E5A;display:inline-block"></span>
-              Direct Surveyor Contact
+              Direct Director Contact
             </span>
           </div>
 
           <h1 id="h1" class="heading-h1" style="font-family:var(--font-serif);font-size:clamp(34px,4.8vw,58px);letter-spacing:-.025em;line-height:1.14;font-weight:400;margin:0;color:#1A1A1A">
-            A master surveyor answers, not a call centre.
+            Speak direct with John the director, not a salesman.
           </h1>
           
           <p class="lead-text" style="font-family:var(--font-sans);font-size:clamp(16px,1.8vw,17.5px);color:#4A4A45;line-height:1.7;margin:0;max-width:52ch">
-            When you call Another Level, you speak directly with experienced surveyors who understand structural steels, ridge heights, and local planning laws. No high-pressure sales brokers &mdash; just honest, expert advice.
+            When you call Another Level, you speak directly with John, our Managing Director with 22 years of loft conversion experience &mdash; not a call centre or high-pressure salesman. Honest, expert structural and layout advice from day one.
           </p>
 
           <div class="hero-actions-row" style="margin-top:4px">
@@ -90,7 +90,7 @@ include 'includes/header.php';
           <div style="padding-bottom:12px;border-bottom:1px solid #EDEDE8;display:flex;align-items:center;justify-content:space-between">
             <div>
               <span style="font-family:var(--font-sans);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#4F6B42;display:block;margin-bottom:3px">Direct Dial Lines</span>
-              <h2 style="font-family:var(--font-serif);font-size:22px;margin:0;color:#1A1A1A;font-weight:400">Speak With Our Surveyors</h2>
+              <h2 style="font-family:var(--font-serif);font-size:22px;margin:0;color:#1A1A1A;font-weight:400">Speak With John &amp; Our Team</h2>
             </div>
             <span style="display:inline-flex;align-items:center;gap:5px;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 9px;border-radius:12px;font-family:var(--font-sans);font-size:11px;font-weight:700;color:#3E5C32">
               <span style="width:6px;height:6px;border-radius:50%;background:#6B8E5A"></span>

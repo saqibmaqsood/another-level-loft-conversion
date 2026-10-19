@@ -286,7 +286,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    tag: 'Wrap around · Sale',
+    tag: 'Hip-to-gable rear dormer · Sale',
     title: 'Full-width master suite across the roof.',
     name: 'Sale semi',
     before: 'images/another-area-loft-conversions-north-west-england-13.jpeg',

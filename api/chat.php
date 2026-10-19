@@ -179,7 +179,7 @@ $reply = '';
 $usedFallback = false;
 
 if (!empty($openAiKey)) {
-    $systemPrompt = "You are {$botName}, a friendly, down-to-earth, and highly experienced Senior Loft Specialist at Another Level Loft Conversions (NW) Ltd.
+    $systemPrompt = "You are {$botName}, a friendly, down-to-earth, and highly experienced Senior Loft Specialist at Another Level Lofts NW LTD.
 You are chatting live with a homeowner. Your communication must feel 100% human, authentic, warm, and natural — exactly like an experienced specialist chatting on WhatsApp. Never sound like a robot, AI script, or marketing brochure.
 
 ======================================================================

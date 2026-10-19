@@ -31,9 +31,9 @@ $galleryProjects = [
         'body' => 'Velux rooflight conversion creating a bright guest room and staircase landing under the original roofline, keeping the exterior character intact.'
     ],
     [
-        'type' => 'Wrap Around', 'town' => 'Sale', 'title' => 'Full-width master suite across the roof.',
+        'type' => 'Hip to Gable Rear Dormer', 'town' => 'Sale', 'title' => 'Full-width hip-to-gable rear dormer master suite.',
         'weeks' => '8–10 weeks', 'area' => '44 m²', 'property' => 'Semi-detached', 'price' => '£55,000',
-        'body' => 'Hip-to-gable plus a rear dormer, so the floor plate runs the full footprint of the house. Dressing area, en-suite, and a window seat over the garden.'
+        'body' => 'Tile-hung hip-to-gable combined with a full-width rear dormer, maximizing standing headroom and floor area across the full footprint of the house.'
     ],
     [
         'type' => 'Rear Dormer', 'town' => 'Preston', 'title' => 'Twin rooms for two growing children.',
@@ -66,9 +66,9 @@ $galleryProjects = [
         'body' => 'Hip-end dormer built to HMO standards with two rooms, shower room, and full fire-separation sign-off.'
     ],
     [
-        'type' => 'Wrap Around', 'town' => 'Chorley', 'title' => 'Family bathroom moved upstairs, twice over.',
-        'weeks' => '6 weeks', 'area' => '46 m²', 'property' => 'Semi-detached', 'price' => '£49,000',
-        'body' => 'The largest job of the year. Two double bedrooms and a family bathroom, with the plumbing re-run so nothing crosses the original landing.'
+        'type' => 'Staircase', 'town' => 'Chorley', 'title' => 'Custom architectural staircase & spindle balustrade.',
+        'weeks' => '2–3 weeks', 'area' => 'Bespoke joinery', 'property' => 'Semi-detached', 'price' => 'Included in build',
+        'body' => 'Bespoke timber staircase custom-manufactured to match the existing ground-floor woodwork, balustrades, and newel posts for a seamless transition.'
     ],
     [
         'type' => 'Rear Dormer', 'town' => 'Southport', 'title' => 'Full-width rear dormer with triple sash windows.',
@@ -77,7 +77,7 @@ $galleryProjects = [
     ]
 ];
 
-$filterTypes = ['All', 'Velux', 'Rear Dormer', 'Front Dormer', 'Hip-End Dormer', 'Wrap Around'];
+$filterTypes = ['All', 'Velux', 'Rear Dormer', 'Front Dormer', 'Hip-End Dormer', 'Hip to Gable Rear Dormer', 'Staircase'];
 
 include 'includes/header.php';
 ?>

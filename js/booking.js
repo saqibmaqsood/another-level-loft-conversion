@@ -504,10 +504,12 @@ class BookingWidget {
       let daysHtml = '<div style="border:none;background:none;padding:10px 0"></div>'; // Blank for Monday Sept 1st
       for (let d = 1; d <= 30; d++) {
         const dow = d % 7;
+        const isSaturday = dow === 5;
         const isSunday = dow === 6;
+        const isWeekend = isSaturday || isSunday;
         const isPast = d < 3;
         const isFull = this.isDayFullyBooked(d);
-        const disabled = isSunday || isPast || isFull;
+        const disabled = isWeekend || isPast || isFull;
         const active = s.day === d;
 
         daysHtml += `
@@ -516,7 +518,7 @@ class BookingWidget {
             class="calendar-day-btn ${active ? 'active' : ''} ${isFull ? 'fully-booked' : ''}" 
             data-day="${d}" 
             ${disabled ? 'disabled' : ''} 
-            title="${isFull ? 'All slots booked for this day' : `September ${d}`}"
+            title="${isFull ? 'All slots booked for this day' : (isWeekend ? `September ${d} (Closed)` : `September ${d}`)}"
             aria-label="September ${d}"
           >
             ${d}
@@ -565,7 +567,7 @@ class BookingWidget {
             <div>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
                 <span style="font-size:15px;font-weight:600">September 2026</span>
-                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Mon &ndash; Sat</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Mon &ndash; Fri</span>
               </div>
               <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:#6B6B6B;margin-bottom:6px;text-align:center">
                 <div>M</div><div>T</div><div>W</div><div>T</div><div>F</div><div>S</div><div>S</div>
