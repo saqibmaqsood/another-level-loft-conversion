@@ -329,9 +329,9 @@ include 'includes/header.php';
           <span class="section-label">Velux questions</span>
           <h2 id="faq-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:16ch">Before you decide.</h2>
           <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Answers on planning, headroom, Building Control, stairs and cost. Anything else, ask the surveyor &mdash; the visit is free whether a rooflight conversion turns out to be right for you or not.</p>
-          <div class="hero-actions-row">
-            <a href="#booking" data-open-booking class="btn-primary hero-btn" style="display:inline-flex;align-items:center;justify-content:center;white-space:nowrap">Book Free Survey</a>
-            <a href="tel:08000862744" class="btn-secondary hero-btn" style="display:inline-flex;align-items:center;justify-content:center;white-space:nowrap">Ask us directly</a>
+          <div class="hero-actions-row" style="margin-top:4px;display:flex;flex-wrap:nowrap;gap:10px;align-items:center">
+            <a href="#booking" data-open-booking class="btn-primary hero-btn" style="padding:12px 18px;font-size:14px;white-space:nowrap">Book Free Survey</a>
+            <a href="tel:08000862744" class="btn-secondary hero-btn" style="padding:11px 16px;font-size:14px;white-space:nowrap">Ask us directly</a>
           </div>
         </div>
         <div class="faq-container-box">
