@@ -161,7 +161,7 @@ include 'includes/header.php';
         </div>
         <div class="guar-header-actions" style="display:flex;align-items:center;gap:12px">
           <div class="guar-header-trust-pill" style="display:inline-flex;align-items:center;gap:8px;background:#FAF9F5;border:1px solid #E6E6DF;padding:8px 16px;border-radius:24px;font-family:var(--font-sans);font-size:13px;color:#3E5C32;font-weight:600">
-            <span>✓ 10-Yr Guarantee</span>
+            <span>✓ 6-Yr Guarantee</span>
             <span style="color:#D4D4CC">•</span>
             <span>✓ 400+ Lofts Completed</span>
           </div>
@@ -404,7 +404,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F1F7EE;border:1px solid #DFEBD9;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#3E5C32">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#6B8E5A">•</span>
               <span>Regs Approved</span>
             </div>
@@ -434,7 +434,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F1F7EE;border:1px solid #DFEBD9;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#3E5C32">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#6B8E5A">•</span>
               <span>Regs Approved</span>
             </div>
@@ -464,7 +464,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F1F7EE;border:1px solid #DFEBD9;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#3E5C32">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#6B8E5A">•</span>
               <span>Regs Approved</span>
             </div>
@@ -494,7 +494,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F1F7EE;border:1px solid #DFEBD9;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#3E5C32">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#6B8E5A">•</span>
               <span>Regs Approved</span>
             </div>

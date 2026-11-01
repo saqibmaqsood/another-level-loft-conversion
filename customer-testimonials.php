@@ -310,7 +310,7 @@ include 'includes/header.php';
                   </span>
                 </div>
                 <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;color:#3E5C32;background:#F1F7EE;border:1px solid #DFEBD9;padding:3px 8px;border-radius:8px">
-                  10-Yr Guarantee ✓
+                  6-Yr Guarantee ✓
                 </span>
               </div>
             </div>
