@@ -70,7 +70,7 @@ $addOns = [
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
     ['name' => 'Juliet balcony or French doors', 'price' => '+ £2,500 – £5,000', 'note' => 'Changes the dormer from permitted development to a likely planning application in most cases.'],
     ['name' => 'Two bedrooms instead of one', 'price' => '+ Quoted per spec', 'note' => 'Extra partitions, second door, additional electrics and a wider landing.'],
-    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
+    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, bespoke fitted wardrobes, feature lighting. Standard spec is included above.']
 ];
 
 $faqs = [

@@ -69,7 +69,7 @@ $addOns = [
     ['name' => 'Velux / rooflight', 'price' => 'from £24,000', 'note' => 'Cheapest and quickest, 6–8 weeks, but you keep the eaves. Needs 2.2m to the ridge.'],
     ['name' => 'Hip-to-gable', 'price' => 'from £55,000', 'note' => 'End-terraces only — a mid-terrace has no hip to square off.'],
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack.'],
-    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
+    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, bespoke fitted wardrobes, feature lighting. Standard spec is included above.']
 ];
 
 $faqs = [

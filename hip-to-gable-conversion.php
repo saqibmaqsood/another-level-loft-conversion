@@ -70,7 +70,7 @@ $addOns = [
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
     ['name' => 'Rear dormer as well', 'price' => '+ Quoted per spec', 'note' => 'Becomes a wrap around — the largest option, Guaranteed Fixed Price and more likely to need planning.'],
     ['name' => 'Extra rooflights to the rear slope', 'price' => 'From £1,200 each', 'note' => 'Light from two directions makes the room feel considerably larger.'],
-    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
+    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, bespoke fitted wardrobes, feature lighting. Standard spec is included above.']
 ];
 
 $faqs = [

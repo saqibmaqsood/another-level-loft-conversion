@@ -65,7 +65,6 @@ $included = [
 $addOns = [
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
     ['name' => 'Extra rooflights', 'price' => 'From £1,200 each', 'note' => 'Supplied and fitted. Integra remote operation or a Cabrio balcony window costs more.'],
-    ['name' => 'Fitted eaves storage', 'price' => '+ £950 – £1,800', 'note' => 'Custom timber-framed eaves cupboards and access doors to maximize storage in the lower roof pitch.'],
     ['name' => 'Larger floor area', 'price' => '£24k → £38k', 'note' => 'A 32 m² master-plus-ensuite in a Victorian terrace sits at the top of the rooflight range.'],
     ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, bespoke fitted wardrobes, feature lighting. Standard spec is included above.']
 ];

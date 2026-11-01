@@ -70,7 +70,7 @@ $addOns = [
     ['name' => 'En-suite shower room', 'price' => '+ £5,000 – £6,000', 'note' => 'The biggest single step. Cheaper near the existing soil stack; a macerator handles the awkward layouts.'],
     ['name' => 'Velux rooflights to the rear slope', 'price' => 'From £1,200 each', 'note' => 'Light from two aspects, and often the cheapest way to brighten the room.'],
     ['name' => 'Reclaimed tile match', 'price' => '+ Quoted per spec', 'note' => 'On older properties where modern tiles will not match the original roof.'],
-    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, fitted eaves storage, feature lighting. Standard spec is included above.']
+    ['name' => 'Upgraded finishes', 'price' => 'Quoted per spec', 'note' => 'Engineered timber floors, bespoke fitted wardrobes, feature lighting. Standard spec is included above.']
 ];
 
 $faqs = [
