@@ -216,7 +216,7 @@ try {
               <!-- Card 5: Wrap Around -->
               <a href="wrap-around-conversion.php" class="bayford-card">
                 <div class="bayford-card-media">
-                  <img src="images/another-area-loft-conversions-north-west-england-07.jpeg" alt="Wrap Around Loft Conversion" loading="lazy">
+                  <img src="images/another-area-loft-conversions-north-west-england-04.jpeg" alt="Wrap Around Loft Conversion" loading="lazy">
                 </div>
                 <div class="bayford-card-label-wrap">
                   <span class="bayford-card-label">WRAP AROUND</span>

@@ -33,7 +33,7 @@ $conservationCount = "16";
 $intro = "Lymm's characterful Victorian villas, historic cottages around Lymm Dam, and spacious detached family homes convert into breathtaking master suites. We cover all WA13 addresses.";
 
 $localProjects = [
-    ['title' => 'Wrap-around conversion with dam views', 'meta' => 'Detached house · Lymm Village · 5.5 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-07.jpeg'],
+    ['title' => 'Rear dormer conversion with dam views', 'meta' => 'Detached house · Lymm Village · 5.5 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-07.jpeg'],
     ['title' => 'Rear dormer with luxury ensuite', 'meta' => 'Victorian villa · Brookfield · 4 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-08.jpeg'],
     ['title' => 'Velux conversion home office', 'meta' => 'Semi-detached · Statham · 3 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-08.jpeg'],
 ];

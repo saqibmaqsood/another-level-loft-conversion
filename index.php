@@ -453,7 +453,7 @@ include 'includes/header.php';
 
           <a href="rear-dormer-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-02.jpeg" alt="Rear Dormer Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-07.jpeg" alt="Rear Dormer Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Rear Dormer</h3>
@@ -467,7 +467,7 @@ include 'includes/header.php';
 
           <a href="hip-to-gable-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-04.jpeg" alt="Hip-to-Gable Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-02.jpeg" alt="Hip-to-Gable Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Hip-to-Gable</h3>
@@ -481,7 +481,7 @@ include 'includes/header.php';
 
           <a href="wrap-around-conversion.php" class="conversion-card">
             <div class="conversion-card-img-wrap">
-              <img src="images/another-area-loft-conversions-north-west-england-07.jpeg" alt="Wrap Around Loft Conversion" class="real-img" loading="lazy">
+              <img src="images/another-area-loft-conversions-north-west-england-04.jpeg" alt="Wrap Around Loft Conversion" class="real-img" loading="lazy">
             </div>
             <div class="conversion-card-body">
               <h3 class="conversion-card-title">Wrap Around</h3>

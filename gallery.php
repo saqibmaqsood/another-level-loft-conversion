@@ -47,7 +47,7 @@ $galleryProjects = [
     ],
     [
         'type' => 'Rear Dormer', 'town' => 'Bury', 'title' => 'Spacious rear dormer master bedroom with ensuite.',
-        'weeks' => '8.5 weeks', 'area' => '32 m²', 'property' => 'Semi-detached', 'price' => '£39,000',
+        'weeks' => '8.5 weeks', 'area' => '32 m²', 'property' => 'Semi-detached', 'price' => '£50,000+',
         'body' => 'Full-width rear dormer creating a spacious master suite with ensuite bathroom, built-in storage and maximum natural light.'
     ],
     [

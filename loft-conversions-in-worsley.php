@@ -33,7 +33,7 @@ $conservationCount = "16";
 $intro = "Worsley's characterful mock-Tudor properties, spacious detached homes, and 1930s semis near the Bridgewater Canal convert into breathtaking master suites and studios. We cover all M28 addresses.";
 
 $localProjects = [
-    ['title' => 'Wrap-around master suite with Juliet balcony', 'meta' => 'Detached · Worsley Village · 5.5 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-07.jpeg'],
+    ['title' => 'Rear dormer master suite with Juliet balcony', 'meta' => 'Detached · Worsley Village · 5.5 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-07.jpeg'],
     ['title' => 'Hip-to-gable conversion with ensuite', 'meta' => 'Semi-detached · Ellenbrook · 3.5 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-08.jpeg'],
     ['title' => 'Velux rooflight home library', 'meta' => 'Semi-detached · Boothstown · 3 weeks', 'img' => 'images/another-area-loft-conversions-north-west-england-08.jpeg'],
 ];
