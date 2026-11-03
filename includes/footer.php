@@ -98,7 +98,6 @@ $badges = ['VELUX Certified', 'Gas Safe', 'NIC EIC', 'Checkatrade'];
         <a href="terms-conditions.php">Terms &amp; Conditions</a>
         <a href="our-guarantee.php">Guarantee</a>
         <a href="privacy-cookies-policy.php">Privacy &amp; Cookies</a>
-        <a href="panel/" target="_blank" rel="noopener" style="opacity:0.75">&bull; Operations Panel</a>
       </div>
     </div>
 
