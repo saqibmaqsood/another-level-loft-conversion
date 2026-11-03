@@ -40,7 +40,11 @@ if (!$isChatEnabled) {
 <!-- Floating Launcher Button (DESKTOP ONLY - Hidden on Mobile via CSS) -->
 <div class="ai-chat-launcher-floating" id="aiChatLauncherDesktop">
   <div class="ai-chat-tooltip" onclick="openAIChat(event)">
-    <span>👋 Have a question? <strong>Chat with <?php echo $botFirstNameEsc; ?></strong></span>
+    <span class="ai-chat-tooltip-wave" aria-hidden="true">👋</span>
+    <div class="ai-chat-tooltip-content">
+      <span class="ai-chat-tooltip-title">Have a question?</span>
+      <span class="ai-chat-tooltip-action">Chat with <strong><?php echo $botFirstNameEsc; ?></strong></span>
+    </div>
   </div>
   <button type="button" class="ai-chat-pill-btn" onclick="openAIChat(event)" aria-label="Open AI Live Chat with Loft Specialist">
     <div class="ai-chat-avatar-wrap">
